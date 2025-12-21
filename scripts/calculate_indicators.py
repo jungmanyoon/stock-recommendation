@@ -205,75 +205,130 @@ def generate_signals(indicators: Dict[str, Any], current_price: float) -> Dict[s
 
 
 def calculate_recommendation_score(signals: Dict[str, str]) -> int:
-    """추천 점수 계산 (0-100)"""
-    score = 50  # 기본 점수
+    """
+    개선된 추천 점수 계산 (0-100)
 
-    # RSI 점수
-    rsi_signal = signals.get('rsi', 'neutral')
-    rsi_scores = {
-        'oversold': 15,
-        'oversold_recovery': 10,
-        'neutral': 0,
-        'approaching_overbought': -5,
-        'overbought': -15
-    }
-    score += rsi_scores.get(rsi_signal, 0)
+    개선사항:
+    1. 추세 맥락 반영: 하락추세에서 RSI 과매도는 위험 신호
+    2. 신호 상관관계 보정: RSI + 볼린저 중복 신호 감점
+    3. 거래량은 승수로 적용: 신호 확신도 조절
+    4. 더 보수적인 점수 체계
+    """
 
-    # MACD 점수
-    macd_signal = signals.get('macd', 'neutral')
-    macd_scores = {
-        'bullish_crossover': 15,
-        'neutral': 0,
-        'bearish_crossover': -15
-    }
-    score += macd_scores.get(macd_signal, 0)
-
-    # 볼린저 밴드 점수
-    bb_signal = signals.get('bollinger', 'within_bands')
-    bb_scores = {
-        'lower_band_touch': 15,
-        'lower_band_bounce': 10,
-        'within_bands': 0,
-        'upper_band_approach': -5,
-        'upper_band_touch': -15
-    }
-    score += bb_scores.get(bb_signal, 0)
-
-    # 거래량 점수
-    volume_signal = signals.get('volume', 'normal')
-    volume_scores = {
-        'volume_surge': 10,
-        'above_average': 5,
-        'normal': 0,
-        'below_average': -5
-    }
-    score += volume_scores.get(volume_signal, 0)
-
-    # 추세 점수
+    # === 1. 추세 점수 (기본 컨텍스트) ===
     trend_signal = signals.get('trend', 'sideways')
     trend_scores = {
-        'strong_uptrend': 10,
-        'uptrend': 5,
+        'strong_uptrend': 12,
+        'uptrend': 6,
         'sideways': 0,
-        'downtrend': -5,
-        'strong_downtrend': -10,
+        'downtrend': -6,
+        'strong_downtrend': -12,
         'unknown': 0
     }
-    score += trend_scores.get(trend_signal, 0)
+    trend_score = trend_scores.get(trend_signal, 0)
 
-    # 점수 범위 제한 (0-100)
-    return max(0, min(100, score))
+    # === 2. RSI 점수 (추세 맥락 반영) ===
+    rsi_signal = signals.get('rsi', 'neutral')
+
+    # 상승추세에서는 과매도가 좋은 진입점
+    if trend_signal in ['uptrend', 'strong_uptrend']:
+        rsi_scores = {
+            'oversold': 15,           # 상승추세 + 과매도 = 최고 매수
+            'oversold_recovery': 10,
+            'neutral': 0,
+            'approaching_overbought': -3,  # 상승추세에서 과매수는 덜 나쁨
+            'overbought': -8
+        }
+    # 하락추세에서는 과매도가 "떨어지는 칼날"
+    elif trend_signal in ['downtrend', 'strong_downtrend']:
+        rsi_scores = {
+            'oversold': 5,            # 하락추세 + 과매도 = 주의
+            'oversold_recovery': 8,   # 회복 신호는 긍정적
+            'neutral': 0,
+            'approaching_overbought': -8,
+            'overbought': -15         # 하락추세 + 과매수 = 최악
+        }
+    else:  # 횡보
+        rsi_scores = {
+            'oversold': 12,
+            'oversold_recovery': 8,
+            'neutral': 0,
+            'approaching_overbought': -5,
+            'overbought': -12
+        }
+    rsi_score = rsi_scores.get(rsi_signal, 0)
+
+    # === 3. MACD 점수 ===
+    macd_signal = signals.get('macd', 'neutral')
+    macd_scores = {
+        'bullish_crossover': 12,
+        'neutral': 0,
+        'bearish_crossover': -12
+    }
+    macd_score = macd_scores.get(macd_signal, 0)
+
+    # === 4. 볼린저 밴드 점수 (RSI와 중복 시 감점) ===
+    bb_signal = signals.get('bollinger', 'within_bands')
+
+    # RSI 과매도 + 볼린저 하단 = 중복 신호 (같은 상황)
+    if bb_signal in ['lower_band_touch', 'lower_band_bounce'] and rsi_signal in ['oversold', 'oversold_recovery']:
+        bb_scores = {
+            'lower_band_touch': 5,    # 중복 → 낮은 추가 점수
+            'lower_band_bounce': 3,
+        }
+    # RSI 과매수 + 볼린저 상단 = 중복 신호
+    elif bb_signal in ['upper_band_touch', 'upper_band_approach'] and rsi_signal in ['overbought', 'approaching_overbought']:
+        bb_scores = {
+            'upper_band_touch': -5,
+            'upper_band_approach': -3,
+        }
+    else:
+        bb_scores = {
+            'lower_band_touch': 12,
+            'lower_band_bounce': 8,
+            'within_bands': 0,
+            'upper_band_approach': -5,
+            'upper_band_touch': -12
+        }
+    bb_score = bb_scores.get(bb_signal, 0)
+
+    # === 5. 기본 점수 합산 ===
+    raw_delta = trend_score + rsi_score + macd_score + bb_score
+
+    # === 6. 거래량 승수 적용 (확신도 조절) ===
+    volume_signal = signals.get('volume', 'normal')
+    volume_multiplier = {
+        'volume_surge': 1.20,      # 거래량 급증 → 신호 확신도 20% 증가
+        'above_average': 1.10,     # 평균 이상 → 10% 증가
+        'normal': 1.0,
+        'below_average': 0.85      # 거래량 부족 → 신호 신뢰도 15% 감소
+    }.get(volume_signal, 1.0)
+
+    adjusted_delta = int(raw_delta * volume_multiplier)
+
+    # === 7. 최종 점수 ===
+    final_score = 50 + adjusted_delta
+
+    return max(0, min(100, final_score))
 
 
 def get_recommendation_grade(score: int) -> str:
-    """점수에 따른 추천 등급 반환"""
-    if score >= 80:
+    """
+    점수에 따른 추천 등급 반환 (보수적 기준)
+
+    - strong_buy: 75점 이상 (기존 80 → 75)
+    - buy: 60~74점 (기존 65~79 → 60~74)
+    - hold: 40~59점 (기존 45~64 → 40~59, 중립 범위 확대)
+    - sell: 25~39점 (기존 30~44 → 25~39)
+    - strong_sell: 25점 미만 (기존 30 → 25)
+    """
+    if score >= 75:
         return 'strong_buy'
-    elif score >= 65:
+    elif score >= 60:
         return 'buy'
-    elif score >= 45:
+    elif score >= 40:
         return 'hold'
-    elif score >= 30:
+    elif score >= 25:
         return 'sell'
     else:
         return 'strong_sell'
