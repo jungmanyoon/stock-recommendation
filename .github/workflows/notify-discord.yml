@@ -1,0 +1,169 @@
+name: Discord Stock Notification
+
+on:
+  schedule:
+    # 한국 주식 알림: 오전 8시 KST (UTC 23:00 전날)
+    - cron: '0 23 * * 0-4'  # 일~목 UTC = 월~금 KST 오전 8시
+    # 미국 주식 알림: 오후 10:30 KST (UTC 13:30) - 미국장 개장 1시간 전
+    - cron: '30 13 * * 1-5'  # 월~금 UTC
+  workflow_dispatch:
+    inputs:
+      region:
+        description: '알림 지역 (kr/us/both)'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - kr
+          - us
+          - both
+
+env:
+  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+jobs:
+  notify-kr:
+    runs-on: ubuntu-latest
+    # 오전 8시 KST (UTC 23:00) 또는 수동 실행시
+    if: github.event.schedule == '0 23 * * 0-4' || github.event.inputs.region == 'kr' || github.event.inputs.region == 'both'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read KR recommendations
+        id: kr_data
+        run: |
+          if [ -f "data/kr/kr_recommendations.json" ]; then
+            # JSON에서 필요한 데이터 추출
+            UPDATED=$(jq -r '.updated_at' data/kr/kr_recommendations.json)
+            STRONG_BUY=$(jq -r '.stats.strong_buy' data/kr/kr_recommendations.json)
+            BUY=$(jq -r '.stats.buy' data/kr/kr_recommendations.json)
+            KOSPI=$(jq -r '.market_summary.kospi_index' data/kr/kr_recommendations.json)
+            KOSPI_CHG=$(jq -r '.market_summary.kospi_change_pct' data/kr/kr_recommendations.json)
+            KOSDAQ=$(jq -r '.market_summary.kosdaq_index' data/kr/kr_recommendations.json)
+            KOSDAQ_CHG=$(jq -r '.market_summary.kosdaq_change_pct' data/kr/kr_recommendations.json)
+
+            # 상위 5개 적극매수 종목
+            TOP_STOCKS=$(jq -r '.recommendations.strong_buy[:5] | map("• \(.name) (\(.code)) - 점수: \(.score)") | join("\n")' data/kr/kr_recommendations.json)
+
+            echo "updated=$UPDATED" >> $GITHUB_OUTPUT
+            echo "strong_buy=$STRONG_BUY" >> $GITHUB_OUTPUT
+            echo "buy=$BUY" >> $GITHUB_OUTPUT
+            echo "kospi=$KOSPI" >> $GITHUB_OUTPUT
+            echo "kospi_chg=$KOSPI_CHG" >> $GITHUB_OUTPUT
+            echo "kosdaq=$KOSDAQ" >> $GITHUB_OUTPUT
+            echo "kosdaq_chg=$KOSDAQ_CHG" >> $GITHUB_OUTPUT
+            echo "top_stocks<<EOF" >> $GITHUB_OUTPUT
+            echo "$TOP_STOCKS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "has_data=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_data=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Discord notification (KR)
+        if: steps.kr_data.outputs.has_data == 'true'
+        run: |
+          curl -H "Content-Type: application/json" \
+            -X POST \
+            -d '{
+              "embeds": [{
+                "title": "🇰🇷 한국 주식 오늘의 추천",
+                "color": 3447003,
+                "fields": [
+                  {
+                    "name": "📊 시장 현황",
+                    "value": "KOSPI: ${{ steps.kr_data.outputs.kospi }} (${{ steps.kr_data.outputs.kospi_chg }}%)\nKOSDAQ: ${{ steps.kr_data.outputs.kosdaq }} (${{ steps.kr_data.outputs.kosdaq_chg }}%)",
+                    "inline": false
+                  },
+                  {
+                    "name": "📈 추천 종목 수",
+                    "value": "적극매수: ${{ steps.kr_data.outputs.strong_buy }}개\n매수: ${{ steps.kr_data.outputs.buy }}개",
+                    "inline": false
+                  },
+                  {
+                    "name": "🚀 TOP 적극매수 종목",
+                    "value": "${{ steps.kr_data.outputs.top_stocks }}",
+                    "inline": false
+                  }
+                ],
+                "footer": {
+                  "text": "마지막 업데이트: ${{ steps.kr_data.outputs.updated }}"
+                },
+                "timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%SZ)'"
+              }]
+            }' \
+            $DISCORD_WEBHOOK_URL
+
+  notify-us:
+    runs-on: ubuntu-latest
+    # 오후 10:30 KST (UTC 13:30) 또는 수동 실행시
+    if: github.event.schedule == '30 13 * * 1-5' || github.event.inputs.region == 'us' || github.event.inputs.region == 'both'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read US recommendations
+        id: us_data
+        run: |
+          if [ -f "data/us/us_recommendations.json" ]; then
+            UPDATED=$(jq -r '.updated_at' data/us/us_recommendations.json)
+            STRONG_BUY=$(jq -r '.stats.strong_buy' data/us/us_recommendations.json)
+            BUY=$(jq -r '.stats.buy' data/us/us_recommendations.json)
+            SP500=$(jq -r '.market_summary.sp500_index // "N/A"' data/us/us_recommendations.json)
+            SP500_CHG=$(jq -r '.market_summary.sp500_change_pct // "N/A"' data/us/us_recommendations.json)
+            NASDAQ=$(jq -r '.market_summary.nasdaq_index // "N/A"' data/us/us_recommendations.json)
+            NASDAQ_CHG=$(jq -r '.market_summary.nasdaq_change_pct // "N/A"' data/us/us_recommendations.json)
+
+            TOP_STOCKS=$(jq -r '.recommendations.strong_buy[:5] | map("• \(.name) (\(.code)) - 점수: \(.score)") | join("\n")' data/us/us_recommendations.json)
+
+            echo "updated=$UPDATED" >> $GITHUB_OUTPUT
+            echo "strong_buy=$STRONG_BUY" >> $GITHUB_OUTPUT
+            echo "buy=$BUY" >> $GITHUB_OUTPUT
+            echo "sp500=$SP500" >> $GITHUB_OUTPUT
+            echo "sp500_chg=$SP500_CHG" >> $GITHUB_OUTPUT
+            echo "nasdaq=$NASDAQ" >> $GITHUB_OUTPUT
+            echo "nasdaq_chg=$NASDAQ_CHG" >> $GITHUB_OUTPUT
+            echo "top_stocks<<EOF" >> $GITHUB_OUTPUT
+            echo "$TOP_STOCKS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "has_data=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_data=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Discord notification (US)
+        if: steps.us_data.outputs.has_data == 'true'
+        run: |
+          curl -H "Content-Type: application/json" \
+            -X POST \
+            -d '{
+              "embeds": [{
+                "title": "🇺🇸 미국 주식 오늘의 추천",
+                "color": 15844367,
+                "fields": [
+                  {
+                    "name": "📊 시장 현황 (전일 종가)",
+                    "value": "S&P500: ${{ steps.us_data.outputs.sp500 }} (${{ steps.us_data.outputs.sp500_chg }}%)\nNASDAQ: ${{ steps.us_data.outputs.nasdaq }} (${{ steps.us_data.outputs.nasdaq_chg }}%)",
+                    "inline": false
+                  },
+                  {
+                    "name": "📈 추천 종목 수",
+                    "value": "적극매수: ${{ steps.us_data.outputs.strong_buy }}개\n매수: ${{ steps.us_data.outputs.buy }}개",
+                    "inline": false
+                  },
+                  {
+                    "name": "🚀 TOP 적극매수 종목",
+                    "value": "${{ steps.us_data.outputs.top_stocks }}",
+                    "inline": false
+                  }
+                ],
+                "footer": {
+                  "text": "마지막 업데이트: ${{ steps.us_data.outputs.updated }} | 미국장 개장 1시간 전"
+                },
+                "timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%SZ)'"
+              }]
+            }' \
+            $DISCORD_WEBHOOK_URL

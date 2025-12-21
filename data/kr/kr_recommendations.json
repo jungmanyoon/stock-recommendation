@@ -1,0 +1,60 @@
+{
+  "updated_at": "2024-12-21T16:30:00+09:00",
+  "region": "KR",
+  "market_summary": {
+    "kospi_index": 2650.12,
+    "kospi_change_pct": 0.45,
+    "kosdaq_index": 890.56,
+    "kosdaq_change_pct": 0.78,
+    "market_sentiment": "neutral"
+  },
+  "recommendations": {
+    "strong_buy": [
+      {
+        "code": "000000",
+        "name": "샘플종목A",
+        "market": "KOSPI",
+        "score": 85,
+        "signals": {
+          "rsi": "oversold_recovery",
+          "macd": "bullish_crossover",
+          "bollinger": "lower_band_bounce",
+          "volume": "above_average",
+          "trend": "uptrend"
+        },
+        "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등",
+        "price": 50000,
+        "change_pct": 2.5
+      }
+    ],
+    "buy": [
+      {
+        "code": "000001",
+        "name": "샘플종목B",
+        "market": "KOSDAQ",
+        "score": 70,
+        "signals": {
+          "rsi": "neutral",
+          "macd": "bullish_crossover",
+          "bollinger": "within_bands",
+          "volume": "normal",
+          "trend": "uptrend"
+        },
+        "summary": "MACD 골든크로스 + 상승추세",
+        "price": 25000,
+        "change_pct": 1.2
+      }
+    ],
+    "hold": [],
+    "sell": [],
+    "strong_sell": []
+  },
+  "stats": {
+    "strong_buy": 1,
+    "buy": 1,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0
+  },
+  "_note": "이것은 샘플 데이터입니다. GitHub Actions를 실행하면 실제 데이터로 교체됩니다."
+}

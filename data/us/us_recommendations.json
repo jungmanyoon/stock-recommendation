@@ -1,0 +1,45 @@
+{
+  "updated_at": "2024-12-21T05:30:00-05:00",
+  "region": "US",
+  "market_summary": {
+    "sp500_index": 4750.25,
+    "sp500_change_pct": 0.32,
+    "nasdaq_index": 15120.50,
+    "nasdaq_change_pct": 0.55,
+    "dow_index": 37500.80,
+    "dow_change_pct": 0.18,
+    "market_sentiment": "neutral"
+  },
+  "recommendations": {
+    "strong_buy": [
+      {
+        "code": "SAMPLE",
+        "name": "Sample Corp",
+        "market": "NASDAQ",
+        "score": 82,
+        "signals": {
+          "rsi": "oversold_recovery",
+          "macd": "bullish_crossover",
+          "bollinger": "lower_band_bounce",
+          "volume": "volume_surge",
+          "trend": "strong_uptrend"
+        },
+        "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 급증",
+        "price": 150.25,
+        "change_pct": 3.2
+      }
+    ],
+    "buy": [],
+    "hold": [],
+    "sell": [],
+    "strong_sell": []
+  },
+  "stats": {
+    "strong_buy": 1,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0
+  },
+  "_note": "이것은 샘플 데이터입니다. GitHub Actions를 실행하면 실제 데이터로 교체됩니다."
+}

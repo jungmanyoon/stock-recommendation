@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식 자동 추천 - 사용 가이드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 16px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #667eea;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .steps {
+            counter-reset: step;
+        }
+        .step {
+            padding: 16px;
+            margin-bottom: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            position: relative;
+            padding-left: 60px;
+        }
+        .step::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 32px;
+            height: 32px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        .grade-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+        .grade-table th, .grade-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        .grade-table th {
+            background: #f8f9fa;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .badge-green { background: #10b981; color: white; }
+        .badge-light-green { background: #34d399; color: white; }
+        .badge-yellow { background: #fbbf24; color: #333; }
+        .badge-orange { background: #f97316; color: white; }
+        .badge-red { background: #ef4444; color: white; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 주식 자동 추천</h1>
+            <p class="subtitle">기술적 지표 기반 AI 분석 시스템</p>
+        </header>
+
+        <div class="card">
+            <h2>🚀 사용 방법</h2>
+            <div class="steps">
+                <div class="step">
+                    <strong>아래 버튼 클릭</strong><br>
+                    Claude 아티팩트 페이지로 이동합니다.
+                </div>
+                <div class="step">
+                    <strong>Claude 계정으로 로그인</strong><br>
+                    무료 계정도 사용 가능합니다.
+                </div>
+                <div class="step">
+                    <strong>추천 종목 확인!</strong><br>
+                    한국/미국 주식 추천을 바로 확인하세요.
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 24px;">
+                <a href="#" class="cta-button">🎯 지금 시작하기</a>
+                <p style="margin-top: 12px; color: #666; font-size: 0.9em;">
+                    * 아티팩트 링크는 관리자에게 문의하세요
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📊 추천 등급 안내</h2>
+            <table class="grade-table">
+                <thead>
+                    <tr>
+                        <th>등급</th>
+                        <th>점수</th>
+                        <th>의미</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="badge badge-green">적극 매수</span></td>
+                        <td>80점 이상</td>
+                        <td>강한 매수 신호, 적극 검토 권장</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge badge-light-green">매수</span></td>
+                        <td>65-79점</td>
+                        <td>매수 고려, 추가 분석 권장</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge badge-yellow">보유</span></td>
+                        <td>45-64점</td>
+                        <td>관망, 보유 유지</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge badge-orange">매도</span></td>
+                        <td>30-44점</td>
+                        <td>매도 고려, 리스크 점검</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge badge-red">적극 매도</span></td>
+                        <td>30점 미만</td>
+                        <td>강한 매도 신호, 즉시 검토</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>📈 분석 지표</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">
+                    <strong>RSI (상대강도지수)</strong> - 과매수/과매도 판단
+                </li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">
+                    <strong>MACD</strong> - 추세 전환 신호 (골든/데드크로스)
+                </li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">
+                    <strong>볼린저 밴드</strong> - 가격 변동성 분석
+                </li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">
+                    <strong>이동평균선</strong> - 추세 방향 확인
+                </li>
+                <li style="padding: 8px 0;">
+                    <strong>거래량</strong> - 매매 강도 분석
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>⏰ 업데이트 시간</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">
+                    🇰🇷 <strong>한국 주식</strong>: 매일 오후 4:30 (장 마감 후)
+                </li>
+                <li style="padding: 8px 0;">
+                    🇺🇸 <strong>미국 주식</strong>: 매일 오전 5:30 (장 마감 후)
+                </li>
+            </ul>
+            <div class="warning">
+                <strong>⚠️ 투자 주의사항</strong><br>
+                본 서비스는 투자 참고용입니다. 투자 결정에 대한 모든 책임은 사용자 본인에게 있습니다.
+                실제 투자 전 추가적인 분석과 검토를 권장합니다.
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2024 주식 자동 추천 시스템</p>
+            <p>기술적 지표 기반 자동 분석</p>
+        </footer>
+    </div>
+</body>
+</html>
