@@ -9,6 +9,7 @@ import argparse
 from datetime import datetime, timedelta
 from typing import Dict, List, Any
 import time
+import traceback
 
 import pandas as pd
 import yfinance as yf
@@ -73,13 +74,17 @@ def get_stock_info(symbol: str) -> Dict[str, Any]:
     try:
         ticker = yf.Ticker(symbol)
         info = ticker.info
-        return {
-            'name': info.get('shortName', info.get('longName', symbol)),
-            'sector': info.get('sector', ''),
-            'industry': info.get('industry', '')
-        }
-    except:
-        return {'name': symbol, 'sector': '', 'industry': ''}
+
+        if info and isinstance(info, dict):
+            return {
+                'name': info.get('shortName', info.get('longName', symbol)),
+                'sector': info.get('sector', ''),
+                'industry': info.get('industry', '')
+            }
+    except Exception as e:
+        print(f"[DEBUG] {symbol} 정보 조회 실패: {e}")
+
+    return {'name': symbol, 'sector': '', 'industry': ''}
 
 
 def get_stock_data(symbol: str, days: int = 100) -> pd.DataFrame:
@@ -93,18 +98,39 @@ def get_stock_data(symbol: str, days: int = 100) -> pd.DataFrame:
                            end=end_date.strftime('%Y-%m-%d'))
 
         if df.empty:
+            # 기간을 늘려서 재시도
+            df = ticker.history(period='3mo')
+
+        if df.empty:
+            print(f"[DEBUG] {symbol}: 데이터 없음")
             return pd.DataFrame()
 
-        # 컬럼명 표준화
-        df = df.rename(columns={
-            'Open': 'Open',
-            'High': 'High',
-            'Low': 'Low',
-            'Close': 'Close',
-            'Volume': 'Volume'
-        })
+        # 컬럼명 표준화 (대소문자 처리)
+        col_mapping = {}
+        for col in df.columns:
+            col_lower = col.lower()
+            if 'open' in col_lower:
+                col_mapping[col] = 'Open'
+            elif 'high' in col_lower:
+                col_mapping[col] = 'High'
+            elif 'low' in col_lower:
+                col_mapping[col] = 'Low'
+            elif 'close' in col_lower:
+                col_mapping[col] = 'Close'
+            elif 'volume' in col_lower:
+                col_mapping[col] = 'Volume'
 
-        return df[['Open', 'High', 'Low', 'Close', 'Volume']]
+        if col_mapping:
+            df = df.rename(columns=col_mapping)
+
+        # 필수 컬럼 확인
+        required = ['Open', 'High', 'Low', 'Close', 'Volume']
+        missing = [col for col in required if col not in df.columns]
+        if missing:
+            print(f"[DEBUG] {symbol}: 누락 컬럼 {missing}")
+            return pd.DataFrame()
+
+        return df[required]
 
     except Exception as e:
         print(f"[WARN] {symbol} 데이터 조회 실패: {e}")
@@ -127,14 +153,26 @@ def get_market_index() -> Dict[str, Any]:
             hist = ticker.history(period='5d')
 
             if hist.empty or len(hist) < 2:
+                print(f"[WARN] {name} 지수 데이터 부족")
                 continue
 
-            current = hist['Close'].iloc[-1]
-            previous = hist['Close'].iloc[-2]
+            # Close 컬럼 찾기
+            close_col = None
+            for col in hist.columns:
+                if 'close' in col.lower():
+                    close_col = col
+                    break
+            if close_col is None:
+                close_col = 'Close'
+
+            current = hist[close_col].iloc[-1]
+            previous = hist[close_col].iloc[-2]
             change_pct = ((current - previous) / previous) * 100
 
             result[f'{name}_index'] = round(current, 2)
             result[f'{name}_change_pct'] = round(change_pct, 2)
+
+            print(f"[INFO] {name}: {round(current, 2)} ({round(change_pct, 2)}%)")
 
         except Exception as e:
             print(f"[WARN] {name} 지수 조회 실패: {e}")
@@ -178,6 +216,7 @@ def collect_and_analyze(index: str = 'sp500') -> Dict[str, Any]:
     # 2. 각 종목 데이터 수집 및 분석
     analyzed_stocks = []
     total = len(stocks)
+    failed_count = 0
 
     for i, stock in enumerate(stocks):
         symbol = stock['code']
@@ -194,6 +233,7 @@ def collect_and_analyze(index: str = 'sp500') -> Dict[str, Any]:
 
         if df.empty or len(df) < 30:
             print("데이터 부족, 건너뜀")
+            failed_count += 1
             continue
 
         try:
@@ -203,11 +243,17 @@ def collect_and_analyze(index: str = 'sp500') -> Dict[str, Any]:
             print(f"점수: {result['score']}, 등급: {result['grade']}")
         except Exception as e:
             print(f"분석 실패: {e}")
+            traceback.print_exc()
+            failed_count += 1
 
         # API 부하 방지를 위한 딜레이
         time.sleep(0.5)
 
-    print(f"\n[INFO] 총 {len(analyzed_stocks)}개 종목 분석 완료")
+    print(f"\n[INFO] 총 {len(analyzed_stocks)}개 종목 분석 완료 (실패: {failed_count}개)")
+
+    if not analyzed_stocks:
+        print("[ERROR] 분석된 종목이 없습니다!")
+        return {}
 
     # 3. 추천 분류
     recommendations = categorize_recommendations(analyzed_stocks)
@@ -250,9 +296,13 @@ def main():
 
     args = parser.parse_args()
 
+    print(f"\n[CONFIG] index={args.index}, output={args.output}")
+    print(f"[CONFIG] 현재 시간: {datetime.now().isoformat()}")
+
     # 출력 디렉토리 생성
     output_dir = os.path.join(os.path.dirname(__file__), args.output)
     os.makedirs(output_dir, exist_ok=True)
+    print(f"[CONFIG] 출력 디렉토리: {output_dir}")
 
     all_recommendations = {
         'strong_buy': [],
@@ -265,6 +315,7 @@ def main():
     indices_to_collect = ['sp500', 'nasdaq100'] if args.index == 'all' else [args.index]
 
     # 시장 지수 정보 수집
+    print("\n[INFO] 시장 지수 조회 중...")
     index_data = get_market_index()
 
     market_summary = {
@@ -272,12 +323,16 @@ def main():
         'market_sentiment': determine_market_sentiment(index_data)
     }
 
+    print(f"[INFO] 시장 심리: {market_summary.get('market_sentiment', 'unknown')}")
+
     # 각 지수 데이터 수집
+    success_count = 0
     for index in indices_to_collect:
         result = collect_and_analyze(index)
 
-        if result:
+        if result and result.get('stocks'):
             recommendations = save_results(result, output_dir)
+            success_count += 1
 
             # 전체 추천에 병합 (중복 제거)
             existing_codes = set()
@@ -289,6 +344,10 @@ def main():
                     if stock['code'] not in existing_codes:
                         all_recommendations[grade].append(stock)
                         existing_codes.add(stock['code'])
+
+    if success_count == 0:
+        print("\n[ERROR] 모든 지수 데이터 수집 실패!")
+        sys.exit(1)
 
     # 전체 추천 결과 정렬 (점수순)
     for grade in ['strong_buy', 'buy']:

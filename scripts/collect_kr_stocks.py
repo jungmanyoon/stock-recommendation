@@ -9,10 +9,9 @@ import argparse
 from datetime import datetime, timedelta
 from typing import Dict, List, Any
 import time
+import traceback
 
 import pandas as pd
-import FinanceDataReader as fdr
-from pykrx import stock as pykrx_stock
 
 # 상위 디렉토리 import를 위한 경로 추가
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -23,26 +22,59 @@ def get_market_stocks(market: str = 'KOSPI', top_n: int = 200) -> List[Dict[str,
     """시장별 상위 종목 리스트 가져오기"""
     print(f"[INFO] {market} 종목 리스트 조회 중...")
 
+    stocks = []
+
+    # 방법 1: FinanceDataReader 시도
     try:
-        # FinanceDataReader로 종목 리스트 가져오기
+        import FinanceDataReader as fdr
+
         if market == 'KOSPI':
             stocks_df = fdr.StockListing('KOSPI')
         else:
             stocks_df = fdr.StockListing('KOSDAQ')
 
-        # 시가총액 기준 상위 종목 선택 (시가총액 컬럼이 있는 경우)
-        if 'Marcap' in stocks_df.columns:
-            stocks_df = stocks_df.nlargest(top_n, 'Marcap')
+        print(f"[DEBUG] FDR 컬럼: {list(stocks_df.columns)}")
+        print(f"[DEBUG] FDR 행 수: {len(stocks_df)}")
+
+        if stocks_df.empty:
+            raise Exception("FDR 데이터가 비어있음")
+
+        # 시가총액 기준 상위 종목 선택 (다양한 컬럼명 처리)
+        marcap_cols = ['Marcap', 'MarCap', 'marcap', 'MarketCap', 'Market Cap']
+        marcap_col = None
+        for col in marcap_cols:
+            if col in stocks_df.columns:
+                marcap_col = col
+                break
+
+        if marcap_col:
+            stocks_df = stocks_df.nlargest(top_n, marcap_col)
         else:
+            print(f"[WARN] 시가총액 컬럼 없음, 상위 {top_n}개 선택")
             stocks_df = stocks_df.head(top_n)
 
-        stocks = []
         for _, row in stocks_df.iterrows():
-            code = str(row.get('Code', row.get('Symbol', ''))).zfill(6)
-            name = row.get('Name', '')
-            sector = row.get('Sector', row.get('Industry', ''))
+            # 다양한 컬럼명 처리
+            code = None
+            for col in ['Code', 'Symbol', 'code', 'symbol', 'Ticker']:
+                if col in row.index and pd.notna(row.get(col)):
+                    code = str(row.get(col))
+                    break
+
+            name = None
+            for col in ['Name', 'name', 'Company', 'company']:
+                if col in row.index and pd.notna(row.get(col)):
+                    name = row.get(col)
+                    break
+
+            sector = ''
+            for col in ['Sector', 'sector', 'Industry', 'industry']:
+                if col in row.index and pd.notna(row.get(col)):
+                    sector = row.get(col)
+                    break
 
             if code and name:
+                code = code.zfill(6) if len(code) < 6 else code
                 stocks.append({
                     'code': code,
                     'name': name,
@@ -50,17 +82,53 @@ def get_market_stocks(market: str = 'KOSPI', top_n: int = 200) -> List[Dict[str,
                     'sector': sector
                 })
 
-        print(f"[INFO] {market} {len(stocks)}개 종목 조회 완료")
+        print(f"[INFO] {market} {len(stocks)}개 종목 조회 완료 (FDR)")
         return stocks
 
     except Exception as e:
-        print(f"[ERROR] 종목 리스트 조회 실패: {e}")
-        return []
+        print(f"[WARN] FDR 조회 실패: {e}")
+        traceback.print_exc()
+
+    # 방법 2: pykrx 시도
+    try:
+        from pykrx import stock as pykrx_stock
+
+        today = datetime.now().strftime('%Y%m%d')
+
+        if market == 'KOSPI':
+            tickers = pykrx_stock.get_market_ticker_list(today, market='KOSPI')
+        else:
+            tickers = pykrx_stock.get_market_ticker_list(today, market='KOSDAQ')
+
+        print(f"[DEBUG] pykrx 종목 수: {len(tickers)}")
+
+        for ticker in tickers[:top_n]:
+            try:
+                name = pykrx_stock.get_market_ticker_name(ticker)
+                stocks.append({
+                    'code': ticker,
+                    'name': name,
+                    'market': market,
+                    'sector': ''
+                })
+            except:
+                pass
+
+        print(f"[INFO] {market} {len(stocks)}개 종목 조회 완료 (pykrx)")
+        return stocks
+
+    except Exception as e:
+        print(f"[ERROR] pykrx 조회 실패: {e}")
+        traceback.print_exc()
+
+    return stocks
 
 
 def get_stock_data(code: str, days: int = 100) -> pd.DataFrame:
     """개별 종목의 OHLCV 데이터 가져오기"""
     try:
+        import FinanceDataReader as fdr
+
         end_date = datetime.now()
         start_date = end_date - timedelta(days=days)
 
@@ -69,40 +137,95 @@ def get_stock_data(code: str, days: int = 100) -> pd.DataFrame:
         if df.empty:
             return pd.DataFrame()
 
-        # 컬럼명 표준화
-        df = df.rename(columns={
-            'Open': 'Open',
-            'High': 'High',
-            'Low': 'Low',
-            'Close': 'Close',
-            'Volume': 'Volume'
-        })
+        # 컬럼명 표준화 (대소문자 구분 없이)
+        col_mapping = {}
+        for col in df.columns:
+            col_lower = col.lower()
+            if 'open' in col_lower:
+                col_mapping[col] = 'Open'
+            elif 'high' in col_lower:
+                col_mapping[col] = 'High'
+            elif 'low' in col_lower:
+                col_mapping[col] = 'Low'
+            elif 'close' in col_lower:
+                col_mapping[col] = 'Close'
+            elif 'volume' in col_lower:
+                col_mapping[col] = 'Volume'
 
-        return df
+        if col_mapping:
+            df = df.rename(columns=col_mapping)
+
+        # 필수 컬럼 확인
+        required = ['Open', 'High', 'Low', 'Close', 'Volume']
+        for col in required:
+            if col not in df.columns:
+                print(f"[WARN] {code}: {col} 컬럼 없음")
+                return pd.DataFrame()
+
+        return df[required]
 
     except Exception as e:
-        print(f"[WARN] {code} 데이터 조회 실패: {e}")
+        print(f"[WARN] {code} FDR 데이터 조회 실패: {e}")
+
+    # pykrx 대체 시도
+    try:
+        from pykrx import stock as pykrx_stock
+
+        end_date = datetime.now().strftime('%Y%m%d')
+        start_date = (datetime.now() - timedelta(days=days)).strftime('%Y%m%d')
+
+        df = pykrx_stock.get_market_ohlcv(start_date, end_date, code)
+
+        if df.empty:
+            return pd.DataFrame()
+
+        # 컬럼명 표준화
+        col_mapping = {
+            '시가': 'Open',
+            '고가': 'High',
+            '저가': 'Low',
+            '종가': 'Close',
+            '거래량': 'Volume'
+        }
+        df = df.rename(columns=col_mapping)
+
+        return df[['Open', 'High', 'Low', 'Close', 'Volume']]
+
+    except Exception as e:
+        print(f"[WARN] {code} pykrx 데이터 조회 실패: {e}")
         return pd.DataFrame()
 
 
 def get_market_index(market: str = 'KOSPI') -> Dict[str, Any]:
     """시장 지수 정보 가져오기"""
     try:
+        import FinanceDataReader as fdr
+
         if market == 'KOSPI':
-            index_code = 'KS11'  # KOSPI 지수
+            index_code = 'KS11'
         else:
-            index_code = 'KQ11'  # KOSDAQ 지수
+            index_code = 'KQ11'
 
         end_date = datetime.now()
-        start_date = end_date - timedelta(days=5)
+        start_date = end_date - timedelta(days=10)
 
         df = fdr.DataReader(index_code, start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d'))
 
         if df.empty or len(df) < 2:
             return {}
 
-        current = df['Close'].iloc[-1]
-        previous = df['Close'].iloc[-2]
+        # Close 컬럼 찾기
+        close_col = None
+        for col in df.columns:
+            if 'close' in col.lower():
+                close_col = col
+                break
+
+        if close_col is None:
+            close_col = 'Close'
+
+        current = df[close_col].iloc[-1]
+        previous = df[close_col].iloc[-2]
         change_pct = ((current - previous) / previous) * 100
 
         return {
@@ -143,6 +266,7 @@ def collect_and_analyze(market: str = 'KOSPI', top_n: int = 200) -> Dict[str, An
     # 2. 각 종목 데이터 수집 및 분석
     analyzed_stocks = []
     total = len(stocks)
+    failed_count = 0
 
     for i, stock in enumerate(stocks):
         code = stock['code']
@@ -155,6 +279,7 @@ def collect_and_analyze(market: str = 'KOSPI', top_n: int = 200) -> Dict[str, An
 
         if df.empty or len(df) < 30:
             print("데이터 부족, 건너뜀")
+            failed_count += 1
             continue
 
         try:
@@ -164,11 +289,16 @@ def collect_and_analyze(market: str = 'KOSPI', top_n: int = 200) -> Dict[str, An
             print(f"점수: {result['score']}, 등급: {result['grade']}")
         except Exception as e:
             print(f"분석 실패: {e}")
+            failed_count += 1
 
         # API 부하 방지를 위한 딜레이
         time.sleep(0.3)
 
-    print(f"\n[INFO] 총 {len(analyzed_stocks)}개 종목 분석 완료")
+    print(f"\n[INFO] 총 {len(analyzed_stocks)}개 종목 분석 완료 (실패: {failed_count}개)")
+
+    if not analyzed_stocks:
+        print("[ERROR] 분석된 종목이 없습니다!")
+        return {}
 
     # 3. 추천 분류
     recommendations = categorize_recommendations(analyzed_stocks)
@@ -213,9 +343,13 @@ def main():
 
     args = parser.parse_args()
 
+    print(f"\n[CONFIG] market={args.market}, top={args.top}, output={args.output}")
+    print(f"[CONFIG] 현재 시간: {datetime.now().isoformat()}")
+
     # 출력 디렉토리 생성
     output_dir = os.path.join(os.path.dirname(__file__), args.output)
     os.makedirs(output_dir, exist_ok=True)
+    print(f"[CONFIG] 출력 디렉토리: {output_dir}")
 
     all_recommendations = {
         'strong_buy': [],
@@ -228,8 +362,12 @@ def main():
     markets_to_collect = ['KOSPI', 'KOSDAQ'] if args.market == 'all' else [args.market.upper()]
 
     # 시장 지수 정보 수집
+    print("\n[INFO] 시장 지수 조회 중...")
     kospi_index = get_market_index('KOSPI')
     kosdaq_index = get_market_index('KOSDAQ')
+
+    print(f"[INFO] KOSPI: {kospi_index}")
+    print(f"[INFO] KOSDAQ: {kosdaq_index}")
 
     market_summary = {
         'kospi_index': kospi_index.get('index', 0),
@@ -243,15 +381,21 @@ def main():
     }
 
     # 각 시장 데이터 수집
+    success_count = 0
     for market in markets_to_collect:
         result = collect_and_analyze(market, args.top)
 
-        if result:
+        if result and result.get('stocks'):
             recommendations = save_results(result, output_dir)
+            success_count += 1
 
             # 전체 추천에 병합
             for grade in all_recommendations:
                 all_recommendations[grade].extend(recommendations.get(grade, []))
+
+    if success_count == 0:
+        print("\n[ERROR] 모든 시장 데이터 수집 실패!")
+        sys.exit(1)
 
     # 전체 추천 결과 정렬 (점수순)
     for grade in ['strong_buy', 'buy']:
