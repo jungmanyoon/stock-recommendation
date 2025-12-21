@@ -6,6 +6,11 @@ on:
     - cron: '30 21 * * 1-5'
   workflow_dispatch:  # 수동 실행 가능
 
+# 동시 실행 방지 - 모든 데이터 수집 워크플로우가 순차 실행됨
+concurrency:
+  group: stock-data-update
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
