@@ -8,6 +8,21 @@ from datetime import datetime
 import json
 
 
+def convert_to_native(obj):
+    """numpy 타입을 Python 네이티브 타입으로 변환"""
+    if isinstance(obj, np.integer):
+        return int(obj)
+    elif isinstance(obj, np.floating):
+        return float(obj)
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif isinstance(obj, dict):
+        return {k: convert_to_native(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_to_native(i) for i in obj]
+    return obj
+
+
 def calculate_rsi(prices: pd.Series, period: int = 14) -> float:
     """RSI (Relative Strength Index) 계산"""
     if len(prices) < period + 1:
@@ -307,31 +322,33 @@ def generate_summary(signals: Dict[str, str]) -> str:
 def process_stock(stock_data: Dict[str, Any], df: pd.DataFrame) -> Dict[str, Any]:
     """개별 종목 처리 및 추천 정보 생성"""
     indicators = calculate_all_indicators(df)
-    current_price = df['Close'].iloc[-1]
+    current_price = float(df['Close'].iloc[-1])
     signals = generate_signals(indicators, current_price)
     score = calculate_recommendation_score(signals)
     grade = get_recommendation_grade(score)
     summary = generate_summary(signals)
 
-    return {
+    result = {
         'code': stock_data['code'],
         'name': stock_data['name'],
         'market': stock_data.get('market', ''),
         'sector': stock_data.get('sector', ''),
         'price': {
-            'current': round(current_price, 2),
-            'open': round(df['Open'].iloc[-1], 2),
-            'high': round(df['High'].iloc[-1], 2),
-            'low': round(df['Low'].iloc[-1], 2),
+            'current': round(float(current_price), 2),
+            'open': round(float(df['Open'].iloc[-1]), 2),
+            'high': round(float(df['High'].iloc[-1]), 2),
+            'low': round(float(df['Low'].iloc[-1]), 2),
             'volume': int(df['Volume'].iloc[-1]),
-            'change_pct': round(((current_price - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100, 2) if len(df) > 1 else 0
+            'change_pct': round(float((current_price - df['Close'].iloc[-2]) / df['Close'].iloc[-2]) * 100, 2) if len(df) > 1 else 0.0
         },
-        'indicators': indicators,
+        'indicators': convert_to_native(indicators),
         'signals': signals,
-        'score': score,
+        'score': int(score),
         'grade': grade,
         'summary': summary
     }
+
+    return convert_to_native(result)
 
 
 def categorize_recommendations(stocks: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
