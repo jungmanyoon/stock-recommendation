@@ -2,10 +2,12 @@ name: Discord Stock Notification
 
 on:
   schedule:
+    # 테스트 모드: 5분마다 실행 (테스트 완료 후 아래 주석 해제하고 이 줄 삭제)
+    - cron: '*/5 * * * *'
     # 한국 주식 알림: 오전 8시 KST (UTC 23:00 전날)
-    - cron: '0 23 * * 0-4'  # 일~목 UTC = 월~금 KST 오전 8시
+    # - cron: '0 23 * * 0-4'  # 일~목 UTC = 월~금 KST 오전 8시
     # 미국 주식 알림: 오후 10:30 KST (UTC 13:30) - 미국장 개장 1시간 전
-    - cron: '30 13 * * 1-5'  # 월~금 UTC
+    # - cron: '30 13 * * 1-5'  # 월~금 UTC
   workflow_dispatch:
     inputs:
       region:
@@ -24,8 +26,8 @@ env:
 jobs:
   notify-kr:
     runs-on: ubuntu-latest
-    # 오전 8시 KST (UTC 23:00) 또는 수동 실행시
-    if: github.event.schedule == '0 23 * * 0-4' || github.event.inputs.region == 'kr' || github.event.inputs.region == 'both'
+    # 테스트 모드: 항상 실행 / 운영 모드: 오전 8시 KST 또는 수동 실행시
+    if: github.event.schedule == '*/5 * * * *' || github.event.schedule == '0 23 * * 0-4' || github.event.inputs.region == 'kr' || github.event.inputs.region == 'both'
 
     steps:
       - name: Checkout repository
@@ -98,8 +100,8 @@ jobs:
 
   notify-us:
     runs-on: ubuntu-latest
-    # 오후 10:30 KST (UTC 13:30) 또는 수동 실행시
-    if: github.event.schedule == '30 13 * * 1-5' || github.event.inputs.region == 'us' || github.event.inputs.region == 'both'
+    # 테스트 모드: 항상 실행 / 운영 모드: 오후 10:30 KST 또는 수동 실행시
+    if: github.event.schedule == '*/5 * * * *' || github.event.schedule == '30 13 * * 1-5' || github.event.inputs.region == 'us' || github.event.inputs.region == 'both'
 
     steps:
       - name: Checkout repository
