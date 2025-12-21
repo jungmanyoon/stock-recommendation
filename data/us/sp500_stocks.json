@@ -1,0 +1,4147 @@
+{
+  "updated_at": "2025-12-21T06:44:47.828389",
+  "index": "SP500",
+  "count": 90,
+  "stocks": [
+    {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 273.67,
+        "open": 272.15,
+        "high": 274.6,
+        "low": 269.9,
+        "volume": 144599200,
+        "change_pct": 0.54
+      },
+      "indicators": {
+        "rsi_14": 30.33,
+        "macd": {
+          "macd_line": 1.0,
+          "signal_line": 2.4,
+          "histogram": -1.4
+        },
+        "bollinger": {
+          "upper": 285.48,
+          "middle": 277.51,
+          "lower": 269.55,
+          "bandwidth": 0.0574
+        },
+        "sma_20": 277.51,
+        "sma_50": 269.41,
+        "sma_200": 0,
+        "volume": {
+          "current": 144599200,
+          "avg": 43601180,
+          "ratio": 3.32
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 485.92,
+        "open": 487.36,
+        "high": 487.85,
+        "low": 482.49,
+        "volume": 70824900,
+        "change_pct": 0.4
+      },
+      "indicators": {
+        "rsi_14": 49.4,
+        "macd": {
+          "macd_line": -4.94,
+          "signal_line": -6.07,
+          "histogram": 1.13
+        },
+        "bollinger": {
+          "upper": 494.57,
+          "middle": 482.0,
+          "lower": 469.42,
+          "bandwidth": 0.0522
+        },
+        "sma_20": 482.0,
+        "sma_50": 499.71,
+        "sma_200": 0,
+        "volume": {
+          "current": 70824900,
+          "avg": 25002325,
+          "ratio": 2.83
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Communication Services",
+      "price": {
+        "current": 307.16,
+        "open": 301.73,
+        "high": 307.25,
+        "low": 300.97,
+        "volume": 59913000,
+        "change_pct": 1.55
+      },
+      "indicators": {
+        "rsi_14": 43.53,
+        "macd": {
+          "macd_line": 4.42,
+          "signal_line": 7.71,
+          "histogram": -3.29
+        },
+        "bollinger": {
+          "upper": 328.38,
+          "middle": 313.14,
+          "lower": 297.9,
+          "bandwidth": 0.0973
+        },
+        "sma_20": 313.14,
+        "sma_50": 287.38,
+        "sma_200": 0,
+        "volume": {
+          "current": 59913000,
+          "avg": 43966610,
+          "ratio": 1.36
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 30,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 227.35,
+        "open": 226.76,
+        "high": 229.13,
+        "low": 225.58,
+        "volume": 85482700,
+        "change_pct": 0.26
+      },
+      "indicators": {
+        "rsi_14": 39.27,
+        "macd": {
+          "macd_line": -1.65,
+          "signal_line": -1.29,
+          "histogram": -0.36
+        },
+        "bollinger": {
+          "upper": 236.26,
+          "middle": 228.09,
+          "lower": 219.93,
+          "bandwidth": 0.0716
+        },
+        "sma_20": 228.09,
+        "sma_50": 229.27,
+        "sma_200": 0,
+        "volume": {
+          "current": 85482700,
+          "avg": 40935230,
+          "ratio": 2.09
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 180.99,
+        "open": 176.67,
+        "high": 181.45,
+        "low": 176.34,
+        "volume": 324372500,
+        "change_pct": 3.93
+      },
+      "indicators": {
+        "rsi_14": 51.31,
+        "macd": {
+          "macd_line": -2.61,
+          "signal_line": -2.4,
+          "histogram": -0.21
+        },
+        "bollinger": {
+          "upper": 187.23,
+          "middle": 179.68,
+          "lower": 172.12,
+          "bandwidth": 0.0841
+        },
+        "sma_20": 179.68,
+        "sma_50": 185.64,
+        "sma_200": 0,
+        "volume": {
+          "current": 324372500,
+          "avg": 201530075,
+          "ratio": 1.61
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "META",
+      "name": "Meta Platforms, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Communication Services",
+      "price": {
+        "current": 658.77,
+        "open": 666.42,
+        "high": 671.0,
+        "low": 658.18,
+        "volume": 49949000,
+        "change_pct": -0.85
+      },
+      "indicators": {
+        "rsi_14": 57.45,
+        "macd": {
+          "macd_line": 2.09,
+          "signal_line": -1.04,
+          "histogram": 3.12
+        },
+        "bollinger": {
+          "upper": 683.0,
+          "middle": 646.4,
+          "lower": 609.8,
+          "bandwidth": 0.1132
+        },
+        "sma_20": 646.4,
+        "sma_50": 660.71,
+        "sma_200": 0,
+        "volume": {
+          "current": 49949000,
+          "avg": 16970670,
+          "ratio": 2.94
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 80,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 481.2,
+        "open": 488.12,
+        "high": 490.49,
+        "low": 474.72,
+        "volume": 103066200,
+        "change_pct": -0.45
+      },
+      "indicators": {
+        "rsi_14": 67.93,
+        "macd": {
+          "macd_line": 13.41,
+          "signal_line": 8.9,
+          "histogram": 4.51
+        },
+        "bollinger": {
+          "upper": 497.1,
+          "middle": 446.99,
+          "lower": 396.88,
+          "bandwidth": 0.2242
+        },
+        "sma_20": 446.99,
+        "sma_50": 439.71,
+        "sma_200": 0,
+        "volume": {
+          "current": 103066200,
+          "avg": 79765025,
+          "ratio": 1.29
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "BRK-B",
+      "name": "Berkshire Hathaway Inc. New",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 494.53,
+        "open": 503.05,
+        "high": 503.82,
+        "low": 494.53,
+        "volume": 14648000,
+        "change_pct": -1.76
+      },
+      "indicators": {
+        "rsi_14": 37.7,
+        "macd": {
+          "macd_line": 0.07,
+          "signal_line": 0.72,
+          "histogram": -0.65
+        },
+        "bollinger": {
+          "upper": 515.45,
+          "middle": 502.74,
+          "lower": 490.02,
+          "bandwidth": 0.0506
+        },
+        "sma_20": 502.74,
+        "sma_50": 496.86,
+        "sma_200": 0,
+        "volume": {
+          "current": 14648000,
+          "avg": 4766310,
+          "ratio": 3.07
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 327.42,
+        "open": 328.06,
+        "high": 334.6,
+        "low": 326.07,
+        "volume": 10537800,
+        "change_pct": -0.22
+      },
+      "indicators": {
+        "rsi_14": 55.06,
+        "macd": {
+          "macd_line": 0.3,
+          "signal_line": -0.35,
+          "histogram": 0.65
+        },
+        "bollinger": {
+          "upper": 342.68,
+          "middle": 328.57,
+          "lower": 314.46,
+          "bandwidth": 0.0859
+        },
+        "sma_20": 328.57,
+        "sma_50": 335.51,
+        "sma_200": 0,
+        "volume": {
+          "current": 10537800,
+          "avg": 6657070,
+          "ratio": 1.58
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
+    },
+    {
+      "code": "JNJ",
+      "name": "Johnson & Johnson",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 206.37,
+        "open": 207.56,
+        "high": 209.24,
+        "low": 206.03,
+        "volume": 24802700,
+        "change_pct": -0.93
+      },
+      "indicators": {
+        "rsi_14": 51.74,
+        "macd": {
+          "macd_line": 3.64,
+          "signal_line": 4.01,
+          "histogram": -0.37
+        },
+        "bollinger": {
+          "upper": 213.61,
+          "middle": 206.36,
+          "lower": 199.11,
+          "bandwidth": 0.0702
+        },
+        "sma_20": 206.36,
+        "sma_50": 196.97,
+        "sma_200": 0,
+        "volume": {
+          "current": 24802700,
+          "avg": 9025745,
+          "ratio": 2.75
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "V",
+      "name": "Visa Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 349.25,
+        "open": 346.05,
+        "high": 349.91,
+        "low": 346.05,
+        "volume": 18623300,
+        "change_pct": 0.94
+      },
+      "indicators": {
+        "rsi_14": 71.78,
+        "macd": {
+          "macd_line": 3.34,
+          "signal_line": 1.12,
+          "histogram": 2.22
+        },
+        "bollinger": {
+          "upper": 352.72,
+          "middle": 335.61,
+          "lower": 318.5,
+          "bandwidth": 0.102
+        },
+        "sma_20": 335.61,
+        "sma_50": 337.42,
+        "sma_200": 0,
+        "volume": {
+          "current": 18623300,
+          "avg": 6837170,
+          "ratio": 2.72
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Energy",
+      "price": {
+        "current": 116.69,
+        "open": 116.75,
+        "high": 117.57,
+        "low": 115.96,
+        "volume": 45410400,
+        "change_pct": 0.13
+      },
+      "indicators": {
+        "rsi_14": 50.17,
+        "macd": {
+          "macd_line": 0.37,
+          "signal_line": 0.6,
+          "histogram": -0.22
+        },
+        "bollinger": {
+          "upper": 119.81,
+          "middle": 116.85,
+          "lower": 113.88,
+          "bandwidth": 0.0508
+        },
+        "sma_20": 116.85,
+        "sma_50": 115.37,
+        "sma_200": 0,
+        "volume": {
+          "current": 45410400,
+          "avg": 15285245,
+          "ratio": 2.97
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "JPM",
+      "name": "JP Morgan Chase & Co.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 317.21,
+        "open": 313.79,
+        "high": 318.56,
+        "low": 313.19,
+        "volume": 24493700,
+        "change_pct": 1.35
+      },
+      "indicators": {
+        "rsi_14": 57.41,
+        "macd": {
+          "macd_line": 2.48,
+          "signal_line": 2.08,
+          "histogram": 0.4
+        },
+        "bollinger": {
+          "upper": 324.58,
+          "middle": 311.11,
+          "lower": 297.65,
+          "bandwidth": 0.0865
+        },
+        "sma_20": 311.11,
+        "sma_50": 307.69,
+        "sma_200": 0,
+        "volume": {
+          "current": 24493700,
+          "avg": 9669085,
+          "ratio": 2.53
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 85,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "WMT",
+      "name": "Walmart Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 114.36,
+        "open": 115.14,
+        "high": 115.28,
+        "low": 113.53,
+        "volume": 49917700,
+        "change_pct": -0.41
+      },
+      "indicators": {
+        "rsi_14": 60.03,
+        "macd": {
+          "macd_line": 2.71,
+          "signal_line": 2.83,
+          "histogram": -0.13
+        },
+        "bollinger": {
+          "upper": 120.18,
+          "middle": 112.61,
+          "lower": 105.04,
+          "bandwidth": 0.1344
+        },
+        "sma_20": 112.61,
+        "sma_50": 107.26,
+        "sma_200": 0,
+        "volume": {
+          "current": 49917700,
+          "avg": 23951175,
+          "ratio": 2.08
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "PG",
+      "name": "Procter & Gamble Company (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 144.46,
+        "open": 145.51,
+        "high": 146.05,
+        "low": 143.94,
+        "volume": 19343200,
+        "change_pct": -0.73
+      },
+      "indicators": {
+        "rsi_14": 43.69,
+        "macd": {
+          "macd_line": -0.84,
+          "signal_line": -1.27,
+          "histogram": 0.43
+        },
+        "bollinger": {
+          "upper": 151.78,
+          "middle": 145.06,
+          "lower": 138.33,
+          "bandwidth": 0.0928
+        },
+        "sma_20": 145.06,
+        "sma_50": 147.15,
+        "sma_200": 0,
+        "volume": {
+          "current": 19343200,
+          "avg": 11306320,
+          "ratio": 1.71
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
+    },
+    {
+      "code": "MA",
+      "name": "Mastercard Incorporated",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 572.23,
+        "open": 566.22,
+        "high": 572.94,
+        "low": 565.2,
+        "volume": 7262100,
+        "change_pct": 1.06
+      },
+      "indicators": {
+        "rsi_14": 67.67,
+        "macd": {
+          "macd_line": 4.81,
+          "signal_line": 1.56,
+          "histogram": 3.25
+        },
+        "bollinger": {
+          "upper": 577.2,
+          "middle": 552.14,
+          "lower": 527.09,
+          "bandwidth": 0.0908
+        },
+        "sma_20": 552.14,
+        "sma_50": 554.17,
+        "sma_200": 0,
+        "volume": {
+          "current": 7262100,
+          "avg": 2909225,
+          "ratio": 2.5
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "CVX",
+      "name": "Chevron Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Energy",
+      "price": {
+        "current": 147.75,
+        "open": 147.96,
+        "high": 149.01,
+        "low": 147.19,
+        "volume": 21698900,
+        "change_pct": 0.04
+      },
+      "indicators": {
+        "rsi_14": 38.21,
+        "macd": {
+          "macd_line": -1.01,
+          "signal_line": -0.81,
+          "histogram": -0.2
+        },
+        "bollinger": {
+          "upper": 152.89,
+          "middle": 149.82,
+          "lower": 146.74,
+          "bandwidth": 0.041
+        },
+        "sma_20": 149.82,
+        "sma_50": 151.38,
+        "sma_200": 0,
+        "volume": {
+          "current": 21698900,
+          "avg": 8914920,
+          "ratio": 2.43
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "HD",
+      "name": "Home Depot, Inc. (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 345.0,
+        "open": 354.11,
+        "high": 354.11,
+        "low": 344.92,
+        "volume": 12823700,
+        "change_pct": -2.81
+      },
+      "indicators": {
+        "rsi_14": 41.85,
+        "macd": {
+          "macd_line": -2.74,
+          "signal_line": -3.71,
+          "histogram": 0.97
+        },
+        "bollinger": {
+          "upper": 363.78,
+          "middle": 351.51,
+          "lower": 339.23,
+          "bandwidth": 0.0698
+        },
+        "sma_20": 351.51,
+        "sma_50": 364.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 12823700,
+          "avg": 4973115,
+          "ratio": 2.58
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "LLY",
+      "name": "Eli Lilly and Company",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 1071.44,
+        "open": 1059.01,
+        "high": 1075.38,
+        "low": 1059.01,
+        "volume": 5828200,
+        "change_pct": 1.38
+      },
+      "indicators": {
+        "rsi_14": 53.29,
+        "macd": {
+          "macd_line": 22.88,
+          "signal_line": 25.12,
+          "histogram": -2.24
+        },
+        "bollinger": {
+          "upper": 1114.37,
+          "middle": 1043.95,
+          "lower": 973.52,
+          "bandwidth": 0.1349
+        },
+        "sma_20": 1043.95,
+        "sma_50": 955.05,
+        "sma_200": 0,
+        "volume": {
+          "current": 5828200,
+          "avg": 3586305,
+          "ratio": 1.63
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "ABBV",
+      "name": "AbbVie Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 226.82,
+        "open": 222.95,
+        "high": 229.47,
+        "low": 222.35,
+        "volume": 18962100,
+        "change_pct": 1.8
+      },
+      "indicators": {
+        "rsi_14": 52.68,
+        "macd": {
+          "macd_line": -0.71,
+          "signal_line": -0.53,
+          "histogram": -0.18
+        },
+        "bollinger": {
+          "upper": 233.52,
+          "middle": 226.56,
+          "lower": 219.59,
+          "bandwidth": 0.0615
+        },
+        "sma_20": 226.56,
+        "sma_50": 226.58,
+        "sma_200": 0,
+        "volume": {
+          "current": 18962100,
+          "avg": 5508130,
+          "ratio": 3.44
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "MRK",
+      "name": "Merck & Company, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 101.09,
+        "open": 100.6,
+        "high": 102.2,
+        "low": 100.11,
+        "volume": 44979000,
+        "change_pct": 0.4
+      },
+      "indicators": {
+        "rsi_14": 50.38,
+        "macd": {
+          "macd_line": 2.03,
+          "signal_line": 2.38,
+          "histogram": -0.35
+        },
+        "bollinger": {
+          "upper": 104.61,
+          "middle": 99.92,
+          "lower": 95.23,
+          "bandwidth": 0.0938
+        },
+        "sma_20": 99.92,
+        "sma_50": 92.25,
+        "sma_200": 0,
+        "volume": {
+          "current": 44979000,
+          "avg": 15227725,
+          "ratio": 2.95
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "PEP",
+      "name": "Pepsico, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 148.16,
+        "open": 149.15,
+        "high": 149.89,
+        "low": 147.9,
+        "volume": 17540400,
+        "change_pct": -0.81
+      },
+      "indicators": {
+        "rsi_14": 50.31,
+        "macd": {
+          "macd_line": 1.19,
+          "signal_line": 1.04,
+          "histogram": 0.16
+        },
+        "bollinger": {
+          "upper": 152.03,
+          "middle": 147.44,
+          "lower": 142.85,
+          "bandwidth": 0.0622
+        },
+        "sma_20": 147.44,
+        "sma_50": 146.92,
+        "sma_200": 0,
+        "volume": {
+          "current": 17540400,
+          "avg": 7757470,
+          "ratio": 2.26
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 85,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "KO",
+      "name": "Coca-Cola Company (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 70.06,
+        "open": 70.06,
+        "high": 70.77,
+        "low": 70.03,
+        "volume": 36906800,
+        "change_pct": -0.43
+      },
+      "indicators": {
+        "rsi_14": 36.93,
+        "macd": {
+          "macd_line": 0.08,
+          "signal_line": 0.23,
+          "histogram": -0.14
+        },
+        "bollinger": {
+          "upper": 72.89,
+          "middle": 70.91,
+          "lower": 68.92,
+          "bandwidth": 0.056
+        },
+        "sma_20": 70.91,
+        "sma_50": 69.79,
+        "sma_200": 0,
+        "volume": {
+          "current": 36906800,
+          "avg": 18434880,
+          "ratio": 2.0
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 340.36,
+        "open": 333.34,
+        "high": 343.45,
+        "low": 332.58,
+        "volume": 158957700,
+        "change_pct": 3.18
+      },
+      "indicators": {
+        "rsi_14": 33.91,
+        "macd": {
+          "macd_line": -6.14,
+          "signal_line": 1.7,
+          "histogram": -7.84
+        },
+        "bollinger": {
+          "upper": 431.29,
+          "middle": 374.36,
+          "lower": 317.44,
+          "bandwidth": 0.3041
+        },
+        "sma_20": 374.36,
+        "sma_50": 361.52,
+        "sma_200": 0,
+        "volume": {
+          "current": 158957700,
+          "avg": 38445675,
+          "ratio": 4.13
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "PFE",
+      "name": "Pfizer, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 25.19,
+        "open": 25.01,
+        "high": 25.52,
+        "low": 24.98,
+        "volume": 87565800,
+        "change_pct": 0.6
+      },
+      "indicators": {
+        "rsi_14": 49.08,
+        "macd": {
+          "macd_line": 0.11,
+          "signal_line": 0.22,
+          "histogram": -0.11
+        },
+        "bollinger": {
+          "upper": 26.3,
+          "middle": 25.55,
+          "lower": 24.79,
+          "bandwidth": 0.0588
+        },
+        "sma_20": 25.55,
+        "sma_50": 24.9,
+        "sma_200": 0,
+        "volume": {
+          "current": 87565800,
+          "avg": 50963630,
+          "ratio": 1.72
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "COST",
+      "name": "Costco Wholesale Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 855.62,
+        "open": 856.57,
+        "high": 858.45,
+        "low": 849.32,
+        "volume": 10096200,
+        "change_pct": -0.23
+      },
+      "indicators": {
+        "rsi_14": 22.77,
+        "macd": {
+          "macd_line": -14.89,
+          "signal_line": -11.64,
+          "histogram": -3.25
+        },
+        "bollinger": {
+          "upper": 930.72,
+          "middle": 888.21,
+          "lower": 845.7,
+          "bandwidth": 0.0957
+        },
+        "sma_20": 888.21,
+        "sma_50": 909.94,
+        "sma_200": 0,
+        "volume": {
+          "current": 10096200,
+          "avg": 2800480,
+          "ratio": 3.61
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "TMO",
+      "name": "Thermo Fisher Scientific Inc",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 567.83,
+        "open": 561.68,
+        "high": 569.87,
+        "low": 558.93,
+        "volume": 3862600,
+        "change_pct": 0.97
+      },
+      "indicators": {
+        "rsi_14": 37.53,
+        "macd": {
+          "macd_line": -0.4,
+          "signal_line": 2.11,
+          "histogram": -2.51
+        },
+        "bollinger": {
+          "upper": 597.46,
+          "middle": 576.9,
+          "lower": 556.34,
+          "bandwidth": 0.0713
+        },
+        "sma_20": 576.9,
+        "sma_50": 567.13,
+        "sma_200": 0,
+        "volume": {
+          "current": 3862600,
+          "avg": 1671055,
+          "ratio": 2.31
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "MCD",
+      "name": "McDonald's Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 315.84,
+        "open": 318.7,
+        "high": 319.33,
+        "low": 315.75,
+        "volume": 7128600,
+        "change_pct": -1.19
+      },
+      "indicators": {
+        "rsi_14": 65.69,
+        "macd": {
+          "macd_line": 3.7,
+          "signal_line": 3.01,
+          "histogram": 0.69
+        },
+        "bollinger": {
+          "upper": 321.33,
+          "middle": 310.82,
+          "lower": 300.31,
+          "bandwidth": 0.0676
+        },
+        "sma_20": 310.82,
+        "sma_50": 305.67,
+        "sma_200": 0,
+        "volume": {
+          "current": 7128600,
+          "avg": 3611865,
+          "ratio": 1.97
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 78.42,
+        "open": 76.97,
+        "high": 79.17,
+        "low": 76.79,
+        "volume": 84880300,
+        "change_pct": 1.91
+      },
+      "indicators": {
+        "rsi_14": 60.1,
+        "macd": {
+          "macd_line": 0.9,
+          "signal_line": 1.23,
+          "histogram": -0.33
+        },
+        "bollinger": {
+          "upper": 80.09,
+          "middle": 77.55,
+          "lower": 75.0,
+          "bandwidth": 0.0656
+        },
+        "sma_20": 77.55,
+        "sma_50": 74.42,
+        "sma_200": 0,
+        "volume": {
+          "current": 84880300,
+          "avg": 18127495,
+          "ratio": 4.68
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "ACN",
+      "name": "Accenture plc",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 272.25,
+        "open": 270.0,
+        "high": 276.81,
+        "low": 270.0,
+        "volume": 8375700,
+        "change_pct": 0.85
+      },
+      "indicators": {
+        "rsi_14": 66.83,
+        "macd": {
+          "macd_line": 6.54,
+          "signal_line": 6.38,
+          "histogram": 0.16
+        },
+        "bollinger": {
+          "upper": 284.56,
+          "middle": 264.13,
+          "lower": 243.7,
+          "bandwidth": 0.1547
+        },
+        "sma_20": 264.13,
+        "sma_50": 252.6,
+        "sma_200": 0,
+        "volume": {
+          "current": 8375700,
+          "avg": 4314175,
+          "ratio": 1.94
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "ABT",
+      "name": "Abbott Laboratories",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 125.45,
+        "open": 125.04,
+        "high": 126.13,
+        "low": 123.76,
+        "volume": 14794700,
+        "change_pct": 0.26
+      },
+      "indicators": {
+        "rsi_14": 42.84,
+        "macd": {
+          "macd_line": -0.48,
+          "signal_line": -0.68,
+          "histogram": 0.2
+        },
+        "bollinger": {
+          "upper": 130.41,
+          "middle": 125.91,
+          "lower": 121.4,
+          "bandwidth": 0.0716
+        },
+        "sma_20": 125.91,
+        "sma_50": 126.82,
+        "sma_200": 0,
+        "volume": {
+          "current": 14794700,
+          "avg": 6642235,
+          "ratio": 2.23
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "DHR",
+      "name": "Danaher Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 224.84,
+        "open": 224.64,
+        "high": 225.99,
+        "low": 223.4,
+        "volume": 6318100,
+        "change_pct": 0.22
+      },
+      "indicators": {
+        "rsi_14": 51.0,
+        "macd": {
+          "macd_line": 1.64,
+          "signal_line": 2.6,
+          "histogram": -0.96
+        },
+        "bollinger": {
+          "upper": 231.9,
+          "middle": 226.74,
+          "lower": 221.59,
+          "bandwidth": 0.0455
+        },
+        "sma_20": 226.74,
+        "sma_50": 219.8,
+        "sma_200": 0,
+        "volume": {
+          "current": 6318100,
+          "avg": 3702195,
+          "ratio": 1.71
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "BAC",
+      "name": "Bank of America Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 55.27,
+        "open": 54.52,
+        "high": 55.31,
+        "low": 54.38,
+        "volume": 72981700,
+        "change_pct": 1.86
+      },
+      "indicators": {
+        "rsi_14": 71.49,
+        "macd": {
+          "macd_line": 0.71,
+          "signal_line": 0.63,
+          "histogram": 0.07
+        },
+        "bollinger": {
+          "upper": 56.0,
+          "middle": 53.71,
+          "lower": 51.42,
+          "bandwidth": 0.0853
+        },
+        "sma_20": 53.71,
+        "sma_50": 52.61,
+        "sma_200": 0,
+        "volume": {
+          "current": 72981700,
+          "avg": 40635725,
+          "ratio": 1.8
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 259.91,
+        "open": 260.68,
+        "high": 262.04,
+        "low": 255.5,
+        "volume": 20729400,
+        "change_pct": 0.8
+      },
+      "indicators": {
+        "rsi_14": 78.16,
+        "macd": {
+          "macd_line": 4.96,
+          "signal_line": 3.84,
+          "histogram": 1.11
+        },
+        "bollinger": {
+          "upper": 275.86,
+          "middle": 247.43,
+          "lower": 219.0,
+          "bandwidth": 0.2298
+        },
+        "sma_20": 247.43,
+        "sma_50": 246.85,
+        "sma_200": 0,
+        "volume": {
+          "current": 20729400,
+          "avg": 8983945,
+          "ratio": 2.31
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "NKE",
+      "name": "Nike, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 58.71,
+        "open": 59.2,
+        "high": 60.38,
+        "low": 58.22,
+        "volume": 108440800,
+        "change_pct": -10.54
+      },
+      "indicators": {
+        "rsi_14": 31.42,
+        "macd": {
+          "macd_line": -0.04,
+          "signal_line": 0.28,
+          "histogram": -0.32
+        },
+        "bollinger": {
+          "upper": 69.28,
+          "middle": 64.78,
+          "lower": 60.28,
+          "bandwidth": 0.1389
+        },
+        "sma_20": 64.78,
+        "sma_50": 64.75,
+        "sma_200": 0,
+        "volume": {
+          "current": 108440800,
+          "avg": 14097050,
+          "ratio": 7.69
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_touch",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 터치 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "CMCSA",
+      "name": "Comcast Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Communication Services",
+      "price": {
+        "current": 29.57,
+        "open": 30.14,
+        "high": 30.37,
+        "low": 29.48,
+        "volume": 91465600,
+        "change_pct": -2.31
+      },
+      "indicators": {
+        "rsi_14": 71.33,
+        "macd": {
+          "macd_line": 0.48,
+          "signal_line": 0.06,
+          "histogram": 0.42
+        },
+        "bollinger": {
+          "upper": 30.2,
+          "middle": 27.66,
+          "lower": 25.12,
+          "bandwidth": 0.1838
+        },
+        "sma_20": 27.66,
+        "sma_50": 28.07,
+        "sma_200": 0,
+        "volume": {
+          "current": 91465600,
+          "avg": 39796045,
+          "ratio": 2.3
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Utilities",
+      "price": {
+        "current": 79.54,
+        "open": 80.57,
+        "high": 81.14,
+        "low": 79.53,
+        "volume": 30491000,
+        "change_pct": -1.62
+      },
+      "indicators": {
+        "rsi_14": 27.0,
+        "macd": {
+          "macd_line": -0.73,
+          "signal_line": -0.35,
+          "histogram": -0.38
+        },
+        "bollinger": {
+          "upper": 86.83,
+          "middle": 82.65,
+          "lower": 78.47,
+          "bandwidth": 0.1012
+        },
+        "sma_20": 82.65,
+        "sma_50": 83.04,
+        "sma_200": 0,
+        "volume": {
+          "current": 30491000,
+          "avg": 10009360,
+          "ratio": 3.05
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "LIN",
+      "name": "Linde plc",
+      "market": "NYSE/NASDAQ",
+      "sector": "Basic Materials",
+      "price": {
+        "current": 421.43,
+        "open": 418.03,
+        "high": 423.39,
+        "low": 417.19,
+        "volume": 6046800,
+        "change_pct": 0.58
+      },
+      "indicators": {
+        "rsi_14": 62.26,
+        "macd": {
+          "macd_line": -0.63,
+          "signal_line": -4.38,
+          "histogram": 3.75
+        },
+        "bollinger": {
+          "upper": 428.12,
+          "middle": 407.98,
+          "lower": 387.84,
+          "bandwidth": 0.0987
+        },
+        "sma_20": 407.98,
+        "sma_50": 422.21,
+        "sma_200": 0,
+        "volume": {
+          "current": 6046800,
+          "avg": 3378520,
+          "ratio": 1.79
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "ADBE",
+      "name": "Adobe Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 355.86,
+        "open": 355.53,
+        "high": 357.55,
+        "low": 351.59,
+        "volume": 8705000,
+        "change_pct": 0.01
+      },
+      "indicators": {
+        "rsi_14": 74.7,
+        "macd": {
+          "macd_line": 6.27,
+          "signal_line": 3.63,
+          "histogram": 2.64
+        },
+        "bollinger": {
+          "upper": 366.76,
+          "middle": 337.32,
+          "lower": 307.87,
+          "bandwidth": 0.1746
+        },
+        "sma_20": 337.32,
+        "sma_50": 337.13,
+        "sma_200": 0,
+        "volume": {
+          "current": 8705000,
+          "avg": 4648445,
+          "ratio": 1.87
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "TXN",
+      "name": "Texas Instruments Incorporated",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 176.29,
+        "open": 175.72,
+        "high": 178.24,
+        "low": 175.59,
+        "volume": 19091700,
+        "change_pct": 0.06
+      },
+      "indicators": {
+        "rsi_14": 62.14,
+        "macd": {
+          "macd_line": 3.0,
+          "signal_line": 3.33,
+          "histogram": -0.33
+        },
+        "bollinger": {
+          "upper": 189.82,
+          "middle": 174.52,
+          "lower": 159.22,
+          "bandwidth": 0.1753
+        },
+        "sma_20": 174.52,
+        "sma_50": 168.81,
+        "sma_200": 0,
+        "volume": {
+          "current": 19091700,
+          "avg": 7224455,
+          "ratio": 2.64
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "WFC",
+      "name": "Wells Fargo & Company",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 93.01,
+        "open": 91.61,
+        "high": 93.13,
+        "low": 91.6,
+        "volume": 37783100,
+        "change_pct": 1.67
+      },
+      "indicators": {
+        "rsi_14": 76.52,
+        "macd": {
+          "macd_line": 2.02,
+          "signal_line": 1.78,
+          "histogram": 0.25
+        },
+        "bollinger": {
+          "upper": 95.68,
+          "middle": 89.13,
+          "lower": 82.57,
+          "bandwidth": 0.1471
+        },
+        "sma_20": 89.13,
+        "sma_50": 86.45,
+        "sma_200": 0,
+        "volume": {
+          "current": 37783100,
+          "avg": 13886105,
+          "ratio": 2.72
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "PM",
+      "name": "Philip Morris International Inc",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 156.84,
+        "open": 157.24,
+        "high": 159.85,
+        "low": 156.65,
+        "volume": 18081100,
+        "change_pct": -0.3
+      },
+      "indicators": {
+        "rsi_14": 51.5,
+        "macd": {
+          "macd_line": 0.8,
+          "signal_line": 0.05,
+          "histogram": 0.75
+        },
+        "bollinger": {
+          "upper": 161.42,
+          "middle": 153.93,
+          "lower": 146.45,
+          "bandwidth": 0.0973
+        },
+        "sma_20": 153.93,
+        "sma_50": 153.87,
+        "sma_200": 0,
+        "volume": {
+          "current": 18081100,
+          "avg": 6071115,
+          "ratio": 2.98
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 85,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 213.43,
+        "open": 204.6,
+        "high": 215.18,
+        "low": 204.2,
+        "volume": 58370800,
+        "change_pct": 6.15
+      },
+      "indicators": {
+        "rsi_14": 44.37,
+        "macd": {
+          "macd_line": -5.3,
+          "signal_line": -4.43,
+          "histogram": -0.87
+        },
+        "bollinger": {
+          "upper": 227.63,
+          "middle": 213.45,
+          "lower": 199.27,
+          "bandwidth": 0.1329
+        },
+        "sma_20": 213.45,
+        "sma_50": 229.74,
+        "sma_200": 0,
+        "volume": {
+          "current": 58370800,
+          "avg": 36523240,
+          "ratio": 1.6
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 30,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
+    },
+    {
+      "code": "VZ",
+      "name": "Verizon Communications Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Communication Services",
+      "price": {
+        "current": 39.82,
+        "open": 40.14,
+        "high": 40.24,
+        "low": 39.81,
+        "volume": 53317100,
+        "change_pct": -1.46
+      },
+      "indicators": {
+        "rsi_14": 41.29,
+        "macd": {
+          "macd_line": -0.07,
+          "signal_line": 0.01,
+          "histogram": -0.08
+        },
+        "bollinger": {
+          "upper": 41.68,
+          "middle": 40.71,
+          "lower": 39.73,
+          "bandwidth": 0.0478
+        },
+        "sma_20": 40.71,
+        "sma_50": 40.35,
+        "sma_200": 0,
+        "volume": {
+          "current": 53317100,
+          "avg": 25663750,
+          "ratio": 2.08
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 191.97,
+        "open": 188.39,
+        "high": 195.12,
+        "low": 188.12,
+        "volume": 76908300,
+        "change_pct": 6.63
+      },
+      "indicators": {
+        "rsi_14": 44.88,
+        "macd": {
+          "macd_line": -13.24,
+          "signal_line": -12.85,
+          "histogram": -0.39
+        },
+        "bollinger": {
+          "upper": 227.84,
+          "middle": 201.13,
+          "lower": 174.42,
+          "bandwidth": 0.2656
+        },
+        "sma_20": 201.13,
+        "sma_50": 236.73,
+        "sma_200": 0,
+        "volume": {
+          "current": 76908300,
+          "avg": 34104260,
+          "ratio": 2.26
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "RTX",
+      "name": "RTX Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 182.01,
+        "open": 178.96,
+        "high": 183.24,
+        "low": 178.66,
+        "volume": 11455000,
+        "change_pct": 2.09
+      },
+      "indicators": {
+        "rsi_14": 78.06,
+        "macd": {
+          "macd_line": 2.13,
+          "signal_line": 1.36,
+          "histogram": 0.77
+        },
+        "bollinger": {
+          "upper": 183.06,
+          "middle": 174.23,
+          "lower": 165.4,
+          "bandwidth": 0.1014
+        },
+        "sma_20": 174.23,
+        "sma_50": 172.67,
+        "sma_200": 0,
+        "volume": {
+          "current": 11455000,
+          "avg": 4904075,
+          "ratio": 2.34
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "HON",
+      "name": "Honeywell International Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 199.11,
+        "open": 198.83,
+        "high": 201.06,
+        "low": 198.17,
+        "volume": 7866500,
+        "change_pct": 0.52
+      },
+      "indicators": {
+        "rsi_14": 71.36,
+        "macd": {
+          "macd_line": 1.11,
+          "signal_line": 0.11,
+          "histogram": 1.0
+        },
+        "bollinger": {
+          "upper": 200.14,
+          "middle": 193.34,
+          "lower": 186.54,
+          "bandwidth": 0.0703
+        },
+        "sma_20": 193.34,
+        "sma_50": 194.75,
+        "sma_200": 0,
+        "volume": {
+          "current": 7866500,
+          "avg": 3979555,
+          "ratio": 1.98
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "COP",
+      "name": "ConocoPhillips",
+      "market": "NYSE/NASDAQ",
+      "sector": "Energy",
+      "price": {
+        "current": 91.94,
+        "open": 92.45,
+        "high": 93.4,
+        "low": 91.6,
+        "volume": 14612600,
+        "change_pct": -0.31
+      },
+      "indicators": {
+        "rsi_14": 53.6,
+        "macd": {
+          "macd_line": 1.21,
+          "signal_line": 1.37,
+          "histogram": -0.16
+        },
+        "bollinger": {
+          "upper": 98.16,
+          "middle": 91.76,
+          "lower": 85.35,
+          "bandwidth": 0.1396
+        },
+        "sma_20": 91.76,
+        "sma_50": 89.17,
+        "sma_200": 0,
+        "volume": {
+          "current": 14612600,
+          "avg": 7232110,
+          "ratio": 2.02
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "UPS",
+      "name": "United Parcel Service, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 101.92,
+        "open": 101.11,
+        "high": 102.19,
+        "low": 100.12,
+        "volume": 17316300,
+        "change_pct": -0.16
+      },
+      "indicators": {
+        "rsi_14": 71.45,
+        "macd": {
+          "macd_line": 2.5,
+          "signal_line": 2.22,
+          "histogram": 0.28
+        },
+        "bollinger": {
+          "upper": 103.34,
+          "middle": 97.58,
+          "lower": 91.82,
+          "bandwidth": 0.118
+        },
+        "sma_20": 97.58,
+        "sma_50": 92.89,
+        "sma_200": 0,
+        "volume": {
+          "current": 17316300,
+          "avg": 5933715,
+          "ratio": 2.92
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 175.25,
+        "open": 174.44,
+        "high": 177.19,
+        "low": 174.2,
+        "volume": 25221900,
+        "change_pct": 0.61
+      },
+      "indicators": {
+        "rsi_14": 63.56,
+        "macd": {
+          "macd_line": 1.79,
+          "signal_line": 1.85,
+          "histogram": -0.06
+        },
+        "bollinger": {
+          "upper": 184.75,
+          "middle": 172.56,
+          "lower": 160.38,
+          "bandwidth": 0.1413
+        },
+        "sma_20": 172.56,
+        "sma_50": 170.96,
+        "sma_200": 0,
+        "volume": {
+          "current": 25221900,
+          "avg": 8362820,
+          "ratio": 3.02
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 240.44,
+        "open": 247.04,
+        "high": 247.13,
+        "low": 240.33,
+        "volume": 5457700,
+        "change_pct": -2.93
+      },
+      "indicators": {
+        "rsi_14": 41.47,
+        "macd": {
+          "macd_line": 2.16,
+          "signal_line": 2.29,
+          "histogram": -0.13
+        },
+        "bollinger": {
+          "upper": 254.25,
+          "middle": 243.84,
+          "lower": 233.43,
+          "bandwidth": 0.0854
+        },
+        "sma_20": 243.84,
+        "sma_50": 239.24,
+        "sma_200": 0,
+        "volume": {
+          "current": 5457700,
+          "avg": 3340890,
+          "ratio": 1.63
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "MS",
+      "name": "Morgan Stanley",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 176.98,
+        "open": 173.46,
+        "high": 177.7,
+        "low": 173.46,
+        "volume": 10638300,
+        "change_pct": 2.32
+      },
+      "indicators": {
+        "rsi_14": 68.36,
+        "macd": {
+          "macd_line": 3.31,
+          "signal_line": 3.67,
+          "histogram": -0.36
+        },
+        "bollinger": {
+          "upper": 185.13,
+          "middle": 172.99,
+          "lower": 160.85,
+          "bandwidth": 0.1404
+        },
+        "sma_20": 172.99,
+        "sma_50": 166.12,
+        "sma_200": 0,
+        "volume": {
+          "current": 10638300,
+          "avg": 5890905,
+          "ratio": 1.81
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "SPGI",
+      "name": "S&P Global Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 512.6,
+        "open": 506.71,
+        "high": 512.73,
+        "low": 506.1,
+        "volume": 2835400,
+        "change_pct": 1.16
+      },
+      "indicators": {
+        "rsi_14": 65.1,
+        "macd": {
+          "macd_line": 3.86,
+          "signal_line": 2.16,
+          "histogram": 1.7
+        },
+        "bollinger": {
+          "upper": 510.62,
+          "middle": 497.68,
+          "lower": 484.73,
+          "bandwidth": 0.052
+        },
+        "sma_20": 497.68,
+        "sma_50": 491.71,
+        "sma_200": 0,
+        "volume": {
+          "current": 2835400,
+          "avg": 1585010,
+          "ratio": 1.79
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "T",
+      "name": "AT&T Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Communication Services",
+      "price": {
+        "current": 24.15,
+        "open": 24.21,
+        "high": 24.28,
+        "low": 24.02,
+        "volume": 89806300,
+        "change_pct": -0.45
+      },
+      "indicators": {
+        "rsi_14": 21.92,
+        "macd": {
+          "macd_line": -0.38,
+          "signal_line": -0.3,
+          "histogram": -0.07
+        },
+        "bollinger": {
+          "upper": 26.41,
+          "middle": 25.02,
+          "lower": 23.62,
+          "bandwidth": 0.1116
+        },
+        "sma_20": 25.02,
+        "sma_50": 25.23,
+        "sma_200": 0,
+        "volume": {
+          "current": 89806300,
+          "avg": 38142425,
+          "ratio": 2.35
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "ELV",
+      "name": "Elevance Health, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 340.69,
+        "open": 337.65,
+        "high": 346.61,
+        "low": 337.61,
+        "volume": 4158300,
+        "change_pct": -1.13
+      },
+      "indicators": {
+        "rsi_14": 60.72,
+        "macd": {
+          "macd_line": 5.69,
+          "signal_line": 5.14,
+          "histogram": 0.55
+        },
+        "bollinger": {
+          "upper": 362.18,
+          "middle": 338.46,
+          "lower": 314.74,
+          "bandwidth": 0.1402
+        },
+        "sma_20": 338.46,
+        "sma_50": 333.63,
+        "sma_200": 0,
+        "volume": {
+          "current": 4158300,
+          "avg": 1595770,
+          "ratio": 2.61
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 80,
+      "grade": "strong_buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "INTU",
+      "name": "Intuit Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 671.3,
+        "open": 667.8,
+        "high": 675.6,
+        "low": 665.44,
+        "volume": 4553600,
+        "change_pct": 0.36
+      },
+      "indicators": {
+        "rsi_14": 64.65,
+        "macd": {
+          "macd_line": 3.69,
+          "signal_line": 1.78,
+          "histogram": 1.91
+        },
+        "bollinger": {
+          "upper": 685.41,
+          "middle": 656.28,
+          "lower": 627.15,
+          "bandwidth": 0.0888
+        },
+        "sma_20": 656.28,
+        "sma_50": 658.25,
+        "sma_200": 0,
+        "volume": {
+          "current": 4553600,
+          "avg": 2083530,
+          "ratio": 2.19
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "CAT",
+      "name": "Caterpillar, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 576.22,
+        "open": 572.69,
+        "high": 581.73,
+        "low": 570.33,
+        "volume": 5355100,
+        "change_pct": 1.84
+      },
+      "indicators": {
+        "rsi_14": 52.66,
+        "macd": {
+          "macd_line": 6.61,
+          "signal_line": 11.63,
+          "histogram": -5.02
+        },
+        "bollinger": {
+          "upper": 623.11,
+          "middle": 584.14,
+          "lower": 545.17,
+          "bandwidth": 0.1334
+        },
+        "sma_20": 584.14,
+        "sma_50": 560.95,
+        "sma_200": 0,
+        "volume": {
+          "current": 5355100,
+          "avg": 2720550,
+          "ratio": 1.97
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "IBM",
+      "name": "International Business Machines",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 300.98,
+        "open": 300.35,
+        "high": 306.86,
+        "low": 299.1,
+        "volume": 11031000,
+        "change_pct": 0.18
+      },
+      "indicators": {
+        "rsi_14": 41.6,
+        "macd": {
+          "macd_line": 1.13,
+          "signal_line": 2.44,
+          "histogram": -1.3
+        },
+        "bollinger": {
+          "upper": 313.76,
+          "middle": 305.64,
+          "lower": 297.51,
+          "bandwidth": 0.0532
+        },
+        "sma_20": 305.64,
+        "sma_50": 299.81,
+        "sma_200": 0,
+        "volume": {
+          "current": 11031000,
+          "avg": 3595995,
+          "ratio": 3.07
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 307.21,
+        "open": 304.23,
+        "high": 308.43,
+        "low": 303.64,
+        "volume": 8855600,
+        "change_pct": 1.83
+      },
+      "indicators": {
+        "rsi_14": 65.37,
+        "macd": {
+          "macd_line": 0.4,
+          "signal_line": -1.7,
+          "histogram": 2.09
+        },
+        "bollinger": {
+          "upper": 306.12,
+          "middle": 292.86,
+          "lower": 279.59,
+          "bandwidth": 0.0906
+        },
+        "sma_20": 292.86,
+        "sma_50": 299.58,
+        "sma_200": 0,
+        "volume": {
+          "current": 8855600,
+          "avg": 5117125,
+          "ratio": 1.73
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "DE",
+      "name": "Deere & Company",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 470.57,
+        "open": 475.1,
+        "high": 476.5,
+        "low": 468.92,
+        "volume": 2988500,
+        "change_pct": -0.94
+      },
+      "indicators": {
+        "rsi_14": 51.58,
+        "macd": {
+          "macd_line": 1.32,
+          "signal_line": 1.73,
+          "histogram": -0.4
+        },
+        "bollinger": {
+          "upper": 496.41,
+          "middle": 477.15,
+          "lower": 457.9,
+          "bandwidth": 0.0807
+        },
+        "sma_20": 477.15,
+        "sma_50": 470.9,
+        "sma_200": 0,
+        "volume": {
+          "current": 2988500,
+          "avg": 1812905,
+          "ratio": 1.65
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "BA",
+      "name": "Boeing Company (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Industrials",
+      "price": {
+        "current": 214.08,
+        "open": 209.76,
+        "high": 215.98,
+        "low": 209.27,
+        "volume": 14777800,
+        "change_pct": 2.79
+      },
+      "indicators": {
+        "rsi_14": 77.35,
+        "macd": {
+          "macd_line": 3.06,
+          "signal_line": 1.09,
+          "histogram": 1.97
+        },
+        "bollinger": {
+          "upper": 219.17,
+          "middle": 198.33,
+          "lower": 177.5,
+          "bandwidth": 0.2101
+        },
+        "sma_20": 198.33,
+        "sma_50": 202.19,
+        "sma_200": 0,
+        "volume": {
+          "current": 14777800,
+          "avg": 9403505,
+          "ratio": 1.57
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "AMGN",
+      "name": "Amgen Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 327.38,
+        "open": 325.56,
+        "high": 331.5,
+        "low": 324.73,
+        "volume": 13465700,
+        "change_pct": 0.91
+      },
+      "indicators": {
+        "rsi_14": 41.23,
+        "macd": {
+          "macd_line": 0.74,
+          "signal_line": 2.26,
+          "histogram": -1.52
+        },
+        "bollinger": {
+          "upper": 351.31,
+          "middle": 330.49,
+          "lower": 309.66,
+          "bandwidth": 0.126
+        },
+        "sma_20": 330.49,
+        "sma_50": 316.93,
+        "sma_200": 0,
+        "volume": {
+          "current": 13465700,
+          "avg": 2884230,
+          "ratio": 4.67
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "GS",
+      "name": "Goldman Sachs Group, Inc. (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 893.48,
+        "open": 883.17,
+        "high": 899.75,
+        "low": 881.95,
+        "volume": 4807200,
+        "change_pct": 1.96
+      },
+      "indicators": {
+        "rsi_14": 75.89,
+        "macd": {
+          "macd_line": 25.27,
+          "signal_line": 23.85,
+          "histogram": 1.42
+        },
+        "bollinger": {
+          "upper": 931.02,
+          "middle": 849.14,
+          "lower": 767.25,
+          "bandwidth": 0.1929
+        },
+        "sma_20": 849.14,
+        "sma_50": 806.2,
+        "sma_200": 0,
+        "volume": {
+          "current": 4807200,
+          "avg": 2179685,
+          "ratio": 2.21
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "ISRG",
+      "name": "Intuitive Surgical, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 572.47,
+        "open": 561.63,
+        "high": 574.57,
+        "low": 561.31,
+        "volume": 4064000,
+        "change_pct": 1.88
+      },
+      "indicators": {
+        "rsi_14": 53.07,
+        "macd": {
+          "macd_line": 4.76,
+          "signal_line": 6.61,
+          "histogram": -1.85
+        },
+        "bollinger": {
+          "upper": 583.21,
+          "middle": 564.07,
+          "lower": 544.93,
+          "bandwidth": 0.0679
+        },
+        "sma_20": 564.07,
+        "sma_50": 538.59,
+        "sma_200": 0,
+        "volume": {
+          "current": 4064000,
+          "avg": 1649435,
+          "ratio": 2.46
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "BLK",
+      "name": "BlackRock, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 1060.17,
+        "open": 1066.95,
+        "high": 1068.56,
+        "low": 1057.75,
+        "volume": 1174100,
+        "change_pct": -0.45
+      },
+      "indicators": {
+        "rsi_14": 59.02,
+        "macd": {
+          "macd_line": 1.02,
+          "signal_line": -0.79,
+          "histogram": 1.82
+        },
+        "bollinger": {
+          "upper": 1109.03,
+          "middle": 1058.01,
+          "lower": 1006.99,
+          "bandwidth": 0.0964
+        },
+        "sma_20": 1058.01,
+        "sma_50": 1080.55,
+        "sma_200": 0,
+        "volume": {
+          "current": 1174100,
+          "avg": 660345,
+          "ratio": 1.78
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "SBUX",
+      "name": "Starbucks Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 88.33,
+        "open": 89.22,
+        "high": 89.26,
+        "low": 88.25,
+        "volume": 16985200,
+        "change_pct": -1.22
+      },
+      "indicators": {
+        "rsi_14": 60.59,
+        "macd": {
+          "macd_line": 0.78,
+          "signal_line": 0.43,
+          "histogram": 0.34
+        },
+        "bollinger": {
+          "upper": 88.81,
+          "middle": 85.44,
+          "lower": 82.07,
+          "bandwidth": 0.0789
+        },
+        "sma_20": 85.44,
+        "sma_50": 84.17,
+        "sma_200": 0,
+        "volume": {
+          "current": 16985200,
+          "avg": 9413995,
+          "ratio": 1.8
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "AXP",
+      "name": "American Express Company",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 376.51,
+        "open": 375.54,
+        "high": 377.55,
+        "low": 372.77,
+        "volume": 7933200,
+        "change_pct": 0.26
+      },
+      "indicators": {
+        "rsi_14": 65.37,
+        "macd": {
+          "macd_line": 6.1,
+          "signal_line": 5.89,
+          "histogram": 0.21
+        },
+        "bollinger": {
+          "upper": 388.33,
+          "middle": 369.58,
+          "lower": 350.82,
+          "bandwidth": 0.1015
+        },
+        "sma_20": 369.58,
+        "sma_50": 359.18,
+        "sma_200": 0,
+        "volume": {
+          "current": 7933200,
+          "avg": 2465945,
+          "ratio": 3.22
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 80,
+      "grade": "strong_buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 256.41,
+        "open": 255.71,
+        "high": 261.32,
+        "low": 253.58,
+        "volume": 25744100,
+        "change_pct": 1.15
+      },
+      "indicators": {
+        "rsi_14": 51.29,
+        "macd": {
+          "macd_line": 6.05,
+          "signal_line": 8.52,
+          "histogram": -2.47
+        },
+        "bollinger": {
+          "upper": 283.87,
+          "middle": 257.19,
+          "lower": 230.51,
+          "bandwidth": 0.2075
+        },
+        "sma_20": 257.19,
+        "sma_50": 239.53,
+        "sma_200": 0,
+        "volume": {
+          "current": 25744100,
+          "avg": 7038710,
+          "ratio": 3.66
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "MDT",
+      "name": "Medtronic plc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 98.63,
+        "open": 98.54,
+        "high": 99.24,
+        "low": 98.22,
+        "volume": 12759300,
+        "change_pct": 0.15
+      },
+      "indicators": {
+        "rsi_14": 24.15,
+        "macd": {
+          "macd_line": 0.18,
+          "signal_line": 0.82,
+          "histogram": -0.64
+        },
+        "bollinger": {
+          "upper": 105.94,
+          "middle": 101.19,
+          "lower": 96.43,
+          "bandwidth": 0.094
+        },
+        "sma_20": 101.19,
+        "sma_50": 97.19,
+        "sma_200": 0,
+        "volume": {
+          "current": 12759300,
+          "avg": 6699080,
+          "ratio": 1.9
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 155.31,
+        "open": 152.97,
+        "high": 156.16,
+        "low": 152.54,
+        "volume": 25236000,
+        "change_pct": 1.26
+      },
+      "indicators": {
+        "rsi_14": 38.29,
+        "macd": {
+          "macd_line": -4.1,
+          "signal_line": -3.03,
+          "histogram": -1.07
+        },
+        "bollinger": {
+          "upper": 177.25,
+          "middle": 164.09,
+          "lower": 150.93,
+          "bandwidth": 0.1604
+        },
+        "sma_20": 164.09,
+        "sma_50": 172.44,
+        "sma_200": 0,
+        "volume": {
+          "current": 25236000,
+          "avg": 8985325,
+          "ratio": 2.81
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "PLD",
+      "name": "Prologis, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Real Estate",
+      "price": {
+        "current": 127.23,
+        "open": 128.28,
+        "high": 128.46,
+        "low": 126.92,
+        "volume": 8629400,
+        "change_pct": -0.34
+      },
+      "indicators": {
+        "rsi_14": 46.75,
+        "macd": {
+          "macd_line": 1.19,
+          "signal_line": 1.43,
+          "histogram": -0.24
+        },
+        "bollinger": {
+          "upper": 130.05,
+          "middle": 127.47,
+          "lower": 124.89,
+          "bandwidth": 0.0405
+        },
+        "sma_20": 127.47,
+        "sma_50": 124.43,
+        "sma_200": 0,
+        "volume": {
+          "current": 8629400,
+          "avg": 3589185,
+          "ratio": 2.4
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "GILD",
+      "name": "Gilead Sciences, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 124.29,
+        "open": 121.19,
+        "high": 126.27,
+        "low": 121.0,
+        "volume": 24394600,
+        "change_pct": 2.32
+      },
+      "indicators": {
+        "rsi_14": 51.9,
+        "macd": {
+          "macd_line": -0.1,
+          "signal_line": -0.06,
+          "histogram": -0.04
+        },
+        "bollinger": {
+          "upper": 127.46,
+          "middle": 122.42,
+          "lower": 117.39,
+          "bandwidth": 0.0823
+        },
+        "sma_20": 122.42,
+        "sma_50": 121.43,
+        "sma_200": 0,
+        "volume": {
+          "current": 24394600,
+          "avg": 7082810,
+          "ratio": 3.44
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "BKNG",
+      "name": "Booking Holdings Inc. Common St",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 5393.74,
+        "open": 5340.31,
+        "high": 5435.0,
+        "low": 5327.56,
+        "volume": 462800,
+        "change_pct": 0.9
+      },
+      "indicators": {
+        "rsi_14": 75.58,
+        "macd": {
+          "macd_line": 105.94,
+          "signal_line": 72.94,
+          "histogram": 33.0
+        },
+        "bollinger": {
+          "upper": 5572.96,
+          "middle": 5139.8,
+          "lower": 4706.64,
+          "bandwidth": 0.1686
+        },
+        "sma_20": 5139.8,
+        "sma_50": 5075.16,
+        "sma_200": 0,
+        "volume": {
+          "current": 462800,
+          "avg": 294320,
+          "ratio": 1.57
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "SYK",
+      "name": "Stryker Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 355.2,
+        "open": 354.8,
+        "high": 358.28,
+        "low": 352.94,
+        "volume": 2757800,
+        "change_pct": 0.59
+      },
+      "indicators": {
+        "rsi_14": 27.45,
+        "macd": {
+          "macd_line": -3.76,
+          "signal_line": -3.3,
+          "histogram": -0.46
+        },
+        "bollinger": {
+          "upper": 378.36,
+          "middle": 361.1,
+          "lower": 343.83,
+          "bandwidth": 0.0956
+        },
+        "sma_20": 361.1,
+        "sma_50": 365.16,
+        "sma_200": 0,
+        "volume": {
+          "current": 2757800,
+          "avg": 1647405,
+          "ratio": 1.67
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
+    },
+    {
+      "code": "ADI",
+      "name": "Analog Devices, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 274.44,
+        "open": 275.09,
+        "high": 278.41,
+        "low": 274.0,
+        "volume": 9419900,
+        "change_pct": -0.17
+      },
+      "indicators": {
+        "rsi_14": 59.47,
+        "macd": {
+          "macd_line": 8.94,
+          "signal_line": 10.02,
+          "histogram": -1.07
+        },
+        "bollinger": {
+          "upper": 298.64,
+          "middle": 269.65,
+          "lower": 240.65,
+          "bandwidth": 0.215
+        },
+        "sma_20": 269.65,
+        "sma_50": 248.84,
+        "sma_200": 0,
+        "volume": {
+          "current": 9419900,
+          "avg": 4477870,
+          "ratio": 2.1
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "MDLZ",
+      "name": "Mondelez International, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 54.5,
+        "open": 54.52,
+        "high": 55.26,
+        "low": 54.32,
+        "volume": 29240200,
+        "change_pct": -0.51
+      },
+      "indicators": {
+        "rsi_14": 30.37,
+        "macd": {
+          "macd_line": -0.9,
+          "signal_line": -0.98,
+          "histogram": 0.08
+        },
+        "bollinger": {
+          "upper": 57.8,
+          "middle": 55.28,
+          "lower": 52.76,
+          "bandwidth": 0.0911
+        },
+        "sma_20": 55.28,
+        "sma_50": 57.38,
+        "sma_200": 0,
+        "volume": {
+          "current": 29240200,
+          "avg": 11654050,
+          "ratio": 2.51
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorpor",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 456.2,
+        "open": 446.86,
+        "high": 460.4,
+        "low": 445.51,
+        "volume": 5558100,
+        "change_pct": 1.97
+      },
+      "indicators": {
+        "rsi_14": 65.38,
+        "macd": {
+          "macd_line": 7.12,
+          "signal_line": 7.08,
+          "histogram": 0.05
+        },
+        "bollinger": {
+          "upper": 467.77,
+          "middle": 443.33,
+          "lower": 418.88,
+          "bandwidth": 0.1103
+        },
+        "sma_20": 443.33,
+        "sma_50": 430.16,
+        "sma_200": 0,
+        "volume": {
+          "current": 5558100,
+          "avg": 1380095,
+          "ratio": 4.03
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 80,
+      "grade": "strong_buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "ADP",
+      "name": "Automatic Data Processing, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 257.94,
+        "open": 260.32,
+        "high": 261.0,
+        "low": 257.04,
+        "volume": 7868400,
+        "change_pct": -1.16
+      },
+      "indicators": {
+        "rsi_14": 55.34,
+        "macd": {
+          "macd_line": 0.62,
+          "signal_line": -0.25,
+          "histogram": 0.86
+        },
+        "bollinger": {
+          "upper": 267.56,
+          "middle": 257.94,
+          "lower": 248.32,
+          "bandwidth": 0.0746
+        },
+        "sma_20": 257.94,
+        "sma_50": 262.38,
+        "sma_200": 0,
+        "volume": {
+          "current": 7868400,
+          "avg": 2485015,
+          "ratio": 3.17
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 80,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "TJX",
+      "name": "TJX Companies, Inc. (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Cyclical",
+      "price": {
+        "current": 154.6,
+        "open": 155.14,
+        "high": 155.43,
+        "low": 154.15,
+        "volume": 9330800,
+        "change_pct": -0.18
+      },
+      "indicators": {
+        "rsi_14": 65.34,
+        "macd": {
+          "macd_line": 2.42,
+          "signal_line": 2.56,
+          "histogram": -0.15
+        },
+        "bollinger": {
+          "upper": 157.9,
+          "middle": 153.21,
+          "lower": 148.52,
+          "bandwidth": 0.0612
+        },
+        "sma_20": 153.21,
+        "sma_50": 147.4,
+        "sma_200": 0,
+        "volume": {
+          "current": 9330800,
+          "avg": 5741025,
+          "ratio": 1.63
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "MMC",
+      "name": "Marsh & McLennan Companies, Inc",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 184.7,
+        "open": 185.21,
+        "high": 186.16,
+        "low": 183.92,
+        "volume": 7301300,
+        "change_pct": -0.55
+      },
+      "indicators": {
+        "rsi_14": 52.68,
+        "macd": {
+          "macd_line": 0.52,
+          "signal_line": -0.04,
+          "histogram": 0.56
+        },
+        "bollinger": {
+          "upper": 187.91,
+          "middle": 183.48,
+          "lower": 179.05,
+          "bandwidth": 0.0483
+        },
+        "sma_20": 183.48,
+        "sma_50": 184.77,
+        "sma_200": 0,
+        "volume": {
+          "current": 7301300,
+          "avg": 2806885,
+          "ratio": 2.6
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "CVS",
+      "name": "CVS Health Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 77.72,
+        "open": 77.88,
+        "high": 78.95,
+        "low": 77.4,
+        "volume": 12106200,
+        "change_pct": -0.09
+      },
+      "indicators": {
+        "rsi_14": 45.64,
+        "macd": {
+          "macd_line": -0.02,
+          "signal_line": -0.01,
+          "histogram": -0.01
+        },
+        "bollinger": {
+          "upper": 81.19,
+          "middle": 78.2,
+          "lower": 75.22,
+          "bandwidth": 0.0762
+        },
+        "sma_20": 78.2,
+        "sma_50": 78.91,
+        "sma_200": 0,
+        "volume": {
+          "current": 12106200,
+          "avg": 7627140,
+          "ratio": 1.59
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 30,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
+    },
+    {
+      "code": "LRCX",
+      "name": "Lam Research Corporation",
+      "market": "NYSE/NASDAQ",
+      "sector": "Technology",
+      "price": {
+        "current": 172.27,
+        "open": 166.08,
+        "high": 173.58,
+        "low": 166.08,
+        "volume": 38461600,
+        "change_pct": 4.6
+      },
+      "indicators": {
+        "rsi_14": 65.27,
+        "macd": {
+          "macd_line": 3.79,
+          "signal_line": 3.38,
+          "histogram": 0.41
+        },
+        "bollinger": {
+          "upper": 173.71,
+          "middle": 159.42,
+          "lower": 145.13,
+          "bandwidth": 0.1793
+        },
+        "sma_20": 159.42,
+        "sma_50": 154.19,
+        "sma_200": 0,
+        "volume": {
+          "current": 38461600,
+          "avg": 10640505,
+          "ratio": 3.61
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 75,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "C",
+      "name": "Citigroup, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 114.86,
+        "open": 113.2,
+        "high": 115.61,
+        "low": 113.05,
+        "volume": 37657800,
+        "change_pct": 1.8
+      },
+      "indicators": {
+        "rsi_14": 90.01,
+        "macd": {
+          "macd_line": 3.34,
+          "signal_line": 2.88,
+          "histogram": 0.46
+        },
+        "bollinger": {
+          "upper": 117.38,
+          "middle": 107.56,
+          "lower": 97.73,
+          "bandwidth": 0.1827
+        },
+        "sma_20": 107.56,
+        "sma_50": 102.46,
+        "sma_200": 0,
+        "volume": {
+          "current": 37657800,
+          "avg": 12605290,
+          "ratio": 2.99
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "REGN",
+      "name": "Regeneron Pharmaceuticals, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 767.96,
+        "open": 753.72,
+        "high": 773.85,
+        "low": 748.18,
+        "volume": 2335900,
+        "change_pct": 2.57
+      },
+      "indicators": {
+        "rsi_14": 55.63,
+        "macd": {
+          "macd_line": 18.58,
+          "signal_line": 19.99,
+          "histogram": -1.41
+        },
+        "bollinger": {
+          "upper": 795.7,
+          "middle": 745.1,
+          "lower": 694.49,
+          "bandwidth": 0.1358
+        },
+        "sma_20": 745.1,
+        "sma_50": 677.57,
+        "sma_200": 0,
+        "volume": {
+          "current": 2335900,
+          "avg": 1061870,
+          "ratio": 2.2
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "ZTS",
+      "name": "Zoetis Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 122.24,
+        "open": 122.65,
+        "high": 124.5,
+        "low": 122.18,
+        "volume": 11297500,
+        "change_pct": -0.42
+      },
+      "indicators": {
+        "rsi_14": 38.51,
+        "macd": {
+          "macd_line": -1.7,
+          "signal_line": -2.58,
+          "histogram": 0.88
+        },
+        "bollinger": {
+          "upper": 129.43,
+          "middle": 122.09,
+          "lower": 114.75,
+          "bandwidth": 0.1203
+        },
+        "sma_20": 122.09,
+        "sma_50": 128.97,
+        "sma_200": 0,
+        "volume": {
+          "current": 11297500,
+          "avg": 6166395,
+          "ratio": 1.83
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 85,
+      "grade": "strong_buy",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "MO",
+      "name": "Altria Group, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Consumer Defensive",
+      "price": {
+        "current": 58.07,
+        "open": 58.25,
+        "high": 58.72,
+        "low": 58.03,
+        "volume": 35084600,
+        "change_pct": -0.55
+      },
+      "indicators": {
+        "rsi_14": 35.73,
+        "macd": {
+          "macd_line": -0.25,
+          "signal_line": -0.37,
+          "histogram": 0.12
+        },
+        "bollinger": {
+          "upper": 59.53,
+          "middle": 58.54,
+          "lower": 57.55,
+          "bandwidth": 0.0338
+        },
+        "sma_20": 58.54,
+        "sma_50": 59.93,
+        "sma_200": 0,
+        "volume": {
+          "current": 35084600,
+          "avg": 8037985,
+          "ratio": 4.36
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bullish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 85,
+      "grade": "strong_buy",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "CI",
+      "name": "The Cigna Group",
+      "market": "NYSE/NASDAQ",
+      "sector": "Healthcare",
+      "price": {
+        "current": 271.89,
+        "open": 273.48,
+        "high": 275.39,
+        "low": 270.72,
+        "volume": 4195300,
+        "change_pct": -0.77
+      },
+      "indicators": {
+        "rsi_14": 49.75,
+        "macd": {
+          "macd_line": -0.31,
+          "signal_line": -1.33,
+          "histogram": 1.03
+        },
+        "bollinger": {
+          "upper": 281.33,
+          "middle": 271.59,
+          "lower": 261.85,
+          "bandwidth": 0.0717
+        },
+        "sma_20": 271.59,
+        "sma_50": 276.63,
+        "sma_200": 0,
+        "volume": {
+          "current": 4195300,
+          "avg": 1689330,
+          "ratio": 2.48
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 80,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "market": "NYSE/NASDAQ",
+      "sector": "Communication Services",
+      "price": {
+        "current": 196.73,
+        "open": 200.85,
+        "high": 201.26,
+        "low": 196.11,
+        "volume": 17204900,
+        "change_pct": -1.77
+      },
+      "indicators": {
+        "rsi_14": 33.71,
+        "macd": {
+          "macd_line": -4.04,
+          "signal_line": -3.95,
+          "histogram": -0.08
+        },
+        "bollinger": {
+          "upper": 214.1,
+          "middle": 203.07,
+          "lower": 192.04,
+          "bandwidth": 0.1086
+        },
+        "sma_20": 203.07,
+        "sma_50": 210.6,
+        "sma_200": 0,
+        "volume": {
+          "current": 17204900,
+          "avg": 5112700,
+          "ratio": 3.37
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "strong_downtrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+    },
+    {
+      "code": "CB",
+      "name": "Chubb Limited",
+      "market": "NYSE/NASDAQ",
+      "sector": "Financial Services",
+      "price": {
+        "current": 310.6,
+        "open": 310.41,
+        "high": 312.36,
+        "low": 309.08,
+        "volume": 4168300,
+        "change_pct": -0.12
+      },
+      "indicators": {
+        "rsi_14": 74.05,
+        "macd": {
+          "macd_line": 5.81,
+          "signal_line": 4.94,
+          "histogram": 0.87
+        },
+        "bollinger": {
+          "upper": 315.58,
+          "middle": 301.33,
+          "lower": 287.08,
+          "bandwidth": 0.0946
+        },
+        "sma_20": 301.33,
+        "sma_50": 290.56,
+        "sma_200": 0,
+        "volume": {
+          "current": 4168300,
+          "avg": 1981925,
+          "ratio": 2.1
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "SO",
+      "name": "Southern Company (The)",
+      "market": "NYSE/NASDAQ",
+      "sector": "Utilities",
+      "price": {
+        "current": 85.28,
+        "open": 86.75,
+        "high": 86.92,
+        "low": 85.23,
+        "volume": 11299900,
+        "change_pct": -2.22
+      },
+      "indicators": {
+        "rsi_14": 33.39,
+        "macd": {
+          "macd_line": -1.37,
+          "signal_line": -1.53,
+          "histogram": 0.16
+        },
+        "bollinger": {
+          "upper": 91.36,
+          "middle": 87.21,
+          "lower": 83.07,
+          "bandwidth": 0.095
+        },
+        "sma_20": 87.21,
+        "sma_50": 90.93,
+        "sma_200": 0,
+        "volume": {
+          "current": 11299900,
+          "avg": 6517220,
+          "ratio": 1.73
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
+    }
+  ]
+}
