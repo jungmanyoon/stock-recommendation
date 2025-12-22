@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-22T07:32:25.627721",
+  "updated_at": "2025-12-22T16:37:45.347157",
   "index": "SP500",
   "count": 90,
   "stocks": [
@@ -45,9 +45,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 42,
+      "score": 46,
+      "tech_score": 42,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 36.27,
+        "forward_per": 29.63,
+        "pbr": 54.29,
+        "roe": 1.7142,
+        "roa": 0.2296,
+        "eps": 7.47,
+        "forward_eps": 9.15,
+        "revenue_growth": 0.079,
+        "earnings_growth": 0.912,
+        "profit_margin": 0.2692,
+        "operating_margin": 0.3165,
+        "debt_to_equity": 152.41,
+        "current_ratio": 0.89,
+        "dividend_yield": 0.38,
+        "peg_ratio": null,
+        "beta": 1.11,
+        "market_cap": 4021300494336,
+        "52w_high": 288.62,
+        "52w_low": 169.21
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "MSFT",
@@ -91,9 +114,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 65,
+      "score": 71,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 34.54,
+        "forward_per": 25.87,
+        "pbr": 9.93,
+        "roe": 0.3224,
+        "roa": 0.1466,
+        "eps": 14.04,
+        "forward_eps": 18.74,
+        "revenue_growth": 0.184,
+        "earnings_growth": 0.127,
+        "profit_margin": 0.3571,
+        "operating_margin": 0.4887,
+        "debt_to_equity": 33.15,
+        "current_ratio": 1.4,
+        "dividend_yield": 0.75,
+        "peg_ratio": null,
+        "beta": 1.07,
+        "market_cap": 3604491010048,
+        "52w_high": 555.45,
+        "52w_low": 344.79
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "GOOGL",
@@ -137,9 +183,32 @@
         "volume": "normal",
         "trend": "downtrend"
       },
-      "score": 32,
+      "score": 38,
+      "tech_score": 32,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 하락추세"
+      "summary": "MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 30.55,
+        "forward_per": 27.65,
+        "pbr": 9.67,
+        "roe": 0.3545,
+        "roa": 0.1628,
+        "eps": 10.14,
+        "forward_eps": 11.2,
+        "revenue_growth": 0.159,
+        "earnings_growth": 0.353,
+        "profit_margin": 0.3223,
+        "operating_margin": 0.3051,
+        "debt_to_equity": 11.42,
+        "current_ratio": 1.75,
+        "dividend_yield": 0.27,
+        "peg_ratio": null,
+        "beta": 1.07,
+        "market_cap": 3752093024256,
+        "52w_high": 328.83,
+        "52w_low": 140.53
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "AMZN",
@@ -183,9 +252,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 31,
+      "score": 34,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 32.31,
+        "forward_per": 29.12,
+        "pbr": 6.6,
+        "roe": 0.2433,
+        "roa": 0.075,
+        "eps": 7.07,
+        "forward_eps": 7.85,
+        "revenue_growth": 0.134,
+        "earnings_growth": 0.364,
+        "profit_margin": 0.1106,
+        "operating_margin": 0.1106,
+        "debt_to_equity": 43.41,
+        "current_ratio": 1.01,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 1.37,
+        "market_cap": 2441965993984,
+        "52w_high": 258.6,
+        "52w_low": 161.38
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "NVDA",
@@ -229,9 +321,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 44,
+      "score": 50,
+      "tech_score": 44,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 45.47,
+        "forward_per": 24.43,
+        "pbr": 37.55,
+        "roe": 1.0736,
+        "roa": 0.5353,
+        "eps": 4.04,
+        "forward_eps": 7.52,
+        "revenue_growth": 0.625,
+        "earnings_growth": 0.667,
+        "profit_margin": 0.5301,
+        "operating_margin": 0.6317,
+        "debt_to_equity": 9.1,
+        "current_ratio": 4.47,
+        "dividend_yield": 0.02,
+        "peg_ratio": null,
+        "beta": 2.28,
+        "market_cap": 4472300896256,
+        "52w_high": 212.19,
+        "52w_low": 86.62
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "META",
@@ -275,9 +390,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 71,
-      "grade": "buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "score": 80,
+      "tech_score": 71,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 29.27,
+        "forward_per": 21.94,
+        "pbr": 8.59,
+        "roe": 0.3264,
+        "roa": 0.1801,
+        "eps": 22.6,
+        "forward_eps": 30.15,
+        "revenue_growth": 0.262,
+        "earnings_growth": -0.826,
+        "profit_margin": 0.3089,
+        "operating_margin": 0.4007,
+        "debt_to_equity": 26.31,
+        "current_ratio": 1.98,
+        "dividend_yield": 0.32,
+        "peg_ratio": null,
+        "beta": 1.27,
+        "market_cap": 1667329032192,
+        "52w_high": 796.25,
+        "52w_low": 479.8
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "TSLA",
@@ -321,9 +459,32 @@
         "volume": "normal",
         "trend": "strong_uptrend"
       },
-      "score": 71,
+      "score": 66,
+      "tech_score": 71,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 339.4,
+        "forward_per": 218.43,
+        "pbr": 20.31,
+        "roe": 0.0679,
+        "roa": 0.0235,
+        "eps": 1.44,
+        "forward_eps": 2.24,
+        "revenue_growth": 0.116,
+        "earnings_growth": -0.371,
+        "profit_margin": 0.0531,
+        "operating_margin": 0.0663,
+        "debt_to_equity": 17.08,
+        "current_ratio": 2.07,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 1.88,
+        "market_cap": 1625427673088,
+        "52w_high": 498.82,
+        "52w_low": 214.25
+      },
+      "fundamental_health": "warning"
     },
     {
       "code": "BRK-B",
@@ -367,9 +528,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 42,
+      "score": 47,
+      "tech_score": 42,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세 | 적정 PER | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 16.0,
+        "forward_per": 20.67,
+        "pbr": 0.0,
+        "roe": 0.1017,
+        "roa": 0.0478,
+        "eps": 31.25,
+        "forward_eps": 24.19,
+        "revenue_growth": 0.021,
+        "earnings_growth": 0.172,
+        "profit_margin": 0.1813,
+        "operating_margin": 0.411,
+        "debt_to_equity": 18.17,
+        "current_ratio": 2.72,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 0.7,
+        "market_cap": 1078559571968,
+        "52w_high": 542.07,
+        "52w_low": 440.1
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "UNH",
@@ -413,9 +597,32 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 50,
+      "score": 53,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
+      "summary": "MACD 골든크로스 + 거래량 증가 + 강한 하락추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 16.94,
+        "forward_per": 18.3,
+        "pbr": 3.08,
+        "roe": 0.1748,
+        "roa": 0.0536,
+        "eps": 19.19,
+        "forward_eps": 17.77,
+        "revenue_growth": 0.122,
+        "earnings_growth": -0.602,
+        "profit_margin": 0.0404,
+        "operating_margin": 0.0381,
+        "debt_to_equity": 75.73,
+        "current_ratio": 0.82,
+        "dividend_yield": 2.7,
+        "peg_ratio": null,
+        "beta": 0.43,
+        "market_cap": 294542475264,
+        "52w_high": 606.36,
+        "52w_low": 234.6
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "JNJ",
@@ -459,9 +666,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 54,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 20.01,
+        "forward_per": 17.97,
+        "pbr": 6.29,
+        "roe": 0.3362,
+        "roa": 0.0826,
+        "eps": 10.36,
+        "forward_eps": 11.54,
+        "revenue_growth": 0.068,
+        "earnings_growth": 0.91,
+        "profit_margin": 0.2726,
+        "operating_margin": 0.302,
+        "debt_to_equity": 57.77,
+        "current_ratio": 1.07,
+        "dividend_yield": 2.52,
+        "peg_ratio": null,
+        "beta": 0.35,
+        "market_cap": 499495075840,
+        "52w_high": 215.19,
+        "52w_low": 140.68
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "V",
@@ -505,9 +735,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 58,
-      "grade": "hold",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "score": 62,
+      "tech_score": 58,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 34.52,
+        "forward_per": 24.41,
+        "pbr": 18.17,
+        "roe": 0.5207,
+        "roa": 0.1726,
+        "eps": 10.2,
+        "forward_eps": 14.43,
+        "revenue_growth": 0.115,
+        "earnings_growth": -0.014,
+        "profit_margin": 0.5014,
+        "operating_margin": 0.6575,
+        "debt_to_equity": 68.81,
+        "current_ratio": 1.08,
+        "dividend_yield": 0.77,
+        "peg_ratio": null,
+        "beta": 0.82,
+        "market_cap": 679497498624,
+        "52w_high": 375.51,
+        "52w_low": 299.0
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "XOM",
@@ -551,9 +804,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 29,
+      "score": 31,
+      "tech_score": 29,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세 | 적정 PER | 낮은 부채비율 (안정)",
+      "fundamentals": {
+        "per": 17.17,
+        "forward_per": 16.44,
+        "pbr": 1.91,
+        "roe": 0.1142,
+        "roa": 0.0511,
+        "eps": 6.88,
+        "forward_eps": 7.19,
+        "revenue_growth": -0.051,
+        "earnings_growth": -0.083,
+        "profit_margin": 0.0918,
+        "operating_margin": 0.1106,
+        "debt_to_equity": 15.67,
+        "current_ratio": 1.14,
+        "dividend_yield": 3.53,
+        "peg_ratio": null,
+        "beta": 0.38,
+        "market_cap": 503702650880,
+        "52w_high": 120.81,
+        "52w_low": 97.8
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "JPM",
@@ -597,9 +873,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 78,
+      "score": 84,
+      "tech_score": 78,
       "grade": "strong_buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 16.02,
+        "forward_per": 15.25,
+        "pbr": 2.59,
+        "roe": 0.1644,
+        "roa": 0.0132,
+        "eps": 20.17,
+        "forward_eps": 21.18,
+        "revenue_growth": 0.088,
+        "earnings_growth": 0.16,
+        "profit_margin": 0.347,
+        "operating_margin": 0.4371,
+        "debt_to_equity": null,
+        "current_ratio": null,
+        "dividend_yield": 1.89,
+        "peg_ratio": null,
+        "beta": 1.07,
+        "market_cap": 888417943552,
+        "52w_high": 323.23,
+        "52w_low": 202.16
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "WMT",
@@ -643,9 +942,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 47,
+      "score": 48,
+      "tech_score": 47,
       "grade": "hold",
-      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 39.37,
+        "forward_per": 37.81,
+        "pbr": 9.34,
+        "roe": 0.2366,
+        "roa": 0.0654,
+        "eps": 2.86,
+        "forward_eps": 2.98,
+        "revenue_growth": 0.058,
+        "earnings_growth": 0.352,
+        "profit_margin": 0.0326,
+        "operating_margin": 0.0373,
+        "debt_to_equity": 66.75,
+        "current_ratio": 0.8,
+        "dividend_yield": 0.82,
+        "peg_ratio": null,
+        "beta": 0.64,
+        "market_cap": 897743060992,
+        "52w_high": 117.45,
+        "52w_low": 79.81
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "PG",
@@ -689,9 +1011,32 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 50,
+      "score": 51,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
+      "summary": "MACD 골든크로스 + 거래량 증가 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 20.83,
+        "forward_per": 19.41,
+        "pbr": 6.35,
+        "roe": 0.319,
+        "roa": 0.1075,
+        "eps": 6.85,
+        "forward_eps": 7.35,
+        "revenue_growth": 0.03,
+        "earnings_growth": 0.214,
+        "profit_margin": 0.1974,
+        "operating_margin": 0.2758,
+        "debt_to_equity": 67.12,
+        "current_ratio": 0.71,
+        "dividend_yield": 2.93,
+        "peg_ratio": null,
+        "beta": 0.38,
+        "market_cap": 333963853824,
+        "52w_high": 179.99,
+        "52w_low": 138.14
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "MA",
@@ -735,9 +1080,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 64,
+      "score": 65,
+      "tech_score": 64,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 36.86,
+        "forward_per": 30.13,
+        "pbr": 65.56,
+        "roe": 1.8486,
+        "roa": 0.2305,
+        "eps": 15.62,
+        "forward_eps": 19.11,
+        "revenue_growth": 0.167,
+        "earnings_growth": 0.229,
+        "profit_margin": 0.4528,
+        "operating_margin": 0.598,
+        "debt_to_equity": 239.72,
+        "current_ratio": 1.12,
+        "dividend_yield": 0.61,
+        "peg_ratio": null,
+        "beta": 0.87,
+        "market_cap": 520439627776,
+        "52w_high": 601.77,
+        "52w_low": 465.59
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "CVX",
@@ -782,8 +1150,31 @@
         "trend": "strong_downtrend"
       },
       "score": 35,
+      "tech_score": 35,
       "grade": "sell",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세 | 고PER | 낮은 부채비율 (안정)",
+      "fundamentals": {
+        "per": 21.07,
+        "forward_per": 19.84,
+        "pbr": 1.59,
+        "roe": 0.0732,
+        "roa": 0.0405,
+        "eps": 7.11,
+        "forward_eps": 7.55,
+        "revenue_growth": -0.014,
+        "earnings_growth": -0.266,
+        "profit_margin": 0.0677,
+        "operating_margin": 0.0985,
+        "debt_to_equity": 21.24,
+        "current_ratio": 1.15,
+        "dividend_yield": 4.63,
+        "peg_ratio": null,
+        "beta": 0.67,
+        "market_cap": 301820411904,
+        "52w_high": 168.96,
+        "52w_low": 132.04
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "HD",
@@ -827,9 +1218,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 59,
+      "score": 57,
+      "tech_score": 59,
       "grade": "hold",
-      "summary": "MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+      "summary": "MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 23.63,
+        "forward_per": 22.84,
+        "pbr": 28.45,
+        "roe": 1.6291,
+        "roa": 0.1323,
+        "eps": 14.66,
+        "forward_eps": 15.16,
+        "revenue_growth": 0.028,
+        "earnings_growth": -0.014,
+        "profit_margin": 0.0877,
+        "operating_margin": 0.1295,
+        "debt_to_equity": 544.59,
+        "current_ratio": 1.05,
+        "dividend_yield": 2.67,
+        "peg_ratio": null,
+        "beta": 1.05,
+        "market_cap": 344835227648,
+        "52w_high": 426.75,
+        "52w_low": 326.31
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "LLY",
@@ -873,9 +1287,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 54,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 52.87,
+        "forward_per": 33.09,
+        "pbr": 40.53,
+        "roe": 0.9647,
+        "roa": 0.176,
+        "eps": 20.36,
+        "forward_eps": 32.53,
+        "revenue_growth": 0.539,
+        "earnings_growth": 4.804,
+        "profit_margin": 0.3099,
+        "operating_margin": 0.4829,
+        "debt_to_equity": 178.52,
+        "current_ratio": 1.55,
+        "dividend_yield": 0.58,
+        "peg_ratio": null,
+        "beta": 0.37,
+        "market_cap": 965017796608,
+        "52w_high": 1111.99,
+        "52w_low": 623.78
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "ABBV",
@@ -919,9 +1356,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 43,
+      "score": 46,
+      "tech_score": 43,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 상승추세 | 매우 고PER (고평가 주의) | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 172.66,
+        "forward_per": 15.99,
+        "pbr": -152.45,
+        "roe": 1.3796,
+        "roa": 0.0959,
+        "eps": 1.32,
+        "forward_eps": 14.25,
+        "revenue_growth": 0.091,
+        "earnings_growth": -0.887,
+        "profit_margin": 0.04,
+        "operating_margin": 0.355,
+        "debt_to_equity": null,
+        "current_ratio": 0.72,
+        "dividend_yield": 3.05,
+        "peg_ratio": null,
+        "beta": 0.35,
+        "market_cap": 402804637696,
+        "52w_high": 244.81,
+        "52w_low": 164.39
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "MRK",
@@ -965,9 +1425,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 56,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 13.85,
+        "forward_per": 12.62,
+        "pbr": 5.02,
+        "roe": 0.3949,
+        "roa": 0.1376,
+        "eps": 7.56,
+        "forward_eps": 8.3,
+        "revenue_growth": 0.037,
+        "earnings_growth": 0.87,
+        "profit_margin": 0.2963,
+        "operating_margin": 0.408,
+        "debt_to_equity": 79.71,
+        "current_ratio": 1.66,
+        "dividend_yield": 3.36,
+        "peg_ratio": null,
+        "beta": 0.3,
+        "market_cap": 261567873024,
+        "52w_high": 105.84,
+        "52w_low": 73.31
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "PEP",
@@ -1011,9 +1494,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 78,
+      "score": 76,
+      "tech_score": 78,
       "grade": "strong_buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 27.96,
+        "forward_per": 17.16,
+        "pbr": 10.38,
+        "roe": 0.3716,
+        "roa": 0.0837,
+        "eps": 5.26,
+        "forward_eps": 8.57,
+        "revenue_growth": 0.027,
+        "earnings_growth": -0.108,
+        "profit_margin": 0.0782,
+        "operating_margin": 0.169,
+        "debt_to_equity": 260.19,
+        "current_ratio": 0.91,
+        "dividend_yield": 3.84,
+        "peg_ratio": null,
+        "beta": 0.42,
+        "market_cap": 201322807296,
+        "52w_high": 160.15,
+        "52w_low": 127.6
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "KO",
@@ -1057,9 +1563,32 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 43,
+      "score": 47,
+      "tech_score": 43,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 23.25,
+        "forward_per": 21.8,
+        "pbr": 9.67,
+        "roe": 0.4244,
+        "roa": 0.0896,
+        "eps": 3.02,
+        "forward_eps": 3.22,
+        "revenue_growth": 0.051,
+        "earnings_growth": 0.301,
+        "profit_margin": 0.2734,
+        "operating_margin": 0.3237,
+        "debt_to_equity": 144.77,
+        "current_ratio": 1.21,
+        "dividend_yield": 2.91,
+        "peg_ratio": null,
+        "beta": 0.39,
+        "market_cap": 302160478208,
+        "52w_high": 74.38,
+        "52w_low": 60.62
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "AVGO",
@@ -1103,9 +1632,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 38,
+      "score": 39,
+      "tech_score": 38,
       "grade": "sell",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 71.58,
+        "forward_per": 24.47,
+        "pbr": 5.77,
+        "roe": 0.3105,
+        "roa": 0.0979,
+        "eps": 4.77,
+        "forward_eps": 13.96,
+        "revenue_growth": 0.164,
+        "earnings_growth": 1.881,
+        "profit_margin": 0.362,
+        "operating_margin": 0.3176,
+        "debt_to_equity": 166.03,
+        "current_ratio": 1.71,
+        "dividend_yield": 0.76,
+        "peg_ratio": null,
+        "beta": 1.2,
+        "market_cap": 1618907889664,
+        "52w_high": 414.61,
+        "52w_low": 138.1
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "PFE",
@@ -1150,8 +1702,31 @@
         "trend": "downtrend"
       },
       "score": 39,
+      "tech_score": 39,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세 | 적정 PER",
+      "fundamentals": {
+        "per": 14.66,
+        "forward_per": 8.4,
+        "pbr": 1.54,
+        "roe": 0.106,
+        "roa": 0.0519,
+        "eps": 1.72,
+        "forward_eps": 3.0,
+        "revenue_growth": -0.059,
+        "earnings_growth": -0.213,
+        "profit_margin": 0.1565,
+        "operating_margin": 0.3528,
+        "debt_to_equity": 66.53,
+        "current_ratio": 1.28,
+        "dividend_yield": 6.83,
+        "peg_ratio": null,
+        "beta": 0.42,
+        "market_cap": 143336685568,
+        "52w_high": 27.69,
+        "52w_low": 20.92
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "COST",
@@ -1196,8 +1771,31 @@
         "trend": "strong_downtrend"
       },
       "score": 31,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 45.58,
+        "forward_per": 38.31,
+        "pbr": 12.45,
+        "roe": 0.3033,
+        "roa": 0.0852,
+        "eps": 18.65,
+        "forward_eps": 22.19,
+        "revenue_growth": 0.083,
+        "earnings_growth": 0.114,
+        "profit_margin": 0.0296,
+        "operating_margin": 0.0366,
+        "debt_to_equity": 26.74,
+        "current_ratio": 1.04,
+        "dividend_yield": 0.61,
+        "peg_ratio": null,
+        "beta": 0.98,
+        "market_cap": 377364054016,
+        "52w_high": 1078.23,
+        "52w_low": 844.06
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "TMO",
@@ -1241,9 +1839,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 38,
+      "score": 36,
+      "tech_score": 38,
       "grade": "sell",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세 | 고PER",
+      "fundamentals": {
+        "per": 33.24,
+        "forward_per": 23.36,
+        "pbr": 4.24,
+        "roe": 0.1312,
+        "roa": 0.0494,
+        "eps": 17.32,
+        "forward_eps": 24.65,
+        "revenue_growth": 0.049,
+        "earnings_growth": 0.005,
+        "profit_margin": 0.1502,
+        "operating_margin": 0.1928,
+        "debt_to_equity": 69.75,
+        "current_ratio": 1.5,
+        "dividend_yield": 0.3,
+        "peg_ratio": null,
+        "beta": 0.9,
+        "market_cap": 216295129088,
+        "52w_high": 610.97,
+        "52w_low": 385.46
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "MCD",
@@ -1287,9 +1908,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 69,
+      "score": 73,
+      "tech_score": 69,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 26.98,
+        "forward_per": 23.91,
+        "pbr": -104.12,
+        "roe": null,
+        "roa": 0.1297,
+        "eps": 11.72,
+        "forward_eps": 13.22,
+        "revenue_growth": 0.03,
+        "earnings_growth": 0.016,
+        "profit_margin": 0.3204,
+        "operating_margin": 0.4691,
+        "debt_to_equity": null,
+        "current_ratio": 1.0,
+        "dividend_yield": 2.36,
+        "peg_ratio": null,
+        "beta": 0.52,
+        "market_cap": 225655996416,
+        "52w_high": 326.32,
+        "52w_low": 276.53
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "CSCO",
@@ -1333,9 +1977,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 47,
+      "score": 48,
+      "tech_score": 47,
       "grade": "hold",
-      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 30.16,
+        "forward_per": 17.46,
+        "pbr": 6.56,
+        "roe": 0.2242,
+        "roa": 0.0665,
+        "eps": 2.59,
+        "forward_eps": 4.47,
+        "revenue_growth": 0.075,
+        "earnings_growth": 0.06,
+        "profit_margin": 0.179,
+        "operating_margin": 0.236,
+        "debt_to_equity": 63.23,
+        "current_ratio": 0.93,
+        "dividend_yield": 2.09,
+        "peg_ratio": null,
+        "beta": 0.86,
+        "market_cap": 308620001280,
+        "52w_high": 80.82,
+        "52w_low": 52.11
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "ACN",
@@ -1379,9 +2046,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 73,
-      "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+      "score": 76,
+      "tech_score": 73,
+      "grade": "strong_buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 22.39,
+        "forward_per": 18.19,
+        "pbr": 5.4,
+        "roe": 0.2502,
+        "roa": 0.1113,
+        "eps": 12.09,
+        "forward_eps": 14.88,
+        "revenue_growth": 0.06,
+        "earnings_growth": -0.016,
+        "profit_margin": 0.1076,
+        "operating_margin": 0.1697,
+        "debt_to_equity": 25.69,
+        "current_ratio": 1.41,
+        "dividend_yield": 2.39,
+        "peg_ratio": null,
+        "beta": 1.26,
+        "market_cap": 167852998656,
+        "52w_high": 398.35,
+        "52w_low": 229.4
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "ABT",
@@ -1425,9 +2115,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 50,
-      "grade": "hold",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
+      "score": 60,
+      "tech_score": 50,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 하락추세 | 적정 PER | 높은 ROE (20%+)",
+      "fundamentals": {
+        "per": 15.71,
+        "forward_per": 22.06,
+        "pbr": 4.27,
+        "roe": 0.3062,
+        "roa": 0.0679,
+        "eps": 7.97,
+        "forward_eps": 5.68,
+        "revenue_growth": 0.069,
+        "earnings_growth": 0.0,
+        "profit_margin": 0.3188,
+        "operating_margin": 0.194,
+        "debt_to_equity": 25.31,
+        "current_ratio": 1.7,
+        "dividend_yield": 2.01,
+        "peg_ratio": null,
+        "beta": 0.71,
+        "market_cap": 217905463296,
+        "52w_high": 141.23,
+        "52w_low": 110.86
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "DHR",
@@ -1471,9 +2184,32 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 39,
+      "score": 36,
+      "tech_score": 39,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세 | 매우 고PER (고평가 주의) | 낮은 부채비율 (안정)",
+      "fundamentals": {
+        "per": 46.92,
+        "forward_per": 27.08,
+        "pbr": 3.15,
+        "roe": 0.0684,
+        "roa": 0.0406,
+        "eps": 4.86,
+        "forward_eps": 8.42,
+        "revenue_growth": 0.044,
+        "earnings_growth": 0.134,
+        "profit_margin": 0.1444,
+        "operating_margin": 0.2075,
+        "debt_to_equity": 35.54,
+        "current_ratio": 1.52,
+        "dividend_yield": 0.57,
+        "peg_ratio": null,
+        "beta": 0.92,
+        "market_cap": 163266920448,
+        "52w_high": 258.23,
+        "52w_low": 171.0
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "BAC",
@@ -1517,9 +2253,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 64,
+      "score": 67,
+      "tech_score": 64,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세 | 적정 PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 15.27,
+        "forward_per": 12.81,
+        "pbr": 1.47,
+        "roe": 0.0987,
+        "roa": 0.0088,
+        "eps": 3.66,
+        "forward_eps": 4.36,
+        "revenue_growth": 0.126,
+        "earnings_growth": 0.315,
+        "profit_margin": 0.2922,
+        "operating_margin": 0.3529,
+        "debt_to_equity": null,
+        "current_ratio": null,
+        "dividend_yield": 2.03,
+        "peg_ratio": null,
+        "beta": 1.3,
+        "market_cap": 413900210176,
+        "52w_high": 56.11,
+        "52w_low": 33.07
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "CRM",
@@ -1564,8 +2323,31 @@
         "trend": "strong_uptrend"
       },
       "score": 69,
+      "tech_score": 69,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 낮은 부채비율 (안정)",
+      "fundamentals": {
+        "per": 35.33,
+        "forward_per": 20.17,
+        "pbr": 4.15,
+        "roe": 0.1218,
+        "roa": 0.0595,
+        "eps": 7.49,
+        "forward_eps": 13.12,
+        "revenue_growth": 0.086,
+        "earnings_growth": 0.386,
+        "profit_margin": 0.1791,
+        "operating_margin": 0.2386,
+        "debt_to_equity": 19.39,
+        "current_ratio": 0.98,
+        "dividend_yield": 0.64,
+        "peg_ratio": null,
+        "beta": 1.25,
+        "market_cap": 251927756800,
+        "52w_high": 367.09,
+        "52w_low": 221.96
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "NKE",
@@ -1609,9 +2391,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 44,
+      "score": 43,
+      "tech_score": 44,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 터치 + 거래량 급증 + 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 터치 + 거래량 급증 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 33.46,
+        "forward_per": 24.29,
+        "pbr": 6.01,
+        "roe": 0.1795,
+        "roa": 0.0502,
+        "eps": 1.71,
+        "forward_eps": 2.36,
+        "revenue_growth": 0.006,
+        "earnings_growth": -0.321,
+        "profit_margin": 0.0543,
+        "operating_margin": 0.0809,
+        "debt_to_equity": 80.1,
+        "current_ratio": 2.06,
+        "dividend_yield": 2.79,
+        "peg_ratio": null,
+        "beta": 1.29,
+        "market_cap": 84582686720,
+        "52w_high": 82.44,
+        "52w_low": 52.28
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "CMCSA",
@@ -1655,9 +2460,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 62,
+      "score": 72,
+      "tech_score": 62,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세 | 저PER (저평가 가능) | 높은 ROE (20%+)",
+      "fundamentals": {
+        "per": 4.86,
+        "forward_per": 7.05,
+        "pbr": 1.1,
+        "roe": 0.2419,
+        "roa": 0.0511,
+        "eps": 6.02,
+        "forward_eps": 4.15,
+        "revenue_growth": -0.027,
+        "earnings_growth": -0.042,
+        "profit_margin": 0.1833,
+        "operating_margin": 0.1774,
+        "debt_to_equity": 101.46,
+        "current_ratio": 0.88,
+        "dividend_yield": 4.46,
+        "peg_ratio": null,
+        "beta": 0.83,
+        "market_cap": 108033966080,
+        "52w_high": 38.46,
+        "52w_low": 25.75
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "NEE",
@@ -1701,9 +2529,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 31,
+      "score": 32,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세 | 고PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 25.41,
+        "forward_per": 19.99,
+        "pbr": 3.08,
+        "roe": 0.0824,
+        "roa": 0.0245,
+        "eps": 3.15,
+        "forward_eps": 4.0,
+        "revenue_growth": 0.053,
+        "earnings_growth": 0.311,
+        "profit_margin": 0.2473,
+        "operating_margin": 0.3077,
+        "debt_to_equity": 144.16,
+        "current_ratio": 0.55,
+        "dividend_yield": 2.85,
+        "peg_ratio": null,
+        "beta": 0.73,
+        "market_cap": 166692077568,
+        "52w_high": 87.53,
+        "52w_low": 61.72
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "LIN",
@@ -1747,9 +2598,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 63,
+      "score": 65,
+      "tech_score": 63,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 28.31,
+        "forward_per": 23.75,
+        "pbr": 5.12,
+        "roe": 0.1798,
+        "roa": 0.0699,
+        "eps": 14.96,
+        "forward_eps": 17.83,
+        "revenue_growth": 0.031,
+        "earnings_growth": 0.27,
+        "profit_margin": 0.2117,
+        "operating_margin": 0.2794,
+        "debt_to_equity": 64.67,
+        "current_ratio": 0.82,
+        "dividend_yield": 1.42,
+        "peg_ratio": null,
+        "beta": 0.86,
+        "market_cap": 198587875328,
+        "52w_high": 486.38,
+        "52w_low": 387.78
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "ADBE",
@@ -1793,9 +2667,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 67,
+      "score": 71,
+      "tech_score": 67,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 21.42,
+        "forward_per": 13.58,
+        "pbr": 12.83,
+        "roe": 0.5543,
+        "roa": 0.1822,
+        "eps": 16.69,
+        "forward_eps": 26.33,
+        "revenue_growth": 0.105,
+        "earnings_growth": 0.172,
+        "profit_margin": 0.3,
+        "operating_margin": 0.365,
+        "debt_to_equity": 57.2,
+        "current_ratio": 1.0,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 1.54,
+        "market_cap": 151664230400,
+        "52w_high": 465.7,
+        "52w_low": 311.59
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "TXN",
@@ -1839,9 +2736,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 47,
+      "score": 51,
+      "tech_score": 47,
       "grade": "hold",
-      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 32.63,
+        "forward_per": 28.97,
+        "pbr": 9.78,
+        "roe": 0.2976,
+        "roa": 0.107,
+        "eps": 5.48,
+        "forward_eps": 6.17,
+        "revenue_growth": 0.142,
+        "earnings_growth": 0.007,
+        "profit_margin": 0.2921,
+        "operating_margin": 0.3674,
+        "debt_to_equity": 84.48,
+        "current_ratio": 4.45,
+        "dividend_yield": 3.22,
+        "peg_ratio": null,
+        "beta": 0.99,
+        "market_cap": 162571911168,
+        "52w_high": 221.69,
+        "52w_low": 139.95
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "WFC",
@@ -1885,9 +2805,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 69,
+      "score": 72,
+      "tech_score": 69,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 15.53,
+        "forward_per": 13.59,
+        "pbr": 1.8,
+        "roe": 0.1152,
+        "roa": 0.0106,
+        "eps": 6.07,
+        "forward_eps": 6.94,
+        "revenue_growth": 0.075,
+        "earnings_growth": 0.169,
+        "profit_margin": 0.2663,
+        "operating_margin": 0.3372,
+        "debt_to_equity": null,
+        "current_ratio": null,
+        "dividend_yield": 1.94,
+        "peg_ratio": null,
+        "beta": 1.11,
+        "market_cap": 302020427776,
+        "52w_high": 94.39,
+        "52w_low": 58.42
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "PM",
@@ -1931,9 +2874,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 78,
+      "score": 82,
+      "tech_score": 78,
       "grade": "strong_buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 22.78,
+        "forward_per": 19.15,
+        "pbr": -22.78,
+        "roe": null,
+        "roa": 0.1494,
+        "eps": 7.01,
+        "forward_eps": 8.34,
+        "revenue_growth": 0.094,
+        "earnings_growth": 0.131,
+        "profit_margin": 0.2157,
+        "operating_margin": 0.4075,
+        "debt_to_equity": null,
+        "current_ratio": 0.85,
+        "dividend_yield": 3.75,
+        "peg_ratio": null,
+        "beta": 0.44,
+        "market_cap": 248595202048,
+        "52w_high": 186.69,
+        "52w_low": 116.12
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "AMD",
@@ -1977,9 +2943,32 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 24,
+      "score": 22,
+      "tech_score": 24,
       "grade": "strong_sell",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 113.13,
+        "forward_per": 33.28,
+        "pbr": 5.76,
+        "roe": 0.0532,
+        "roa": 0.026,
+        "eps": 1.9,
+        "forward_eps": 6.46,
+        "revenue_growth": 0.356,
+        "earnings_growth": 0.603,
+        "profit_margin": 0.1032,
+        "operating_margin": 0.1374,
+        "debt_to_equity": 6.37,
+        "current_ratio": 2.31,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 1.93,
+        "market_cap": 349947527168,
+        "52w_high": 267.08,
+        "52w_low": 76.48
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "VZ",
@@ -2023,9 +3012,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 38,
-      "grade": "sell",
-      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+      "score": 46,
+      "tech_score": 38,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세 | 저PER (저평가 가능) | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 8.52,
+        "forward_per": 8.33,
+        "pbr": 1.6,
+        "roe": 0.1988,
+        "roa": 0.0517,
+        "eps": 4.69,
+        "forward_eps": 4.8,
+        "revenue_growth": 0.015,
+        "earnings_growth": 0.5,
+        "profit_margin": 0.1443,
+        "operating_margin": 0.2393,
+        "debt_to_equity": 164.8,
+        "current_ratio": 0.74,
+        "dividend_yield": 6.93,
+        "peg_ratio": null,
+        "beta": 0.32,
+        "market_cap": 168572682240,
+        "52w_high": 47.36,
+        "52w_low": 37.59
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "ORCL",
@@ -2069,9 +3081,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 22,
+      "score": 23,
+      "tech_score": 22,
       "grade": "strong_sell",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 37.29,
+        "forward_per": 24.91,
+        "pbr": 19.03,
+        "roe": 0.6903,
+        "roa": 0.0686,
+        "eps": 5.32,
+        "forward_eps": 7.96,
+        "revenue_growth": 0.142,
+        "earnings_growth": 0.909,
+        "profit_margin": 0.2528,
+        "operating_margin": 0.32,
+        "debt_to_equity": 432.51,
+        "current_ratio": 0.91,
+        "dividend_yield": 1.04,
+        "peg_ratio": null,
+        "beta": 1.66,
+        "market_cap": 569971572736,
+        "52w_high": 345.72,
+        "52w_low": 118.86
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "RTX",
@@ -2115,9 +3150,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 63,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER",
+      "fundamentals": {
+        "per": 38.05,
+        "forward_per": 27.41,
+        "pbr": 3.86,
+        "roe": 0.107,
+        "roa": 0.0379,
+        "eps": 4.88,
+        "forward_eps": 6.77,
+        "revenue_growth": 0.119,
+        "earnings_growth": 0.294,
+        "profit_margin": 0.0767,
+        "operating_margin": 0.124,
+        "debt_to_equity": 61.31,
+        "current_ratio": 1.07,
+        "dividend_yield": 1.49,
+        "peg_ratio": null,
+        "beta": 0.43,
+        "market_cap": 248954535936,
+        "52w_high": 185.87,
+        "52w_low": 112.27
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "HON",
@@ -2161,9 +3219,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 57,
+      "score": 55,
+      "tech_score": 57,
       "grade": "hold",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 20.67,
+        "forward_per": 18.55,
+        "pbr": 7.41,
+        "roe": 0.3462,
+        "roa": 0.0666,
+        "eps": 9.48,
+        "forward_eps": 10.56,
+        "revenue_growth": 0.07,
+        "earnings_growth": 0.324,
+        "profit_margin": 0.1507,
+        "operating_margin": 0.185,
+        "debt_to_equity": 215.25,
+        "current_ratio": 1.36,
+        "dividend_yield": 2.3,
+        "peg_ratio": null,
+        "beta": 0.95,
+        "market_cap": 132051509248,
+        "52w_high": 227.82,
+        "52w_low": 169.05
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "COP",
@@ -2207,9 +3288,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 55,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 13.18,
+        "forward_per": 15.01,
+        "pbr": 1.78,
+        "roe": 0.1542,
+        "roa": 0.081,
+        "eps": 7.08,
+        "forward_eps": 6.22,
+        "revenue_growth": 0.14,
+        "earnings_growth": -0.216,
+        "profit_margin": 0.1444,
+        "operating_margin": 0.1954,
+        "debt_to_equity": 36.17,
+        "current_ratio": 1.32,
+        "dividend_yield": 3.65,
+        "peg_ratio": null,
+        "beta": 0.33,
+        "market_cap": 116538810368,
+        "52w_high": 106.2,
+        "52w_low": 79.88
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "UPS",
@@ -2253,9 +3357,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 68,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 15.57,
+        "forward_per": 14.08,
+        "pbr": 5.4,
+        "roe": 0.3362,
+        "roa": 0.0712,
+        "eps": 6.47,
+        "forward_eps": 7.15,
+        "revenue_growth": -0.037,
+        "earnings_growth": -0.141,
+        "profit_margin": 0.0615,
+        "operating_margin": 0.1017,
+        "debt_to_equity": 184.32,
+        "current_ratio": 1.3,
+        "dividend_yield": 6.44,
+        "peg_ratio": null,
+        "beta": 1.09,
+        "market_cap": 85457887232,
+        "52w_high": 136.99,
+        "52w_low": 82.0
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "QCOM",
@@ -2299,9 +3426,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 47,
+      "score": 48,
+      "tech_score": 47,
       "grade": "hold",
-      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 34.77,
+        "forward_per": 14.01,
+        "pbr": 8.82,
+        "roe": 0.2334,
+        "roa": 0.1471,
+        "eps": 5.01,
+        "forward_eps": 12.43,
+        "revenue_growth": 0.1,
+        "earnings_growth": null,
+        "profit_margin": 0.1251,
+        "operating_margin": 0.2624,
+        "debt_to_equity": 73.77,
+        "current_ratio": 2.82,
+        "dividend_yield": 2.03,
+        "peg_ratio": null,
+        "beta": 1.21,
+        "market_cap": 187983396864,
+        "52w_high": 205.95,
+        "52w_low": 120.8
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "LOW",
@@ -2345,9 +3495,32 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 31,
+      "score": 32,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세 | 고PER | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 20.06,
+        "forward_per": 18.64,
+        "pbr": -13.08,
+        "roe": null,
+        "roa": 0.1318,
+        "eps": 12.07,
+        "forward_eps": 12.98,
+        "revenue_growth": 0.032,
+        "earnings_growth": -0.037,
+        "profit_margin": 0.0804,
+        "operating_margin": 0.1192,
+        "debt_to_equity": null,
+        "current_ratio": 1.04,
+        "dividend_yield": 2.0,
+        "peg_ratio": null,
+        "beta": 0.96,
+        "market_cap": 135789527040,
+        "52w_high": 274.98,
+        "52w_low": 206.39
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "MS",
@@ -2391,9 +3564,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 47,
+      "score": 50,
+      "tech_score": 47,
       "grade": "hold",
-      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 18.44,
+        "forward_per": 17.07,
+        "pbr": 2.85,
+        "roe": 0.1514,
+        "roa": 0.0124,
+        "eps": 9.75,
+        "forward_eps": 10.53,
+        "revenue_growth": 0.191,
+        "earnings_growth": 0.489,
+        "profit_margin": 0.2361,
+        "operating_margin": 0.3887,
+        "debt_to_equity": 420.55,
+        "current_ratio": 2.27,
+        "dividend_yield": 2.26,
+        "peg_ratio": null,
+        "beta": 1.22,
+        "market_cap": 286957305856,
+        "52w_high": 181.98,
+        "52w_low": 94.33
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "SPGI",
@@ -2437,9 +3633,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 67,
+      "score": 70,
+      "tech_score": 67,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 증가 + 강한 상승추세 | 고PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 37.98,
+        "forward_per": 26.32,
+        "pbr": 4.78,
+        "roe": 0.1199,
+        "roa": 0.0663,
+        "eps": 13.74,
+        "forward_eps": 19.83,
+        "revenue_growth": 0.088,
+        "earnings_growth": 0.241,
+        "profit_margin": 0.2809,
+        "operating_margin": 0.4432,
+        "debt_to_equity": 31.78,
+        "current_ratio": 0.97,
+        "dividend_yield": 0.75,
+        "peg_ratio": null,
+        "beta": 1.19,
+        "market_cap": 159336071168,
+        "52w_high": 579.05,
+        "52w_low": 427.14
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "T",
@@ -2483,9 +3702,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 28,
+      "score": 36,
+      "tech_score": 28,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세 | 저PER (저평가 가능) | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 7.92,
+        "forward_per": 10.89,
+        "pbr": 1.56,
+        "roe": 0.1914,
+        "roa": 0.0402,
+        "eps": 3.07,
+        "forward_eps": 2.23,
+        "revenue_growth": 0.016,
+        "earnings_growth": null,
+        "profit_margin": 0.1787,
+        "operating_margin": 0.2158,
+        "debt_to_equity": 124.41,
+        "current_ratio": 1.01,
+        "dividend_yield": 4.6,
+        "peg_ratio": null,
+        "beta": 0.59,
+        "market_cap": 173754368000,
+        "52w_high": 29.79,
+        "52w_low": 21.38
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "ELV",
@@ -2530,8 +3772,31 @@
         "trend": "strong_uptrend"
       },
       "score": 75,
+      "tech_score": 75,
       "grade": "strong_buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER",
+      "fundamentals": {
+        "per": 14.03,
+        "forward_per": 12.78,
+        "pbr": 1.74,
+        "roe": 0.1257,
+        "roa": 0.0424,
+        "eps": 24.53,
+        "forward_eps": 26.95,
+        "revenue_growth": 0.123,
+        "earnings_growth": 0.22,
+        "profit_margin": 0.0284,
+        "operating_margin": 0.0346,
+        "debt_to_equity": 72.82,
+        "current_ratio": 1.56,
+        "dividend_yield": 2.01,
+        "peg_ratio": null,
+        "beta": 0.53,
+        "market_cap": 77522132992,
+        "52w_high": 458.75,
+        "52w_low": 273.71
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "INTU",
@@ -2575,9 +3840,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 68,
+      "score": 72,
+      "tech_score": 68,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 46.34,
+        "forward_per": 25.58,
+        "pbr": 9.73,
+        "roe": 0.2199,
+        "roa": 0.0978,
+        "eps": 14.57,
+        "forward_eps": 26.4,
+        "revenue_growth": 0.41,
+        "earnings_growth": -0.185,
+        "profit_margin": 0.2119,
+        "operating_margin": 0.157,
+        "debt_to_equity": null,
+        "current_ratio": 1.39,
+        "dividend_yield": 0.67,
+        "peg_ratio": null,
+        "beta": 1.27,
+        "market_cap": 187977072640,
+        "52w_high": 813.7,
+        "52w_low": 532.65
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "CAT",
@@ -2621,9 +3909,32 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 31,
+      "score": 29,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 29.9,
+        "forward_per": 26.06,
+        "pbr": 13.19,
+        "roe": 0.4628,
+        "roa": 0.082,
+        "eps": 19.48,
+        "forward_eps": 22.34,
+        "revenue_growth": 0.095,
+        "earnings_growth": -0.036,
+        "profit_margin": 0.1434,
+        "operating_margin": 0.1775,
+        "debt_to_equity": 201.05,
+        "current_ratio": 1.38,
+        "dividend_yield": 1.05,
+        "peg_ratio": null,
+        "beta": 1.56,
+        "market_cap": 272846782464,
+        "52w_high": 627.5,
+        "52w_low": 267.3
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "IBM",
@@ -2667,9 +3978,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 38,
+      "score": 36,
+      "tech_score": 38,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 36.05,
+        "forward_per": 24.83,
+        "pbr": 10.14,
+        "roe": 0.3016,
+        "roa": 0.0514,
+        "eps": 8.4,
+        "forward_eps": 12.19,
+        "revenue_growth": 0.091,
+        "earnings_growth": null,
+        "profit_margin": 0.1209,
+        "operating_margin": 0.1717,
+        "debt_to_equity": 237.83,
+        "current_ratio": 0.93,
+        "dividend_yield": 2.23,
+        "peg_ratio": null,
+        "beta": 0.69,
+        "market_cap": 283028488192,
+        "52w_high": 324.9,
+        "52w_low": 214.5
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "GE",
@@ -2713,9 +4047,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 61,
+      "score": 62,
+      "tech_score": 61,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 증가 + 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 증가 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 42.13,
+        "forward_per": 43.66,
+        "pbr": 17.65,
+        "roe": 0.4213,
+        "roa": 0.0493,
+        "eps": 7.47,
+        "forward_eps": 7.21,
+        "revenue_growth": 0.238,
+        "earnings_growth": 0.193,
+        "profit_margin": 0.1834,
+        "operating_margin": 0.206,
+        "debt_to_equity": 115.25,
+        "current_ratio": 1.08,
+        "dividend_yield": 0.47,
+        "peg_ratio": null,
+        "beta": 1.41,
+        "market_cap": 333752107008,
+        "52w_high": 316.67,
+        "52w_low": 159.36
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "DE",
@@ -2760,8 +4117,31 @@
         "trend": "downtrend"
       },
       "score": 31,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세 | 고PER | 높은 ROE (20%+)",
+      "fundamentals": {
+        "per": 25.35,
+        "forward_per": 20.71,
+        "pbr": 4.88,
+        "roe": 0.2043,
+        "roa": 0.0387,
+        "eps": 18.49,
+        "forward_eps": 22.64,
+        "revenue_growth": 0.126,
+        "earnings_growth": -0.137,
+        "profit_margin": 0.1102,
+        "operating_margin": 0.1239,
+        "debt_to_equity": 248.42,
+        "current_ratio": 2.26,
+        "dividend_yield": 1.38,
+        "peg_ratio": null,
+        "beta": 1.01,
+        "market_cap": 126776705024,
+        "52w_high": 533.78,
+        "52w_low": 403.01
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "BA",
@@ -2805,9 +4185,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 61,
+      "score": 62,
+      "tech_score": 61,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세 | 저PBR (자산가치 대비 저평가) | 적자",
+      "fundamentals": {
+        "per": null,
+        "forward_per": 92.72,
+        "pbr": -19.95,
+        "roe": null,
+        "roa": -0.0351,
+        "eps": -13.7,
+        "forward_eps": 2.34,
+        "revenue_growth": 0.304,
+        "earnings_growth": null,
+        "profit_margin": -0.122,
+        "operating_margin": -0.204,
+        "debt_to_equity": null,
+        "current_ratio": 1.18,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 1.18,
+        "market_cap": 169801170944,
+        "52w_high": 242.69,
+        "52w_low": 128.88
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "AMGN",
@@ -2851,9 +4254,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 29,
+      "score": 27,
+      "tech_score": 29,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 25.63,
+        "forward_per": 15.11,
+        "pbr": 18.55,
+        "roe": 0.8171,
+        "roa": 0.0771,
+        "eps": 12.93,
+        "forward_eps": 21.93,
+        "revenue_growth": 0.124,
+        "earnings_growth": 0.136,
+        "profit_margin": 0.1947,
+        "operating_margin": 0.3415,
+        "debt_to_equity": 567.49,
+        "current_ratio": 1.28,
+        "dividend_yield": 2.95,
+        "peg_ratio": null,
+        "beta": 0.45,
+        "market_cap": 178447106048,
+        "52w_high": 346.38,
+        "52w_low": 257.05
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "GS",
@@ -2897,9 +4323,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 69,
+      "score": 72,
+      "tech_score": 69,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 18.26,
+        "forward_per": 16.31,
+        "pbr": 2.58,
+        "roe": 0.1353,
+        "roa": 0.0094,
+        "eps": 49.23,
+        "forward_eps": 55.12,
+        "revenue_growth": 0.207,
+        "earnings_growth": 0.458,
+        "profit_margin": 0.2907,
+        "operating_margin": 0.372,
+        "debt_to_equity": 586.14,
+        "current_ratio": 1.66,
+        "dividend_yield": 1.79,
+        "peg_ratio": null,
+        "beta": 1.35,
+        "market_cap": 272146251776,
+        "52w_high": 919.1,
+        "52w_low": 439.38
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "ISRG",
@@ -2943,9 +4392,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 44,
+      "score": 46,
+      "tech_score": 44,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 76.7,
+        "forward_per": 59.48,
+        "pbr": 12.16,
+        "roe": 0.169,
+        "roa": 0.0956,
+        "eps": 7.56,
+        "forward_eps": 9.75,
+        "revenue_growth": 0.229,
+        "earnings_growth": 0.25,
+        "profit_margin": 0.2858,
+        "operating_margin": 0.3033,
+        "debt_to_equity": null,
+        "current_ratio": 4.73,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 1.69,
+        "market_cap": 207855435776,
+        "52w_high": 616.0,
+        "52w_low": 425.0
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "BLK",
@@ -2989,9 +4461,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 69,
-      "grade": "buy",
-      "summary": "MACD 골든크로스 + 거래량 증가 + 상승추세"
+      "score": 75,
+      "tech_score": 69,
+      "grade": "strong_buy",
+      "summary": "MACD 골든크로스 + 거래량 증가 + 상승추세 | 고PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 28.05,
+        "forward_per": 20.25,
+        "pbr": 3.04,
+        "roe": 0.1207,
+        "roa": 0.0341,
+        "eps": 38.8,
+        "forward_eps": 53.73,
+        "revenue_growth": 0.252,
+        "earnings_growth": -0.226,
+        "profit_margin": 0.2664,
+        "operating_margin": 0.3214,
+        "debt_to_equity": 24.32,
+        "current_ratio": 2.26,
+        "dividend_yield": 1.97,
+        "peg_ratio": null,
+        "beta": 1.48,
+        "market_cap": 168836775936,
+        "52w_high": 1219.94,
+        "52w_low": 773.74
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "SBUX",
@@ -3035,9 +4530,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 69,
+      "score": 67,
+      "tech_score": 69,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세 | 매우 고PER (고평가 주의) | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 52.87,
+        "forward_per": 28.67,
+        "pbr": -12.1,
+        "roe": null,
+        "roa": 0.0727,
+        "eps": 1.63,
+        "forward_eps": 3.01,
+        "revenue_growth": 0.055,
+        "earnings_growth": -0.854,
+        "profit_margin": 0.0499,
+        "operating_margin": 0.1098,
+        "debt_to_equity": null,
+        "current_ratio": 0.72,
+        "dividend_yield": 2.81,
+        "peg_ratio": null,
+        "beta": 0.98,
+        "market_cap": 97983905792,
+        "52w_high": 117.46,
+        "52w_low": 75.5
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "AXP",
@@ -3081,9 +4599,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 75,
+      "score": 76,
+      "tech_score": 75,
       "grade": "strong_buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 25.61,
+        "forward_per": 21.79,
+        "pbr": 8.09,
+        "roe": 0.3394,
+        "roa": 0.0371,
+        "eps": 14.87,
+        "forward_eps": 17.48,
+        "revenue_growth": 0.122,
+        "earnings_growth": 0.186,
+        "profit_margin": 0.1614,
+        "operating_margin": 0.2205,
+        "debt_to_equity": 185.27,
+        "current_ratio": 1.6,
+        "dividend_yield": 0.87,
+        "peg_ratio": null,
+        "beta": 1.15,
+        "market_cap": 265026748416,
+        "52w_high": 387.49,
+        "52w_low": 220.43
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "AMAT",
@@ -3127,9 +4668,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 29,
+      "score": 35,
+      "tech_score": 29,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 29.87,
+        "forward_per": 22.41,
+        "pbr": 10.06,
+        "roe": 0.3551,
+        "roa": 0.1505,
+        "eps": 8.67,
+        "forward_eps": 11.56,
+        "revenue_growth": -0.035,
+        "earnings_growth": 0.133,
+        "profit_margin": 0.2467,
+        "operating_margin": 0.2844,
+        "debt_to_equity": 34.53,
+        "current_ratio": 2.61,
+        "dividend_yield": 0.72,
+        "peg_ratio": null,
+        "beta": 1.67,
+        "market_cap": 206338359296,
+        "52w_high": 276.1,
+        "52w_low": 123.74
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "MDT",
@@ -3173,9 +4737,32 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 36,
+      "score": 34,
+      "tech_score": 36,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 하락추세"
+      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 하락추세 | 고PER",
+      "fundamentals": {
+        "per": 26.48,
+        "forward_per": 15.97,
+        "pbr": 2.57,
+        "roe": 0.0982,
+        "roa": 0.0469,
+        "eps": 3.69,
+        "forward_eps": 6.12,
+        "revenue_growth": 0.066,
+        "earnings_growth": 0.081,
+        "profit_margin": 0.1371,
+        "operating_margin": 0.203,
+        "debt_to_equity": 59.56,
+        "current_ratio": 2.42,
+        "dividend_yield": 2.88,
+        "peg_ratio": null,
+        "beta": 0.72,
+        "market_cap": 125324410880,
+        "52w_high": 106.33,
+        "52w_low": 79.29
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "NOW",
@@ -3219,9 +4806,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 31,
+      "score": 32,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 94.96,
+        "forward_per": 38.4,
+        "pbr": 14.39,
+        "roe": 0.1681,
+        "roa": 0.0565,
+        "eps": 1.65,
+        "forward_eps": 4.08,
+        "revenue_growth": 0.218,
+        "earnings_growth": 0.159,
+        "profit_margin": 0.1366,
+        "operating_margin": 0.1679,
+        "debt_to_equity": 21.25,
+        "current_ratio": 1.06,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 0.97,
+        "market_cap": 162695053312,
+        "52w_high": 239.62,
+        "52w_low": 135.73
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "PLD",
@@ -3265,9 +4875,32 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 38,
+      "score": 39,
+      "tech_score": 38,
       "grade": "sell",
-      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세 | 고PER | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 37.09,
+        "forward_per": 44.24,
+        "pbr": 2.25,
+        "roe": 0.0596,
+        "roa": 0.0247,
+        "eps": 3.44,
+        "forward_eps": 2.88,
+        "revenue_growth": 0.087,
+        "earnings_growth": -0.243,
+        "profit_margin": 0.3524,
+        "operating_margin": 0.4272,
+        "debt_to_equity": 62.79,
+        "current_ratio": 0.77,
+        "dividend_yield": 3.18,
+        "peg_ratio": null,
+        "beta": 1.41,
+        "market_cap": 118514139136,
+        "52w_high": 131.7,
+        "52w_low": 85.35
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "GILD",
@@ -3311,9 +4944,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 56,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 19.22,
+        "forward_per": 14.2,
+        "pbr": 7.16,
+        "roe": 0.4071,
+        "roa": 0.1257,
+        "eps": 6.46,
+        "forward_eps": 8.75,
+        "revenue_growth": 0.03,
+        "earnings_growth": 1.43,
+        "profit_margin": 0.2788,
+        "operating_margin": 0.4523,
+        "debt_to_equity": 116.24,
+        "current_ratio": 1.45,
+        "dividend_yield": 2.54,
+        "peg_ratio": null,
+        "beta": 0.33,
+        "market_cap": 154058588160,
+        "52w_high": 128.7,
+        "52w_low": 88.57
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "BKNG",
@@ -3357,9 +5013,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 67,
+      "score": 68,
+      "tech_score": 67,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 35.17,
+        "forward_per": 20.37,
+        "pbr": -36.88,
+        "roe": null,
+        "roa": 0.2025,
+        "eps": 153.72,
+        "forward_eps": 265.39,
+        "revenue_growth": 0.127,
+        "earnings_growth": 0.135,
+        "profit_margin": 0.1937,
+        "operating_margin": 0.449,
+        "debt_to_equity": null,
+        "current_ratio": 1.33,
+        "dividend_yield": 0.71,
+        "peg_ratio": null,
+        "beta": 1.25,
+        "market_cap": 175239938048,
+        "52w_high": 5839.41,
+        "52w_low": 4096.23
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "SYK",
@@ -3403,9 +5082,32 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 30,
-      "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
+      "score": 23,
+      "tech_score": 30,
+      "grade": "strong_sell",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 46.91,
+        "forward_per": 23.86,
+        "pbr": 6.26,
+        "roe": 0.1404,
+        "roa": 0.075,
+        "eps": 7.6,
+        "forward_eps": 14.94,
+        "revenue_growth": 0.102,
+        "earnings_growth": 0.028,
+        "profit_margin": 0.1207,
+        "operating_margin": 0.2227,
+        "debt_to_equity": 78.65,
+        "current_ratio": 1.85,
+        "dividend_yield": 0.99,
+        "peg_ratio": null,
+        "beta": 0.9,
+        "market_cap": 136341676032,
+        "52w_high": 406.19,
+        "52w_low": 329.16
+      },
+      "fundamental_health": "warning"
     },
     {
       "code": "ADI",
@@ -3449,9 +5151,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 53,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 매우 고PER (고평가 주의) | 높은 이익률 (20%+)",
+      "fundamentals": {
+        "per": 60.49,
+        "forward_per": 24.54,
+        "pbr": 3.99,
+        "roe": 0.0657,
+        "roa": 0.0389,
+        "eps": 4.56,
+        "forward_eps": 11.24,
+        "revenue_growth": 0.259,
+        "earnings_growth": 0.661,
+        "profit_margin": 0.2057,
+        "operating_margin": 0.305,
+        "debt_to_equity": 26.5,
+        "current_ratio": 2.19,
+        "dividend_yield": 1.44,
+        "peg_ratio": null,
+        "beta": 1.04,
+        "market_cap": 135056400384,
+        "52w_high": 284.23,
+        "52w_low": 158.65
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "MDLZ",
@@ -3495,9 +5220,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 59,
+      "score": 57,
+      "tech_score": 59,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 급증 + 강한 하락추세 | 고PER",
+      "fundamentals": {
+        "per": 20.34,
+        "forward_per": 17.25,
+        "pbr": 2.68,
+        "roe": 0.131,
+        "roa": 0.0373,
+        "eps": 2.67,
+        "forward_eps": 3.15,
+        "revenue_growth": 0.059,
+        "earnings_growth": -0.095,
+        "profit_margin": 0.0938,
+        "operating_margin": 0.1084,
+        "debt_to_equity": 83.62,
+        "current_ratio": 0.61,
+        "dividend_yield": 3.67,
+        "peg_ratio": null,
+        "beta": 0.4,
+        "market_cap": 70274179072,
+        "52w_high": 71.15,
+        "52w_low": 53.13
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "VRTX",
@@ -3541,9 +5289,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 75,
+      "score": 81,
+      "tech_score": 75,
       "grade": "strong_buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 32.44,
+        "forward_per": 22.74,
+        "pbr": 6.75,
+        "roe": 0.2231,
+        "roa": 0.1204,
+        "eps": 14.19,
+        "forward_eps": 20.24,
+        "revenue_growth": 0.11,
+        "earnings_growth": 0.047,
+        "profit_margin": 0.3135,
+        "operating_margin": 0.4027,
+        "debt_to_equity": 10.59,
+        "current_ratio": 2.36,
+        "dividend_yield": null,
+        "peg_ratio": null,
+        "beta": 0.32,
+        "market_cap": 118019178496,
+        "52w_high": 519.68,
+        "52w_low": 362.5
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "ADP",
@@ -3587,9 +5358,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 71,
+      "score": 72,
+      "tech_score": 71,
       "grade": "buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 25.62,
+        "forward_per": 21.75,
+        "pbr": 16.5,
+        "roe": 0.7057,
+        "roa": 0.0662,
+        "eps": 10.14,
+        "forward_eps": 11.94,
+        "revenue_growth": 0.071,
+        "earnings_growth": 0.064,
+        "profit_margin": 0.1979,
+        "operating_margin": 0.2589,
+        "debt_to_equity": 154.92,
+        "current_ratio": 1.05,
+        "dividend_yield": 2.64,
+        "peg_ratio": null,
+        "beta": 0.86,
+        "market_cap": 105217941504,
+        "52w_high": 329.93,
+        "52w_low": 247.18
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "TJX",
@@ -3633,9 +5427,32 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 47,
+      "score": 48,
+      "tech_score": 47,
       "grade": "hold",
-      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 34.57,
+        "forward_per": 30.41,
+        "pbr": 18.58,
+        "roe": 0.584,
+        "roa": 0.1233,
+        "eps": 4.53,
+        "forward_eps": 5.15,
+        "revenue_growth": 0.075,
+        "earnings_growth": 0.123,
+        "profit_margin": 0.0868,
+        "operating_margin": 0.1249,
+        "debt_to_equity": 140.98,
+        "current_ratio": 1.09,
+        "dividend_yield": 1.1,
+        "peg_ratio": null,
+        "beta": 0.76,
+        "market_cap": 174263959552,
+        "52w_high": 157.83,
+        "52w_low": 112.1
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "MMC",
@@ -3679,9 +5496,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 65,
+      "score": 66,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 22.22,
+        "forward_per": 17.97,
+        "pbr": 6.0,
+        "roe": 0.2873,
+        "roa": 0.0788,
+        "eps": 8.35,
+        "forward_eps": 10.32,
+        "revenue_growth": 0.115,
+        "earnings_growth": 0.0,
+        "profit_margin": 0.156,
+        "operating_margin": 0.1924,
+        "debt_to_equity": 139.5,
+        "current_ratio": 1.12,
+        "dividend_yield": 1.95,
+        "peg_ratio": null,
+        "beta": 0.75,
+        "market_cap": 91201175552,
+        "52w_high": 248.0,
+        "52w_low": 174.18
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "CVS",
@@ -3725,9 +5565,32 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 24,
+      "score": 19,
+      "tech_score": 24,
       "grade": "strong_sell",
-      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
+      "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세 | 매우 고PER (고평가 주의)",
+      "fundamentals": {
+        "per": 206.21,
+        "forward_per": 10.93,
+        "pbr": 1.36,
+        "roe": 0.0058,
+        "roa": 0.025,
+        "eps": 0.38,
+        "forward_eps": 7.17,
+        "revenue_growth": 0.078,
+        "earnings_growth": null,
+        "profit_margin": 0.0012,
+        "operating_margin": 0.0227,
+        "debt_to_equity": 111.82,
+        "current_ratio": 0.83,
+        "dividend_yield": 3.42,
+        "peg_ratio": null,
+        "beta": 0.48,
+        "market_cap": 99472728064,
+        "52w_high": 85.15,
+        "52w_low": 43.56
+      },
+      "fundamental_health": "warning"
     },
     {
       "code": "LRCX",
@@ -3771,9 +5634,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 71,
-      "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "score": 80,
+      "tech_score": 71,
+      "grade": "strong_buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 38.69,
+        "forward_per": 31.16,
+        "pbr": 21.65,
+        "roe": 0.6226,
+        "roa": 0.1951,
+        "eps": 4.53,
+        "forward_eps": 5.62,
+        "revenue_growth": 0.277,
+        "earnings_growth": 0.443,
+        "profit_margin": 0.2966,
+        "operating_margin": 0.3435,
+        "debt_to_equity": 43.99,
+        "current_ratio": 2.21,
+        "dividend_yield": 0.6,
+        "peg_ratio": null,
+        "beta": 1.78,
+        "market_cap": 221008510976,
+        "52w_high": 175.96,
+        "52w_low": 56.32
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "C",
@@ -3818,8 +5704,31 @@
         "trend": "strong_uptrend"
       },
       "score": 69,
+      "tech_score": 69,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER",
+      "fundamentals": {
+        "per": 16.59,
+        "forward_per": 11.99,
+        "pbr": 1.09,
+        "roe": 0.0699,
+        "roa": 0.0058,
+        "eps": 7.12,
+        "forward_eps": 9.85,
+        "revenue_growth": 0.116,
+        "earnings_growth": 0.232,
+        "profit_margin": 0.1949,
+        "operating_margin": 0.3061,
+        "debt_to_equity": null,
+        "current_ratio": null,
+        "dividend_yield": 2.09,
+        "peg_ratio": null,
+        "beta": 1.2,
+        "market_cap": 217391628288,
+        "52w_high": 118.64,
+        "52w_low": 55.51
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "REGN",
@@ -3863,9 +5772,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 58,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 18.69,
+        "forward_per": 17.65,
+        "pbr": 2.59,
+        "roe": 0.1519,
+        "roa": 0.0616,
+        "eps": 41.7,
+        "forward_eps": 44.15,
+        "revenue_growth": 0.009,
+        "earnings_growth": 0.18,
+        "profit_margin": 0.3213,
+        "operating_margin": 0.2956,
+        "debt_to_equity": 8.74,
+        "current_ratio": 4.06,
+        "dividend_yield": 0.46,
+        "peg_ratio": null,
+        "beta": 0.37,
+        "market_cap": 82602369024,
+        "52w_high": 790.98,
+        "52w_low": 476.49
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "ZTS",
@@ -3909,9 +5841,32 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 80,
+      "score": 84,
+      "tech_score": 80,
       "grade": "strong_buy",
-      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 상승추세"
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "fundamentals": {
+        "per": 20.84,
+        "forward_per": 18.26,
+        "pbr": 10.12,
+        "roe": 0.4987,
+        "roa": 0.1509,
+        "eps": 5.94,
+        "forward_eps": 6.78,
+        "revenue_growth": 0.005,
+        "earnings_growth": 0.085,
+        "profit_margin": 0.2821,
+        "operating_margin": 0.3933,
+        "debt_to_equity": 135.05,
+        "current_ratio": 3.64,
+        "dividend_yield": 1.73,
+        "peg_ratio": null,
+        "beta": 0.97,
+        "market_cap": 54857252864,
+        "52w_high": 177.4,
+        "52w_low": 115.25
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "MO",
@@ -3955,9 +5910,32 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 63,
+      "score": 69,
+      "tech_score": 63,
       "grade": "buy",
-      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세 | 적정 PER | 저PBR (자산가치 대비 저평가)",
+      "fundamentals": {
+        "per": 11.19,
+        "forward_per": 10.49,
+        "pbr": -37.19,
+        "roe": null,
+        "roa": 0.2227,
+        "eps": 5.24,
+        "forward_eps": 5.59,
+        "revenue_growth": -0.017,
+        "earnings_growth": 0.052,
+        "profit_margin": 0.4398,
+        "operating_margin": 0.6283,
+        "debt_to_equity": null,
+        "current_ratio": 0.62,
+        "dividend_yield": 7.3,
+        "peg_ratio": null,
+        "beta": 0.5,
+        "market_cap": 98458411008,
+        "52w_high": 68.6,
+        "52w_low": 50.08
+      },
+      "fundamental_health": "good"
     },
     {
       "code": "CI",
@@ -4001,9 +5979,32 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 71,
+      "score": 74,
+      "tech_score": 71,
       "grade": "buy",
-      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 12.2,
+        "forward_per": 9.01,
+        "pbr": 1.76,
+        "roe": 0.1554,
+        "roa": 0.0395,
+        "eps": 22.59,
+        "forward_eps": 30.57,
+        "revenue_growth": 0.095,
+        "earnings_growth": 1.654,
+        "profit_margin": 0.0229,
+        "operating_margin": 0.04,
+        "debt_to_equity": 81.02,
+        "current_ratio": 0.83,
+        "dividend_yield": 2.22,
+        "peg_ratio": null,
+        "beta": 0.26,
+        "market_cap": 73619881984,
+        "52w_high": 350.0,
+        "52w_low": 239.51
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "TMUS",
@@ -4048,8 +6049,31 @@
         "trend": "strong_downtrend"
       },
       "score": 31,
+      "tech_score": 31,
       "grade": "sell",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "fundamentals": {
+        "per": 18.84,
+        "forward_per": 16.05,
+        "pbr": 3.62,
+        "roe": 0.1903,
+        "roa": 0.0574,
+        "eps": 10.39,
+        "forward_eps": 12.2,
+        "revenue_growth": 0.089,
+        "earnings_growth": -0.077,
+        "profit_margin": 0.1383,
+        "operating_margin": 0.2223,
+        "debt_to_equity": 200.62,
+        "current_ratio": 0.89,
+        "dividend_yield": 2.07,
+        "peg_ratio": null,
+        "beta": 0.44,
+        "market_cap": 220312010752,
+        "52w_high": 276.49,
+        "52w_low": 194.01
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "CB",
@@ -4093,9 +6117,32 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 67,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+      "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
+      "fundamentals": {
+        "per": 13.0,
+        "forward_per": 11.85,
+        "pbr": 1.71,
+        "roe": 0.1364,
+        "roa": 0.0297,
+        "eps": 23.92,
+        "forward_eps": 26.25,
+        "revenue_growth": 0.091,
+        "earnings_growth": 0.226,
+        "profit_margin": 0.1644,
+        "operating_margin": 0.2562,
+        "debt_to_equity": 30.96,
+        "current_ratio": 0.38,
+        "dividend_yield": 1.25,
+        "peg_ratio": null,
+        "beta": 0.52,
+        "market_cap": 123972755456,
+        "52w_high": 313.46,
+        "52w_low": 252.16
+      },
+      "fundamental_health": "neutral"
     },
     {
       "code": "SO",
@@ -4139,9 +6186,32 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 58,
+      "score": 56,
+      "tech_score": 58,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 강한 하락추세 | 고PER",
+      "fundamentals": {
+        "per": 21.32,
+        "forward_per": 18.72,
+        "pbr": 2.7,
+        "roe": 0.1143,
+        "roa": 0.0346,
+        "eps": 4.02,
+        "forward_eps": 4.58,
+        "revenue_growth": 0.075,
+        "earnings_growth": 0.108,
+        "profit_margin": 0.1542,
+        "operating_margin": 0.3656,
+        "debt_to_equity": 192.68,
+        "current_ratio": 0.76,
+        "dividend_yield": 3.47,
+        "peg_ratio": null,
+        "beta": 0.44,
+        "market_cap": 94386716672,
+        "52w_high": 100.84,
+        "52w_low": 80.46
+      },
+      "fundamental_health": "neutral"
     }
   ]
 }
