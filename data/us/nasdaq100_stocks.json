@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-21T06:57:36.282006",
+  "updated_at": "2025-12-22T07:33:34.546864",
   "index": "NASDAQ100",
   "count": 79,
   "stocks": [
@@ -19,8 +19,8 @@
       "indicators": {
         "rsi_14": 30.33,
         "macd": {
-          "macd_line": 1.0,
-          "signal_line": 2.4,
+          "macd_line": 0.99,
+          "signal_line": 2.38,
           "histogram": -1.4
         },
         "bollinger": {
@@ -45,7 +45,7 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 60,
+      "score": 42,
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
     },
@@ -65,9 +65,9 @@
       "indicators": {
         "rsi_14": 49.4,
         "macd": {
-          "macd_line": -4.94,
-          "signal_line": -6.07,
-          "histogram": 1.13
+          "macd_line": -4.96,
+          "signal_line": -6.11,
+          "histogram": 1.14
         },
         "bollinger": {
           "upper": 494.57,
@@ -91,7 +91,7 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 75,
+      "score": 65,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
@@ -111,9 +111,9 @@
       "indicators": {
         "rsi_14": 43.53,
         "macd": {
-          "macd_line": 4.42,
-          "signal_line": 7.71,
-          "histogram": -3.29
+          "macd_line": 4.36,
+          "signal_line": 7.63,
+          "histogram": -3.27
         },
         "bollinger": {
           "upper": 328.38,
@@ -137,7 +137,7 @@
         "volume": "normal",
         "trend": "downtrend"
       },
-      "score": 30,
+      "score": 32,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 하락추세"
     },
@@ -157,9 +157,9 @@
       "indicators": {
         "rsi_14": 39.27,
         "macd": {
-          "macd_line": -1.65,
-          "signal_line": -1.29,
-          "histogram": -0.36
+          "macd_line": -1.66,
+          "signal_line": -1.31,
+          "histogram": -0.35
         },
         "bollinger": {
           "upper": 236.26,
@@ -183,8 +183,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 45,
-      "grade": "hold",
+      "score": 31,
+      "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -229,7 +229,7 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 45,
+      "score": 44,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 거래량 증가 + 상승추세"
     },
@@ -249,9 +249,9 @@
       "indicators": {
         "rsi_14": 57.45,
         "macd": {
-          "macd_line": 2.09,
-          "signal_line": -1.04,
-          "histogram": 3.12
+          "macd_line": 2.04,
+          "signal_line": -1.1,
+          "histogram": 3.14
         },
         "bollinger": {
           "upper": 683.0,
@@ -275,8 +275,8 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 80,
-      "grade": "strong_buy",
+      "score": 71,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
     {
@@ -295,9 +295,9 @@
       "indicators": {
         "rsi_14": 67.93,
         "macd": {
-          "macd_line": 13.41,
-          "signal_line": 8.9,
-          "histogram": 4.51
+          "macd_line": 13.34,
+          "signal_line": 8.8,
+          "histogram": 4.54
         },
         "bollinger": {
           "upper": 497.1,
@@ -321,7 +321,7 @@
         "volume": "normal",
         "trend": "strong_uptrend"
       },
-      "score": 70,
+      "score": 71,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
     },
@@ -341,9 +341,9 @@
       "indicators": {
         "rsi_14": 33.91,
         "macd": {
-          "macd_line": -6.14,
-          "signal_line": 1.7,
-          "histogram": -7.84
+          "macd_line": -6.16,
+          "signal_line": 1.67,
+          "histogram": -7.83
         },
         "bollinger": {
           "upper": 431.29,
@@ -367,8 +367,8 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 50,
-      "grade": "hold",
+      "score": 38,
+      "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세"
     },
     {
@@ -387,9 +387,9 @@
       "indicators": {
         "rsi_14": 22.77,
         "macd": {
-          "macd_line": -14.89,
-          "signal_line": -11.64,
-          "histogram": -3.25
+          "macd_line": -14.85,
+          "signal_line": -11.58,
+          "histogram": -3.27
         },
         "bollinger": {
           "upper": 930.72,
@@ -413,8 +413,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 60,
-      "grade": "hold",
+      "score": 31,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -433,9 +433,9 @@
       "indicators": {
         "rsi_14": 44.6,
         "macd": {
-          "macd_line": 6.91,
-          "signal_line": 16.06,
-          "histogram": -9.14
+          "macd_line": 6.65,
+          "signal_line": 15.67,
+          "histogram": -9.02
         },
         "bollinger": {
           "upper": 1170.34,
@@ -459,7 +459,7 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 35,
+      "score": 31,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
     },
@@ -479,9 +479,9 @@
       "indicators": {
         "rsi_14": 50.31,
         "macd": {
-          "macd_line": 1.19,
-          "signal_line": 1.04,
-          "histogram": 0.16
+          "macd_line": 1.21,
+          "signal_line": 1.06,
+          "histogram": 0.15
         },
         "bollinger": {
           "upper": 152.03,
@@ -505,7 +505,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 85,
+      "score": 78,
       "grade": "strong_buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -551,7 +551,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 47,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -571,9 +571,9 @@
       "indicators": {
         "rsi_14": 74.7,
         "macd": {
-          "macd_line": 6.27,
-          "signal_line": 3.63,
-          "histogram": 2.64
+          "macd_line": 6.28,
+          "signal_line": 3.64,
+          "histogram": 2.63
         },
         "bollinger": {
           "upper": 366.76,
@@ -597,7 +597,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 67,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -617,9 +617,9 @@
       "indicators": {
         "rsi_14": 17.9,
         "macd": {
-          "macd_line": -4.47,
-          "signal_line": -4.25,
-          "histogram": -0.22
+          "macd_line": -4.48,
+          "signal_line": -4.26,
+          "histogram": -0.21
         },
         "bollinger": {
           "upper": 112.02,
@@ -643,8 +643,8 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 45,
-      "grade": "hold",
+      "score": 30,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
     },
     {
@@ -663,9 +663,9 @@
       "indicators": {
         "rsi_14": 44.37,
         "macd": {
-          "macd_line": -5.3,
-          "signal_line": -4.43,
-          "histogram": -0.87
+          "macd_line": -5.31,
+          "signal_line": -4.45,
+          "histogram": -0.86
         },
         "bollinger": {
           "upper": 227.63,
@@ -689,8 +689,8 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 30,
-      "grade": "sell",
+      "score": 24,
+      "grade": "strong_sell",
       "summary": "MACD 데드크로스 + 거래량 증가 + 강한 하락추세"
     },
     {
@@ -710,7 +710,7 @@
         "rsi_14": 71.33,
         "macd": {
           "macd_line": 0.48,
-          "signal_line": 0.06,
+          "signal_line": 0.07,
           "histogram": 0.42
         },
         "bollinger": {
@@ -735,7 +735,7 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 65,
+      "score": 62,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
@@ -755,9 +755,9 @@
       "indicators": {
         "rsi_14": 62.14,
         "macd": {
-          "macd_line": 3.0,
-          "signal_line": 3.33,
-          "histogram": -0.33
+          "macd_line": 3.02,
+          "signal_line": 3.36,
+          "histogram": -0.34
         },
         "bollinger": {
           "upper": 189.82,
@@ -781,7 +781,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 47,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -802,8 +802,8 @@
         "rsi_14": 39.37,
         "macd": {
           "macd_line": -0.13,
-          "signal_line": 0.41,
-          "histogram": -0.54
+          "signal_line": 0.4,
+          "histogram": -0.53
         },
         "bollinger": {
           "upper": 44.07,
@@ -827,8 +827,8 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 45,
-      "grade": "hold",
+      "score": 39,
+      "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 증가 + 하락추세"
     },
     {
@@ -873,7 +873,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 47,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -919,7 +919,7 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 55,
+      "score": 57,
       "grade": "hold",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 상승추세"
     },
@@ -939,9 +939,9 @@
       "indicators": {
         "rsi_14": 64.65,
         "macd": {
-          "macd_line": 3.69,
-          "signal_line": 1.78,
-          "histogram": 1.91
+          "macd_line": 3.66,
+          "signal_line": 1.74,
+          "histogram": 1.92
         },
         "bollinger": {
           "upper": 685.41,
@@ -965,7 +965,7 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 75,
+      "score": 68,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
@@ -985,9 +985,9 @@
       "indicators": {
         "rsi_14": 41.23,
         "macd": {
-          "macd_line": 0.74,
-          "signal_line": 2.26,
-          "histogram": -1.52
+          "macd_line": 0.75,
+          "signal_line": 2.28,
+          "histogram": -1.53
         },
         "bollinger": {
           "upper": 351.31,
@@ -1011,7 +1011,7 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 40,
+      "score": 29,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
     },
@@ -1031,9 +1031,9 @@
       "indicators": {
         "rsi_14": 51.29,
         "macd": {
-          "macd_line": 6.05,
-          "signal_line": 8.52,
-          "histogram": -2.47
+          "macd_line": 6.04,
+          "signal_line": 8.5,
+          "histogram": -2.46
         },
         "bollinger": {
           "upper": 283.87,
@@ -1057,7 +1057,7 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 40,
+      "score": 29,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
     },
@@ -1077,9 +1077,9 @@
       "indicators": {
         "rsi_14": 53.07,
         "macd": {
-          "macd_line": 4.76,
-          "signal_line": 6.61,
-          "histogram": -1.85
+          "macd_line": 4.84,
+          "signal_line": 6.73,
+          "histogram": -1.88
         },
         "bollinger": {
           "upper": 583.21,
@@ -1103,7 +1103,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 50,
+      "score": 44,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1123,9 +1123,9 @@
       "indicators": {
         "rsi_14": 75.58,
         "macd": {
-          "macd_line": 105.94,
-          "signal_line": 72.94,
-          "histogram": 33.0
+          "macd_line": 105.44,
+          "signal_line": 72.21,
+          "histogram": 33.23
         },
         "bollinger": {
           "upper": 5572.96,
@@ -1149,7 +1149,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 67,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -1169,9 +1169,9 @@
       "indicators": {
         "rsi_14": 60.59,
         "macd": {
-          "macd_line": 0.78,
+          "macd_line": 0.77,
           "signal_line": 0.43,
-          "histogram": 0.34
+          "histogram": 0.35
         },
         "bollinger": {
           "upper": 88.81,
@@ -1195,7 +1195,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 70,
+      "score": 69,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -1215,7 +1215,7 @@
       "indicators": {
         "rsi_14": 59.47,
         "macd": {
-          "macd_line": 8.94,
+          "macd_line": 8.95,
           "signal_line": 10.02,
           "histogram": -1.07
         },
@@ -1241,7 +1241,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 55,
+      "score": 50,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1287,8 +1287,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 75,
-      "grade": "buy",
+      "score": 59,
+      "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -1307,9 +1307,9 @@
       "indicators": {
         "rsi_14": 65.38,
         "macd": {
-          "macd_line": 7.12,
-          "signal_line": 7.08,
-          "histogram": 0.05
+          "macd_line": 7.13,
+          "signal_line": 7.09,
+          "histogram": 0.04
         },
         "bollinger": {
           "upper": 467.77,
@@ -1333,7 +1333,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 80,
+      "score": 75,
       "grade": "strong_buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1353,8 +1353,8 @@
       "indicators": {
         "rsi_14": 55.34,
         "macd": {
-          "macd_line": 0.62,
-          "signal_line": -0.25,
+          "macd_line": 0.63,
+          "signal_line": -0.23,
           "histogram": 0.86
         },
         "bollinger": {
@@ -1379,8 +1379,8 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 80,
-      "grade": "strong_buy",
+      "score": 71,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
     {
@@ -1399,8 +1399,8 @@
       "indicators": {
         "rsi_14": 51.9,
         "macd": {
-          "macd_line": -0.1,
-          "signal_line": -0.06,
+          "macd_line": -0.09,
+          "signal_line": -0.05,
           "histogram": -0.04
         },
         "bollinger": {
@@ -1425,7 +1425,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 55,
+      "score": 50,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1445,9 +1445,9 @@
       "indicators": {
         "rsi_14": 55.63,
         "macd": {
-          "macd_line": 18.58,
-          "signal_line": 19.99,
-          "histogram": -1.41
+          "macd_line": 18.51,
+          "signal_line": 19.9,
+          "histogram": -1.38
         },
         "bollinger": {
           "upper": 795.7,
@@ -1471,7 +1471,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 55,
+      "score": 50,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1491,8 +1491,8 @@
       "indicators": {
         "rsi_14": 65.27,
         "macd": {
-          "macd_line": 3.79,
-          "signal_line": 3.38,
+          "macd_line": 3.78,
+          "signal_line": 3.37,
           "histogram": 0.41
         },
         "bollinger": {
@@ -1517,7 +1517,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 75,
+      "score": 71,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1563,8 +1563,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 85,
-      "grade": "strong_buy",
+      "score": 63,
+      "grade": "buy",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -1584,7 +1584,7 @@
         "rsi_14": 59.83,
         "macd": {
           "macd_line": 6.39,
-          "signal_line": 6.11,
+          "signal_line": 6.1,
           "histogram": 0.28
         },
         "bollinger": {
@@ -1609,8 +1609,8 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 80,
-      "grade": "strong_buy",
+      "score": 72,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
     {
@@ -1655,7 +1655,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 70,
+      "score": 69,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1675,9 +1675,9 @@
       "indicators": {
         "rsi_14": 62.47,
         "macd": {
-          "macd_line": 10.39,
-          "signal_line": 9.82,
-          "histogram": 0.58
+          "macd_line": 10.43,
+          "signal_line": 9.86,
+          "histogram": 0.56
         },
         "bollinger": {
           "upper": 500.99,
@@ -1701,7 +1701,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 75,
+      "score": 73,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -1721,9 +1721,9 @@
       "indicators": {
         "rsi_14": 64.43,
         "macd": {
-          "macd_line": 17.87,
-          "signal_line": 17.35,
-          "histogram": 0.53
+          "macd_line": 17.75,
+          "signal_line": 17.17,
+          "histogram": 0.58
         },
         "bollinger": {
           "upper": 1276.79,
@@ -1747,7 +1747,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 80,
+      "score": 75,
       "grade": "strong_buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -1767,9 +1767,9 @@
       "indicators": {
         "rsi_14": 48.79,
         "macd": {
-          "macd_line": -4.19,
-          "signal_line": -4.16,
-          "histogram": -0.03
+          "macd_line": -4.22,
+          "signal_line": -4.2,
+          "histogram": -0.02
         },
         "bollinger": {
           "upper": 198.69,
@@ -1793,8 +1793,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 35,
-      "grade": "sell",
+      "score": 22,
+      "grade": "strong_sell",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -1813,9 +1813,9 @@
       "indicators": {
         "rsi_14": 54.21,
         "macd": {
-          "macd_line": -1.33,
-          "signal_line": -0.17,
-          "histogram": -1.15
+          "macd_line": -1.37,
+          "signal_line": -0.23,
+          "histogram": -1.13
         },
         "bollinger": {
           "upper": 347.16,
@@ -1839,8 +1839,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 35,
-      "grade": "sell",
+      "score": 22,
+      "grade": "strong_sell",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -1859,8 +1859,8 @@
       "indicators": {
         "rsi_14": 61.54,
         "macd": {
-          "macd_line": -2.46,
-          "signal_line": -4.23,
+          "macd_line": -2.44,
+          "signal_line": -4.21,
           "histogram": 1.77
         },
         "bollinger": {
@@ -1885,7 +1885,7 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 75,
+      "score": 68,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
@@ -1905,8 +1905,8 @@
       "indicators": {
         "rsi_14": 55.26,
         "macd": {
-          "macd_line": 6.13,
-          "signal_line": 5.48,
+          "macd_line": 6.14,
+          "signal_line": 5.49,
           "histogram": 0.65
         },
         "bollinger": {
@@ -1931,7 +1931,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 75,
+      "score": 70,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -1951,8 +1951,8 @@
       "indicators": {
         "rsi_14": 16.0,
         "macd": {
-          "macd_line": -1.89,
-          "signal_line": -1.23,
+          "macd_line": -1.88,
+          "signal_line": -1.22,
           "histogram": -0.66
         },
         "bollinger": {
@@ -1977,8 +1977,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 60,
-      "grade": "hold",
+      "score": 31,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -2023,8 +2023,8 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 80,
-      "grade": "strong_buy",
+      "score": 72,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
     {
@@ -2069,7 +2069,7 @@
         "volume": "normal",
         "trend": "downtrend"
       },
-      "score": 30,
+      "score": 32,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 하락추세"
     },
@@ -2089,8 +2089,8 @@
       "indicators": {
         "rsi_14": 42.35,
         "macd": {
-          "macd_line": -1.1,
-          "signal_line": -0.93,
+          "macd_line": -1.11,
+          "signal_line": -0.94,
           "histogram": -0.17
         },
         "bollinger": {
@@ -2115,7 +2115,7 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 45,
+      "score": 44,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 거래량 증가 + 상승추세"
     },
@@ -2135,8 +2135,8 @@
       "indicators": {
         "rsi_14": 87.97,
         "macd": {
-          "macd_line": 3.61,
-          "signal_line": 2.11,
+          "macd_line": 3.62,
+          "signal_line": 2.12,
           "histogram": 1.5
         },
         "bollinger": {
@@ -2181,8 +2181,8 @@
       "indicators": {
         "rsi_14": 45.49,
         "macd": {
-          "macd_line": -0.51,
-          "signal_line": -0.23,
+          "macd_line": -0.52,
+          "signal_line": -0.24,
           "histogram": -0.28
         },
         "bollinger": {
@@ -2207,8 +2207,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 35,
-      "grade": "sell",
+      "score": 22,
+      "grade": "strong_sell",
       "summary": "MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -2253,8 +2253,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 50,
-      "grade": "hold",
+      "score": 28,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -2299,7 +2299,7 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 35,
+      "score": 31,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 거래량 증가 + 하락추세"
     },
@@ -2319,9 +2319,9 @@
       "indicators": {
         "rsi_14": 54.67,
         "macd": {
-          "macd_line": 0.49,
-          "signal_line": -0.06,
-          "histogram": 0.56
+          "macd_line": 0.51,
+          "signal_line": -0.04,
+          "histogram": 0.55
         },
         "bollinger": {
           "upper": 190.1,
@@ -2345,7 +2345,7 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 75,
+      "score": 65,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
@@ -2365,9 +2365,9 @@
       "indicators": {
         "rsi_14": 56.09,
         "macd": {
-          "macd_line": -0.05,
-          "signal_line": -0.5,
-          "histogram": 0.45
+          "macd_line": -0.03,
+          "signal_line": -0.48,
+          "histogram": 0.44
         },
         "bollinger": {
           "upper": 116.57,
@@ -2391,8 +2391,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 65,
-      "grade": "buy",
+      "score": 50,
+      "grade": "hold",
       "summary": "MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -2437,7 +2437,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 80,
+      "score": 75,
       "grade": "strong_buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -2483,8 +2483,8 @@
         "volume": "above_average",
         "trend": "downtrend"
       },
-      "score": 70,
-      "grade": "buy",
+      "score": 55,
+      "grade": "hold",
       "summary": "RSI 과매도 회복 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
     },
     {
@@ -2503,8 +2503,8 @@
       "indicators": {
         "rsi_14": 75.31,
         "macd": {
-          "macd_line": 2.26,
-          "signal_line": 2.05,
+          "macd_line": 2.27,
+          "signal_line": 2.06,
           "histogram": 0.21
         },
         "bollinger": {
@@ -2529,7 +2529,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 67,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -2575,8 +2575,8 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 70,
-      "grade": "buy",
+      "score": 58,
+      "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
     },
     {
@@ -2596,7 +2596,7 @@
         "rsi_14": 45.38,
         "macd": {
           "macd_line": 2.28,
-          "signal_line": 3.97,
+          "signal_line": 3.98,
           "histogram": -1.69
         },
         "bollinger": {
@@ -2621,7 +2621,7 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 40,
+      "score": 29,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
     },
@@ -2642,7 +2642,7 @@
         "rsi_14": 74.12,
         "macd": {
           "macd_line": 3.26,
-          "signal_line": 3.2,
+          "signal_line": 3.21,
           "histogram": 0.06
         },
         "bollinger": {
@@ -2667,7 +2667,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 70,
+      "score": 69,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -2688,7 +2688,7 @@
         "rsi_14": 53.27,
         "macd": {
           "macd_line": 0.92,
-          "signal_line": 1.18,
+          "signal_line": 1.2,
           "histogram": -0.27
         },
         "bollinger": {
@@ -2713,8 +2713,8 @@
         "volume": "normal",
         "trend": "strong_uptrend"
       },
-      "score": 40,
-      "grade": "sell",
+      "score": 45,
+      "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세"
     },
     {
@@ -2733,8 +2733,8 @@
       "indicators": {
         "rsi_14": 67.53,
         "macd": {
-          "macd_line": 4.98,
-          "signal_line": 5.23,
+          "macd_line": 4.99,
+          "signal_line": 5.24,
           "histogram": -0.25
         },
         "bollinger": {
@@ -2759,8 +2759,8 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 40,
-      "grade": "sell",
+      "score": 44,
+      "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 증가 + 강한 상승추세"
     },
     {
@@ -2780,8 +2780,8 @@
         "rsi_14": 72.3,
         "macd": {
           "macd_line": 5.59,
-          "signal_line": 4.93,
-          "histogram": 0.66
+          "signal_line": 4.92,
+          "histogram": 0.67
         },
         "bollinger": {
           "upper": 169.01,
@@ -2805,7 +2805,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 67,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -2851,7 +2851,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 70,
+      "score": 69,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
     },
@@ -2897,8 +2897,8 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 80,
-      "grade": "strong_buy",
+      "score": 71,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
     {
@@ -2917,8 +2917,8 @@
       "indicators": {
         "rsi_14": 28.75,
         "macd": {
-          "macd_line": 0.28,
-          "signal_line": 4.78,
+          "macd_line": 0.27,
+          "signal_line": 4.76,
           "histogram": -4.49
         },
         "bollinger": {
@@ -2943,8 +2943,8 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 55,
-      "grade": "hold",
+      "score": 35,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 급증 + 하락추세"
     },
     {
@@ -2964,7 +2964,7 @@
         "rsi_14": 60.45,
         "macd": {
           "macd_line": -2.37,
-          "signal_line": -2.66,
+          "signal_line": -2.65,
           "histogram": 0.29
         },
         "bollinger": {
@@ -2989,7 +2989,7 @@
         "volume": "above_average",
         "trend": "strong_downtrend"
       },
-      "score": 55,
+      "score": 42,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 하락추세"
     },
@@ -3009,8 +3009,8 @@
       "indicators": {
         "rsi_14": 68.48,
         "macd": {
-          "macd_line": 1.03,
-          "signal_line": 1.17,
+          "macd_line": 1.04,
+          "signal_line": 1.18,
           "histogram": -0.14
         },
         "bollinger": {
@@ -3035,7 +3035,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 60,
+      "score": 56,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 강한 상승추세"
     },
@@ -3081,7 +3081,7 @@
         "volume": "volume_surge",
         "trend": "uptrend"
       },
-      "score": 70,
+      "score": 64,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
     },
@@ -3101,9 +3101,9 @@
       "indicators": {
         "rsi_14": 35.21,
         "macd": {
-          "macd_line": -1.58,
-          "signal_line": -1.84,
-          "histogram": 0.25
+          "macd_line": -1.55,
+          "signal_line": -1.79,
+          "histogram": 0.24
         },
         "bollinger": {
           "upper": 226.44,
@@ -3127,8 +3127,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 75,
-      "grade": "buy",
+      "score": 59,
+      "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -3147,7 +3147,7 @@
       "indicators": {
         "rsi_14": 15.39,
         "macd": {
-          "macd_line": -1.79,
+          "macd_line": -1.8,
           "signal_line": -1.37,
           "histogram": -0.42
         },
@@ -3173,8 +3173,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 50,
-      "grade": "hold",
+      "score": 28,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -3194,7 +3194,7 @@
         "rsi_14": 95.14,
         "macd": {
           "macd_line": 3.05,
-          "signal_line": 2.9,
+          "signal_line": 2.91,
           "histogram": 0.14
         },
         "bollinger": {
@@ -3265,7 +3265,7 @@
         "volume": "above_average",
         "trend": "strong_uptrend"
       },
-      "score": 65,
+      "score": 67,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
     },
@@ -3285,8 +3285,8 @@
       "indicators": {
         "rsi_14": 59.49,
         "macd": {
-          "macd_line": 1.83,
-          "signal_line": 2.08,
+          "macd_line": 1.82,
+          "signal_line": 2.07,
           "histogram": -0.25
         },
         "bollinger": {
@@ -3331,8 +3331,8 @@
       "indicators": {
         "rsi_14": 37.79,
         "macd": {
-          "macd_line": 1.03,
-          "signal_line": 2.49,
+          "macd_line": 1.04,
+          "signal_line": 2.51,
           "histogram": -1.46
         },
         "bollinger": {
@@ -3357,8 +3357,8 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 50,
-      "grade": "hold",
+      "score": 38,
+      "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 하락추세"
     },
     {
@@ -3377,8 +3377,8 @@
       "indicators": {
         "rsi_14": 36.06,
         "macd": {
-          "macd_line": -16.47,
-          "signal_line": -16.96,
+          "macd_line": -16.49,
+          "signal_line": -16.98,
           "histogram": 0.49
         },
         "bollinger": {
@@ -3403,8 +3403,8 @@
         "volume": "normal",
         "trend": "strong_downtrend"
       },
-      "score": 65,
-      "grade": "buy",
+      "score": 58,
+      "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세"
     },
     {
@@ -3449,8 +3449,8 @@
         "volume": "volume_surge",
         "trend": "downtrend"
       },
-      "score": 65,
-      "grade": "buy",
+      "score": 38,
+      "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 급증 + 하락추세"
     },
     {
@@ -3469,8 +3469,8 @@
       "indicators": {
         "rsi_14": 68.27,
         "macd": {
-          "macd_line": 1.98,
-          "signal_line": 1.22,
+          "macd_line": 1.99,
+          "signal_line": 1.23,
           "histogram": 0.76
         },
         "bollinger": {
@@ -3495,7 +3495,7 @@
         "volume": "above_average",
         "trend": "uptrend"
       },
-      "score": 70,
+      "score": 66,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 상승추세"
     },
@@ -3515,9 +3515,9 @@
       "indicators": {
         "rsi_14": 39.04,
         "macd": {
-          "macd_line": -1.46,
-          "signal_line": -1.41,
-          "histogram": -0.05
+          "macd_line": -1.47,
+          "signal_line": -1.42,
+          "histogram": -0.04
         },
         "bollinger": {
           "upper": 70.54,
@@ -3541,8 +3541,8 @@
         "volume": "volume_surge",
         "trend": "strong_downtrend"
       },
-      "score": 45,
-      "grade": "hold",
+      "score": 31,
+      "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 거래량 급증 + 강한 하락추세"
     },
     {
@@ -3561,8 +3561,8 @@
       "indicators": {
         "rsi_14": 21.4,
         "macd": {
-          "macd_line": -6.92,
-          "signal_line": -5.39,
+          "macd_line": -6.93,
+          "signal_line": -5.41,
           "histogram": -1.53
         },
         "bollinger": {
@@ -3587,7 +3587,7 @@
         "volume": "normal",
         "trend": "strong_downtrend"
       },
-      "score": 40,
+      "score": 31,
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세"
     },
@@ -3607,9 +3607,9 @@
       "indicators": {
         "rsi_14": 61.8,
         "macd": {
-          "macd_line": 4.07,
-          "signal_line": 4.73,
-          "histogram": -0.66
+          "macd_line": 4.04,
+          "signal_line": 4.69,
+          "histogram": -0.64
         },
         "bollinger": {
           "upper": 137.26,
@@ -3633,7 +3633,7 @@
         "volume": "volume_surge",
         "trend": "strong_uptrend"
       },
-      "score": 45,
+      "score": 43,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 거래량 급증 + 강한 상승추세"
     }
