@@ -1,0 +1,6861 @@
+{
+  "updated_at": "2025-12-22T16:41:24.032930",
+  "market": "KOSPI",
+  "count": 149,
+  "stocks": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 110500.0,
+        "open": 109700.0,
+        "high": 110500.0,
+        "low": 109300.0,
+        "volume": 24705413,
+        "change_pct": 3.95
+      },
+      "indicators": {
+        "rsi_14": 63.2,
+        "macd": {
+          "macd_line": 2167.82,
+          "signal_line": 2171.26,
+          "histogram": -3.44
+        },
+        "bollinger": {
+          "upper": 112001.35,
+          "middle": 105515.0,
+          "lower": 99028.65,
+          "bandwidth": 0.1229
+        },
+        "sma_20": 105515.0,
+        "sma_50": 102070.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 24705413,
+          "avg": 17840884,
+          "ratio": 1.38
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 44,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 580000.0,
+        "open": 574000.0,
+        "high": 580000.0,
+        "low": 567000.0,
+        "volume": 2862313,
+        "change_pct": 6.03
+      },
+      "indicators": {
+        "rsi_14": 55.19,
+        "macd": {
+          "macd_line": 5484.06,
+          "signal_line": 6587.75,
+          "histogram": -1103.69
+        },
+        "bollinger": {
+          "upper": 589070.38,
+          "middle": 551550.0,
+          "lower": 514029.62,
+          "bandwidth": 0.1361
+        },
+        "sma_20": 551550.0,
+        "sma_50": 545610.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 2862313,
+          "avg": 3412210,
+          "ratio": 0.84
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 389500.0,
+        "open": 385000.0,
+        "high": 391500.0,
+        "low": 380000.0,
+        "volume": 297525,
+        "change_pct": 2.77
+      },
+      "indicators": {
+        "rsi_14": 41.24,
+        "macd": {
+          "macd_line": -11047.85,
+          "signal_line": -5510.9,
+          "histogram": -5536.95
+        },
+        "bollinger": {
+          "upper": 465223.33,
+          "middle": 421400.0,
+          "lower": 377576.67,
+          "bandwidth": 0.208
+        },
+        "sma_20": 421400.0,
+        "sma_50": 442510.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 297525,
+          "avg": 394371,
+          "ratio": 0.75
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 1724000.0,
+        "open": 1785000.0,
+        "high": 1785000.0,
+        "low": 1711000.0,
+        "volume": 41980,
+        "change_pct": -0.52
+      },
+      "indicators": {
+        "rsi_14": 61.51,
+        "macd": {
+          "macd_line": 7371.44,
+          "signal_line": -465.4,
+          "histogram": 7836.84
+        },
+        "bollinger": {
+          "upper": 1785153.44,
+          "middle": 1681550.0,
+          "lower": 1577946.56,
+          "bandwidth": 0.1232
+        },
+        "sma_20": 1681550.0,
+        "sma_50": 1727259.16,
+        "sma_200": 0,
+        "volume": {
+          "current": 41980,
+          "avg": 87617,
+          "ratio": 0.48
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "uptrend"
+      },
+      "score": 62,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 85300.0,
+        "open": 85300.0,
+        "high": 85800.0,
+        "low": 84600.0,
+        "volume": 2859452,
+        "change_pct": 2.4
+      },
+      "indicators": {
+        "rsi_14": 73.72,
+        "macd": {
+          "macd_line": 1973.65,
+          "signal_line": 1559.49,
+          "histogram": 414.16
+        },
+        "bollinger": {
+          "upper": 85783.72,
+          "middle": 79910.0,
+          "lower": 74036.28,
+          "bandwidth": 0.147
+        },
+        "sma_20": 79910.0,
+        "sma_50": 78350.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 2859452,
+          "avg": 2336285,
+          "ratio": 1.22
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 289000.0,
+        "open": 290500.0,
+        "high": 290500.0,
+        "low": 285000.0,
+        "volume": 676748,
+        "change_pct": 0.17
+      },
+      "indicators": {
+        "rsi_14": 61.39,
+        "macd": {
+          "macd_line": 6780.11,
+          "signal_line": 8451.03,
+          "histogram": -1670.92
+        },
+        "bollinger": {
+          "upper": 322491.38,
+          "middle": 283750.0,
+          "lower": 245008.62,
+          "bandwidth": 0.2731
+        },
+        "sma_20": 283750.0,
+        "sma_50": 270170.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 676748,
+          "avg": 1074551,
+          "ratio": 0.63
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 47,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 514000.0,
+        "open": 527000.0,
+        "high": 530000.0,
+        "low": 514000.0,
+        "volume": 148449,
+        "change_pct": -1.34
+      },
+      "indicators": {
+        "rsi_14": 48.47,
+        "macd": {
+          "macd_line": -8486.06,
+          "signal_line": -4250.5,
+          "histogram": -4235.56
+        },
+        "bollinger": {
+          "upper": 581549.81,
+          "middle": 538850.0,
+          "lower": 496150.19,
+          "bandwidth": 0.1585
+        },
+        "sma_20": 538850.0,
+        "sma_50": 552220.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 148449,
+          "avg": 269719,
+          "ratio": 0.55
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 78000.0,
+        "open": 79400.0,
+        "high": 80100.0,
+        "low": 77700.0,
+        "volume": 4089864,
+        "change_pct": 0.78
+      },
+      "indicators": {
+        "rsi_14": 57.08,
+        "macd": {
+          "macd_line": -166.42,
+          "signal_line": -163.99,
+          "histogram": -2.43
+        },
+        "bollinger": {
+          "upper": 80490.41,
+          "middle": 77010.0,
+          "lower": 73529.59,
+          "bandwidth": 0.0904
+        },
+        "sma_20": 77010.0,
+        "sma_50": 79436.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 4089864,
+          "avg": 3883661,
+          "ratio": 1.05
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 44,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 상승추세"
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 126500.0,
+        "open": 126400.0,
+        "high": 126500.0,
+        "low": 125000.0,
+        "volume": 521087,
+        "change_pct": 1.04
+      },
+      "indicators": {
+        "rsi_14": 35.29,
+        "macd": {
+          "macd_line": 392.38,
+          "signal_line": 771.82,
+          "histogram": -379.44
+        },
+        "bollinger": {
+          "upper": 131673.22,
+          "middle": 126115.0,
+          "lower": 120556.78,
+          "bandwidth": 0.0881
+        },
+        "sma_20": 126115.0,
+        "sma_50": 122798.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 521087,
+          "avg": 922537,
+          "ratio": 0.56
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 60,
+      "grade": "buy",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "000270",
+      "name": "기아",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 121100.0,
+        "open": 121700.0,
+        "high": 121800.0,
+        "low": 119500.0,
+        "volume": 532952,
+        "change_pct": 0.08
+      },
+      "indicators": {
+        "rsi_14": 59.45,
+        "macd": {
+          "macd_line": 1984.06,
+          "signal_line": 2353.85,
+          "histogram": -369.79
+        },
+        "bollinger": {
+          "upper": 128872.18,
+          "middle": 119730.0,
+          "lower": 110587.82,
+          "bandwidth": 0.1527
+        },
+        "sma_20": 119730.0,
+        "sma_50": 116326.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 532952,
+          "avg": 949703,
+          "ratio": 0.56
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 886000.0,
+        "open": 900000.0,
+        "high": 906000.0,
+        "low": 883000.0,
+        "volume": 107150,
+        "change_pct": 0.23
+      },
+      "indicators": {
+        "rsi_14": 57.45,
+        "macd": {
+          "macd_line": -11873.81,
+          "signal_line": -13068.96,
+          "histogram": 1195.14
+        },
+        "bollinger": {
+          "upper": 963034.72,
+          "middle": 882850.0,
+          "lower": 802665.28,
+          "bandwidth": 0.1816
+        },
+        "sma_20": 882850.0,
+        "sma_50": 930260.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 107150,
+          "avg": 203923,
+          "ratio": 0.53
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 184600.0,
+        "open": 185800.0,
+        "high": 185900.0,
+        "low": 183100.0,
+        "volume": 375622,
+        "change_pct": 0.05
+      },
+      "indicators": {
+        "rsi_14": 51.1,
+        "macd": {
+          "macd_line": 759.08,
+          "signal_line": 1275.62,
+          "histogram": -516.54
+        },
+        "bollinger": {
+          "upper": 188652.05,
+          "middle": 185155.0,
+          "lower": 181657.95,
+          "bandwidth": 0.0378
+        },
+        "sma_20": 185155.0,
+        "sma_50": 181372.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 375622,
+          "avg": 545302,
+          "ratio": 0.69
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 315000.0,
+        "open": 303000.0,
+        "high": 318000.0,
+        "low": 300500.0,
+        "volume": 350851,
+        "change_pct": 8.43
+      },
+      "indicators": {
+        "rsi_14": 52.84,
+        "macd": {
+          "macd_line": 3368.19,
+          "signal_line": 5719.32,
+          "histogram": -2351.12
+        },
+        "bollinger": {
+          "upper": 328619.82,
+          "middle": 302650.0,
+          "lower": 276680.18,
+          "bandwidth": 0.1716
+        },
+        "sma_20": 302650.0,
+        "sma_50": 286730.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 350851,
+          "avg": 454104,
+          "ratio": 0.77
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 244500.0,
+        "open": 252000.0,
+        "high": 252500.0,
+        "low": 242000.0,
+        "volume": 313717,
+        "change_pct": -1.81
+      },
+      "indicators": {
+        "rsi_14": 62.66,
+        "macd": {
+          "macd_line": 6278.92,
+          "signal_line": 7229.66,
+          "histogram": -950.73
+        },
+        "bollinger": {
+          "upper": 260443.16,
+          "middle": 241275.0,
+          "lower": 222106.84,
+          "bandwidth": 0.1589
+        },
+        "sma_20": 241275.0,
+        "sma_50": 226376.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 313717,
+          "avg": 375801,
+          "ratio": 0.83
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 47,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 78600.0,
+        "open": 78800.0,
+        "high": 78900.0,
+        "low": 77800.0,
+        "volume": 746752,
+        "change_pct": 1.68
+      },
+      "indicators": {
+        "rsi_14": 39.86,
+        "macd": {
+          "macd_line": 71.45,
+          "signal_line": 289.84,
+          "histogram": -218.4
+        },
+        "bollinger": {
+          "upper": 80965.12,
+          "middle": 78135.0,
+          "lower": 75304.88,
+          "bandwidth": 0.0724
+        },
+        "sma_20": 78135.0,
+        "sma_50": 76576.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 746752,
+          "avg": 1147975,
+          "ratio": 0.65
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 60,
+      "grade": "buy",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 238000.0,
+        "open": 238500.0,
+        "high": 239000.0,
+        "low": 236500.0,
+        "volume": 610805,
+        "change_pct": 1.06
+      },
+      "indicators": {
+        "rsi_14": 42.86,
+        "macd": {
+          "macd_line": -5377.36,
+          "signal_line": -4499.31,
+          "histogram": -878.05
+        },
+        "bollinger": {
+          "upper": 259995.84,
+          "middle": 243875.0,
+          "lower": 227754.16,
+          "bandwidth": 0.1322
+        },
+        "sma_20": 243875.0,
+        "sma_50": 252840.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 610805,
+          "avg": 931474,
+          "ratio": 0.66
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 109700.0,
+        "open": 112700.0,
+        "high": 112700.0,
+        "low": 109100.0,
+        "volume": 992142,
+        "change_pct": 0.18
+      },
+      "indicators": {
+        "rsi_14": 55.36,
+        "macd": {
+          "macd_line": -2949.87,
+          "signal_line": -3063.74,
+          "histogram": 113.87
+        },
+        "bollinger": {
+          "upper": 116889.82,
+          "middle": 110070.0,
+          "lower": 103250.18,
+          "bandwidth": 0.1239
+        },
+        "sma_20": 110070.0,
+        "sma_50": 119674.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 992142,
+          "avg": 1372594,
+          "ratio": 0.72
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 363000.0,
+        "open": 367000.0,
+        "high": 367000.0,
+        "low": 358500.0,
+        "volume": 175735,
+        "change_pct": -0.95
+      },
+      "indicators": {
+        "rsi_14": 68.55,
+        "macd": {
+          "macd_line": 15509.21,
+          "signal_line": 15109.23,
+          "histogram": 399.98
+        },
+        "bollinger": {
+          "upper": 397916.99,
+          "middle": 342100.0,
+          "lower": 286283.01,
+          "bandwidth": 0.3263
+        },
+        "sma_20": 342100.0,
+        "sma_50": 317420.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 175735,
+          "avg": 319373,
+          "ratio": 0.55
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 71,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 160300.0,
+        "open": 155800.0,
+        "high": 160900.0,
+        "low": 154700.0,
+        "volume": 255866,
+        "change_pct": 3.42
+      },
+      "indicators": {
+        "rsi_14": 58.25,
+        "macd": {
+          "macd_line": 210.49,
+          "signal_line": -218.05,
+          "histogram": 428.54
+        },
+        "bollinger": {
+          "upper": 160228.93,
+          "middle": 154355.0,
+          "lower": 148481.07,
+          "bandwidth": 0.0761
+        },
+        "sma_20": 154355.0,
+        "sma_50": 155818.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 255866,
+          "avg": 237000,
+          "ratio": 1.08
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 56,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 볼린저 상단 터치 + 상승추세"
+    },
+    {
+      "code": "015760",
+      "name": "한국전력",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 49050.0,
+        "open": 49650.0,
+        "high": 49700.0,
+        "low": 48750.0,
+        "volume": 2470583,
+        "change_pct": -0.51
+      },
+      "indicators": {
+        "rsi_14": 42.45,
+        "macd": {
+          "macd_line": 552.73,
+          "signal_line": 1039.97,
+          "histogram": -487.24
+        },
+        "bollinger": {
+          "upper": 53154.69,
+          "middle": 50620.0,
+          "lower": 48085.31,
+          "bandwidth": 0.1001
+        },
+        "sma_20": 50620.0,
+        "sma_50": 47221.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 2470583,
+          "avg": 3952406,
+          "ratio": 0.63
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 418500.0,
+        "open": 425000.0,
+        "high": 426500.0,
+        "low": 415000.0,
+        "volume": 114388,
+        "change_pct": -0.59
+      },
+      "indicators": {
+        "rsi_14": 52.49,
+        "macd": {
+          "macd_line": -2034.53,
+          "signal_line": -276.02,
+          "histogram": -1758.52
+        },
+        "bollinger": {
+          "upper": 453269.27,
+          "middle": 426400.0,
+          "lower": 399530.73,
+          "bandwidth": 0.126
+        },
+        "sma_20": 426400.0,
+        "sma_50": 433220.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 114388,
+          "avg": 162052,
+          "ratio": 0.71
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 805000.0,
+        "open": 826000.0,
+        "high": 833000.0,
+        "low": 797000.0,
+        "volume": 113153,
+        "change_pct": -0.25
+      },
+      "indicators": {
+        "rsi_14": 55.22,
+        "macd": {
+          "macd_line": 5498.81,
+          "signal_line": 10201.67,
+          "histogram": -4702.86
+        },
+        "bollinger": {
+          "upper": 873659.54,
+          "middle": 812850.0,
+          "lower": 752040.46,
+          "bandwidth": 0.1496
+        },
+        "sma_20": 812850.0,
+        "sma_50": 803920.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 113153,
+          "avg": 127153,
+          "ratio": 0.89
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "010130",
+      "name": "고려아연",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 1383000.0,
+        "open": 1333000.0,
+        "high": 1408000.0,
+        "low": 1317000.0,
+        "volume": 50852,
+        "change_pct": 5.57
+      },
+      "indicators": {
+        "rsi_14": 54.3,
+        "macd": {
+          "macd_line": 57319.39,
+          "signal_line": 75811.47,
+          "histogram": -18492.08
+        },
+        "bollinger": {
+          "upper": 1596129.98,
+          "middle": 1369400.0,
+          "lower": 1142670.02,
+          "bandwidth": 0.3311
+        },
+        "sma_20": 1369400.0,
+        "sma_50": 1225980.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 50852,
+          "avg": 43770,
+          "ratio": 1.16
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "086790",
+      "name": "하나금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 94100.0,
+        "open": 93300.0,
+        "high": 94100.0,
+        "low": 92600.0,
+        "volume": 477876,
+        "change_pct": 1.84
+      },
+      "indicators": {
+        "rsi_14": 38.24,
+        "macd": {
+          "macd_line": 256.95,
+          "signal_line": 427.7,
+          "histogram": -170.75
+        },
+        "bollinger": {
+          "upper": 96535.44,
+          "middle": 93285.0,
+          "lower": 90034.56,
+          "bandwidth": 0.0697
+        },
+        "sma_20": 93285.0,
+        "sma_50": 91086.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 477876,
+          "avg": 682435,
+          "ratio": 0.7
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 60,
+      "grade": "buy",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 58700.0,
+        "open": 58800.0,
+        "high": 59300.0,
+        "low": 58300.0,
+        "volume": 1446547,
+        "change_pct": 0.86
+      },
+      "indicators": {
+        "rsi_14": 46.43,
+        "macd": {
+          "macd_line": -748.62,
+          "signal_line": -618.63,
+          "histogram": -129.99
+        },
+        "bollinger": {
+          "upper": 62156.79,
+          "middle": 59410.0,
+          "lower": 56663.21,
+          "bandwidth": 0.0925
+        },
+        "sma_20": 59410.0,
+        "sma_50": 60558.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 1446547,
+          "avg": 1873847,
+          "ratio": 0.77
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "005490",
+      "name": "POSCO홀딩스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 305000.0,
+        "open": 304500.0,
+        "high": 307000.0,
+        "low": 302000.0,
+        "volume": 177734,
+        "change_pct": 0.83
+      },
+      "indicators": {
+        "rsi_14": 47.06,
+        "macd": {
+          "macd_line": -334.93,
+          "signal_line": 1095.59,
+          "histogram": -1430.52
+        },
+        "bollinger": {
+          "upper": 321685.06,
+          "middle": 310550.0,
+          "lower": 299414.94,
+          "bandwidth": 0.0717
+        },
+        "sma_20": 310550.0,
+        "sma_50": 308910.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 177734,
+          "avg": 266726,
+          "ratio": 0.67
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "051910",
+      "name": "LG화학",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 346000.0,
+        "open": 343000.0,
+        "high": 351000.0,
+        "low": 339000.0,
+        "volume": 157106,
+        "change_pct": 2.22
+      },
+      "indicators": {
+        "rsi_14": 39.51,
+        "macd": {
+          "macd_line": -8072.02,
+          "signal_line": -3466.16,
+          "histogram": -4605.86
+        },
+        "bollinger": {
+          "upper": 403317.66,
+          "middle": 369700.0,
+          "lower": 336082.34,
+          "bandwidth": 0.1819
+        },
+        "sma_20": 369700.0,
+        "sma_50": 375990.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 157106,
+          "avg": 272886,
+          "ratio": 0.58
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "000810",
+      "name": "삼성화재",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 497500.0,
+        "open": 493500.0,
+        "high": 497500.0,
+        "low": 490500.0,
+        "volume": 45124,
+        "change_pct": 1.95
+      },
+      "indicators": {
+        "rsi_14": 50.07,
+        "macd": {
+          "macd_line": 3868.02,
+          "signal_line": 7343.09,
+          "histogram": -3475.07
+        },
+        "bollinger": {
+          "upper": 563862.4,
+          "middle": 499100.0,
+          "lower": 434337.6,
+          "bandwidth": 0.2595
+        },
+        "sma_20": 499100.0,
+        "sma_50": 478890.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 45124,
+          "avg": 96418,
+          "ratio": 0.47
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "downtrend"
+      },
+      "score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 282500.0,
+        "open": 282000.0,
+        "high": 285000.0,
+        "low": 277500.0,
+        "volume": 311296,
+        "change_pct": 1.07
+      },
+      "indicators": {
+        "rsi_14": 34.9,
+        "macd": {
+          "macd_line": -2661.81,
+          "signal_line": 1482.67,
+          "histogram": -4144.49
+        },
+        "bollinger": {
+          "upper": 322613.45,
+          "middle": 299925.0,
+          "lower": 277236.55,
+          "bandwidth": 0.1513
+        },
+        "sma_20": 299925.0,
+        "sma_50": 297040.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 311296,
+          "avg": 409463,
+          "ratio": 0.76
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 43,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "010140",
+      "name": "삼성중공업",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 24850.0,
+        "open": 25700.0,
+        "high": 25750.0,
+        "low": 24650.0,
+        "volume": 3949474,
+        "change_pct": -2.17
+      },
+      "indicators": {
+        "rsi_14": 51.93,
+        "macd": {
+          "macd_line": -163.78,
+          "signal_line": -66.12,
+          "histogram": -97.66
+        },
+        "bollinger": {
+          "upper": 26804.55,
+          "middle": 25197.5,
+          "lower": 23590.45,
+          "bandwidth": 0.1276
+        },
+        "sma_20": 25197.5,
+        "sma_50": 25666.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 3949474,
+          "avg": 3325142,
+          "ratio": 1.19
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "316140",
+      "name": "우리금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 28450.0,
+        "open": 28100.0,
+        "high": 28450.0,
+        "low": 27950.0,
+        "volume": 1355729,
+        "change_pct": 2.52
+      },
+      "indicators": {
+        "rsi_14": 43.37,
+        "macd": {
+          "macd_line": 360.37,
+          "signal_line": 375.23,
+          "histogram": -14.86
+        },
+        "bollinger": {
+          "upper": 29272.3,
+          "middle": 27550.0,
+          "lower": 25827.7,
+          "bandwidth": 0.125
+        },
+        "sma_20": 27550.0,
+        "sma_50": 26584.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 1355729,
+          "avg": 1894594,
+          "ratio": 0.72
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 183000.0,
+        "open": 182500.0,
+        "high": 183800.0,
+        "low": 177500.0,
+        "volume": 365401,
+        "change_pct": 2.06
+      },
+      "indicators": {
+        "rsi_14": 60.83,
+        "macd": {
+          "macd_line": -4236.6,
+          "signal_line": -5405.22,
+          "histogram": 1168.62
+        },
+        "bollinger": {
+          "upper": 192222.9,
+          "middle": 180070.0,
+          "lower": 167917.1,
+          "bandwidth": 0.135
+        },
+        "sma_20": 180070.0,
+        "sma_50": 198682.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 365401,
+          "avg": 654087,
+          "ratio": 0.56
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "011200",
+      "name": "HMM",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 20550.0,
+        "open": 20700.0,
+        "high": 20800.0,
+        "low": 20400.0,
+        "volume": 779923,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 59.09,
+        "macd": {
+          "macd_line": 194.93,
+          "signal_line": 136.31,
+          "histogram": 58.62
+        },
+        "bollinger": {
+          "upper": 21464.46,
+          "middle": 20152.0,
+          "lower": 18839.54,
+          "bandwidth": 0.1303
+        },
+        "sma_20": 20152.0,
+        "sma_50": 20128.4,
+        "sma_200": 0,
+        "volume": {
+          "current": 779923,
+          "avg": 1332933,
+          "ratio": 0.59
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 74,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "138040",
+      "name": "메리츠금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 109700.0,
+        "open": 110500.0,
+        "high": 111300.0,
+        "low": 109100.0,
+        "volume": 209822,
+        "change_pct": 0.09
+      },
+      "indicators": {
+        "rsi_14": 49.64,
+        "macd": {
+          "macd_line": -847.2,
+          "signal_line": -1012.52,
+          "histogram": 165.32
+        },
+        "bollinger": {
+          "upper": 111601.31,
+          "middle": 109525.0,
+          "lower": 107448.69,
+          "bandwidth": 0.0379
+        },
+        "sma_20": 109525.0,
+        "sma_50": 112038.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 209822,
+          "avg": 204825,
+          "ratio": 1.02
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 254500.0,
+        "open": 259500.0,
+        "high": 260000.0,
+        "low": 252500.0,
+        "volume": 416568,
+        "change_pct": 0.59
+      },
+      "indicators": {
+        "rsi_14": 52.25,
+        "macd": {
+          "macd_line": 6766.02,
+          "signal_line": 9325.16,
+          "histogram": -2559.14
+        },
+        "bollinger": {
+          "upper": 274547.98,
+          "middle": 258775.0,
+          "lower": 243002.02,
+          "bandwidth": 0.1219
+        },
+        "sma_20": 258775.0,
+        "sma_50": 236084.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 416568,
+          "avg": 594738,
+          "ratio": 0.7
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 251000.0,
+        "open": 253000.0,
+        "high": 253000.0,
+        "low": 248000.0,
+        "volume": 121352,
+        "change_pct": 0.4
+      },
+      "indicators": {
+        "rsi_14": 43.36,
+        "macd": {
+          "macd_line": -165.48,
+          "signal_line": 2135.41,
+          "histogram": -2300.89
+        },
+        "bollinger": {
+          "upper": 273811.44,
+          "middle": 259150.0,
+          "lower": 244488.56,
+          "bandwidth": 0.1132
+        },
+        "sma_20": 259150.0,
+        "sma_50": 252220.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 121352,
+          "avg": 183111,
+          "ratio": 0.66
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 106500.0,
+        "open": 106200.0,
+        "high": 106500.0,
+        "low": 105300.0,
+        "volume": 160271,
+        "change_pct": 0.66
+      },
+      "indicators": {
+        "rsi_14": 33.7,
+        "macd": {
+          "macd_line": -2832.72,
+          "signal_line": -1946.61,
+          "histogram": -886.11
+        },
+        "bollinger": {
+          "upper": 120820.89,
+          "middle": 113035.0,
+          "lower": 105249.11,
+          "bandwidth": 0.1378
+        },
+        "sma_20": 113035.0,
+        "sma_50": 118520.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 160271,
+          "avg": 259285,
+          "ratio": 0.62
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 37,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 강한 하락추세"
+    },
+    {
+      "code": "003670",
+      "name": "포스코퓨처엠",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 196100.0,
+        "open": 192500.0,
+        "high": 197200.0,
+        "low": 190300.0,
+        "volume": 334746,
+        "change_pct": 2.62
+      },
+      "indicators": {
+        "rsi_14": 42.44,
+        "macd": {
+          "macd_line": -242.64,
+          "signal_line": 2799.37,
+          "histogram": -3042.01
+        },
+        "bollinger": {
+          "upper": 231141.09,
+          "middle": 208865.0,
+          "lower": 186588.91,
+          "bandwidth": 0.2133
+        },
+        "sma_20": 208865.0,
+        "sma_50": 208548.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 334746,
+          "avg": 361661,
+          "ratio": 0.93
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 1850000.0,
+        "open": 1889000.0,
+        "high": 1916000.0,
+        "low": 1834000.0,
+        "volume": 35781,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 49.04,
+        "macd": {
+          "macd_line": -26494.07,
+          "signal_line": -13384.87,
+          "histogram": -13109.21
+        },
+        "bollinger": {
+          "upper": 2036335.53,
+          "middle": 1913200.0,
+          "lower": 1790064.47,
+          "bandwidth": 0.1287
+        },
+        "sma_20": 1913200.0,
+        "sma_50": 1959500.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 35781,
+          "avg": 57559,
+          "ratio": 0.62
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "033780",
+      "name": "KT&G",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 144800.0,
+        "open": 148000.0,
+        "high": 148000.0,
+        "low": 144100.0,
+        "volume": 216068,
+        "change_pct": -1.3
+      },
+      "indicators": {
+        "rsi_14": 50.0,
+        "macd": {
+          "macd_line": 1229.19,
+          "signal_line": 1152.53,
+          "histogram": 76.66
+        },
+        "bollinger": {
+          "upper": 148172.69,
+          "middle": 143600.0,
+          "lower": 139027.31,
+          "bandwidth": 0.0637
+        },
+        "sma_20": 143600.0,
+        "sma_50": 140624.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 216068,
+          "avg": 280967,
+          "ratio": 0.77
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 74,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "024110",
+      "name": "기업은행",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 21350.0,
+        "open": 21050.0,
+        "high": 21400.0,
+        "low": 21000.0,
+        "volume": 1148458,
+        "change_pct": 1.91
+      },
+      "indicators": {
+        "rsi_14": 54.1,
+        "macd": {
+          "macd_line": 226.07,
+          "signal_line": 235.77,
+          "histogram": -9.69
+        },
+        "bollinger": {
+          "upper": 21407.99,
+          "middle": 20812.5,
+          "lower": 20217.01,
+          "bandwidth": 0.0572
+        },
+        "sma_20": 20812.5,
+        "sma_50": 20158.4,
+        "sma_200": 0,
+        "volume": {
+          "current": 1148458,
+          "avg": 929694,
+          "ratio": 1.24
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "267250",
+      "name": "HD현대",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 195200.0,
+        "open": 198900.0,
+        "high": 199500.0,
+        "low": 192500.0,
+        "volume": 167054,
+        "change_pct": -1.81
+      },
+      "indicators": {
+        "rsi_14": 53.25,
+        "macd": {
+          "macd_line": -1096.89,
+          "signal_line": 470.09,
+          "histogram": -1566.98
+        },
+        "bollinger": {
+          "upper": 215138.05,
+          "middle": 201540.0,
+          "lower": 187941.95,
+          "bandwidth": 0.1349
+        },
+        "sma_20": 201540.0,
+        "sma_50": 200478.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 167054,
+          "avg": 182284,
+          "ratio": 0.92
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 93900.0,
+        "open": 94800.0,
+        "high": 94900.0,
+        "low": 93000.0,
+        "volume": 475361,
+        "change_pct": -0.42
+      },
+      "indicators": {
+        "rsi_14": 60.77,
+        "macd": {
+          "macd_line": 1784.0,
+          "signal_line": 1952.6,
+          "histogram": -168.6
+        },
+        "bollinger": {
+          "upper": 101533.93,
+          "middle": 92190.0,
+          "lower": 82846.07,
+          "bandwidth": 0.2027
+        },
+        "sma_20": 92190.0,
+        "sma_50": 89862.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 475361,
+          "avg": 755855,
+          "ratio": 0.63
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 47,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 475000.0,
+        "open": 482500.0,
+        "high": 490000.0,
+        "low": 470000.0,
+        "volume": 92306,
+        "change_pct": 0.85
+      },
+      "indicators": {
+        "rsi_14": 50.83,
+        "macd": {
+          "macd_line": 9096.97,
+          "signal_line": 14895.17,
+          "histogram": -5798.2
+        },
+        "bollinger": {
+          "upper": 522660.35,
+          "middle": 478425.0,
+          "lower": 434189.65,
+          "bandwidth": 0.1849
+        },
+        "sma_20": 478425.0,
+        "sma_50": 440390.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 92306,
+          "avg": 164508,
+          "ratio": 0.56
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "086280",
+      "name": "현대글로비스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 179800.0,
+        "open": 180900.0,
+        "high": 180900.0,
+        "low": 177900.0,
+        "volume": 108241,
+        "change_pct": 1.01
+      },
+      "indicators": {
+        "rsi_14": 67.69,
+        "macd": {
+          "macd_line": 3336.28,
+          "signal_line": 3281.92,
+          "histogram": 54.36
+        },
+        "bollinger": {
+          "upper": 190445.51,
+          "middle": 174575.0,
+          "lower": 158704.49,
+          "bandwidth": 0.1818
+        },
+        "sma_20": 174575.0,
+        "sma_50": 169652.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 108241,
+          "avg": 160720,
+          "ratio": 0.67
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 71,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "030200",
+      "name": "KT",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 53100.0,
+        "open": 53600.0,
+        "high": 54000.0,
+        "low": 53000.0,
+        "volume": 323468,
+        "change_pct": -1.3
+      },
+      "indicators": {
+        "rsi_14": 61.9,
+        "macd": {
+          "macd_line": 878.49,
+          "signal_line": 771.03,
+          "histogram": 107.46
+        },
+        "bollinger": {
+          "upper": 54813.69,
+          "middle": 52032.5,
+          "lower": 49251.31,
+          "bandwidth": 0.1069
+        },
+        "sma_20": 52032.5,
+        "sma_50": 50543.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 323468,
+          "avg": 422956,
+          "ratio": 0.76
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 71,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "352820",
+      "name": "하이브",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 309000.0,
+        "open": 315500.0,
+        "high": 316000.0,
+        "low": 308500.0,
+        "volume": 168520,
+        "change_pct": -1.44
+      },
+      "indicators": {
+        "rsi_14": 59.65,
+        "macd": {
+          "macd_line": 2909.65,
+          "signal_line": 949.26,
+          "histogram": 1960.38
+        },
+        "bollinger": {
+          "upper": 312502.5,
+          "middle": 296800.0,
+          "lower": 281097.5,
+          "bandwidth": 0.1058
+        },
+        "sma_20": 296800.0,
+        "sma_50": 298320.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 168520,
+          "avg": 220307,
+          "ratio": 0.76
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "018260",
+      "name": "삼성에스디에스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 169900.0,
+        "open": 173100.0,
+        "high": 173100.0,
+        "low": 167400.0,
+        "volume": 152243,
+        "change_pct": -1.11
+      },
+      "indicators": {
+        "rsi_14": 48.34,
+        "macd": {
+          "macd_line": 226.32,
+          "signal_line": 693.77,
+          "histogram": -467.45
+        },
+        "bollinger": {
+          "upper": 178175.4,
+          "middle": 172345.0,
+          "lower": 166514.6,
+          "bandwidth": 0.0677
+        },
+        "sma_20": 172345.0,
+        "sma_50": 171432.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 152243,
+          "avg": 130707,
+          "ratio": 1.16
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 23000.0,
+        "open": 22950.0,
+        "high": 23950.0,
+        "low": 22650.0,
+        "volume": 8485092,
+        "change_pct": 1.32
+      },
+      "indicators": {
+        "rsi_14": 59.4,
+        "macd": {
+          "macd_line": -169.21,
+          "signal_line": -354.73,
+          "histogram": 185.53
+        },
+        "bollinger": {
+          "upper": 23001.83,
+          "middle": 21837.5,
+          "lower": 20673.17,
+          "bandwidth": 0.1066
+        },
+        "sma_20": 21837.5,
+        "sma_50": 22961.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 8485092,
+          "avg": 4305671,
+          "ratio": 1.97
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "above_average",
+        "trend": "uptrend"
+      },
+      "score": 64,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 증가 + 상승추세"
+    },
+    {
+      "code": "000150",
+      "name": "두산",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 793000.0,
+        "open": 785000.0,
+        "high": 799000.0,
+        "low": 784000.0,
+        "volume": 102464,
+        "change_pct": 4.34
+      },
+      "indicators": {
+        "rsi_14": 42.13,
+        "macd": {
+          "macd_line": -20667.01,
+          "signal_line": -6964.61,
+          "histogram": -13702.4
+        },
+        "bollinger": {
+          "upper": 939677.78,
+          "middle": 852850.0,
+          "lower": 766022.22,
+          "bandwidth": 0.2036
+        },
+        "sma_20": 852850.0,
+        "sma_50": 863440.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 102464,
+          "avg": 126540,
+          "ratio": 0.81
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "003550",
+      "name": "LG",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 82800.0,
+        "open": 82400.0,
+        "high": 82800.0,
+        "low": 81800.0,
+        "volume": 146480,
+        "change_pct": 1.35
+      },
+      "indicators": {
+        "rsi_14": 57.45,
+        "macd": {
+          "macd_line": 575.16,
+          "signal_line": 664.42,
+          "histogram": -89.27
+        },
+        "bollinger": {
+          "upper": 85994.95,
+          "middle": 81805.0,
+          "lower": 77615.05,
+          "bandwidth": 0.1024
+        },
+        "sma_20": 81805.0,
+        "sma_50": 81058.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 146480,
+          "avg": 319809,
+          "ratio": 0.46
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 127000.0,
+        "open": 118500.0,
+        "high": 127600.0,
+        "low": 118300.0,
+        "volume": 2443451,
+        "change_pct": 9.11
+      },
+      "indicators": {
+        "rsi_14": 59.42,
+        "macd": {
+          "macd_line": -1503.14,
+          "signal_line": -1962.02,
+          "histogram": 458.88
+        },
+        "bollinger": {
+          "upper": 127406.59,
+          "middle": 120745.0,
+          "lower": 114083.41,
+          "bandwidth": 0.1103
+        },
+        "sma_20": 120745.0,
+        "sma_50": 130002.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 2443451,
+          "avg": 851014,
+          "ratio": 2.87
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "259960",
+      "name": "크래프톤",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 247000.0,
+        "open": 249000.0,
+        "high": 250000.0,
+        "low": 246000.0,
+        "volume": 55852,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 44.34,
+        "macd": {
+          "macd_line": -5554.94,
+          "signal_line": -6688.4,
+          "histogram": 1133.46
+        },
+        "bollinger": {
+          "upper": 259576.08,
+          "middle": 248875.0,
+          "lower": 238173.92,
+          "bandwidth": 0.086
+        },
+        "sma_20": 248875.0,
+        "sma_50": 263920.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 55852,
+          "avg": 82642,
+          "ratio": 0.68
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 53200.0,
+        "open": 52600.0,
+        "high": 53200.0,
+        "low": 52400.0,
+        "volume": 683774,
+        "change_pct": -0.56
+      },
+      "indicators": {
+        "rsi_14": 47.83,
+        "macd": {
+          "macd_line": -131.25,
+          "signal_line": -72.34,
+          "histogram": -58.91
+        },
+        "bollinger": {
+          "upper": 54419.28,
+          "middle": 53605.0,
+          "lower": 52790.72,
+          "bandwidth": 0.0304
+        },
+        "sma_20": 53605.0,
+        "sma_50": 53642.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 683774,
+          "avg": 796565,
+          "ratio": 0.86
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 강한 하락추세"
+    },
+    {
+      "code": "047810",
+      "name": "한국항공우주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 113000.0,
+        "open": 109500.0,
+        "high": 113500.0,
+        "low": 109000.0,
+        "volume": 825942,
+        "change_pct": 3.86
+      },
+      "indicators": {
+        "rsi_14": 62.18,
+        "macd": {
+          "macd_line": 1340.46,
+          "signal_line": 1322.53,
+          "histogram": 17.92
+        },
+        "bollinger": {
+          "upper": 113961.94,
+          "middle": 109010.0,
+          "lower": 104058.06,
+          "bandwidth": 0.0909
+        },
+        "sma_20": 109010.0,
+        "sma_50": 105366.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 825942,
+          "avg": 625257,
+          "ratio": 1.32
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "272210",
+      "name": "한화시스템",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 56800.0,
+        "open": 55300.0,
+        "high": 57600.0,
+        "low": 54000.0,
+        "volume": 4168080,
+        "change_pct": 4.6
+      },
+      "indicators": {
+        "rsi_14": 74.94,
+        "macd": {
+          "macd_line": 519.57,
+          "signal_line": -554.95,
+          "histogram": 1074.52
+        },
+        "bollinger": {
+          "upper": 55118.76,
+          "middle": 48730.0,
+          "lower": 42341.24,
+          "bandwidth": 0.2622
+        },
+        "sma_20": 48730.0,
+        "sma_50": 51838.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 4168080,
+          "avg": 1852291,
+          "ratio": 2.25
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 56,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "323410",
+      "name": "카카오뱅크",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 21950.0,
+        "open": 21850.0,
+        "high": 22000.0,
+        "low": 21750.0,
+        "volume": 558827,
+        "change_pct": 0.92
+      },
+      "indicators": {
+        "rsi_14": 50.0,
+        "macd": {
+          "macd_line": -161.79,
+          "signal_line": -213.03,
+          "histogram": 51.24
+        },
+        "bollinger": {
+          "upper": 22263.62,
+          "middle": 21655.0,
+          "lower": 21046.38,
+          "bandwidth": 0.0562
+        },
+        "sma_20": 21655.0,
+        "sma_50": 22111.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 558827,
+          "avg": 622896,
+          "ratio": 0.9
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "326030",
+      "name": "SK바이오팜",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 129000.0,
+        "open": 131000.0,
+        "high": 131700.0,
+        "low": 127900.0,
+        "volume": 154461,
+        "change_pct": 0.08
+      },
+      "indicators": {
+        "rsi_14": 34.64,
+        "macd": {
+          "macd_line": 1323.54,
+          "signal_line": 2853.69,
+          "histogram": -1530.15
+        },
+        "bollinger": {
+          "upper": 141499.97,
+          "middle": 134250.0,
+          "lower": 127000.03,
+          "bandwidth": 0.108
+        },
+        "sma_20": 134250.0,
+        "sma_50": 123588.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 154461,
+          "avg": 280985,
+          "ratio": 0.55
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 43,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "003230",
+      "name": "삼양식품",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 1284000.0,
+        "open": 1255000.0,
+        "high": 1289000.0,
+        "low": 1242000.0,
+        "volume": 50385,
+        "change_pct": 2.56
+      },
+      "indicators": {
+        "rsi_14": 39.92,
+        "macd": {
+          "macd_line": -26068.12,
+          "signal_line": -24232.32,
+          "histogram": -1835.8
+        },
+        "bollinger": {
+          "upper": 1432572.27,
+          "middle": 1310400.0,
+          "lower": 1188227.73,
+          "bandwidth": 0.1865
+        },
+        "sma_20": 1310400.0,
+        "sma_50": 1324080.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 50385,
+          "avg": 56522,
+          "ratio": 0.89
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "010950",
+      "name": "S-Oil",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 84000.0,
+        "open": 82700.0,
+        "high": 84800.0,
+        "low": 81500.0,
+        "volume": 216226,
+        "change_pct": 3.07
+      },
+      "indicators": {
+        "rsi_14": 57.02,
+        "macd": {
+          "macd_line": 1149.56,
+          "signal_line": 1294.06,
+          "histogram": -144.5
+        },
+        "bollinger": {
+          "upper": 85805.92,
+          "middle": 81125.0,
+          "lower": 76444.08,
+          "bandwidth": 0.1154
+        },
+        "sma_20": 81125.0,
+        "sma_50": 78614.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 216226,
+          "avg": 309152,
+          "ratio": 0.7
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "000100",
+      "name": "유한양행",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 116000.0,
+        "open": 116800.0,
+        "high": 117000.0,
+        "low": 115600.0,
+        "volume": 225703,
+        "change_pct": -0.34
+      },
+      "indicators": {
+        "rsi_14": 32.76,
+        "macd": {
+          "macd_line": -792.22,
+          "signal_line": -596.18,
+          "histogram": -196.04
+        },
+        "bollinger": {
+          "upper": 122161.49,
+          "middle": 117360.0,
+          "lower": 112558.51,
+          "bandwidth": 0.0818
+        },
+        "sma_20": 117360.0,
+        "sma_50": 117588.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 225703,
+          "avg": 329980,
+          "ratio": 0.68
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "079550",
+      "name": "LIG넥스원",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 418000.0,
+        "open": 425000.0,
+        "high": 427000.0,
+        "low": 413000.0,
+        "volume": 112073,
+        "change_pct": 0.48
+      },
+      "indicators": {
+        "rsi_14": 72.02,
+        "macd": {
+          "macd_line": -5856.87,
+          "signal_line": -13091.2,
+          "histogram": 7234.32
+        },
+        "bollinger": {
+          "upper": 411384.08,
+          "middle": 383825.0,
+          "lower": 356265.92,
+          "bandwidth": 0.1436
+        },
+        "sma_20": 383825.0,
+        "sma_50": 424050.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 112073,
+          "avg": 123841,
+          "ratio": 0.9
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 55,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 볼린저 상단 터치 + 상승추세"
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 244000.0,
+        "open": 246500.0,
+        "high": 247500.0,
+        "low": 240500.0,
+        "volume": 242519,
+        "change_pct": 0.41
+      },
+      "indicators": {
+        "rsi_14": 48.07,
+        "macd": {
+          "macd_line": 1888.87,
+          "signal_line": 3642.25,
+          "histogram": -1753.38
+        },
+        "bollinger": {
+          "upper": 267730.25,
+          "middle": 252675.0,
+          "lower": 237619.75,
+          "bandwidth": 0.1192
+        },
+        "sma_20": 252675.0,
+        "sma_50": 243720.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 242519,
+          "avg": 531755,
+          "ratio": 0.46
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "downtrend"
+      },
+      "score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "007660",
+      "name": "이수페타시스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 122600.0,
+        "open": 124900.0,
+        "high": 128800.0,
+        "low": 121400.0,
+        "volume": 1389960,
+        "change_pct": 0.99
+      },
+      "indicators": {
+        "rsi_14": 35.52,
+        "macd": {
+          "macd_line": 1055.71,
+          "signal_line": 4756.16,
+          "histogram": -3700.44
+        },
+        "bollinger": {
+          "upper": 153860.77,
+          "middle": 136020.0,
+          "lower": 118179.23,
+          "bandwidth": 0.2623
+        },
+        "sma_20": 136020.0,
+        "sma_50": 117880.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 1389960,
+          "avg": 2087560,
+          "ratio": 0.67
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "005830",
+      "name": "DB손해보험",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 126600.0,
+        "open": 125100.0,
+        "high": 127600.0,
+        "low": 124200.0,
+        "volume": 134073,
+        "change_pct": 2.34
+      },
+      "indicators": {
+        "rsi_14": 47.72,
+        "macd": {
+          "macd_line": -1204.0,
+          "signal_line": -1853.27,
+          "histogram": 649.26
+        },
+        "bollinger": {
+          "upper": 128922.21,
+          "middle": 124025.0,
+          "lower": 119127.79,
+          "bandwidth": 0.079
+        },
+        "sma_20": 124025.0,
+        "sma_50": 128186.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 134073,
+          "avg": 191713,
+          "ratio": 0.7
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "047050",
+      "name": "포스코인터내셔널",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 50900.0,
+        "open": 50700.0,
+        "high": 51300.0,
+        "low": 50400.0,
+        "volume": 206704,
+        "change_pct": 1.19
+      },
+      "indicators": {
+        "rsi_14": 25.77,
+        "macd": {
+          "macd_line": -555.24,
+          "signal_line": -71.69,
+          "histogram": -483.55
+        },
+        "bollinger": {
+          "upper": 56706.55,
+          "middle": 53520.0,
+          "lower": 50333.45,
+          "bandwidth": 0.1191
+        },
+        "sma_20": 53520.0,
+        "sma_50": 53704.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 206704,
+          "avg": 322751,
+          "ratio": 0.64
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 강한 하락추세"
+    },
+    {
+      "code": "071050",
+      "name": "한국금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 159500.0,
+        "open": 163100.0,
+        "high": 164100.0,
+        "low": 158600.0,
+        "volume": 206076,
+        "change_pct": -1.97
+      },
+      "indicators": {
+        "rsi_14": 46.83,
+        "macd": {
+          "macd_line": -933.0,
+          "signal_line": -864.41,
+          "histogram": -68.58
+        },
+        "bollinger": {
+          "upper": 167375.38,
+          "middle": 161205.0,
+          "lower": 155034.62,
+          "bandwidth": 0.0766
+        },
+        "sma_20": 161205.0,
+        "sma_50": 164838.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 206076,
+          "avg": 251271,
+          "ratio": 0.82
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "443060",
+      "name": "HD현대마린솔루션",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 196400.0,
+        "open": 198000.0,
+        "high": 201500.0,
+        "low": 195300.0,
+        "volume": 66989,
+        "change_pct": 0.92
+      },
+      "indicators": {
+        "rsi_14": 63.01,
+        "macd": {
+          "macd_line": -4745.87,
+          "signal_line": -5855.02,
+          "histogram": 1109.15
+        },
+        "bollinger": {
+          "upper": 206132.28,
+          "middle": 192790.0,
+          "lower": 179447.72,
+          "bandwidth": 0.1384
+        },
+        "sma_20": 192790.0,
+        "sma_50": 214286.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 66989,
+          "avg": 210360,
+          "ratio": 0.32
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "uptrend"
+      },
+      "score": 62,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "003490",
+      "name": "대한항공",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 22950.0,
+        "open": 22800.0,
+        "high": 23050.0,
+        "low": 22600.0,
+        "volume": 2746424,
+        "change_pct": 1.55
+      },
+      "indicators": {
+        "rsi_14": 62.32,
+        "macd": {
+          "macd_line": 136.26,
+          "signal_line": 71.09,
+          "histogram": 65.17
+        },
+        "bollinger": {
+          "upper": 22969.39,
+          "middle": 22175.0,
+          "lower": 21380.61,
+          "bandwidth": 0.0716
+        },
+        "sma_20": 22175.0,
+        "sma_50": 22094.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 2746424,
+          "avg": 1007535,
+          "ratio": 2.73
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "strong_uptrend"
+      },
+      "score": 71,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 강한 상승추세"
+    },
+    {
+      "code": "307950",
+      "name": "현대오토에버",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 307000.0,
+        "open": 298000.0,
+        "high": 321500.0,
+        "low": 290000.0,
+        "volume": 667938,
+        "change_pct": 0.66
+      },
+      "indicators": {
+        "rsi_14": 68.99,
+        "macd": {
+          "macd_line": 26151.1,
+          "signal_line": 25851.19,
+          "histogram": 299.92
+        },
+        "bollinger": {
+          "upper": 351411.31,
+          "middle": 259340.0,
+          "lower": 167268.69,
+          "bandwidth": 0.71
+        },
+        "sma_20": 259340.0,
+        "sma_50": 210392.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 667938,
+          "avg": 395726,
+          "ratio": 1.69
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "above_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 73,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 증가 + 강한 상승추세"
+    },
+    {
+      "code": "039490",
+      "name": "키움증권",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 296500.0,
+        "open": 298000.0,
+        "high": 299000.0,
+        "low": 293000.0,
+        "volume": 70496,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 63.7,
+        "macd": {
+          "macd_line": 2468.32,
+          "signal_line": 1027.76,
+          "histogram": 1440.56
+        },
+        "bollinger": {
+          "upper": 296445.41,
+          "middle": 280800.0,
+          "lower": 265154.59,
+          "bandwidth": 0.1114
+        },
+        "sma_20": 280800.0,
+        "sma_50": 280870.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 70496,
+          "avg": 86098,
+          "ratio": 0.82
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 60,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 상승추세"
+    },
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 71100.0,
+        "open": 70500.0,
+        "high": 71800.0,
+        "low": 70300.0,
+        "volume": 1079618,
+        "change_pct": 2.45
+      },
+      "indicators": {
+        "rsi_14": 57.22,
+        "macd": {
+          "macd_line": 1836.28,
+          "signal_line": 2236.65,
+          "histogram": -400.37
+        },
+        "bollinger": {
+          "upper": 78200.36,
+          "middle": 69805.0,
+          "lower": 61409.64,
+          "bandwidth": 0.2405
+        },
+        "sma_20": 69805.0,
+        "sma_50": 65766.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 1079618,
+          "avg": 2331701,
+          "ratio": 0.46
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "180640",
+      "name": "한진칼",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 118200.0,
+        "open": 115200.0,
+        "high": 119200.0,
+        "low": 114800.0,
+        "volume": 77766,
+        "change_pct": 3.68
+      },
+      "indicators": {
+        "rsi_14": 59.37,
+        "macd": {
+          "macd_line": 3725.91,
+          "signal_line": 3285.32,
+          "histogram": 440.59
+        },
+        "bollinger": {
+          "upper": 126378.47,
+          "middle": 110095.0,
+          "lower": 93811.53,
+          "bandwidth": 0.2958
+        },
+        "sma_20": 110095.0,
+        "sma_50": 105036.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 77766,
+          "avg": 123304,
+          "ratio": 0.63
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 74,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "005940",
+      "name": "NH투자증권",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 21250.0,
+        "open": 21100.0,
+        "high": 21500.0,
+        "low": 21050.0,
+        "volume": 531886,
+        "change_pct": 1.19
+      },
+      "indicators": {
+        "rsi_14": 51.52,
+        "macd": {
+          "macd_line": 38.45,
+          "signal_line": 46.12,
+          "histogram": -7.67
+        },
+        "bollinger": {
+          "upper": 21503.33,
+          "middle": 20962.5,
+          "lower": 20421.67,
+          "bandwidth": 0.0516
+        },
+        "sma_20": 20962.5,
+        "sma_50": 20793.4,
+        "sma_200": 0,
+        "volume": {
+          "current": 531886,
+          "avg": 707507,
+          "ratio": 0.75
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 45,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "161390",
+      "name": "한국타이어앤테크놀로지",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 60600.0,
+        "open": 62400.0,
+        "high": 62500.0,
+        "low": 60000.0,
+        "volume": 212603,
+        "change_pct": -0.98
+      },
+      "indicators": {
+        "rsi_14": 48.02,
+        "macd": {
+          "macd_line": 1595.36,
+          "signal_line": 2166.48,
+          "histogram": -571.11
+        },
+        "bollinger": {
+          "upper": 63096.32,
+          "middle": 60615.0,
+          "lower": 58133.68,
+          "bandwidth": 0.0819
+        },
+        "sma_20": 60615.0,
+        "sma_50": 54048.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 212603,
+          "avg": 301344,
+          "ratio": 0.71
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "005387",
+      "name": "현대차2우B",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 208500.0,
+        "open": 210000.0,
+        "high": 210000.0,
+        "low": 205000.0,
+        "volume": 72659,
+        "change_pct": 0.24
+      },
+      "indicators": {
+        "rsi_14": 59.71,
+        "macd": {
+          "macd_line": 2820.55,
+          "signal_line": 3197.87,
+          "histogram": -377.32
+        },
+        "bollinger": {
+          "upper": 218714.3,
+          "middle": 204340.0,
+          "lower": 189965.7,
+          "bandwidth": 0.1407
+        },
+        "sma_20": 204340.0,
+        "sma_50": 199400.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 72659,
+          "avg": 128457,
+          "ratio": 0.57
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "090430",
+      "name": "아모레퍼시픽",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 121900.0,
+        "open": 122000.0,
+        "high": 122300.0,
+        "low": 121200.0,
+        "volume": 109240,
+        "change_pct": 0.58
+      },
+      "indicators": {
+        "rsi_14": 40.52,
+        "macd": {
+          "macd_line": -962.47,
+          "signal_line": -626.08,
+          "histogram": -336.39
+        },
+        "bollinger": {
+          "upper": 127478.59,
+          "middle": 123395.0,
+          "lower": 119311.41,
+          "bandwidth": 0.0662
+        },
+        "sma_20": 123395.0,
+        "sma_50": 123154.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 109240,
+          "avg": 168354,
+          "ratio": 0.65
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "016360",
+      "name": "삼성증권",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 79600.0,
+        "open": 79900.0,
+        "high": 80400.0,
+        "low": 79000.0,
+        "volume": 267953,
+        "change_pct": 0.89
+      },
+      "indicators": {
+        "rsi_14": 44.95,
+        "macd": {
+          "macd_line": 190.61,
+          "signal_line": 421.95,
+          "histogram": -231.34
+        },
+        "bollinger": {
+          "upper": 82160.26,
+          "middle": 79710.0,
+          "lower": 77259.74,
+          "bandwidth": 0.0615
+        },
+        "sma_20": 79710.0,
+        "sma_50": 78292.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 267953,
+          "avg": 285808,
+          "ratio": 0.94
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 280500.0,
+        "open": 284500.0,
+        "high": 285000.0,
+        "low": 275000.0,
+        "volume": 97108,
+        "change_pct": -0.18
+      },
+      "indicators": {
+        "rsi_14": 73.05,
+        "macd": {
+          "macd_line": 12154.22,
+          "signal_line": 13654.76,
+          "histogram": -1500.55
+        },
+        "bollinger": {
+          "upper": 314585.1,
+          "middle": 271350.0,
+          "lower": 228114.9,
+          "bandwidth": 0.3187
+        },
+        "sma_20": 271350.0,
+        "sma_50": 246656.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 97108,
+          "avg": 151128,
+          "ratio": 0.64
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 42,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "032640",
+      "name": "LG유플러스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 15290.0,
+        "open": 15160.0,
+        "high": 15350.0,
+        "low": 15060.0,
+        "volume": 667157,
+        "change_pct": 1.06
+      },
+      "indicators": {
+        "rsi_14": 54.61,
+        "macd": {
+          "macd_line": -34.76,
+          "signal_line": -35.87,
+          "histogram": 1.1
+        },
+        "bollinger": {
+          "upper": 15392.59,
+          "middle": 15188.5,
+          "lower": 14984.41,
+          "bandwidth": 0.0269
+        },
+        "sma_20": 15188.5,
+        "sma_50": 15245.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 667157,
+          "avg": 839133,
+          "ratio": 0.8
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 47850.0,
+        "open": 46050.0,
+        "high": 48050.0,
+        "low": 45800.0,
+        "volume": 434889,
+        "change_pct": 4.25
+      },
+      "indicators": {
+        "rsi_14": 47.19,
+        "macd": {
+          "macd_line": -1329.95,
+          "signal_line": -1289.94,
+          "histogram": -40.01
+        },
+        "bollinger": {
+          "upper": 51308.87,
+          "middle": 47830.0,
+          "lower": 44351.13,
+          "bandwidth": 0.1455
+        },
+        "sma_20": 47830.0,
+        "sma_50": 50194.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 434889,
+          "avg": 386983,
+          "ratio": 1.12
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 44,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 상승추세"
+    },
+    {
+      "code": "029780",
+      "name": "삼성카드",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 55700.0,
+        "open": 55800.0,
+        "high": 56400.0,
+        "low": 54900.0,
+        "volume": 44019,
+        "change_pct": 2.01
+      },
+      "indicators": {
+        "rsi_14": 52.46,
+        "macd": {
+          "macd_line": 701.0,
+          "signal_line": 763.47,
+          "histogram": -62.48
+        },
+        "bollinger": {
+          "upper": 56615.9,
+          "middle": 54795.0,
+          "lower": 52974.1,
+          "bandwidth": 0.0665
+        },
+        "sma_20": 54795.0,
+        "sma_50": 52510.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 44019,
+          "avg": 90125,
+          "ratio": 0.49
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 46,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "021240",
+      "name": "코웨이",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 89400.0,
+        "open": 90000.0,
+        "high": 90200.0,
+        "low": 88400.0,
+        "volume": 103271,
+        "change_pct": 0.79
+      },
+      "indicators": {
+        "rsi_14": 51.68,
+        "macd": {
+          "macd_line": -134.29,
+          "signal_line": -642.85,
+          "histogram": 508.56
+        },
+        "bollinger": {
+          "upper": 91548.92,
+          "middle": 87885.0,
+          "lower": 84221.08,
+          "bandwidth": 0.0834
+        },
+        "sma_20": 87885.0,
+        "sma_50": 89616.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 103271,
+          "avg": 239356,
+          "ratio": 0.43
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 64100.0,
+        "open": 65000.0,
+        "high": 65000.0,
+        "low": 63800.0,
+        "volume": 470544,
+        "change_pct": -0.62
+      },
+      "indicators": {
+        "rsi_14": 62.45,
+        "macd": {
+          "macd_line": 1226.88,
+          "signal_line": 1103.36,
+          "histogram": 123.52
+        },
+        "bollinger": {
+          "upper": 70034.37,
+          "middle": 62490.0,
+          "lower": 54945.63,
+          "bandwidth": 0.2415
+        },
+        "sma_20": 62490.0,
+        "sma_50": 61526.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 470544,
+          "avg": 1377402,
+          "ratio": 0.34
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 67,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "000880",
+      "name": "한화",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 82000.0,
+        "open": 81900.0,
+        "high": 83000.0,
+        "low": 81400.0,
+        "volume": 115500,
+        "change_pct": 1.99
+      },
+      "indicators": {
+        "rsi_14": 53.5,
+        "macd": {
+          "macd_line": -1486.72,
+          "signal_line": -1710.11,
+          "histogram": 223.39
+        },
+        "bollinger": {
+          "upper": 85119.25,
+          "middle": 81060.0,
+          "lower": 77000.75,
+          "bandwidth": 0.1002
+        },
+        "sma_20": 81060.0,
+        "sma_50": 86670.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 115500,
+          "avg": 167991,
+          "ratio": 0.69
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 187700.0,
+        "open": 188700.0,
+        "high": 189700.0,
+        "low": 184500.0,
+        "volume": 85094,
+        "change_pct": 1.08
+      },
+      "indicators": {
+        "rsi_14": 60.9,
+        "macd": {
+          "macd_line": -1459.88,
+          "signal_line": -2123.58,
+          "histogram": 663.7
+        },
+        "bollinger": {
+          "upper": 195726.33,
+          "middle": 184215.0,
+          "lower": 172703.67,
+          "bandwidth": 0.125
+        },
+        "sma_20": 184215.0,
+        "sma_50": 195126.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 85094,
+          "avg": 176141,
+          "ratio": 0.48
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "uptrend"
+      },
+      "score": 62,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "034220",
+      "name": "LG디스플레이",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 11770.0,
+        "open": 12040.0,
+        "high": 12050.0,
+        "low": 11690.0,
+        "volume": 2539423,
+        "change_pct": -1.67
+      },
+      "indicators": {
+        "rsi_14": 36.4,
+        "macd": {
+          "macd_line": -319.28,
+          "signal_line": -267.54,
+          "histogram": -51.74
+        },
+        "bollinger": {
+          "upper": 13243.62,
+          "middle": 12472.0,
+          "lower": 11700.38,
+          "bandwidth": 0.1237
+        },
+        "sma_20": 12472.0,
+        "sma_50": 13229.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 2539423,
+          "avg": 1451361,
+          "ratio": 1.75
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "above_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 36,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 강한 하락추세"
+    },
+    {
+      "code": "241560",
+      "name": "두산밥캣",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 59600.0,
+        "open": 60800.0,
+        "high": 60800.0,
+        "low": 59200.0,
+        "volume": 129327,
+        "change_pct": -0.5
+      },
+      "indicators": {
+        "rsi_14": 61.83,
+        "macd": {
+          "macd_line": 652.12,
+          "signal_line": 580.17,
+          "histogram": 71.95
+        },
+        "bollinger": {
+          "upper": 62862.07,
+          "middle": 58760.0,
+          "lower": 54657.93,
+          "bandwidth": 0.1396
+        },
+        "sma_20": 58760.0,
+        "sma_50": 59008.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 129327,
+          "avg": 235338,
+          "ratio": 0.55
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "128940",
+      "name": "한미약품",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 438000.0,
+        "open": 447000.0,
+        "high": 447500.0,
+        "low": 432500.0,
+        "volume": 66469,
+        "change_pct": -0.68
+      },
+      "indicators": {
+        "rsi_14": 55.26,
+        "macd": {
+          "macd_line": 2120.23,
+          "signal_line": 3709.28,
+          "histogram": -1589.05
+        },
+        "bollinger": {
+          "upper": 459763.01,
+          "middle": 439375.0,
+          "lower": 418986.99,
+          "bandwidth": 0.0928
+        },
+        "sma_20": 439375.0,
+        "sma_50": 424500.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 66469,
+          "avg": 96240,
+          "ratio": 0.69
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "088980",
+      "name": "맥쿼리인프라",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 11550.0,
+        "open": 11630.0,
+        "high": 11650.0,
+        "low": 11530.0,
+        "volume": 1686479,
+        "change_pct": -0.69
+      },
+      "indicators": {
+        "rsi_14": 32.0,
+        "macd": {
+          "macd_line": 46.47,
+          "signal_line": 66.97,
+          "histogram": -20.5
+        },
+        "bollinger": {
+          "upper": 11774.03,
+          "middle": 11626.0,
+          "lower": 11477.97,
+          "bandwidth": 0.0255
+        },
+        "sma_20": 11626.0,
+        "sma_50": 11430.6,
+        "sma_200": 0,
+        "volume": {
+          "current": 1686479,
+          "avg": 1062308,
+          "ratio": 1.59
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "above_average",
+        "trend": "downtrend"
+      },
+      "score": 43,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 거래량 증가 + 하락추세"
+    },
+    {
+      "code": "454910",
+      "name": "두산로보틱스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 82300.0,
+        "open": 80700.0,
+        "high": 83700.0,
+        "low": 79800.0,
+        "volume": 441589,
+        "change_pct": 3.65
+      },
+      "indicators": {
+        "rsi_14": 63.37,
+        "macd": {
+          "macd_line": 1517.09,
+          "signal_line": 1703.05,
+          "histogram": -185.96
+        },
+        "bollinger": {
+          "upper": 87771.28,
+          "middle": 79095.0,
+          "lower": 70418.72,
+          "bandwidth": 0.2194
+        },
+        "sma_20": 79095.0,
+        "sma_50": 76914.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 441589,
+          "avg": 465219,
+          "ratio": 0.95
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 47,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "078930",
+      "name": "GS",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 55600.0,
+        "open": 55800.0,
+        "high": 55800.0,
+        "low": 54900.0,
+        "volume": 163001,
+        "change_pct": 0.54
+      },
+      "indicators": {
+        "rsi_14": 36.49,
+        "macd": {
+          "macd_line": 139.29,
+          "signal_line": 644.27,
+          "histogram": -504.98
+        },
+        "bollinger": {
+          "upper": 58970.91,
+          "middle": 56865.0,
+          "lower": 54759.09,
+          "bandwidth": 0.0741
+        },
+        "sma_20": 56865.0,
+        "sma_50": 54030.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 163001,
+          "avg": 257550,
+          "ratio": 0.63
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 43,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "138930",
+      "name": "BNK금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 16230.0,
+        "open": 16030.0,
+        "high": 16350.0,
+        "low": 15930.0,
+        "volume": 1311128,
+        "change_pct": 1.63
+      },
+      "indicators": {
+        "rsi_14": 64.32,
+        "macd": {
+          "macd_line": 252.46,
+          "signal_line": 193.46,
+          "histogram": 58.99
+        },
+        "bollinger": {
+          "upper": 16166.57,
+          "middle": 15466.0,
+          "lower": 14765.43,
+          "bandwidth": 0.0906
+        },
+        "sma_20": 15466.0,
+        "sma_50": 14945.6,
+        "sma_200": 0,
+        "volume": {
+          "current": 1311128,
+          "avg": 976475,
+          "ratio": 1.34
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 66,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 강한 상승추세"
+    },
+    {
+      "code": "001040",
+      "name": "CJ",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 173100.0,
+        "open": 174900.0,
+        "high": 175000.0,
+        "low": 172000.0,
+        "volume": 71279,
+        "change_pct": 0.35
+      },
+      "indicators": {
+        "rsi_14": 45.5,
+        "macd": {
+          "macd_line": -903.76,
+          "signal_line": 402.48,
+          "histogram": -1306.24
+        },
+        "bollinger": {
+          "upper": 189872.77,
+          "middle": 179315.0,
+          "lower": 168757.23,
+          "bandwidth": 0.1178
+        },
+        "sma_20": 179315.0,
+        "sma_50": 175170.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 71279,
+          "avg": 118546,
+          "ratio": 0.6
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 25300.0,
+        "open": 25200.0,
+        "high": 25400.0,
+        "low": 24950.0,
+        "volume": 540509,
+        "change_pct": 1.4
+      },
+      "indicators": {
+        "rsi_14": 46.15,
+        "macd": {
+          "macd_line": -310.08,
+          "signal_line": -359.71,
+          "histogram": 49.63
+        },
+        "bollinger": {
+          "upper": 26157.04,
+          "middle": 25310.0,
+          "lower": 24462.96,
+          "bandwidth": 0.0669
+        },
+        "sma_20": 25310.0,
+        "sma_50": 26268.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 540509,
+          "avg": 738040,
+          "ratio": 0.73
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "175330",
+      "name": "JB금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 25700.0,
+        "open": 25250.0,
+        "high": 25900.0,
+        "low": 25050.0,
+        "volume": 485320,
+        "change_pct": 3.63
+      },
+      "indicators": {
+        "rsi_14": 51.28,
+        "macd": {
+          "macd_line": 343.43,
+          "signal_line": 338.14,
+          "histogram": 5.29
+        },
+        "bollinger": {
+          "upper": 25774.2,
+          "middle": 24680.0,
+          "lower": 23585.8,
+          "bandwidth": 0.0887
+        },
+        "sma_20": 24680.0,
+        "sma_50": 23712.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 485320,
+          "avg": 363695,
+          "ratio": 1.33
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 69,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "005385",
+      "name": "현대차우",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 203500.0,
+        "open": 204000.0,
+        "high": 204000.0,
+        "low": 199800.0,
+        "volume": 52591,
+        "change_pct": 0.49
+      },
+      "indicators": {
+        "rsi_14": 59.11,
+        "macd": {
+          "macd_line": 2422.58,
+          "signal_line": 2972.53,
+          "histogram": -549.95
+        },
+        "bollinger": {
+          "upper": 214143.56,
+          "middle": 200915.0,
+          "lower": 187686.44,
+          "bandwidth": 0.1317
+        },
+        "sma_20": 200915.0,
+        "sma_50": 196536.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 52591,
+          "avg": 116707,
+          "ratio": 0.45
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 27450.0,
+        "open": 27250.0,
+        "high": 27500.0,
+        "low": 27150.0,
+        "volume": 455667,
+        "change_pct": 2.04
+      },
+      "indicators": {
+        "rsi_14": 48.39,
+        "macd": {
+          "macd_line": -340.82,
+          "signal_line": -354.24,
+          "histogram": 13.42
+        },
+        "bollinger": {
+          "upper": 28419.91,
+          "middle": 27567.5,
+          "lower": 26715.09,
+          "bandwidth": 0.0618
+        },
+        "sma_20": 27567.5,
+        "sma_50": 28569.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 455667,
+          "avg": 597858,
+          "ratio": 0.76
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "001440",
+      "name": "대한전선",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 23350.0,
+        "open": 23100.0,
+        "high": 24250.0,
+        "low": 23050.0,
+        "volume": 3386021,
+        "change_pct": 3.09
+      },
+      "indicators": {
+        "rsi_14": 53.64,
+        "macd": {
+          "macd_line": 186.75,
+          "signal_line": 256.4,
+          "histogram": -69.65
+        },
+        "bollinger": {
+          "upper": 24192.0,
+          "middle": 22775.0,
+          "lower": 21358.0,
+          "bandwidth": 0.1244
+        },
+        "sma_20": 22775.0,
+        "sma_50": 22327.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 3386021,
+          "avg": 2808856,
+          "ratio": 1.21
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "066970",
+      "name": "엘앤에프",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 107100.0,
+        "open": 108100.0,
+        "high": 108600.0,
+        "low": 105100.0,
+        "volume": 282171,
+        "change_pct": 0.09
+      },
+      "indicators": {
+        "rsi_14": 24.77,
+        "macd": {
+          "macd_line": -2479.33,
+          "signal_line": 449.3,
+          "histogram": -2928.64
+        },
+        "bollinger": {
+          "upper": 138548.47,
+          "middle": 122695.0,
+          "lower": 106841.53,
+          "bandwidth": 0.2584
+        },
+        "sma_20": 122695.0,
+        "sma_50": 122320.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 282171,
+          "avg": 554938,
+          "ratio": 0.51
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "036570",
+      "name": "엔씨소프트",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 198400.0,
+        "open": 195300.0,
+        "high": 199500.0,
+        "low": 195000.0,
+        "volume": 74697,
+        "change_pct": 2.01
+      },
+      "indicators": {
+        "rsi_14": 38.33,
+        "macd": {
+          "macd_line": -4718.48,
+          "signal_line": -4452.58,
+          "histogram": -265.9
+        },
+        "bollinger": {
+          "upper": 219079.99,
+          "middle": 203740.0,
+          "lower": 188400.01,
+          "bandwidth": 0.1506
+        },
+        "sma_20": 203740.0,
+        "sma_50": 209996.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 74697,
+          "avg": 171037,
+          "ratio": 0.44
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 37,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "251270",
+      "name": "넷마블",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 49600.0,
+        "open": 49900.0,
+        "high": 50100.0,
+        "low": 49350.0,
+        "volume": 98414,
+        "change_pct": 0.92
+      },
+      "indicators": {
+        "rsi_14": 32.83,
+        "macd": {
+          "macd_line": -1362.2,
+          "signal_line": -1415.37,
+          "histogram": 53.17
+        },
+        "bollinger": {
+          "upper": 54595.24,
+          "middle": 50775.0,
+          "lower": 46954.76,
+          "bandwidth": 0.1505
+        },
+        "sma_20": 50775.0,
+        "sma_50": 53040.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 98414,
+          "avg": 184994,
+          "ratio": 0.53
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 58,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "271560",
+      "name": "오리온",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 106800.0,
+        "open": 107000.0,
+        "high": 107300.0,
+        "low": 106000.0,
+        "volume": 85906,
+        "change_pct": 0.75
+      },
+      "indicators": {
+        "rsi_14": 62.96,
+        "macd": {
+          "macd_line": 463.08,
+          "signal_line": 131.35,
+          "histogram": 331.73
+        },
+        "bollinger": {
+          "upper": 107761.18,
+          "middle": 104415.0,
+          "lower": 101068.82,
+          "bandwidth": 0.0641
+        },
+        "sma_20": 104415.0,
+        "sma_50": 103294.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 85906,
+          "avg": 257810,
+          "ratio": 0.33
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "062040",
+      "name": "산일전기",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 136200.0,
+        "open": 135100.0,
+        "high": 137500.0,
+        "low": 135100.0,
+        "volume": 145815,
+        "change_pct": 2.02
+      },
+      "indicators": {
+        "rsi_14": 36.36,
+        "macd": {
+          "macd_line": -1261.19,
+          "signal_line": 329.88,
+          "histogram": -1591.07
+        },
+        "bollinger": {
+          "upper": 155509.77,
+          "middle": 142875.0,
+          "lower": 130240.23,
+          "bandwidth": 0.1769
+        },
+        "sma_20": 142875.0,
+        "sma_50": 143368.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 145815,
+          "avg": 354571,
+          "ratio": 0.41
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 37,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "011790",
+      "name": "SKC",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 108400.0,
+        "open": 106000.0,
+        "high": 108600.0,
+        "low": 105200.0,
+        "volume": 142950,
+        "change_pct": 4.23
+      },
+      "indicators": {
+        "rsi_14": 46.42,
+        "macd": {
+          "macd_line": -1484.48,
+          "signal_line": -1004.5,
+          "histogram": -479.98
+        },
+        "bollinger": {
+          "upper": 115294.88,
+          "middle": 109985.0,
+          "lower": 104675.12,
+          "bandwidth": 0.0966
+        },
+        "sma_20": 109985.0,
+        "sma_50": 113020.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 142950,
+          "avg": 171968,
+          "ratio": 0.83
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 30650.0,
+        "open": 30650.0,
+        "high": 30650.0,
+        "low": 30250.0,
+        "volume": 287904,
+        "change_pct": 0.33
+      },
+      "indicators": {
+        "rsi_14": 51.52,
+        "macd": {
+          "macd_line": -188.65,
+          "signal_line": -254.27,
+          "histogram": 65.62
+        },
+        "bollinger": {
+          "upper": 31968.2,
+          "middle": 30705.0,
+          "lower": 29441.8,
+          "bandwidth": 0.0823
+        },
+        "sma_20": 30705.0,
+        "sma_50": 31665.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 287904,
+          "avg": 387527,
+          "ratio": 0.74
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "022100",
+      "name": "포스코DX",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 26700.0,
+        "open": 26150.0,
+        "high": 26900.0,
+        "low": 25800.0,
+        "volume": 452124,
+        "change_pct": 3.89
+      },
+      "indicators": {
+        "rsi_14": 50.48,
+        "macd": {
+          "macd_line": 254.89,
+          "signal_line": 400.92,
+          "histogram": -146.03
+        },
+        "bollinger": {
+          "upper": 29101.8,
+          "middle": 26555.0,
+          "lower": 24008.2,
+          "bandwidth": 0.1918
+        },
+        "sma_20": 26555.0,
+        "sma_50": 26218.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 452124,
+          "avg": 840144,
+          "ratio": 0.54
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "051900",
+      "name": "LG생활건강",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 263500.0,
+        "open": 264500.0,
+        "high": 265000.0,
+        "low": 262500.0,
+        "volume": 39247,
+        "change_pct": -0.19
+      },
+      "indicators": {
+        "rsi_14": 31.88,
+        "macd": {
+          "macd_line": -5803.42,
+          "signal_line": -5645.88,
+          "histogram": -157.54
+        },
+        "bollinger": {
+          "upper": 285286.73,
+          "middle": 270425.0,
+          "lower": 255563.27,
+          "bandwidth": 0.1099
+        },
+        "sma_20": 270425.0,
+        "sma_50": 280830.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 39247,
+          "avg": 65357,
+          "ratio": 0.6
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "450080",
+      "name": "에코프로머티",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 57100.0,
+        "open": 56100.0,
+        "high": 57400.0,
+        "low": 55100.0,
+        "volume": 170147,
+        "change_pct": 3.82
+      },
+      "indicators": {
+        "rsi_14": 43.11,
+        "macd": {
+          "macd_line": -546.51,
+          "signal_line": 78.09,
+          "histogram": -624.6
+        },
+        "bollinger": {
+          "upper": 65916.19,
+          "middle": 59610.0,
+          "lower": 53303.81,
+          "bandwidth": 0.2116
+        },
+        "sma_20": 59610.0,
+        "sma_50": 61271.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 170147,
+          "avg": 317802,
+          "ratio": 0.54
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "035250",
+      "name": "강원랜드",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 18720.0,
+        "open": 18550.0,
+        "high": 18750.0,
+        "low": 18510.0,
+        "volume": 444260,
+        "change_pct": 0.92
+      },
+      "indicators": {
+        "rsi_14": 64.77,
+        "macd": {
+          "macd_line": 249.35,
+          "signal_line": 185.55,
+          "histogram": 63.8
+        },
+        "bollinger": {
+          "upper": 18680.36,
+          "middle": 18067.0,
+          "lower": 17453.64,
+          "bandwidth": 0.0679
+        },
+        "sma_20": 18067.0,
+        "sma_50": 17595.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 444260,
+          "avg": 610343,
+          "ratio": 0.73
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 66,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 강한 상승추세"
+    },
+    {
+      "code": "302440",
+      "name": "SK바이오사이언스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 51000.0,
+        "open": 51700.0,
+        "high": 51800.0,
+        "low": 50800.0,
+        "volume": 64627,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 38.64,
+        "macd": {
+          "macd_line": -444.12,
+          "signal_line": -130.89,
+          "histogram": -313.23
+        },
+        "bollinger": {
+          "upper": 55189.84,
+          "middle": 52570.0,
+          "lower": 49950.16,
+          "bandwidth": 0.0997
+        },
+        "sma_20": 52570.0,
+        "sma_50": 52299.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 64627,
+          "avg": 122107,
+          "ratio": 0.53
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "111770",
+      "name": "영원무역",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 88500.0,
+        "open": 90500.0,
+        "high": 90900.0,
+        "low": 87800.0,
+        "volume": 50223,
+        "change_pct": -0.56
+      },
+      "indicators": {
+        "rsi_14": 39.11,
+        "macd": {
+          "macd_line": 3452.77,
+          "signal_line": 4679.46,
+          "histogram": -1226.69
+        },
+        "bollinger": {
+          "upper": 94048.42,
+          "middle": 90110.0,
+          "lower": 86171.58,
+          "bandwidth": 0.0874
+        },
+        "sma_20": 90110.0,
+        "sma_50": 75318.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 50223,
+          "avg": 95402,
+          "ratio": 0.53
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "036460",
+      "name": "한국가스공사",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 40900.0,
+        "open": 40950.0,
+        "high": 41050.0,
+        "low": 40500.0,
+        "volume": 213419,
+        "change_pct": 0.74
+      },
+      "indicators": {
+        "rsi_14": 44.44,
+        "macd": {
+          "macd_line": -44.64,
+          "signal_line": 80.62,
+          "histogram": -125.27
+        },
+        "bollinger": {
+          "upper": 42659.9,
+          "middle": 41520.0,
+          "lower": 40380.1,
+          "bandwidth": 0.0549
+        },
+        "sma_20": 41520.0,
+        "sma_50": 41508.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 213419,
+          "avg": 219573,
+          "ratio": 0.97
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "lower_band_bounce",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 하락추세"
+    },
+    {
+      "code": "002380",
+      "name": "KCC",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 419500.0,
+        "open": 424500.0,
+        "high": 424500.0,
+        "low": 414000.0,
+        "volume": 28883,
+        "change_pct": 0.84
+      },
+      "indicators": {
+        "rsi_14": 49.47,
+        "macd": {
+          "macd_line": 818.22,
+          "signal_line": 2514.4,
+          "histogram": -1696.18
+        },
+        "bollinger": {
+          "upper": 441944.98,
+          "middle": 424200.0,
+          "lower": 406455.02,
+          "bandwidth": 0.0837
+        },
+        "sma_20": 424200.0,
+        "sma_50": 418780.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 28883,
+          "avg": 19958,
+          "ratio": 1.45
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "082740",
+      "name": "한화엔진",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 43350.0,
+        "open": 43300.0,
+        "high": 44600.0,
+        "low": 42550.0,
+        "volume": 919315,
+        "change_pct": 2.6
+      },
+      "indicators": {
+        "rsi_14": 51.72,
+        "macd": {
+          "macd_line": -480.09,
+          "signal_line": -364.53,
+          "histogram": -115.56
+        },
+        "bollinger": {
+          "upper": 46615.41,
+          "middle": 43305.0,
+          "lower": 39994.59,
+          "bandwidth": 0.1529
+        },
+        "sma_20": 43305.0,
+        "sma_50": 44801.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 919315,
+          "avg": 873602,
+          "ratio": 1.05
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 44,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 상승추세"
+    },
+    {
+      "code": "052690",
+      "name": "한전기술",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 92700.0,
+        "open": 90800.0,
+        "high": 93500.0,
+        "low": 90800.0,
+        "volume": 177590,
+        "change_pct": 3.23
+      },
+      "indicators": {
+        "rsi_14": 53.2,
+        "macd": {
+          "macd_line": -494.31,
+          "signal_line": 83.95,
+          "histogram": -578.26
+        },
+        "bollinger": {
+          "upper": 102523.16,
+          "middle": 94290.0,
+          "lower": 86056.84,
+          "bandwidth": 0.1746
+        },
+        "sma_20": 94290.0,
+        "sma_50": 96382.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 177590,
+          "avg": 242718,
+          "ratio": 0.73
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "031210",
+      "name": "서울보증보험",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 50100.0,
+        "open": 50200.0,
+        "high": 50400.0,
+        "low": 49900.0,
+        "volume": 46227,
+        "change_pct": -0.2
+      },
+      "indicators": {
+        "rsi_14": 41.43,
+        "macd": {
+          "macd_line": -187.87,
+          "signal_line": -242.15,
+          "histogram": 54.28
+        },
+        "bollinger": {
+          "upper": 51199.0,
+          "middle": 49990.0,
+          "lower": 48781.0,
+          "bandwidth": 0.0484
+        },
+        "sma_20": 49990.0,
+        "sma_50": 50561.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 46227,
+          "avg": 61943,
+          "ratio": 0.75
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "017800",
+      "name": "현대엘리베이터",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 89200.0,
+        "open": 90100.0,
+        "high": 90300.0,
+        "low": 89000.0,
+        "volume": 202873,
+        "change_pct": 0.56
+      },
+      "indicators": {
+        "rsi_14": 55.03,
+        "macd": {
+          "macd_line": 2175.78,
+          "signal_line": 2820.96,
+          "histogram": -645.18
+        },
+        "bollinger": {
+          "upper": 97257.31,
+          "middle": 89325.0,
+          "lower": 81392.69,
+          "bandwidth": 0.1776
+        },
+        "sma_20": 89325.0,
+        "sma_50": 83318.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 202873,
+          "avg": 327317,
+          "ratio": 0.62
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "011780",
+      "name": "금호석유화학",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 124800.0,
+        "open": 126400.0,
+        "high": 126400.0,
+        "low": 124100.0,
+        "volume": 64350,
+        "change_pct": -1.27
+      },
+      "indicators": {
+        "rsi_14": 61.41,
+        "macd": {
+          "macd_line": 2219.49,
+          "signal_line": 1922.87,
+          "histogram": 296.62
+        },
+        "bollinger": {
+          "upper": 127081.3,
+          "middle": 120635.0,
+          "lower": 114188.7,
+          "bandwidth": 0.1069
+        },
+        "sma_20": 120635.0,
+        "sma_50": 117446.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 64350,
+          "avg": 69170,
+          "ratio": 0.93
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "097950",
+      "name": "CJ제일제당",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 211500.0,
+        "open": 210500.0,
+        "high": 211500.0,
+        "low": 209500.0,
+        "volume": 45427,
+        "change_pct": 0.71
+      },
+      "indicators": {
+        "rsi_14": 55.32,
+        "macd": {
+          "macd_line": -3267.39,
+          "signal_line": -4156.26,
+          "histogram": 888.87
+        },
+        "bollinger": {
+          "upper": 213747.08,
+          "middle": 209900.0,
+          "lower": 206052.92,
+          "bandwidth": 0.0367
+        },
+        "sma_20": 209900.0,
+        "sma_50": 221000.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 45427,
+          "avg": 51816,
+          "ratio": 0.88
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "011170",
+      "name": "롯데케미칼",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 73300.0,
+        "open": 72300.0,
+        "high": 74400.0,
+        "low": 71200.0,
+        "volume": 126749,
+        "change_pct": 2.95
+      },
+      "indicators": {
+        "rsi_14": 47.51,
+        "macd": {
+          "macd_line": -416.81,
+          "signal_line": -250.54,
+          "histogram": -166.27
+        },
+        "bollinger": {
+          "upper": 77076.59,
+          "middle": 73775.0,
+          "lower": 70473.41,
+          "bandwidth": 0.0895
+        },
+        "sma_20": 73775.0,
+        "sma_50": 74530.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 126749,
+          "avg": 168339,
+          "ratio": 0.75
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 26,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "071970",
+      "name": "HD현대마린엔진",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 91200.0,
+        "open": 87800.0,
+        "high": 95600.0,
+        "low": 87100.0,
+        "volume": 769433,
+        "change_pct": 7.29
+      },
+      "indicators": {
+        "rsi_14": 64.68,
+        "macd": {
+          "macd_line": 325.17,
+          "signal_line": -354.43,
+          "histogram": 679.61
+        },
+        "bollinger": {
+          "upper": 91085.02,
+          "middle": 83115.0,
+          "lower": 75144.98,
+          "bandwidth": 0.1918
+        },
+        "sma_20": 83115.0,
+        "sma_50": 86792.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 769433,
+          "avg": 214269,
+          "ratio": 3.59
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 62,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "383220",
+      "name": "F&F",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 78200.0,
+        "open": 79100.0,
+        "high": 79600.0,
+        "low": 76600.0,
+        "volume": 75956,
+        "change_pct": -0.76
+      },
+      "indicators": {
+        "rsi_14": 66.1,
+        "macd": {
+          "macd_line": 2192.97,
+          "signal_line": 1803.48,
+          "histogram": 389.49
+        },
+        "bollinger": {
+          "upper": 79835.3,
+          "middle": 74230.0,
+          "lower": 68624.7,
+          "bandwidth": 0.151
+        },
+        "sma_20": 74230.0,
+        "sma_50": 69866.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 75956,
+          "avg": 96528,
+          "ratio": 0.79
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 71,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "103140",
+      "name": "풍산",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 106300.0,
+        "open": 102500.0,
+        "high": 109800.0,
+        "low": 101000.0,
+        "volume": 354551,
+        "change_pct": 4.42
+      },
+      "indicators": {
+        "rsi_14": 65.18,
+        "macd": {
+          "macd_line": -668.42,
+          "signal_line": -1516.5,
+          "histogram": 848.08
+        },
+        "bollinger": {
+          "upper": 106520.84,
+          "middle": 101040.0,
+          "lower": 95559.16,
+          "bandwidth": 0.1085
+        },
+        "sma_20": 101040.0,
+        "sma_50": 106846.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 354551,
+          "avg": 102693,
+          "ratio": 3.45
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "volume_surge",
+        "trend": "uptrend"
+      },
+      "score": 64,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 거래량 급증 + 상승추세"
+    },
+    {
+      "code": "000990",
+      "name": "DB하이텍",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 68300.0,
+        "open": 66500.0,
+        "high": 68600.0,
+        "low": 66200.0,
+        "volume": 403207,
+        "change_pct": 4.59
+      },
+      "indicators": {
+        "rsi_14": 60.51,
+        "macd": {
+          "macd_line": 952.82,
+          "signal_line": 1007.65,
+          "histogram": -54.82
+        },
+        "bollinger": {
+          "upper": 68208.53,
+          "middle": 65020.0,
+          "lower": 61831.47,
+          "bandwidth": 0.0981
+        },
+        "sma_20": 65020.0,
+        "sma_50": 62682.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 403207,
+          "avg": 355026,
+          "ratio": 1.14
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 42,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 볼린저 상단 터치 + 강한 상승추세"
+    },
+    {
+      "code": "012750",
+      "name": "에스원",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 77700.0,
+        "open": 77800.0,
+        "high": 78000.0,
+        "low": 76200.0,
+        "volume": 37420,
+        "change_pct": 1.17
+      },
+      "indicators": {
+        "rsi_14": 59.84,
+        "macd": {
+          "macd_line": 224.67,
+          "signal_line": 35.51,
+          "histogram": 189.15
+        },
+        "bollinger": {
+          "upper": 77747.33,
+          "middle": 75790.0,
+          "lower": 73832.67,
+          "bandwidth": 0.0517
+        },
+        "sma_20": 75790.0,
+        "sma_50": 75436.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 37420,
+          "avg": 45946,
+          "ratio": 0.81
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 69,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "004990",
+      "name": "롯데지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 27900.0,
+        "open": 28150.0,
+        "high": 28200.0,
+        "low": 27800.0,
+        "volume": 114467,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 56.47,
+        "macd": {
+          "macd_line": -398.16,
+          "signal_line": -476.55,
+          "histogram": 78.39
+        },
+        "bollinger": {
+          "upper": 29164.79,
+          "middle": 27972.5,
+          "lower": 26780.21,
+          "bandwidth": 0.0852
+        },
+        "sma_20": 27972.5,
+        "sma_50": 29275.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 114467,
+          "avg": 301128,
+          "ratio": 0.38
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "009970",
+      "name": "영원무역홀딩스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 215000.0,
+        "open": 213000.0,
+        "high": 216000.0,
+        "low": 207000.0,
+        "volume": 14670,
+        "change_pct": 4.12
+      },
+      "indicators": {
+        "rsi_14": 82.25,
+        "macd": {
+          "macd_line": 12069.71,
+          "signal_line": 11162.89,
+          "histogram": 906.82
+        },
+        "bollinger": {
+          "upper": 216745.28,
+          "middle": 190040.0,
+          "lower": 163334.72,
+          "bandwidth": 0.281
+        },
+        "sma_20": 190040.0,
+        "sma_50": 165104.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 14670,
+          "avg": 20735,
+          "ratio": 0.71
+        }
+      },
+      "signals": {
+        "rsi": "overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 63,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "026960",
+      "name": "동서",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 28850.0,
+        "open": 29100.0,
+        "high": 29100.0,
+        "low": 28600.0,
+        "volume": 83867,
+        "change_pct": -0.52
+      },
+      "indicators": {
+        "rsi_14": 67.0,
+        "macd": {
+          "macd_line": 379.97,
+          "signal_line": 248.23,
+          "histogram": 131.75
+        },
+        "bollinger": {
+          "upper": 29469.3,
+          "middle": 27957.5,
+          "lower": 26445.7,
+          "bandwidth": 0.1082
+        },
+        "sma_20": 27957.5,
+        "sma_50": 27650.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 83867,
+          "avg": 139420,
+          "ratio": 0.6
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 71,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "439260",
+      "name": "대한조선",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 74600.0,
+        "open": 75100.0,
+        "high": 75600.0,
+        "low": 74200.0,
+        "volume": 128583,
+        "change_pct": 0.27
+      },
+      "indicators": {
+        "rsi_14": 59.4,
+        "macd": {
+          "macd_line": 1613.45,
+          "signal_line": 1411.65,
+          "histogram": 201.8
+        },
+        "bollinger": {
+          "upper": 80716.44,
+          "middle": 72140.0,
+          "lower": 63563.56,
+          "bandwidth": 0.2378
+        },
+        "sma_20": 72140.0,
+        "sma_50": 70942.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 128583,
+          "avg": 384077,
+          "ratio": 0.33
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 70,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "088350",
+      "name": "한화생명",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 3270.0,
+        "open": 3215.0,
+        "high": 3270.0,
+        "low": 3210.0,
+        "volume": 1567896,
+        "change_pct": 1.87
+      },
+      "indicators": {
+        "rsi_14": 60.29,
+        "macd": {
+          "macd_line": 33.52,
+          "signal_line": 7.06,
+          "histogram": 26.46
+        },
+        "bollinger": {
+          "upper": 3258.18,
+          "middle": 3081.25,
+          "lower": 2904.32,
+          "bandwidth": 0.1148
+        },
+        "sma_20": 3081.25,
+        "sma_50": 3091.1,
+        "sma_200": 0,
+        "volume": {
+          "current": 1567896,
+          "avg": 1580182,
+          "ratio": 0.99
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 60,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 상승추세"
+    },
+    {
+      "code": "001450",
+      "name": "현대해상",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 30950.0,
+        "open": 30850.0,
+        "high": 31050.0,
+        "low": 30350.0,
+        "volume": 425885,
+        "change_pct": 2.15
+      },
+      "indicators": {
+        "rsi_14": 54.81,
+        "macd": {
+          "macd_line": 412.34,
+          "signal_line": 343.04,
+          "histogram": 69.3
+        },
+        "bollinger": {
+          "upper": 31078.54,
+          "middle": 29860.0,
+          "lower": 28641.46,
+          "bandwidth": 0.0816
+        },
+        "sma_20": 29860.0,
+        "sma_50": 28734.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 425885,
+          "avg": 346415,
+          "ratio": 1.23
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 69,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "042670",
+      "name": "HD현대인프라코어",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 14260.0,
+        "open": 15300.0,
+        "high": 15380.0,
+        "low": 14010.0,
+        "volume": 3382927,
+        "change_pct": -5.69
+      },
+      "indicators": {
+        "rsi_14": 45.61,
+        "macd": {
+          "macd_line": 194.09,
+          "signal_line": 284.8,
+          "histogram": -90.71
+        },
+        "bollinger": {
+          "upper": 17009.59,
+          "middle": 15292.0,
+          "lower": 13574.41,
+          "bandwidth": 0.2246
+        },
+        "sma_20": 15292.0,
+        "sma_50": 15070.4,
+        "sma_200": 0,
+        "volume": {
+          "current": 3382927,
+          "avg": 1381782,
+          "ratio": 2.45
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "volume_surge",
+        "trend": "downtrend"
+      },
+      "score": 29,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 거래량 급증 + 하락추세"
+    },
+    {
+      "code": "030000",
+      "name": "제일기획",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 23100.0,
+        "open": 23300.0,
+        "high": 23300.0,
+        "low": 22950.0,
+        "volume": 390758,
+        "change_pct": -0.22
+      },
+      "indicators": {
+        "rsi_14": 61.54,
+        "macd": {
+          "macd_line": 347.91,
+          "signal_line": 390.05,
+          "histogram": -42.14
+        },
+        "bollinger": {
+          "upper": 23239.23,
+          "middle": 22867.5,
+          "lower": 22495.77,
+          "bandwidth": 0.0325
+        },
+        "sma_20": 22867.5,
+        "sma_50": 21769.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 390758,
+          "avg": 304233,
+          "ratio": 1.28
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bearish_crossover",
+        "bollinger": "upper_band_approach",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 44,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "081660",
+      "name": "미스토홀딩스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 44100.0,
+        "open": 45300.0,
+        "high": 45300.0,
+        "low": 43300.0,
+        "volume": 61718,
+        "change_pct": -0.79
+      },
+      "indicators": {
+        "rsi_14": 47.9,
+        "macd": {
+          "macd_line": 891.8,
+          "signal_line": 993.36,
+          "histogram": -101.56
+        },
+        "bollinger": {
+          "upper": 46070.0,
+          "middle": 43855.0,
+          "lower": 41640.0,
+          "bandwidth": 0.101
+        },
+        "sma_20": 43855.0,
+        "sma_50": 41081.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 61718,
+          "avg": 115841,
+          "ratio": 0.53
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "004370",
+      "name": "농심",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 435000.0,
+        "open": 433500.0,
+        "high": 435500.0,
+        "low": 429500.0,
+        "volume": 18772,
+        "change_pct": 0.93
+      },
+      "indicators": {
+        "rsi_14": 50.0,
+        "macd": {
+          "macd_line": -3392.64,
+          "signal_line": -3457.02,
+          "histogram": 64.38
+        },
+        "bollinger": {
+          "upper": 447163.54,
+          "middle": 434825.0,
+          "lower": 422486.46,
+          "bandwidth": 0.0568
+        },
+        "sma_20": 434825.0,
+        "sma_50": 436750.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 18772,
+          "avg": 24125,
+          "ratio": 0.78
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "103590",
+      "name": "일진전기",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 55400.0,
+        "open": 55600.0,
+        "high": 56900.0,
+        "low": 54600.0,
+        "volume": 333969,
+        "change_pct": 1.28
+      },
+      "indicators": {
+        "rsi_14": 54.59,
+        "macd": {
+          "macd_line": 354.59,
+          "signal_line": 559.74,
+          "histogram": -205.15
+        },
+        "bollinger": {
+          "upper": 58440.85,
+          "middle": 54875.0,
+          "lower": 51309.15,
+          "bandwidth": 0.13
+        },
+        "sma_20": 54875.0,
+        "sma_50": 54306.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 333969,
+          "avg": 692434,
+          "ratio": 0.48
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "below_average",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "204320",
+      "name": "HL만도",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 55600.0,
+        "open": 54900.0,
+        "high": 56500.0,
+        "low": 53000.0,
+        "volume": 1406200,
+        "change_pct": 2.02
+      },
+      "indicators": {
+        "rsi_14": 59.52,
+        "macd": {
+          "macd_line": 3418.55,
+          "signal_line": 3793.81,
+          "histogram": -375.26
+        },
+        "bollinger": {
+          "upper": 61565.25,
+          "middle": 51717.5,
+          "lower": 41869.75,
+          "bandwidth": 0.3808
+        },
+        "sma_20": 51717.5,
+        "sma_50": 42871.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 1406200,
+          "avg": 1504804,
+          "ratio": 0.93
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "000240",
+      "name": "한국앤컴퍼니",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 27150.0,
+        "open": 27150.0,
+        "high": 27600.0,
+        "low": 26750.0,
+        "volume": 82590,
+        "change_pct": 1.12
+      },
+      "indicators": {
+        "rsi_14": 38.18,
+        "macd": {
+          "macd_line": 89.0,
+          "signal_line": 310.95,
+          "histogram": -221.95
+        },
+        "bollinger": {
+          "upper": 29872.46,
+          "middle": 27542.5,
+          "lower": 25212.54,
+          "bandwidth": 0.1692
+        },
+        "sma_20": 27542.5,
+        "sma_50": 25845.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 82590,
+          "avg": 164847,
+          "ratio": 0.5
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "012510",
+      "name": "더존비즈온",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 83900.0,
+        "open": 84100.0,
+        "high": 85000.0,
+        "low": 83100.0,
+        "volume": 123728,
+        "change_pct": 0.0
+      },
+      "indicators": {
+        "rsi_14": 26.55,
+        "macd": {
+          "macd_line": -1955.05,
+          "signal_line": -906.02,
+          "histogram": -1049.04
+        },
+        "bollinger": {
+          "upper": 98818.2,
+          "middle": 90505.0,
+          "lower": 82191.8,
+          "bandwidth": 0.1837
+        },
+        "sma_20": 90505.0,
+        "sma_50": 90690.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 123728,
+          "avg": 157302,
+          "ratio": 0.79
+        }
+      },
+      "signals": {
+        "rsi": "oversold",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 31,
+      "grade": "sell",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세"
+    },
+    {
+      "code": "008930",
+      "name": "한미사이언스",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 37150.0,
+        "open": 37900.0,
+        "high": 38000.0,
+        "low": 36950.0,
+        "volume": 100137,
+        "change_pct": -0.8
+      },
+      "indicators": {
+        "rsi_14": 51.9,
+        "macd": {
+          "macd_line": -355.38,
+          "signal_line": -398.45,
+          "histogram": 43.06
+        },
+        "bollinger": {
+          "upper": 38758.84,
+          "middle": 37502.5,
+          "lower": 36246.16,
+          "bandwidth": 0.067
+        },
+        "sma_20": 37502.5,
+        "sma_50": 38324.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 100137,
+          "avg": 88159,
+          "ratio": 1.14
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 골든크로스 + 강한 하락추세"
+    },
+    {
+      "code": "014680",
+      "name": "한솔케미칼",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 224000.0,
+        "open": 224000.0,
+        "high": 225500.0,
+        "low": 220000.0,
+        "volume": 34012,
+        "change_pct": 2.05
+      },
+      "indicators": {
+        "rsi_14": 30.28,
+        "macd": {
+          "macd_line": -899.18,
+          "signal_line": 1271.05,
+          "histogram": -2170.22
+        },
+        "bollinger": {
+          "upper": 249503.48,
+          "middle": 232200.0,
+          "lower": 214896.52,
+          "bandwidth": 0.149
+        },
+        "sma_20": 232200.0,
+        "sma_50": 223910.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 34012,
+          "avg": 50408,
+          "ratio": 0.67
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 40,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "139130",
+      "name": "iM금융지주",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 15270.0,
+        "open": 14790.0,
+        "high": 15270.0,
+        "low": 14790.0,
+        "volume": 674784,
+        "change_pct": 3.67
+      },
+      "indicators": {
+        "rsi_14": 63.18,
+        "macd": {
+          "macd_line": 165.16,
+          "signal_line": 109.66,
+          "histogram": 55.5
+        },
+        "bollinger": {
+          "upper": 14974.15,
+          "middle": 14442.5,
+          "lower": 13910.85,
+          "bandwidth": 0.0736
+        },
+        "sma_20": 14442.5,
+        "sma_50": 14050.8,
+        "sma_200": 0,
+        "volume": {
+          "current": 674784,
+          "avg": 811250,
+          "ratio": 0.83
+        }
+      },
+      "signals": {
+        "rsi": "approaching_overbought",
+        "macd": "bullish_crossover",
+        "bollinger": "upper_band_touch",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 66,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 강한 상승추세"
+    },
+    {
+      "code": "004170",
+      "name": "신세계",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 249500.0,
+        "open": 253000.0,
+        "high": 253500.0,
+        "low": 244500.0,
+        "volume": 54138,
+        "change_pct": -0.2
+      },
+      "indicators": {
+        "rsi_14": 56.96,
+        "macd": {
+          "macd_line": 12265.18,
+          "signal_line": 13556.16,
+          "histogram": -1290.99
+        },
+        "bollinger": {
+          "upper": 276559.74,
+          "middle": 243125.0,
+          "lower": 209690.26,
+          "bandwidth": 0.275
+        },
+        "sma_20": 243125.0,
+        "sma_50": 212782.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 54138,
+          "avg": 75898,
+          "ratio": 0.71
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세"
+    },
+    {
+      "code": "139480",
+      "name": "이마트",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 86800.0,
+        "open": 86300.0,
+        "high": 86900.0,
+        "low": 84900.0,
+        "volume": 123787,
+        "change_pct": 1.52
+      },
+      "indicators": {
+        "rsi_14": 59.66,
+        "macd": {
+          "macd_line": 2647.78,
+          "signal_line": 2325.53,
+          "histogram": 322.25
+        },
+        "bollinger": {
+          "upper": 91220.27,
+          "middle": 83110.0,
+          "lower": 74999.73,
+          "bandwidth": 0.1952
+        },
+        "sma_20": 83110.0,
+        "sma_50": 78404.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 123787,
+          "avg": 225936,
+          "ratio": 0.55
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_uptrend"
+      },
+      "score": 74,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 강한 상승추세"
+    },
+    {
+      "code": "051600",
+      "name": "한전KPS",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 53200.0,
+        "open": 53500.0,
+        "high": 53600.0,
+        "low": 53000.0,
+        "volume": 120327,
+        "change_pct": 0.76
+      },
+      "indicators": {
+        "rsi_14": 51.81,
+        "macd": {
+          "macd_line": 294.88,
+          "signal_line": 512.35,
+          "histogram": -217.46
+        },
+        "bollinger": {
+          "upper": 54888.91,
+          "middle": 53320.0,
+          "lower": 51751.09,
+          "bandwidth": 0.0588
+        },
+        "sma_20": 53320.0,
+        "sma_50": 52004.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 120327,
+          "avg": 157615,
+          "ratio": 0.76
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 48100.0,
+        "open": 47200.0,
+        "high": 48250.0,
+        "low": 47200.0,
+        "volume": 848946,
+        "change_pct": 3.44
+      },
+      "indicators": {
+        "rsi_14": 51.59,
+        "macd": {
+          "macd_line": 541.55,
+          "signal_line": 1051.81,
+          "histogram": -510.26
+        },
+        "bollinger": {
+          "upper": 51906.28,
+          "middle": 48290.0,
+          "lower": 44673.72,
+          "bandwidth": 0.1498
+        },
+        "sma_20": 48290.0,
+        "sma_50": 44051.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 848946,
+          "avg": 1414210,
+          "ratio": 0.6
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "downtrend"
+      },
+      "score": 32,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세"
+    },
+    {
+      "code": "001720",
+      "name": "신영증권",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 142200.0,
+        "open": 143200.0,
+        "high": 143700.0,
+        "low": 140100.0,
+        "volume": 13547,
+        "change_pct": -0.49
+      },
+      "indicators": {
+        "rsi_14": 51.02,
+        "macd": {
+          "macd_line": -541.37,
+          "signal_line": -583.34,
+          "histogram": 41.97
+        },
+        "bollinger": {
+          "upper": 146276.52,
+          "middle": 142195.0,
+          "lower": 138113.48,
+          "bandwidth": 0.0574
+        },
+        "sma_20": 142195.0,
+        "sma_50": 143570.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 13547,
+          "avg": 20001,
+          "ratio": 0.68
+        }
+      },
+      "signals": {
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "uptrend"
+      },
+      "score": 68,
+      "grade": "buy",
+      "summary": "MACD 골든크로스 + 상승추세"
+    },
+    {
+      "code": "361610",
+      "name": "SK아이이테크놀로지",
+      "market": "KOSPI",
+      "sector": "",
+      "price": {
+        "current": 27550.0,
+        "open": 27650.0,
+        "high": 27950.0,
+        "low": 27150.0,
+        "volume": 125016,
+        "change_pct": 1.66
+      },
+      "indicators": {
+        "rsi_14": 35.29,
+        "macd": {
+          "macd_line": -531.36,
+          "signal_line": -320.02,
+          "histogram": -211.34
+        },
+        "bollinger": {
+          "upper": 31083.17,
+          "middle": 28837.5,
+          "lower": 26591.83,
+          "bandwidth": 0.1557
+        },
+        "sma_20": 28837.5,
+        "sma_50": 30261.0,
+        "sma_200": 0,
+        "volume": {
+          "current": 125016,
+          "avg": 148053,
+          "ratio": 0.84
+        }
+      },
+      "signals": {
+        "rsi": "oversold_recovery",
+        "macd": "bearish_crossover",
+        "bollinger": "within_bands",
+        "volume": "normal",
+        "trend": "strong_downtrend"
+      },
+      "score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세"
+    }
+  ]
+}
