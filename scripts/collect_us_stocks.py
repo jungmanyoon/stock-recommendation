@@ -16,7 +16,7 @@ import yfinance as yf
 
 # 상위 디렉토리 import를 위한 경로 추가
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from calculate_indicators import process_stock, categorize_recommendations
+from calculate_indicators import process_stock, categorize_recommendations, get_us_fundamentals
 
 
 # S&P 500 상위 종목 (시가총액 기준)
@@ -223,24 +223,40 @@ def collect_and_analyze(index: str = 'sp500') -> Dict[str, Any]:
 
         print(f"[{i+1}/{total}] {symbol} 분석 중...", end=' ')
 
-        # 종목 정보 가져오기
-        info = get_stock_info(symbol)
-        stock['name'] = info['name']
-        stock['sector'] = info['sector']
-
-        # 데이터 가져오기
-        df = get_stock_data(symbol)
-
-        if df.empty or len(df) < 30:
-            print("데이터 부족, 건너뜀")
-            failed_count += 1
-            continue
-
         try:
-            # 분석 수행
-            result = process_stock(stock, df)
+            # yfinance 티커 객체 생성 (재사용)
+            ticker = yf.Ticker(symbol)
+
+            # 종목 정보 가져오기
+            try:
+                info = ticker.info
+                if info and isinstance(info, dict):
+                    stock['name'] = info.get('shortName', info.get('longName', symbol))
+                    stock['sector'] = info.get('sector', '')
+            except Exception:
+                stock['name'] = symbol
+                stock['sector'] = ''
+
+            # 데이터 가져오기
+            df = get_stock_data(symbol)
+
+            if df.empty or len(df) < 30:
+                print("데이터 부족, 건너뜀")
+                failed_count += 1
+                continue
+
+            # 재무제표 가져오기 (US: 상세)
+            fundamentals = get_us_fundamentals(ticker)
+
+            # 분석 수행 (재무제표 포함)
+            result = process_stock(stock, df, fundamentals=fundamentals, region='US')
             analyzed_stocks.append(result)
-            print(f"점수: {result['score']}, 등급: {result['grade']}")
+
+            # 재무 건전성 표시
+            health = result.get('fundamental_health', '')
+            health_emoji = '💚' if health == 'good' else ('⚠️' if health == 'warning' else '')
+            print(f"점수: {result['score']}, 등급: {result['grade']} {health_emoji}")
+
         except Exception as e:
             print(f"분석 실패: {e}")
             traceback.print_exc()

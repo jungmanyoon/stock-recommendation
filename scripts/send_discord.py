@@ -13,8 +13,20 @@ from datetime import datetime
 def send_kr_notification(webhook_url: str, data_path: str) -> bool:
     """한국 주식 Discord 알림 전송"""
     try:
-        with open(data_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        with open(data_path, 'r', encoding='utf-8-sig') as f:  # BOM 자동 처리
+            content = f.read().strip()
+
+        if not content:
+            print(f"❌ 파일이 비어있음: {data_path}")
+            return False
+
+        try:
+            data = json.loads(content)
+        except json.JSONDecodeError as e:
+            print(f"❌ JSON 파싱 오류: {e}")
+            print(f"파일 크기: {len(content)} bytes")
+            print(f"파일 내용 (처음 200자): {repr(content[:200])}")
+            return False
 
         # 시장 정보
         market = data.get('market_summary', {})
@@ -91,8 +103,20 @@ def send_kr_notification(webhook_url: str, data_path: str) -> bool:
 def send_us_notification(webhook_url: str, data_path: str) -> bool:
     """미국 주식 Discord 알림 전송"""
     try:
-        with open(data_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        with open(data_path, 'r', encoding='utf-8-sig') as f:  # BOM 자동 처리
+            content = f.read().strip()
+
+        if not content:
+            print(f"❌ 파일이 비어있음: {data_path}")
+            return False
+
+        try:
+            data = json.loads(content)
+        except json.JSONDecodeError as e:
+            print(f"❌ JSON 파싱 오류: {e}")
+            print(f"파일 크기: {len(content)} bytes")
+            print(f"파일 내용 (처음 200자): {repr(content[:200])}")
+            return False
 
         # 시장 정보
         market = data.get('market_summary', {})

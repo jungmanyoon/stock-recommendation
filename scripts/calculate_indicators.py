@@ -1,9 +1,10 @@
 """
 기술적 지표 계산 및 추천 점수 산출 모듈
+하이브리드 재무제표 분석 포함 (US: 상세, KR: 간단)
 """
 import pandas as pd
 import numpy as np
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 from datetime import datetime
 import json
 
@@ -23,6 +24,210 @@ def convert_to_native(obj):
     return obj
 
 
+# ============================================================
+# 하이브리드 재무제표 분석 (US: 상세, KR: 간단)
+# ============================================================
+
+def get_us_fundamentals(ticker_obj) -> Dict[str, Optional[float]]:
+    """
+    미국 주식 상세 재무제표 분석 (yfinance ticker 객체 사용)
+
+    Returns:
+        PER, PBR, ROE, EPS, 매출성장률, 이익률, 부채비율 등
+    """
+    try:
+        info = ticker_obj.info
+        if not info or not isinstance(info, dict):
+            return _empty_us_fundamentals()
+
+        return {
+            'per': _safe_round(info.get('trailingPE')),
+            'forward_per': _safe_round(info.get('forwardPE')),
+            'pbr': _safe_round(info.get('priceToBook')),
+            'roe': _safe_round(info.get('returnOnEquity'), 4),
+            'roa': _safe_round(info.get('returnOnAssets'), 4),
+            'eps': _safe_round(info.get('trailingEps')),
+            'forward_eps': _safe_round(info.get('forwardEps')),
+            'revenue_growth': _safe_round(info.get('revenueGrowth'), 4),
+            'earnings_growth': _safe_round(info.get('earningsGrowth'), 4),
+            'profit_margin': _safe_round(info.get('profitMargins'), 4),
+            'operating_margin': _safe_round(info.get('operatingMargins'), 4),
+            'debt_to_equity': _safe_round(info.get('debtToEquity')),
+            'current_ratio': _safe_round(info.get('currentRatio')),
+            'dividend_yield': _safe_round(info.get('dividendYield'), 4),
+            'peg_ratio': _safe_round(info.get('pegRatio')),
+            'beta': _safe_round(info.get('beta')),
+            'market_cap': info.get('marketCap'),
+            '52w_high': _safe_round(info.get('fiftyTwoWeekHigh')),
+            '52w_low': _safe_round(info.get('fiftyTwoWeekLow')),
+        }
+    except Exception as e:
+        print(f"[WARN] US 재무제표 조회 실패: {e}")
+        return _empty_us_fundamentals()
+
+
+def get_kr_fundamentals(code: str) -> Dict[str, Optional[float]]:
+    """
+    한국 주식 간단 재무제표 분석 (pykrx 사용)
+
+    Returns:
+        PER, PBR, EPS, BPS, DIV (배당수익률)
+    """
+    try:
+        from pykrx import stock as pykrx_stock
+        from datetime import datetime, timedelta
+
+        # 최근 영업일 찾기 (최대 10일 전까지)
+        for i in range(10):
+            target_date = (datetime.now() - timedelta(days=i)).strftime('%Y%m%d')
+            try:
+                fundamentals = pykrx_stock.get_market_fundamental(target_date, target_date, code)
+                if not fundamentals.empty:
+                    return {
+                        'per': _safe_round(fundamentals['PER'].iloc[-1]),
+                        'pbr': _safe_round(fundamentals['PBR'].iloc[-1]),
+                        'eps': _safe_round(fundamentals['EPS'].iloc[-1]),
+                        'bps': _safe_round(fundamentals['BPS'].iloc[-1]),
+                        'div_yield': _safe_round(fundamentals['DIV'].iloc[-1], 4),
+                    }
+            except Exception:
+                continue
+
+        return _empty_kr_fundamentals()
+
+    except Exception as e:
+        print(f"[WARN] KR 재무제표 조회 실패 ({code}): {e}")
+        return _empty_kr_fundamentals()
+
+
+def _safe_round(value, decimals: int = 2) -> Optional[float]:
+    """안전한 반올림 (None, NaN 처리)"""
+    if value is None:
+        return None
+    try:
+        if pd.isna(value) or np.isinf(value):
+            return None
+        return round(float(value), decimals)
+    except (TypeError, ValueError):
+        return None
+
+
+def _empty_us_fundamentals() -> Dict[str, None]:
+    """빈 US 재무제표 데이터"""
+    return {
+        'per': None, 'forward_per': None, 'pbr': None,
+        'roe': None, 'roa': None, 'eps': None, 'forward_eps': None,
+        'revenue_growth': None, 'earnings_growth': None,
+        'profit_margin': None, 'operating_margin': None,
+        'debt_to_equity': None, 'current_ratio': None,
+        'dividend_yield': None, 'peg_ratio': None, 'beta': None,
+        'market_cap': None, '52w_high': None, '52w_low': None,
+    }
+
+
+def _empty_kr_fundamentals() -> Dict[str, None]:
+    """빈 KR 재무제표 데이터"""
+    return {
+        'per': None, 'pbr': None, 'eps': None, 'bps': None, 'div_yield': None,
+    }
+
+
+def analyze_fundamentals(fundamentals: Dict[str, Any], region: str = 'US') -> Dict[str, Any]:
+    """
+    재무제표 기반 투자 신호 분석
+
+    Args:
+        fundamentals: 재무제표 데이터
+        region: 'US' 또는 'KR'
+
+    Returns:
+        재무 건전성 점수 및 신호
+    """
+    signals = []
+    score_adjustment = 0
+
+    per = fundamentals.get('per')
+    pbr = fundamentals.get('pbr')
+
+    # PER 분석
+    if per is not None:
+        if per < 0:
+            signals.append('적자 기업')
+            score_adjustment -= 5
+        elif per < 10:
+            signals.append('저PER (저평가 가능)')
+            score_adjustment += 5
+        elif per < 20:
+            signals.append('적정 PER')
+        elif per < 40:
+            signals.append('고PER')
+            score_adjustment -= 2
+        else:
+            signals.append('매우 고PER (고평가 주의)')
+            score_adjustment -= 5
+
+    # PBR 분석
+    if pbr is not None:
+        if pbr < 1:
+            signals.append('저PBR (자산가치 대비 저평가)')
+            score_adjustment += 3
+        elif pbr > 5:
+            signals.append('고PBR (프리미엄)')
+            score_adjustment -= 2
+
+    # US 전용 추가 분석
+    if region == 'US':
+        roe = fundamentals.get('roe')
+        profit_margin = fundamentals.get('profit_margin')
+        debt_to_equity = fundamentals.get('debt_to_equity')
+        revenue_growth = fundamentals.get('revenue_growth')
+
+        # ROE 분석
+        if roe is not None:
+            if roe > 0.20:
+                signals.append('높은 ROE (20%+)')
+                score_adjustment += 5
+            elif roe > 0.15:
+                signals.append('양호한 ROE (15-20%)')
+                score_adjustment += 3
+            elif roe < 0:
+                signals.append('음의 ROE')
+                score_adjustment -= 5
+
+        # 이익률 분석
+        if profit_margin is not None:
+            if profit_margin > 0.20:
+                signals.append('높은 이익률 (20%+)')
+                score_adjustment += 3
+            elif profit_margin < 0:
+                signals.append('적자')
+                score_adjustment -= 5
+
+        # 부채비율 분석
+        if debt_to_equity is not None:
+            if debt_to_equity > 200:
+                signals.append('높은 부채비율 (주의)')
+                score_adjustment -= 3
+            elif debt_to_equity < 50:
+                signals.append('낮은 부채비율 (안정)')
+                score_adjustment += 2
+
+        # 매출 성장률
+        if revenue_growth is not None:
+            if revenue_growth > 0.20:
+                signals.append('높은 매출 성장 (20%+)')
+                score_adjustment += 3
+            elif revenue_growth < -0.10:
+                signals.append('매출 감소')
+                score_adjustment -= 3
+
+    return {
+        'signals': signals,
+        'score_adjustment': max(-15, min(15, score_adjustment)),  # -15 ~ +15 제한
+        'health': 'good' if score_adjustment > 3 else ('warning' if score_adjustment < -3 else 'neutral')
+    }
+
+
 def calculate_rsi(prices: pd.Series, period: int = 14) -> float:
     """RSI (Relative Strength Index) 계산"""
     if len(prices) < period + 1:
@@ -32,8 +237,10 @@ def calculate_rsi(prices: pd.Series, period: int = 14) -> float:
     gain = delta.where(delta > 0, 0).rolling(window=period).mean()
     loss = (-delta.where(delta < 0, 0)).rolling(window=period).mean()
 
-    rs = gain / loss
+    # Division by zero 보호: loss가 0이면 RSI = 100 (극단적 상승)
+    rs = gain / loss.replace(0, np.nan)
     rsi = 100 - (100 / (1 + rs))
+    rsi = rsi.fillna(100)
 
     result = rsi.iloc[-1]
     return round(result, 2) if not pd.isna(result) else 50.0
@@ -374,14 +581,47 @@ def generate_summary(signals: Dict[str, str]) -> str:
     return ' + '.join(summaries) if summaries else '특별한 신호 없음'
 
 
-def process_stock(stock_data: Dict[str, Any], df: pd.DataFrame) -> Dict[str, Any]:
-    """개별 종목 처리 및 추천 정보 생성"""
+def process_stock(
+    stock_data: Dict[str, Any],
+    df: pd.DataFrame,
+    fundamentals: Optional[Dict[str, Any]] = None,
+    region: str = 'KR'
+) -> Dict[str, Any]:
+    """
+    개별 종목 처리 및 추천 정보 생성
+
+    Args:
+        stock_data: 종목 기본 정보
+        df: OHLCV 데이터프레임
+        fundamentals: 재무제표 데이터 (선택)
+        region: 'US' 또는 'KR'
+
+    Returns:
+        종목 분석 결과
+    """
     indicators = calculate_all_indicators(df)
     current_price = float(df['Close'].iloc[-1])
     signals = generate_signals(indicators, current_price)
-    score = calculate_recommendation_score(signals)
-    grade = get_recommendation_grade(score)
+
+    # 기술적 지표 기반 점수
+    tech_score = calculate_recommendation_score(signals)
+
+    # 재무제표 분석 및 점수 조정
+    fundamental_analysis = None
+    final_score = tech_score
+
+    if fundamentals:
+        fundamental_analysis = analyze_fundamentals(fundamentals, region)
+        # 재무제표 기반 점수 조정 (-15 ~ +15)
+        final_score = max(0, min(100, tech_score + fundamental_analysis['score_adjustment']))
+
+    grade = get_recommendation_grade(final_score)
     summary = generate_summary(signals)
+
+    # 재무제표 신호가 있으면 요약에 추가
+    if fundamental_analysis and fundamental_analysis['signals']:
+        fund_summary = ' | '.join(fundamental_analysis['signals'][:2])  # 최대 2개
+        summary = f"{summary} | {fund_summary}" if summary != '특별한 신호 없음' else fund_summary
 
     result = {
         'code': stock_data['code'],
@@ -398,10 +638,17 @@ def process_stock(stock_data: Dict[str, Any], df: pd.DataFrame) -> Dict[str, Any
         },
         'indicators': convert_to_native(indicators),
         'signals': signals,
-        'score': int(score),
+        'score': int(final_score),
+        'tech_score': int(tech_score),  # 기술적 지표만 점수
         'grade': grade,
         'summary': summary
     }
+
+    # 재무제표 데이터 추가 (있는 경우)
+    if fundamentals:
+        result['fundamentals'] = convert_to_native(fundamentals)
+        if fundamental_analysis:
+            result['fundamental_health'] = fundamental_analysis['health']
 
     return convert_to_native(result)
 
@@ -424,11 +671,23 @@ def categorize_recommendations(stocks: List[Dict[str, Any]]) -> Dict[str, List[D
             'name': stock['name'],
             'market': stock['market'],
             'score': stock['score'],
+            'tech_score': stock.get('tech_score', stock['score']),
             'signals': stock['signals'],
             'summary': stock['summary'],
             'price': stock['price']['current'],
             'change_pct': stock['price']['change_pct']
         }
+
+        # 재무제표 핵심 지표 추가 (있는 경우)
+        if 'fundamentals' in stock:
+            fund = stock['fundamentals']
+            recommendation['fundamentals'] = {
+                'per': fund.get('per'),
+                'pbr': fund.get('pbr'),
+                'roe': fund.get('roe'),
+                'health': stock.get('fundamental_health', 'neutral')
+            }
+
         categories[grade].append(recommendation)
 
     # 각 카테고리 내에서 점수순 정렬

@@ -15,7 +15,7 @@ import pandas as pd
 
 # 상위 디렉토리 import를 위한 경로 추가
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from calculate_indicators import process_stock, categorize_recommendations
+from calculate_indicators import process_stock, categorize_recommendations, get_kr_fundamentals
 
 
 def get_market_stocks(market: str = 'KOSPI', top_n: int = 200) -> List[Dict[str, Any]]:
@@ -111,8 +111,9 @@ def get_market_stocks(market: str = 'KOSPI', top_n: int = 200) -> List[Dict[str,
                     'market': market,
                     'sector': ''
                 })
-            except:
-                pass
+            except Exception as e:
+                print(f"[WARN] {ticker} 이름 조회 실패: {e}")
+                continue
 
         print(f"[INFO] {market} {len(stocks)}개 종목 조회 완료 (pykrx)")
         return stocks
@@ -283,10 +284,17 @@ def collect_and_analyze(market: str = 'KOSPI', top_n: int = 200) -> Dict[str, An
             continue
 
         try:
-            # 분석 수행
-            result = process_stock(stock, df)
+            # 재무제표 가져오기 (KR: 간단 - PER, PBR, EPS, BPS)
+            fundamentals = get_kr_fundamentals(code)
+
+            # 분석 수행 (재무제표 포함)
+            result = process_stock(stock, df, fundamentals=fundamentals, region='KR')
             analyzed_stocks.append(result)
-            print(f"점수: {result['score']}, 등급: {result['grade']}")
+
+            # 재무 건전성 표시
+            health = result.get('fundamental_health', '')
+            health_emoji = '💚' if health == 'good' else ('⚠️' if health == 'warning' else '')
+            print(f"점수: {result['score']}, 등급: {result['grade']} {health_emoji}")
         except Exception as e:
             print(f"분석 실패: {e}")
             failed_count += 1
