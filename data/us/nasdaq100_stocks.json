@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-24T16:38:43.441637",
+  "updated_at": "2025-12-25T16:38:27.647912",
   "index": "NASDAQ100",
   "count": 79,
   "stocks": [
@@ -9,53 +9,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 272.36,
-        "open": 270.84,
-        "high": 272.5,
-        "low": 269.56,
-        "volume": 29642000,
-        "change_pct": 0.51
+        "current": 273.81,
+        "open": 272.34,
+        "high": 275.43,
+        "low": 272.2,
+        "volume": 17910600,
+        "change_pct": 0.53
       },
       "indicators": {
-        "rsi_14": 24.29,
+        "rsi_14": 33.54,
         "macd": {
-          "macd_line": 0.34,
-          "signal_line": 1.68,
-          "histogram": -1.34
+          "macd_line": 0.27,
+          "signal_line": 1.39,
+          "histogram": -1.13
         },
         "bollinger": {
-          "upper": 285.66,
-          "middle": 277.31,
-          "lower": 268.96,
-          "bandwidth": 0.0602
+          "upper": 285.64,
+          "middle": 277.15,
+          "lower": 268.66,
+          "bandwidth": 0.0613
         },
-        "sma_20": 277.31,
-        "sma_50": 270.43,
+        "sma_20": 277.15,
+        "sma_50": 270.95,
         "sma_200": 0,
         "volume": {
-          "current": 29642000,
-          "avg": 47418650,
-          "ratio": 0.63
+          "current": 17910600,
+          "avg": 45621460,
+          "ratio": 0.39
         }
       },
       "signals": {
-        "rsi": "oversold",
+        "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "lower_band_bounce",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 44,
-      "tech_score": 40,
+      "score": 49,
+      "tech_score": 45,
       "grade": "hold",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 36.7,
+        "per": 36.75,
         "forward_per": 29.91,
         "pbr": 54.86,
         "roe": 1.7142,
         "roa": 0.2296,
-        "eps": 7.46,
+        "eps": 7.45,
         "forward_eps": 9.16,
         "revenue_growth": 0.079,
         "earnings_growth": 0.912,
@@ -78,53 +78,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 486.85,
-        "open": 484.98,
-        "high": 487.83,
-        "low": 484.74,
-        "volume": 14683600,
-        "change_pct": 0.4
+        "current": 488.02,
+        "open": 485.68,
+        "high": 489.16,
+        "low": 484.83,
+        "volume": 5855900,
+        "change_pct": 0.24
       },
       "indicators": {
-        "rsi_14": 58.16,
+        "rsi_14": 56.66,
         "macd": {
-          "macd_line": -3.73,
-          "signal_line": -5.36,
-          "histogram": 1.63
+          "macd_line": -3.05,
+          "signal_line": -4.86,
+          "histogram": 1.81
         },
         "bollinger": {
-          "upper": 494.41,
-          "middle": 483.28,
-          "lower": 472.14,
-          "bandwidth": 0.0461
+          "upper": 494.74,
+          "middle": 483.83,
+          "lower": 472.92,
+          "bandwidth": 0.0451
         },
-        "sma_20": 483.28,
-        "sma_50": 498.69,
+        "sma_20": 483.83,
+        "sma_50": 498.2,
         "sma_200": 0,
         "volume": {
-          "current": 14683600,
-          "avg": 26463695,
-          "ratio": 0.55
+          "current": 5855900,
+          "avg": 25476825,
+          "ratio": 0.23
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 69,
-      "tech_score": 63,
+      "score": 67,
+      "tech_score": 61,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 34.69,
+        "per": 34.73,
         "forward_per": 26.04,
         "pbr": 9.99,
         "roe": 0.3224,
         "roa": 0.1466,
-        "eps": 14.07,
+        "eps": 14.05,
         "forward_eps": 18.74,
         "revenue_growth": 0.184,
         "earnings_growth": 0.127,
@@ -147,40 +147,40 @@
       "market": "NASDAQ",
       "sector": "Communication Services",
       "price": {
-        "current": 314.35,
-        "open": 309.63,
-        "high": 314.94,
-        "low": 309.32,
-        "volume": 25478700,
-        "change_pct": 1.48
+        "current": 314.09,
+        "open": 314.77,
+        "high": 315.08,
+        "low": 311.92,
+        "volume": 10097400,
+        "change_pct": -0.08
       },
       "indicators": {
-        "rsi_14": 45.82,
+        "rsi_14": 47.18,
         "macd": {
-          "macd_line": 4.37,
-          "signal_line": 6.43,
-          "histogram": -2.06
+          "macd_line": 4.44,
+          "signal_line": 6.03,
+          "histogram": -1.59
         },
         "bollinger": {
-          "upper": 327.22,
-          "middle": 313.46,
-          "lower": 299.69,
-          "bandwidth": 0.0878
+          "upper": 325.98,
+          "middle": 313.0,
+          "lower": 300.02,
+          "bandwidth": 0.0829
         },
-        "sma_20": 313.46,
-        "sma_50": 290.25,
+        "sma_20": 313.0,
+        "sma_50": 291.63,
         "sma_200": 0,
         "volume": {
-          "current": 25478700,
-          "avg": 41477120,
-          "ratio": 0.61
+          "current": 10097400,
+          "avg": 38492800,
+          "ratio": 0.26
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
       "score": 56,
@@ -188,12 +188,12 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 31.04,
+        "per": 30.94,
         "forward_per": 28.04,
         "pbr": 9.81,
         "roe": 0.3545,
         "roa": 0.1628,
-        "eps": 10.12,
+        "eps": 10.15,
         "forward_eps": 11.2,
         "revenue_growth": 0.159,
         "earnings_growth": 0.353,
@@ -216,53 +216,53 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 232.14,
-        "open": 229.06,
-        "high": 232.45,
-        "low": 228.73,
-        "volume": 29230200,
-        "change_pct": 1.62
+        "current": 232.38,
+        "open": 232.13,
+        "high": 232.95,
+        "low": 231.33,
+        "volume": 11420500,
+        "change_pct": 0.1
       },
       "indicators": {
-        "rsi_14": 49.63,
+        "rsi_14": 55.52,
         "macd": {
-          "macd_line": -0.89,
-          "signal_line": -1.24,
-          "histogram": 0.35
+          "macd_line": -0.47,
+          "signal_line": -1.1,
+          "histogram": 0.63
         },
         "bollinger": {
-          "upper": 236.26,
-          "middle": 228.77,
-          "lower": 221.29,
-          "bandwidth": 0.0654
+          "upper": 236.56,
+          "middle": 228.91,
+          "lower": 221.26,
+          "bandwidth": 0.0668
         },
-        "sma_20": 228.77,
-        "sma_50": 229.75,
+        "sma_20": 228.91,
+        "sma_50": 230.07,
         "sma_200": 0,
         "volume": {
-          "current": 29230200,
-          "avg": 40885540,
-          "ratio": 0.71
+          "current": 11420500,
+          "avg": 39631130,
+          "ratio": 0.29
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 66,
-      "tech_score": 63,
+      "score": 64,
+      "tech_score": 61,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.82,
+        "per": 32.78,
         "forward_per": 29.62,
         "pbr": 6.72,
         "roe": 0.2433,
         "roa": 0.075,
-        "eps": 7.08,
+        "eps": 7.09,
         "forward_eps": 7.85,
         "revenue_growth": 0.134,
         "earnings_growth": 0.364,
@@ -285,53 +285,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 189.21,
-        "open": 182.97,
-        "high": 189.33,
-        "low": 182.9,
-        "volume": 174873600,
-        "change_pct": 3.01
+        "current": 188.61,
+        "open": 187.94,
+        "high": 188.91,
+        "low": 186.59,
+        "volume": 65528500,
+        "change_pct": -0.32
       },
       "indicators": {
-        "rsi_14": 60.42,
+        "rsi_14": 56.08,
         "macd": {
-          "macd_line": -1.08,
-          "signal_line": -2.07,
-          "histogram": 1.0
+          "macd_line": -0.37,
+          "signal_line": -1.72,
+          "histogram": 1.35
         },
         "bollinger": {
-          "upper": 188.99,
-          "middle": 180.25,
-          "lower": 171.52,
-          "bandwidth": 0.0969
+          "upper": 190.2,
+          "middle": 180.79,
+          "lower": 171.38,
+          "bandwidth": 0.1041
         },
-        "sma_20": 180.25,
-        "sma_50": 185.67,
+        "sma_20": 180.79,
+        "sma_50": 185.84,
         "sma_200": 0,
         "volume": {
-          "current": 174873600,
-          "avg": 189708040,
-          "ratio": 0.92
+          "current": 65528500,
+          "avg": 185620805,
+          "ratio": 0.35
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "neutral",
         "macd": "bullish_crossover",
-        "bollinger": "upper_band_touch",
-        "volume": "normal",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 66,
-      "tech_score": 60,
+      "score": 67,
+      "tech_score": 61,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "summary": "MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 46.57,
+        "per": 46.69,
         "forward_per": 24.97,
         "pbr": 38.55,
         "roe": 1.0736,
         "roa": 0.5353,
-        "eps": 4.05,
+        "eps": 4.04,
         "forward_eps": 7.55,
         "revenue_growth": 0.625,
         "earnings_growth": 0.667,
@@ -354,53 +354,53 @@
       "market": "NASDAQ",
       "sector": "Communication Services",
       "price": {
-        "current": 664.94,
-        "open": 660.05,
-        "high": 666.0,
-        "low": 658.25,
-        "volume": 8486800,
-        "change_pct": 0.52
+        "current": 667.55,
+        "open": 662.53,
+        "high": 668.18,
+        "low": 662.2,
+        "volume": 5627500,
+        "change_pct": 0.39
       },
       "indicators": {
-        "rsi_14": 61.15,
+        "rsi_14": 53.39,
         "macd": {
-          "macd_line": 3.31,
-          "signal_line": 0.37,
-          "histogram": 2.93
+          "macd_line": 3.96,
+          "signal_line": 1.01,
+          "histogram": 2.94
         },
         "bollinger": {
-          "upper": 674.4,
-          "middle": 652.4,
-          "lower": 630.41,
-          "bandwidth": 0.0674
+          "upper": 675.51,
+          "middle": 654.0,
+          "lower": 632.48,
+          "bandwidth": 0.0658
         },
-        "sma_20": 652.4,
-        "sma_50": 658.85,
+        "sma_20": 654.0,
+        "sma_50": 658.04,
         "sma_200": 0,
         "volume": {
-          "current": 8486800,
-          "avg": 18169715,
-          "ratio": 0.47
+          "current": 5627500,
+          "avg": 17416310,
+          "ratio": 0.32
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
         "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 69,
-      "tech_score": 60,
+      "score": 70,
+      "tech_score": 61,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 29.52,
+        "per": 29.5,
         "forward_per": 22.14,
         "pbr": 8.67,
         "roe": 0.3264,
         "roa": 0.1801,
-        "eps": 22.61,
+        "eps": 22.63,
         "forward_eps": 30.15,
         "revenue_growth": 0.262,
         "earnings_growth": -0.826,
@@ -408,7 +408,7 @@
         "operating_margin": 0.4007,
         "debt_to_equity": 26.31,
         "current_ratio": 1.98,
-        "dividend_yield": 0.32,
+        "dividend_yield": 0.31,
         "peg_ratio": null,
         "beta": 1.27,
         "market_cap": 1682578210816,
@@ -423,33 +423,33 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 485.56,
-        "open": 489.4,
-        "high": 491.97,
-        "low": 482.84,
-        "volume": 58223600,
-        "change_pct": -0.65
+        "current": 485.4,
+        "open": 488.48,
+        "high": 490.9,
+        "low": 476.8,
+        "volume": 41285400,
+        "change_pct": -0.03
       },
       "indicators": {
-        "rsi_14": 64.41,
+        "rsi_14": 62.15,
         "macd": {
-          "macd_line": 14.73,
-          "signal_line": 10.87,
-          "histogram": 3.86
+          "macd_line": 14.79,
+          "signal_line": 11.59,
+          "histogram": 3.2
         },
         "bollinger": {
-          "upper": 500.71,
-          "middle": 455.26,
-          "lower": 409.81,
-          "bandwidth": 0.1997
+          "upper": 502.61,
+          "middle": 458.56,
+          "lower": 414.51,
+          "bandwidth": 0.1921
         },
-        "sma_20": 455.26,
-        "sma_50": 442.21,
+        "sma_20": 458.56,
+        "sma_50": 443.34,
         "sma_200": 0,
         "volume": {
-          "current": 58223600,
-          "avg": 78575630,
-          "ratio": 0.74
+          "current": 41285400,
+          "avg": 76646490,
+          "ratio": 0.54
         }
       },
       "signals": {
@@ -492,53 +492,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 349.32,
-        "open": 340.81,
-        "high": 350.11,
-        "low": 338.54,
-        "volume": 28232600,
-        "change_pct": 2.3
+        "current": 350.22,
+        "open": 350.69,
+        "high": 352.86,
+        "low": 347.14,
+        "volume": 11424400,
+        "change_pct": 0.26
       },
       "indicators": {
-        "rsi_14": 39.53,
+        "rsi_14": 39.73,
         "macd": {
-          "macd_line": -6.86,
-          "signal_line": -1.41,
-          "histogram": -5.44
+          "macd_line": -6.62,
+          "signal_line": -2.43,
+          "histogram": -4.19
         },
         "bollinger": {
-          "upper": 429.93,
-          "middle": 372.35,
-          "lower": 314.76,
-          "bandwidth": 0.3093
+          "upper": 428.76,
+          "middle": 370.64,
+          "lower": 312.53,
+          "bandwidth": 0.3136
         },
-        "sma_20": 372.35,
-        "sma_50": 361.05,
+        "sma_20": 370.64,
+        "sma_50": 361.18,
         "sma_200": 0,
         "volume": {
-          "current": 28232600,
-          "avg": 44880050,
-          "ratio": 0.63
+          "current": 11424400,
+          "avg": 43928560,
+          "ratio": 0.26
         }
       },
       "signals": {
         "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 41,
-      "tech_score": 40,
+      "score": 43,
+      "tech_score": 42,
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 73.11,
+        "per": 73.58,
         "forward_per": 25.01,
         "pbr": 5.91,
         "roe": 0.3105,
         "roa": 0.0979,
-        "eps": 4.79,
+        "eps": 4.76,
         "forward_eps": 14.0,
         "revenue_growth": 0.164,
         "earnings_growth": 1.881,
@@ -561,61 +561,61 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 854.79,
-        "open": 849.1,
-        "high": 854.98,
-        "low": 846.8,
-        "volume": 1903300,
-        "change_pct": 0.56
+        "current": 871.86,
+        "open": 858.6,
+        "high": 876.0,
+        "low": 858.35,
+        "volume": 1822200,
+        "change_pct": 2.0
       },
       "indicators": {
-        "rsi_14": 17.42,
+        "rsi_14": 37.26,
         "macd": {
-          "macd_line": -15.74,
-          "signal_line": -13.07,
-          "histogram": -2.67
+          "macd_line": -14.22,
+          "signal_line": -13.25,
+          "histogram": -0.96
         },
         "bollinger": {
-          "upper": 931.69,
-          "middle": 884.19,
-          "lower": 836.7,
-          "bandwidth": 0.1074
+          "upper": 930.62,
+          "middle": 883.07,
+          "lower": 835.52,
+          "bandwidth": 0.1077
         },
-        "sma_20": 884.19,
-        "sma_50": 906.78,
+        "sma_20": 883.07,
+        "sma_50": 905.31,
         "sma_200": 0,
         "volume": {
-          "current": 1903300,
-          "avg": 3148105,
+          "current": 1822200,
+          "avg": 3060210,
           "ratio": 0.6
         }
       },
       "signals": {
-        "rsi": "oversold",
+        "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
         "volume": "normal",
         "trend": "strong_downtrend"
       },
-      "score": 31,
-      "tech_score": 31,
+      "score": 34,
+      "tech_score": 34,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 46.8,
+        "per": 46.72,
         "forward_per": 39.3,
         "pbr": 12.77,
         "roe": 0.3033,
         "roa": 0.0852,
-        "eps": 18.63,
+        "eps": 18.66,
         "forward_eps": 22.19,
         "revenue_growth": 0.083,
         "earnings_growth": 0.114,
         "profit_margin": 0.0296,
         "operating_margin": 0.0366,
-        "debt_to_equity": 26.74,
+        "debt_to_equity": 26.97,
         "current_ratio": 1.04,
-        "dividend_yield": 0.61,
+        "dividend_yield": 0.6,
         "peg_ratio": null,
         "beta": 0.98,
         "market_cap": 387068952576,
@@ -630,33 +630,33 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 1061.84,
-        "open": 1057.94,
-        "high": 1064.75,
-        "low": 1055.69,
-        "volume": 543600,
-        "change_pct": 0.46
+        "current": 1065.52,
+        "open": 1059.82,
+        "high": 1066.8,
+        "low": 1057.44,
+        "volume": 229800,
+        "change_pct": 0.35
       },
       "indicators": {
-        "rsi_14": 34.13,
+        "rsi_14": 39.96,
         "macd": {
-          "macd_line": 4.39,
-          "signal_line": 11.74,
-          "histogram": -7.35
+          "macd_line": 3.95,
+          "signal_line": 10.12,
+          "histogram": -6.17
         },
         "bollinger": {
-          "upper": 1155.53,
-          "middle": 1079.8,
-          "lower": 1004.07,
-          "bandwidth": 0.1403
+          "upper": 1150.01,
+          "middle": 1082.92,
+          "lower": 1015.82,
+          "bandwidth": 0.1239
         },
-        "sma_20": 1079.8,
-        "sma_50": 1047.9,
+        "sma_20": 1082.92,
+        "sma_50": 1049.58,
         "sma_200": 0,
         "volume": {
-          "current": 543600,
-          "avg": 1434050,
-          "ratio": 0.38
+          "current": 229800,
+          "avg": 1379825,
+          "ratio": 0.17
         }
       },
       "signals": {
@@ -671,13 +671,13 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 37.44,
-        "forward_per": 34.96,
-        "pbr": 18.47,
+        "per": 37.31,
+        "forward_per": 34.87,
+        "pbr": 18.42,
         "roe": 0.5385,
         "roa": 0.1615,
-        "eps": 28.46,
-        "forward_eps": 30.48,
+        "eps": 28.56,
+        "forward_eps": 30.56,
         "revenue_growth": 0.007,
         "earnings_growth": 0.038,
         "profit_margin": 0.2938,
@@ -699,45 +699,45 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 143.68,
-        "open": 147.19,
-        "high": 147.19,
-        "low": 143.56,
-        "volume": 7254800,
-        "change_pct": -2.29
+        "current": 143.74,
+        "open": 143.79,
+        "high": 143.99,
+        "low": 142.95,
+        "volume": 2618700,
+        "change_pct": 0.04
       },
       "indicators": {
-        "rsi_14": 42.1,
+        "rsi_14": 45.03,
         "macd": {
-          "macd_line": 0.55,
-          "signal_line": 0.94,
-          "histogram": -0.4
+          "macd_line": 0.2,
+          "signal_line": 0.8,
+          "histogram": -0.6
         },
         "bollinger": {
-          "upper": 152.03,
-          "middle": 147.52,
-          "lower": 143.02,
-          "bandwidth": 0.0611
+          "upper": 152.13,
+          "middle": 147.48,
+          "lower": 142.83,
+          "bandwidth": 0.0631
         },
-        "sma_20": 147.52,
-        "sma_50": 146.81,
+        "sma_20": 147.48,
+        "sma_50": 146.69,
         "sma_200": 0,
         "volume": {
-          "current": 7254800,
-          "avg": 8336045,
-          "ratio": 0.87
+          "current": 2618700,
+          "avg": 8229215,
+          "ratio": 0.32
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "lower_band_bounce",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 38,
-      "tech_score": 40,
-      "grade": "sell",
+      "score": 40,
+      "tech_score": 42,
+      "grade": "hold",
       "summary": "MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 27.33,
@@ -769,39 +769,39 @@
       "sector": "Technology",
       "price": {
         "current": 78.02,
-        "open": 77.61,
-        "high": 78.12,
-        "low": 77.59,
-        "volume": 16712600,
-        "change_pct": -0.12
+        "open": 78.02,
+        "high": 78.29,
+        "low": 77.85,
+        "volume": 9104400,
+        "change_pct": 0.0
       },
       "indicators": {
-        "rsi_14": 51.29,
+        "rsi_14": 51.24,
         "macd": {
-          "macd_line": 0.82,
-          "signal_line": 1.09,
-          "histogram": -0.27
+          "macd_line": 0.78,
+          "signal_line": 1.03,
+          "histogram": -0.25
         },
         "bollinger": {
-          "upper": 80.11,
-          "middle": 77.74,
-          "lower": 75.36,
-          "bandwidth": 0.0611
+          "upper": 80.1,
+          "middle": 77.82,
+          "lower": 75.54,
+          "bandwidth": 0.0586
         },
-        "sma_20": 77.74,
-        "sma_50": 74.84,
+        "sma_20": 77.82,
+        "sma_50": 75.02,
         "sma_200": 0,
         "volume": {
-          "current": 16712600,
-          "avg": 20681860,
-          "ratio": 0.81
+          "current": 9104400,
+          "avg": 20182915,
+          "ratio": 0.45
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
       "score": 51,
@@ -837,45 +837,45 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 352.42,
-        "open": 357.47,
-        "high": 359.67,
-        "low": 350.58,
-        "volume": 3052500,
-        "change_pct": -1.43
+        "current": 352.98,
+        "open": 352.21,
+        "high": 354.75,
+        "low": 351.11,
+        "volume": 1166500,
+        "change_pct": 0.16
       },
       "indicators": {
-        "rsi_14": 68.42,
+        "rsi_14": 67.78,
         "macd": {
-          "macd_line": 6.41,
-          "signal_line": 4.67,
-          "histogram": 1.73
+          "macd_line": 6.19,
+          "signal_line": 4.95,
+          "histogram": 1.24
         },
         "bollinger": {
-          "upper": 369.73,
-          "middle": 340.67,
-          "lower": 311.6,
-          "bandwidth": 0.1706
+          "upper": 370.11,
+          "middle": 342.34,
+          "lower": 314.57,
+          "bandwidth": 0.1622
         },
-        "sma_20": 340.67,
-        "sma_50": 337.79,
+        "sma_20": 342.34,
+        "sma_50": 338.13,
         "sma_200": 0,
         "volume": {
-          "current": 3052500,
-          "avg": 4796290,
-          "ratio": 0.64
+          "current": 1166500,
+          "avg": 4678195,
+          "ratio": 0.25
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 75,
-      "tech_score": 71,
-      "grade": "strong_buy",
+      "score": 71,
+      "tech_score": 67,
+      "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 21.14,
@@ -906,53 +906,53 @@
       "market": "NASDAQ",
       "sector": "Communication Services",
       "price": {
-        "current": 93.5,
-        "open": 93.4,
-        "high": 93.81,
-        "low": 91.33,
-        "volume": 25896200,
-        "change_pct": 0.29
+        "current": 93.64,
+        "open": 93.11,
+        "high": 93.68,
+        "low": 92.67,
+        "volume": 12427900,
+        "change_pct": 0.15
       },
       "indicators": {
-        "rsi_14": 22.15,
+        "rsi_14": 23.65,
         "macd": {
-          "macd_line": -4.31,
-          "signal_line": -4.3,
-          "histogram": -0.01
+          "macd_line": -4.15,
+          "signal_line": -4.27,
+          "histogram": 0.11
         },
         "bollinger": {
-          "upper": 110.76,
-          "middle": 98.89,
-          "lower": 87.01,
-          "bandwidth": 0.2402
+          "upper": 110.15,
+          "middle": 98.35,
+          "lower": 86.55,
+          "bandwidth": 0.24
         },
-        "sma_20": 98.89,
-        "sma_50": 107.15,
+        "sma_20": 98.35,
+        "sma_50": 106.59,
         "sma_200": 0,
         "volume": {
-          "current": 25896200,
-          "avg": 51545665,
-          "ratio": 0.5
+          "current": 12427900,
+          "avg": 49694560,
+          "ratio": 0.25
         }
       },
       "signals": {
         "rsi": "oversold",
-        "macd": "bearish_crossover",
+        "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 35,
-      "tech_score": 31,
-      "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "score": 58,
+      "tech_score": 54,
+      "grade": "hold",
+      "summary": "RSI 과매도 + MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 39.18,
+        "per": 39.02,
         "forward_per": 28.88,
         "pbr": 15.29,
         "roe": 0.4286,
         "roa": 0.1474,
-        "eps": 2.39,
+        "eps": 2.4,
         "forward_eps": 3.24,
         "revenue_growth": 0.172,
         "earnings_growth": 0.087,
@@ -975,44 +975,44 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 214.9,
-        "open": 212.86,
-        "high": 217.03,
-        "low": 212.28,
-        "volume": 20272300,
-        "change_pct": -0.02
+        "current": 215.04,
+        "open": 214.98,
+        "high": 216.54,
+        "low": 213.97,
+        "volume": 7956800,
+        "change_pct": 0.07
       },
       "indicators": {
-        "rsi_14": 47.35,
+        "rsi_14": 49.05,
         "macd": {
-          "macd_line": -4.09,
-          "signal_line": -4.41,
-          "histogram": 0.32
+          "macd_line": -3.59,
+          "signal_line": -4.24,
+          "histogram": 0.66
         },
         "bollinger": {
-          "upper": 227.44,
-          "middle": 214.0,
-          "lower": 200.56,
-          "bandwidth": 0.1256
+          "upper": 227.36,
+          "middle": 214.45,
+          "lower": 201.53,
+          "bandwidth": 0.1205
         },
-        "sma_20": 214.0,
-        "sma_50": 229.71,
+        "sma_20": 214.45,
+        "sma_50": 229.65,
         "sma_200": 0,
         "volume": {
-          "current": 20272300,
-          "avg": 34004850,
-          "ratio": 0.6
+          "current": 7956800,
+          "avg": 32680985,
+          "ratio": 0.24
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 66,
-      "tech_score": 68,
+      "score": 63,
+      "tech_score": 65,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
@@ -1044,33 +1044,33 @@
       "market": "NASDAQ",
       "sector": "Communication Services",
       "price": {
-        "current": 29.38,
-        "open": 29.28,
-        "high": 29.41,
-        "low": 29.0,
-        "volume": 21049300,
-        "change_pct": 0.41
+        "current": 29.78,
+        "open": 29.38,
+        "high": 29.86,
+        "low": 29.37,
+        "volume": 10352900,
+        "change_pct": 1.36
       },
       "indicators": {
-        "rsi_14": 64.8,
+        "rsi_14": 69.08,
         "macd": {
-          "macd_line": 0.52,
-          "signal_line": 0.23,
-          "histogram": 0.29
+          "macd_line": 0.56,
+          "signal_line": 0.29,
+          "histogram": 0.26
         },
         "bollinger": {
-          "upper": 30.56,
-          "middle": 27.9,
-          "lower": 25.25,
-          "bandwidth": 0.1903
+          "upper": 30.77,
+          "middle": 28.06,
+          "lower": 25.34,
+          "bandwidth": 0.1936
         },
-        "sma_20": 27.9,
-        "sma_50": 28.07,
+        "sma_20": 28.06,
+        "sma_50": 28.06,
         "sma_200": 0,
         "volume": {
-          "current": 21049300,
-          "avg": 43092945,
-          "ratio": 0.49
+          "current": 10352900,
+          "avg": 41562285,
+          "ratio": 0.25
         }
       },
       "signals": {
@@ -1098,7 +1098,7 @@
         "operating_margin": 0.1774,
         "debt_to_equity": 101.46,
         "current_ratio": 0.88,
-        "dividend_yield": 4.49,
+        "dividend_yield": 4.43,
         "peg_ratio": null,
         "beta": 0.83,
         "market_cap": 109953916928,
@@ -1113,46 +1113,46 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 177.08,
-        "open": 178.27,
-        "high": 178.61,
-        "low": 176.68,
-        "volume": 3500300,
-        "change_pct": -0.97
+        "current": 177.13,
+        "open": 177.34,
+        "high": 178.02,
+        "low": 176.8,
+        "volume": 1266500,
+        "change_pct": 0.03
       },
       "indicators": {
-        "rsi_14": 38.16,
+        "rsi_14": 42.84,
         "macd": {
-          "macd_line": 2.78,
-          "signal_line": 3.18,
-          "histogram": -0.4
+          "macd_line": 2.6,
+          "signal_line": 3.07,
+          "histogram": -0.47
         },
         "bollinger": {
-          "upper": 188.16,
-          "middle": 176.28,
-          "lower": 164.41,
-          "bandwidth": 0.1347
+          "upper": 186.77,
+          "middle": 177.05,
+          "lower": 167.34,
+          "bandwidth": 0.1097
         },
-        "sma_20": 176.28,
-        "sma_50": 169.06,
+        "sma_20": 177.05,
+        "sma_50": 169.15,
         "sma_200": 0,
         "volume": {
-          "current": 3500300,
-          "avg": 7467585,
-          "ratio": 0.47
+          "current": 1266500,
+          "avg": 7169275,
+          "ratio": 0.18
         }
       },
       "signals": {
-        "rsi": "oversold_recovery",
+        "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 62,
-      "tech_score": 58,
-      "grade": "buy",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "score": 54,
+      "tech_score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 32.26,
         "forward_per": 28.7,
@@ -1182,33 +1182,33 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 36.35,
-        "open": 36.24,
-        "high": 36.8,
-        "low": 36.03,
-        "volume": 35958000,
-        "change_pct": -0.05
+        "current": 36.16,
+        "open": 35.17,
+        "high": 36.18,
+        "low": 34.95,
+        "volume": 37443800,
+        "change_pct": -0.52
       },
       "indicators": {
-        "rsi_14": 18.41,
+        "rsi_14": 24.94,
         "macd": {
-          "macd_line": -0.34,
-          "signal_line": 0.15,
-          "histogram": -0.49
+          "macd_line": -0.42,
+          "signal_line": 0.03,
+          "histogram": -0.46
         },
         "bollinger": {
-          "upper": 43.87,
-          "middle": 38.9,
-          "lower": 33.92,
-          "bandwidth": 0.2557
+          "upper": 43.84,
+          "middle": 38.91,
+          "lower": 33.98,
+          "bandwidth": 0.2535
         },
-        "sma_20": 38.9,
-        "sma_50": 38.01,
+        "sma_20": 38.91,
+        "sma_50": 38.02,
         "sma_200": 0,
         "volume": {
-          "current": 35958000,
-          "avg": 84510170,
-          "ratio": 0.43
+          "current": 37443800,
+          "avg": 81117860,
+          "ratio": 0.46
         }
       },
       "signals": {
@@ -1251,40 +1251,40 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 174.75,
-        "open": 173.61,
-        "high": 175.27,
-        "low": 173.51,
-        "volume": 4690400,
-        "change_pct": 0.3
+        "current": 174.77,
+        "open": 175.04,
+        "high": 175.49,
+        "low": 174.42,
+        "volume": 1645300,
+        "change_pct": 0.01
       },
       "indicators": {
-        "rsi_14": 51.17,
+        "rsi_14": 50.87,
         "macd": {
-          "macd_line": 1.46,
-          "signal_line": 1.73,
-          "histogram": -0.27
+          "macd_line": 1.33,
+          "signal_line": 1.63,
+          "histogram": -0.31
         },
         "bollinger": {
-          "upper": 184.11,
-          "middle": 173.68,
-          "lower": 163.25,
-          "bandwidth": 0.1201
+          "upper": 183.29,
+          "middle": 174.29,
+          "lower": 165.29,
+          "bandwidth": 0.1033
         },
-        "sma_20": 173.68,
-        "sma_50": 171.67,
+        "sma_20": 174.29,
+        "sma_50": 171.94,
         "sma_200": 0,
         "volume": {
-          "current": 4690400,
-          "avg": 8800580,
-          "ratio": 0.53
+          "current": 1645300,
+          "avg": 8431595,
+          "ratio": 0.2
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
       "score": 51,
@@ -1320,61 +1320,61 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 195.5,
-        "open": 195.8,
-        "high": 196.21,
-        "low": 194.72,
-        "volume": 2419700,
-        "change_pct": -0.23
+        "current": 196.93,
+        "open": 195.5,
+        "high": 197.14,
+        "low": 195.01,
+        "volume": 1480100,
+        "change_pct": 0.73
       },
       "indicators": {
-        "rsi_14": 54.79,
+        "rsi_14": 61.0,
         "macd": {
-          "macd_line": 0.91,
-          "signal_line": 0.42,
-          "histogram": 0.5
+          "macd_line": 0.93,
+          "signal_line": 0.52,
+          "histogram": 0.41
         },
         "bollinger": {
-          "upper": 200.3,
-          "middle": 193.98,
-          "lower": 187.65,
-          "bandwidth": 0.0652
+          "upper": 200.57,
+          "middle": 194.27,
+          "lower": 187.98,
+          "bandwidth": 0.0648
         },
-        "sma_20": 193.98,
-        "sma_50": 195.01,
+        "sma_20": 194.27,
+        "sma_50": 195.04,
         "sma_200": 0,
         "volume": {
-          "current": 2419700,
-          "avg": 4172845,
-          "ratio": 0.58
+          "current": 1480100,
+          "avg": 4028620,
+          "ratio": 0.37
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
-        "bollinger": "within_bands",
-        "volume": "normal",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 66,
-      "tech_score": 68,
-      "grade": "buy",
-      "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "score": 58,
+      "tech_score": 60,
+      "grade": "hold",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 20.77,
+        "per": 20.8,
         "forward_per": 18.62,
         "pbr": 7.45,
         "roe": 0.3462,
         "roa": 0.0666,
-        "eps": 9.48,
-        "forward_eps": 10.57,
+        "eps": 9.47,
+        "forward_eps": 10.58,
         "revenue_growth": 0.07,
         "earnings_growth": 0.324,
         "profit_margin": 0.1507,
         "operating_margin": 0.185,
         "debt_to_equity": 215.25,
         "current_ratio": 1.36,
-        "dividend_yield": 2.34,
+        "dividend_yield": 2.33,
         "peg_ratio": null,
         "beta": 0.95,
         "market_cap": 132705157120,
@@ -1389,53 +1389,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 674.14,
-        "open": 671.64,
-        "high": 676.0,
-        "low": 666.4,
-        "volume": 954300,
-        "change_pct": -0.16
+        "current": 674.83,
+        "open": 672.67,
+        "high": 676.5,
+        "low": 672.03,
+        "volume": 334100,
+        "change_pct": 0.1
       },
       "indicators": {
-        "rsi_14": 60.64,
+        "rsi_14": 55.36,
         "macd": {
-          "macd_line": 4.76,
-          "signal_line": 2.76,
-          "histogram": 1.99
+          "macd_line": 5.07,
+          "signal_line": 3.22,
+          "histogram": 1.85
         },
         "bollinger": {
-          "upper": 689.03,
-          "middle": 657.93,
-          "lower": 626.82,
-          "bandwidth": 0.0946
+          "upper": 690.89,
+          "middle": 659.27,
+          "lower": 627.64,
+          "bandwidth": 0.0959
         },
-        "sma_20": 657.93,
-        "sma_50": 659.28,
+        "sma_20": 659.27,
+        "sma_50": 659.64,
         "sma_200": 0,
         "volume": {
-          "current": 954300,
-          "avg": 2054580,
-          "ratio": 0.46
+          "current": 334100,
+          "avg": 1943085,
+          "ratio": 0.17
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 66,
-      "tech_score": 62,
+      "score": 69,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "summary": "MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 46.35,
+        "per": 46.28,
         "forward_per": 25.56,
         "pbr": 9.73,
         "roe": 0.2199,
         "roa": 0.0978,
-        "eps": 14.56,
+        "eps": 14.58,
         "forward_eps": 26.4,
         "revenue_growth": 0.41,
         "earnings_growth": -0.185,
@@ -1458,53 +1458,53 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 331.49,
-        "open": 328.09,
-        "high": 333.67,
-        "low": 328.07,
-        "volume": 1552800,
-        "change_pct": 0.03
+        "current": 333.96,
+        "open": 330.72,
+        "high": 334.38,
+        "low": 330.72,
+        "volume": 833700,
+        "change_pct": 0.75
       },
       "indicators": {
-        "rsi_14": 37.07,
+        "rsi_14": 43.93,
         "macd": {
-          "macd_line": 1.43,
-          "signal_line": 1.93,
-          "histogram": -0.49
+          "macd_line": 1.85,
+          "signal_line": 1.92,
+          "histogram": -0.07
         },
         "bollinger": {
-          "upper": 350.52,
-          "middle": 330.04,
-          "lower": 309.55,
-          "bandwidth": 0.1241
+          "upper": 349.6,
+          "middle": 329.68,
+          "lower": 309.77,
+          "bandwidth": 0.1208
         },
-        "sma_20": 330.04,
-        "sma_50": 318.62,
+        "sma_20": 329.68,
+        "sma_50": 319.47,
         "sma_200": 0,
         "volume": {
-          "current": 1552800,
-          "avg": 3311920,
-          "ratio": 0.47
+          "current": 833700,
+          "avg": 3211980,
+          "ratio": 0.26
         }
       },
       "signals": {
-        "rsi": "oversold_recovery",
+        "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 56,
-      "tech_score": 58,
+      "score": 48,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 25.83,
+        "per": 25.85,
         "forward_per": 15.23,
         "pbr": 18.7,
         "roe": 0.8171,
         "roa": 0.0771,
-        "eps": 12.93,
+        "eps": 12.92,
         "forward_eps": 21.93,
         "revenue_growth": 0.124,
         "earnings_growth": 0.136,
@@ -1512,7 +1512,7 @@
         "operating_margin": 0.3415,
         "debt_to_equity": 567.49,
         "current_ratio": 1.28,
-        "dividend_yield": 2.91,
+        "dividend_yield": 2.89,
         "peg_ratio": null,
         "beta": 0.45,
         "market_cap": 179830996992,
@@ -1527,53 +1527,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 260.23,
-        "open": 258.16,
-        "high": 260.45,
-        "low": 257.88,
-        "volume": 3791500,
-        "change_pct": 0.47
+        "current": 260.78,
+        "open": 260.23,
+        "high": 261.48,
+        "low": 259.33,
+        "volume": 1279500,
+        "change_pct": 0.21
       },
       "indicators": {
-        "rsi_14": 42.28,
+        "rsi_14": 42.0,
         "macd": {
-          "macd_line": 5.44,
-          "signal_line": 7.44,
-          "histogram": -2.0
+          "macd_line": 5.22,
+          "signal_line": 6.98,
+          "histogram": -1.76
         },
         "bollinger": {
-          "upper": 277.55,
-          "middle": 260.41,
-          "lower": 243.27,
-          "bandwidth": 0.1316
+          "upper": 276.24,
+          "middle": 261.32,
+          "lower": 246.41,
+          "bandwidth": 0.1141
         },
-        "sma_20": 260.41,
-        "sma_50": 241.34,
+        "sma_20": 261.32,
+        "sma_50": 242.2,
         "sma_200": 0,
         "volume": {
-          "current": 3791500,
-          "avg": 7642255,
-          "ratio": 0.5
+          "current": 1279500,
+          "avg": 7391500,
+          "ratio": 0.17
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 38,
-      "tech_score": 32,
-      "grade": "sell",
+      "score": 41,
+      "tech_score": 35,
+      "grade": "hold",
       "summary": "MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.08,
+        "per": 30.11,
         "forward_per": 22.57,
         "pbr": 10.13,
         "roe": 0.3551,
         "roa": 0.1505,
-        "eps": 8.67,
+        "eps": 8.66,
         "forward_eps": 11.56,
         "revenue_growth": -0.035,
         "earnings_growth": 0.133,
@@ -1596,44 +1596,44 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 577.34,
-        "open": 577.14,
-        "high": 579.2,
-        "low": 573.68,
-        "volume": 1282800,
-        "change_pct": -0.43
+        "current": 577.15,
+        "open": 577.34,
+        "high": 579.85,
+        "low": 575.03,
+        "volume": 355200,
+        "change_pct": -0.03
       },
       "indicators": {
-        "rsi_14": 54.21,
+        "rsi_14": 54.74,
         "macd": {
-          "macd_line": 6.65,
-          "signal_line": 6.6,
-          "histogram": 0.05
+          "macd_line": 7.06,
+          "signal_line": 6.69,
+          "histogram": 0.38
         },
         "bollinger": {
-          "upper": 586.46,
-          "middle": 565.42,
-          "lower": 544.38,
-          "bandwidth": 0.0744
+          "upper": 586.16,
+          "middle": 565.34,
+          "lower": 544.52,
+          "bandwidth": 0.0737
         },
-        "sma_20": 565.42,
-        "sma_50": 544.43,
+        "sma_20": 565.34,
+        "sma_50": 547.24,
         "sma_200": 0,
         "volume": {
-          "current": 1282800,
-          "avg": 1698785,
-          "ratio": 0.76
+          "current": 355200,
+          "avg": 1642930,
+          "ratio": 0.22
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 71,
-      "tech_score": 69,
+      "score": 68,
+      "tech_score": 66,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
@@ -1665,33 +1665,33 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 5439.27,
-        "open": 5395.77,
-        "high": 5441.32,
-        "low": 5392.28,
-        "volume": 120700,
-        "change_pct": 0.6
+        "current": 5446.51,
+        "open": 5419.02,
+        "high": 5477.02,
+        "low": 5416.97,
+        "volume": 52800,
+        "change_pct": 0.13
       },
       "indicators": {
-        "rsi_14": 78.12,
+        "rsi_14": 80.56,
         "macd": {
-          "macd_line": 110.91,
-          "signal_line": 85.64,
-          "histogram": 25.27
+          "macd_line": 113.05,
+          "signal_line": 91.57,
+          "histogram": 21.48
         },
         "bollinger": {
-          "upper": 5600.26,
-          "middle": 5200.87,
-          "lower": 4801.47,
-          "bandwidth": 0.1536
+          "upper": 5615.11,
+          "middle": 5228.35,
+          "lower": 4841.59,
+          "bandwidth": 0.1479
         },
-        "sma_20": 5200.87,
-        "sma_50": 5084.1,
+        "sma_20": 5228.35,
+        "sma_50": 5087.63,
         "sma_200": 0,
         "volume": {
-          "current": 120700,
-          "avg": 282295,
-          "ratio": 0.43
+          "current": 52800,
+          "avg": 268220,
+          "ratio": 0.2
         }
       },
       "signals": {
@@ -1706,12 +1706,12 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
-        "per": 35.51,
+        "per": 35.46,
         "forward_per": 20.52,
         "pbr": -37.15,
         "roe": null,
         "roa": 0.2025,
-        "eps": 153.39,
+        "eps": 153.59,
         "forward_eps": 265.39,
         "revenue_growth": 0.127,
         "earnings_growth": 0.135,
@@ -1734,46 +1734,46 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 83.86,
-        "open": 86.02,
-        "high": 86.14,
-        "low": 83.38,
-        "volume": 9511300,
-        "change_pct": -2.68
+        "current": 84.57,
+        "open": 83.84,
+        "high": 84.62,
+        "low": 83.47,
+        "volume": 3462700,
+        "change_pct": 0.85
       },
       "indicators": {
-        "rsi_14": 41.17,
+        "rsi_14": 48.74,
         "macd": {
-          "macd_line": 0.51,
-          "signal_line": 0.49,
-          "histogram": 0.01
+          "macd_line": 0.37,
+          "signal_line": 0.46,
+          "histogram": -0.09
         },
         "bollinger": {
-          "upper": 88.83,
-          "middle": 85.51,
-          "lower": 82.18,
-          "bandwidth": 0.0777
+          "upper": 88.78,
+          "middle": 85.44,
+          "lower": 82.1,
+          "bandwidth": 0.0783
         },
-        "sma_20": 85.51,
-        "sma_50": 84.42,
+        "sma_20": 85.44,
+        "sma_50": 84.5,
         "sma_200": 0,
         "volume": {
-          "current": 9511300,
-          "avg": 9661710,
-          "ratio": 0.98
+          "current": 3462700,
+          "avg": 9596985,
+          "ratio": 0.36
         }
       },
       "signals": {
         "rsi": "neutral",
-        "macd": "bullish_crossover",
+        "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 54,
-      "tech_score": 56,
-      "grade": "hold",
-      "summary": "MACD 골든크로스 + 하락추세 | 매우 고PER (고평가 주의) | 저PBR (자산가치 대비 저평가)",
+      "score": 33,
+      "tech_score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
         "per": 51.88,
         "forward_per": 28.14,
@@ -1788,7 +1788,7 @@
         "operating_margin": 0.1098,
         "debt_to_equity": null,
         "current_ratio": 0.72,
-        "dividend_yield": 2.96,
+        "dividend_yield": 2.93,
         "peg_ratio": null,
         "beta": 0.98,
         "market_cap": 96164552704,
@@ -1803,33 +1803,33 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 276.73,
-        "open": 275.63,
-        "high": 277.47,
-        "low": 274.58,
-        "volume": 1763400,
-        "change_pct": 0.33
+        "current": 277.56,
+        "open": 277.16,
+        "high": 279.17,
+        "low": 276.86,
+        "volume": 887700,
+        "change_pct": 0.3
       },
       "indicators": {
-        "rsi_14": 49.29,
+        "rsi_14": 51.71,
         "macd": {
-          "macd_line": 8.02,
-          "signal_line": 9.36,
-          "histogram": -1.35
+          "macd_line": 7.66,
+          "signal_line": 9.03,
+          "histogram": -1.36
         },
         "bollinger": {
-          "upper": 290.44,
-          "middle": 273.77,
-          "lower": 257.1,
-          "bandwidth": 0.1218
+          "upper": 287.96,
+          "middle": 275.09,
+          "lower": 262.22,
+          "bandwidth": 0.0936
         },
-        "sma_20": 273.77,
-        "sma_50": 250.72,
+        "sma_20": 275.09,
+        "sma_50": 251.58,
         "sma_200": 0,
         "volume": {
-          "current": 1763400,
-          "avg": 4678155,
-          "ratio": 0.38
+          "current": 887700,
+          "avg": 4355330,
+          "ratio": 0.2
         }
       },
       "signals": {
@@ -1844,12 +1844,12 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 높은 이익률 (20%+)",
       "fundamentals": {
-        "per": 60.74,
+        "per": 61.0,
         "forward_per": 24.7,
         "pbr": 4.02,
         "roe": 0.0657,
         "roa": 0.0389,
-        "eps": 4.57,
+        "eps": 4.55,
         "forward_eps": 11.24,
         "revenue_growth": 0.259,
         "earnings_growth": 0.661,
@@ -1872,44 +1872,44 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 54.15,
-        "open": 54.31,
-        "high": 54.42,
-        "low": 53.51,
-        "volume": 8644500,
-        "change_pct": -0.29
+        "current": 54.62,
+        "open": 54.21,
+        "high": 54.65,
+        "low": 54.13,
+        "volume": 3833500,
+        "change_pct": 0.87
       },
       "indicators": {
-        "rsi_14": 30.17,
+        "rsi_14": 38.15,
         "macd": {
-          "macd_line": -0.82,
-          "signal_line": -0.93,
-          "histogram": 0.1
+          "macd_line": -0.76,
+          "signal_line": -0.9,
+          "histogram": 0.14
         },
         "bollinger": {
-          "upper": 57.44,
-          "middle": 55.04,
+          "upper": 57.25,
+          "middle": 54.95,
           "lower": 52.64,
-          "bandwidth": 0.0873
+          "bandwidth": 0.0838
         },
-        "sma_20": 55.04,
-        "sma_50": 57.09,
+        "sma_20": 54.95,
+        "sma_50": 56.94,
         "sma_200": 0,
         "volume": {
-          "current": 8644500,
-          "avg": 12507335,
-          "ratio": 0.69
+          "current": 3833500,
+          "avg": 12396560,
+          "ratio": 0.31
         }
       },
       "signals": {
         "rsi": "oversold_recovery",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 56,
-      "tech_score": 58,
+      "score": 54,
+      "tech_score": 56,
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세 | 고PER",
       "fundamentals": {
@@ -1926,7 +1926,7 @@
         "operating_margin": 0.1084,
         "debt_to_equity": 83.62,
         "current_ratio": 0.61,
-        "dividend_yield": 3.69,
+        "dividend_yield": 3.66,
         "peg_ratio": null,
         "beta": 0.4,
         "market_cap": 70675300352,
@@ -1941,53 +1941,53 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 459.21,
-        "open": 460.44,
-        "high": 461.49,
-        "low": 457.04,
-        "volume": 768500,
-        "change_pct": -0.24
+        "current": 462.99,
+        "open": 459.39,
+        "high": 464.44,
+        "low": 459.08,
+        "volume": 310200,
+        "change_pct": 0.82
       },
       "indicators": {
-        "rsi_14": 47.08,
+        "rsi_14": 54.32,
         "macd": {
-          "macd_line": 7.69,
-          "signal_line": 7.28,
-          "histogram": 0.41
+          "macd_line": 8.03,
+          "signal_line": 7.44,
+          "histogram": 0.59
         },
         "bollinger": {
-          "upper": 469.68,
-          "middle": 446.76,
-          "lower": 423.84,
-          "bandwidth": 0.1026
+          "upper": 470.98,
+          "middle": 448.42,
+          "lower": 425.87,
+          "bandwidth": 0.1006
         },
-        "sma_20": 446.76,
-        "sma_50": 432.24,
+        "sma_20": 448.42,
+        "sma_50": 433.26,
         "sma_200": 0,
         "volume": {
-          "current": 768500,
-          "avg": 1548645,
-          "ratio": 0.5
+          "current": 310200,
+          "avg": 1475920,
+          "ratio": 0.21
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
-        "bollinger": "within_bands",
-        "volume": "normal",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 80,
-      "tech_score": 74,
-      "grade": "strong_buy",
+      "score": 72,
+      "tech_score": 66,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.63,
+        "per": 32.58,
         "forward_per": 22.88,
         "pbr": 6.79,
         "roe": 0.2231,
         "roa": 0.1204,
-        "eps": 14.19,
+        "eps": 14.21,
         "forward_eps": 20.24,
         "revenue_growth": 0.11,
         "earnings_growth": 0.047,
@@ -2010,40 +2010,40 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 257.01,
-        "open": 260.27,
-        "high": 260.37,
-        "low": 256.59,
-        "volume": 1875900,
-        "change_pct": -1.05
+        "current": 258.1,
+        "open": 256.52,
+        "high": 259.0,
+        "low": 255.3,
+        "volume": 622100,
+        "change_pct": 0.42
       },
       "indicators": {
-        "rsi_14": 47.82,
+        "rsi_14": 50.52,
         "macd": {
-          "macd_line": 0.23,
-          "signal_line": -0.01,
-          "histogram": 0.25
+          "macd_line": 0.09,
+          "signal_line": 0.02,
+          "histogram": 0.07
         },
         "bollinger": {
-          "upper": 266.71,
-          "middle": 258.78,
-          "lower": 250.85,
-          "bandwidth": 0.0613
+          "upper": 266.65,
+          "middle": 258.95,
+          "lower": 251.25,
+          "bandwidth": 0.0595
         },
-        "sma_20": 258.78,
-        "sma_50": 261.4,
+        "sma_20": 258.95,
+        "sma_50": 260.88,
         "sma_200": 0,
         "volume": {
-          "current": 1875900,
-          "avg": 2780340,
-          "ratio": 0.67
+          "current": 622100,
+          "avg": 2699020,
+          "ratio": 0.23
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
       "score": 51,
@@ -2051,12 +2051,12 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 25.48,
+        "per": 25.5,
         "forward_per": 21.61,
         "pbr": 16.4,
         "roe": 0.7057,
         "roa": 0.0662,
-        "eps": 10.13,
+        "eps": 10.12,
         "forward_eps": 11.95,
         "revenue_growth": 0.071,
         "earnings_growth": 0.064,
@@ -2064,7 +2064,7 @@
         "operating_margin": 0.2589,
         "debt_to_equity": 154.92,
         "current_ratio": 1.05,
-        "dividend_yield": 2.65,
+        "dividend_yield": 2.63,
         "peg_ratio": null,
         "beta": 0.86,
         "market_cap": 104553603072,
@@ -2079,46 +2079,46 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 125.19,
-        "open": 124.17,
-        "high": 127.41,
-        "low": 124.0,
-        "volume": 5712500,
-        "change_pct": 0.83
+        "current": 125.67,
+        "open": 125.71,
+        "high": 126.25,
+        "low": 125.12,
+        "volume": 1606300,
+        "change_pct": 0.38
       },
       "indicators": {
-        "rsi_14": 52.52,
+        "rsi_14": 60.6,
         "macd": {
-          "macd_line": 0.37,
-          "signal_line": 0.06,
-          "histogram": 0.31
+          "macd_line": 0.6,
+          "signal_line": 0.18,
+          "histogram": 0.42
         },
         "bollinger": {
-          "upper": 127.31,
-          "middle": 122.38,
-          "lower": 117.45,
-          "bandwidth": 0.0806
+          "upper": 127.18,
+          "middle": 122.35,
+          "lower": 117.51,
+          "bandwidth": 0.0791
         },
-        "sma_20": 122.38,
-        "sma_50": 121.74,
+        "sma_20": 122.35,
+        "sma_50": 121.9,
         "sma_200": 0,
         "volume": {
-          "current": 5712500,
-          "avg": 7624945,
-          "ratio": 0.75
+          "current": 1606300,
+          "avg": 7432890,
+          "ratio": 0.22
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 75,
-      "tech_score": 69,
-      "grade": "strong_buy",
-      "summary": "MACD 골든크로스 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
+      "score": 71,
+      "tech_score": 65,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 19.45,
         "forward_per": 14.37,
@@ -2133,7 +2133,7 @@
         "operating_margin": 0.4523,
         "debt_to_equity": 116.24,
         "current_ratio": 1.45,
-        "dividend_yield": 2.52,
+        "dividend_yield": 2.51,
         "peg_ratio": null,
         "beta": 0.33,
         "market_cap": 155932196864,
@@ -2148,44 +2148,44 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 785.17,
-        "open": 777.36,
-        "high": 792.75,
-        "low": 777.0,
-        "volume": 832000,
-        "change_pct": 0.75
+        "current": 783.71,
+        "open": 787.99,
+        "high": 792.77,
+        "low": 783.61,
+        "volume": 267200,
+        "change_pct": -0.19
       },
       "indicators": {
-        "rsi_14": 70.59,
+        "rsi_14": 70.31,
         "macd": {
-          "macd_line": 21.42,
-          "signal_line": 20.22,
-          "histogram": 1.2
+          "macd_line": 22.16,
+          "signal_line": 20.59,
+          "histogram": 1.56
         },
         "bollinger": {
-          "upper": 802.61,
-          "middle": 747.46,
-          "lower": 692.31,
-          "bandwidth": 0.1476
+          "upper": 801.9,
+          "middle": 747.28,
+          "lower": 692.65,
+          "bandwidth": 0.1462
         },
-        "sma_20": 747.46,
-        "sma_50": 686.44,
+        "sma_20": 747.28,
+        "sma_50": 690.68,
         "sma_200": 0,
         "volume": {
-          "current": 832000,
-          "avg": 1033340,
-          "ratio": 0.81
+          "current": 267200,
+          "avg": 997195,
+          "ratio": 0.27
         }
       },
       "signals": {
         "rsi": "overbought",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 74,
-      "tech_score": 66,
+      "score": 71,
+      "tech_score": 63,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
       "fundamentals": {
@@ -2217,53 +2217,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 175.16,
+        "current": 177.33,
         "open": 175.26,
-        "high": 177.29,
-        "low": 174.78,
-        "volume": 6483000,
-        "change_pct": -0.06
+        "high": 177.56,
+        "low": 175.2,
+        "volume": 2598900,
+        "change_pct": 1.24
       },
       "indicators": {
-        "rsi_14": 63.77,
+        "rsi_14": 68.25,
         "macd": {
-          "macd_line": 4.98,
-          "signal_line": 3.87,
-          "histogram": 1.11
+          "macd_line": 5.48,
+          "signal_line": 4.18,
+          "histogram": 1.29
         },
         "bollinger": {
-          "upper": 176.28,
-          "middle": 162.31,
-          "lower": 148.35,
-          "bandwidth": 0.172
+          "upper": 178.15,
+          "middle": 163.6,
+          "lower": 149.05,
+          "bandwidth": 0.1779
         },
-        "sma_20": 162.31,
-        "sma_50": 155.83,
+        "sma_20": 163.6,
+        "sma_50": 156.61,
         "sma_200": 0,
         "volume": {
-          "current": 6483000,
-          "avg": 11718275,
-          "ratio": 0.55
+          "current": 2598900,
+          "avg": 10887625,
+          "ratio": 0.24
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 77,
-      "tech_score": 68,
-      "grade": "strong_buy",
+      "score": 74,
+      "tech_score": 65,
+      "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 39.06,
+        "per": 39.23,
         "forward_per": 31.46,
         "pbr": 21.91,
         "roe": 0.6226,
         "roa": 0.1951,
-        "eps": 4.54,
+        "eps": 4.52,
         "forward_eps": 5.64,
         "revenue_growth": 0.277,
         "earnings_growth": 0.443,
@@ -2286,44 +2286,44 @@
       "market": "NASDAQ",
       "sector": "Financial Services",
       "price": {
-        "current": 59.41,
-        "open": 59.83,
-        "high": 60.07,
-        "low": 58.94,
-        "volume": 12153600,
-        "change_pct": -0.75
+        "current": 60.04,
+        "open": 59.33,
+        "high": 60.15,
+        "low": 59.31,
+        "volume": 5491700,
+        "change_pct": 1.06
       },
       "indicators": {
-        "rsi_14": 38.19,
+        "rsi_14": 39.29,
         "macd": {
-          "macd_line": -1.17,
-          "signal_line": -1.19,
-          "histogram": 0.02
+          "macd_line": -1.12,
+          "signal_line": -1.18,
+          "histogram": 0.05
         },
         "bollinger": {
-          "upper": 63.27,
-          "middle": 61.18,
-          "lower": 59.09,
-          "bandwidth": 0.0684
+          "upper": 63.28,
+          "middle": 61.12,
+          "lower": 58.97,
+          "bandwidth": 0.0705
         },
-        "sma_20": 61.18,
-        "sma_50": 64.26,
+        "sma_20": 61.12,
+        "sma_50": 64.08,
         "sma_200": 0,
         "volume": {
-          "current": 12153600,
-          "avg": 15941455,
-          "ratio": 0.76
+          "current": 5491700,
+          "avg": 15498460,
+          "ratio": 0.35
         }
       },
       "signals": {
         "rsi": "oversold_recovery",
         "macd": "bullish_crossover",
         "bollinger": "lower_band_bounce",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 66,
-      "tech_score": 61,
+      "score": 64,
+      "tech_score": 59,
       "grade": "buy",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등 + 강한 하락추세 | 적정 PER | 높은 ROE (20%+)",
       "fundamentals": {
@@ -2340,7 +2340,7 @@
         "operating_margin": 0.192,
         "debt_to_equity": 60.24,
         "current_ratio": 1.34,
-        "dividend_yield": 0.94,
+        "dividend_yield": 0.93,
         "peg_ratio": null,
         "beta": 1.44,
         "market_cap": 57360920576,
@@ -2355,53 +2355,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 276.27,
-        "open": 275.92,
-        "high": 281.86,
-        "low": 272.32,
-        "volume": 20767600,
-        "change_pct": -0.12
+        "current": 286.68,
+        "open": 278.0,
+        "high": 289.3,
+        "low": 277.25,
+        "volume": 18592600,
+        "change_pct": 3.77
       },
       "indicators": {
-        "rsi_14": 65.7,
+        "rsi_14": 71.9,
         "macd": {
-          "macd_line": 10.05,
-          "signal_line": 7.28,
-          "histogram": 2.77
+          "macd_line": 11.96,
+          "signal_line": 8.21,
+          "histogram": 3.76
         },
         "bollinger": {
-          "upper": 276.84,
-          "middle": 244.74,
-          "lower": 212.63,
-          "bandwidth": 0.2624
+          "upper": 283.54,
+          "middle": 247.85,
+          "lower": 212.15,
+          "bandwidth": 0.2881
         },
-        "sma_20": 244.74,
-        "sma_50": 230.94,
+        "sma_20": 247.85,
+        "sma_50": 232.93,
         "sma_200": 0,
         "volume": {
-          "current": 20767600,
-          "avg": 26805970,
-          "ratio": 0.77
+          "current": 18592600,
+          "avg": 26191710,
+          "ratio": 0.71
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "overbought",
         "macd": "bullish_crossover",
-        "bollinger": "upper_band_approach",
+        "bollinger": "upper_band_touch",
         "volume": "normal",
         "trend": "strong_uptrend"
       },
-      "score": 77,
-      "tech_score": 68,
-      "grade": "strong_buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "score": 70,
+      "tech_score": 61,
+      "grade": "buy",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 볼린저 상단 터치 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 27.23,
+        "per": 27.25,
         "forward_per": 7.45,
         "pbr": 5.49,
         "roe": 0.2255,
         "roa": 0.1093,
-        "eps": 10.53,
+        "eps": 10.52,
         "forward_eps": 38.48,
         "revenue_growth": 0.567,
         "earnings_growth": 1.754,
@@ -2409,7 +2409,7 @@
         "operating_margin": 0.4497,
         "debt_to_equity": 21.24,
         "current_ratio": 2.46,
-        "dividend_yield": 0.17,
+        "dividend_yield": 0.16,
         "peg_ratio": null,
         "beta": 1.55,
         "market_cap": 322660990976,
@@ -2424,44 +2424,44 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 36.59,
-        "open": 36.54,
-        "high": 36.62,
-        "low": 36.35,
-        "volume": 7413000,
-        "change_pct": 0.14
+        "current": 36.78,
+        "open": 36.58,
+        "high": 36.85,
+        "low": 36.53,
+        "volume": 5294800,
+        "change_pct": 0.52
       },
       "indicators": {
-        "rsi_14": 62.12,
+        "rsi_14": 61.54,
         "macd": {
           "macd_line": 0.42,
-          "signal_line": 0.45,
-          "histogram": -0.02
+          "signal_line": 0.44,
+          "histogram": -0.03
         },
         "bollinger": {
-          "upper": 37.84,
-          "middle": 36.23,
-          "lower": 34.62,
-          "bandwidth": 0.0888
+          "upper": 37.8,
+          "middle": 36.33,
+          "lower": 34.86,
+          "bandwidth": 0.0809
         },
-        "sma_20": 36.23,
-        "sma_50": 35.63,
+        "sma_20": 36.33,
+        "sma_50": 35.64,
         "sma_200": 0,
         "volume": {
-          "current": 7413000,
-          "avg": 12835455,
-          "ratio": 0.58
+          "current": 5294800,
+          "avg": 12237940,
+          "ratio": 0.43
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 51,
-      "tech_score": 47,
+      "score": 52,
+      "tech_score": 48,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
@@ -2478,7 +2478,7 @@
         "operating_margin": 0.3507,
         "debt_to_equity": 155.28,
         "current_ratio": 0.85,
-        "dividend_yield": 1.42,
+        "dividend_yield": 1.41,
         "peg_ratio": null,
         "beta": 1.3,
         "market_cap": 68568104960,
@@ -2493,53 +2493,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 475.47,
-        "open": 477.52,
-        "high": 478.19,
-        "low": 469.88,
-        "volume": 1318700,
-        "change_pct": -1.2
+        "current": 475.75,
+        "open": 473.68,
+        "high": 476.29,
+        "low": 472.24,
+        "volume": 439100,
+        "change_pct": 0.06
       },
       "indicators": {
-        "rsi_14": 54.65,
+        "rsi_14": 56.34,
         "macd": {
-          "macd_line": 11.99,
-          "signal_line": 10.57,
-          "histogram": 1.42
+          "macd_line": 12.12,
+          "signal_line": 10.85,
+          "histogram": 1.28
         },
         "bollinger": {
-          "upper": 499.46,
-          "middle": 455.06,
-          "lower": 410.66,
-          "bandwidth": 0.1951
+          "upper": 496.21,
+          "middle": 458.77,
+          "lower": 421.32,
+          "bandwidth": 0.1632
         },
-        "sma_20": 455.06,
-        "sma_50": 436.17,
+        "sma_20": 458.77,
+        "sma_50": 436.81,
         "sma_200": 0,
         "volume": {
-          "current": 1318700,
-          "avg": 2504445,
-          "ratio": 0.53
+          "current": 439100,
+          "avg": 2427585,
+          "ratio": 0.18
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 72,
-      "tech_score": 74,
+      "score": 68,
+      "tech_score": 70,
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 높은 매출 성장 (20%+)",
       "fundamentals": {
-        "per": 58.88,
+        "per": 58.81,
         "forward_per": 28.09,
         "pbr": 3.12,
         "roe": 0.0716,
         "roa": 0.0187,
-        "eps": 8.08,
+        "eps": 8.09,
         "forward_eps": 16.94,
         "revenue_growth": 0.378,
         "earnings_growth": -0.665,
@@ -2562,53 +2562,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 1268.75,
-        "open": 1259.01,
-        "high": 1272.09,
-        "low": 1257.54,
-        "volume": 600700,
-        "change_pct": 0.24
+        "current": 1276.99,
+        "open": 1269.38,
+        "high": 1279.18,
+        "low": 1265.0,
+        "volume": 210300,
+        "change_pct": 0.65
       },
       "indicators": {
-        "rsi_14": 60.36,
+        "rsi_14": 62.32,
         "macd": {
-          "macd_line": 22.9,
-          "signal_line": 18.87,
-          "histogram": 4.03
+          "macd_line": 25.07,
+          "signal_line": 20.1,
+          "histogram": 4.97
         },
         "bollinger": {
-          "upper": 1281.47,
-          "middle": 1210.7,
-          "lower": 1139.92,
-          "bandwidth": 0.1169
+          "upper": 1287.03,
+          "middle": 1217.25,
+          "lower": 1147.47,
+          "bandwidth": 0.1147
         },
-        "sma_20": 1210.7,
-        "sma_50": 1180.5,
+        "sma_20": 1217.25,
+        "sma_50": 1185.56,
         "sma_200": 0,
         "volume": {
-          "current": 600700,
-          "avg": 945105,
-          "ratio": 0.64
+          "current": 210300,
+          "avg": 896160,
+          "ratio": 0.23
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 69,
-      "tech_score": 68,
+      "score": 66,
+      "tech_score": 65,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 40.09,
+        "per": 40.16,
         "forward_per": 30.32,
         "pbr": 33.69,
         "roe": 0.9917,
         "roa": 0.2044,
-        "eps": 31.85,
+        "eps": 31.8,
         "forward_eps": 42.12,
         "revenue_growth": 0.13,
         "earnings_growth": 0.208,
@@ -2631,53 +2631,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 188.12,
-        "open": 189.07,
-        "high": 189.72,
-        "low": 187.29,
-        "volume": 3371300,
-        "change_pct": -0.72
+        "current": 187.22,
+        "open": 187.43,
+        "high": 187.84,
+        "low": 184.79,
+        "volume": 1829300,
+        "change_pct": -0.48
       },
       "indicators": {
-        "rsi_14": 41.68,
+        "rsi_14": 36.76,
         "macd": {
-          "macd_line": -3.67,
-          "signal_line": -4.04,
-          "histogram": 0.37
+          "macd_line": -3.54,
+          "signal_line": -3.94,
+          "histogram": 0.4
         },
         "bollinger": {
-          "upper": 198.3,
-          "middle": 189.98,
-          "lower": 181.66,
-          "bandwidth": 0.0876
+          "upper": 198.27,
+          "middle": 190.03,
+          "lower": 181.79,
+          "bandwidth": 0.0867
         },
-        "sma_20": 189.98,
-        "sma_50": 201.53,
+        "sma_20": 190.03,
+        "sma_50": 201.12,
         "sma_200": 0,
         "volume": {
-          "current": 3371300,
-          "avg": 6634755,
-          "ratio": 0.51
+          "current": 1829300,
+          "avg": 5992970,
+          "ratio": 0.31
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "oversold_recovery",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 48,
-      "tech_score": 50,
+      "score": 54,
+      "tech_score": 56,
       "grade": "hold",
-      "summary": "MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 118.49,
+        "per": 119.25,
         "forward_per": 43.16,
         "pbr": 14.95,
         "roe": 0.1532,
         "roa": 0.0318,
-        "eps": 1.58,
+        "eps": 1.57,
         "forward_eps": 4.34,
         "revenue_growth": 0.157,
         "earnings_growth": -0.041,
@@ -2688,7 +2688,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.79,
-        "market_cap": 128055246848,
+        "market_cap": 130492342272,
         "52w_high": 223.61,
         "52w_low": 144.15
       },
@@ -2700,53 +2700,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 316.93,
-        "open": 314.73,
-        "high": 317.39,
-        "low": 314.53,
-        "volume": 893400,
-        "change_pct": -0.2
+        "current": 317.76,
+        "open": 315.7,
+        "high": 318.12,
+        "low": 315.36,
+        "volume": 359900,
+        "change_pct": 0.26
       },
       "indicators": {
-        "rsi_14": 25.83,
+        "rsi_14": 25.15,
         "macd": {
-          "macd_line": -1.72,
-          "signal_line": -0.74,
-          "histogram": -0.98
+          "macd_line": -1.75,
+          "signal_line": -0.93,
+          "histogram": -0.83
         },
         "bollinger": {
-          "upper": 345.71,
-          "middle": 322.25,
-          "lower": 298.78,
-          "bandwidth": 0.1456
+          "upper": 344.86,
+          "middle": 322.95,
+          "lower": 301.05,
+          "bandwidth": 0.1357
         },
-        "sma_20": 322.25,
-        "sma_50": 323.96,
+        "sma_20": 322.95,
+        "sma_50": 323.8,
         "sma_200": 0,
         "volume": {
-          "current": 893400,
-          "avg": 1721160,
-          "ratio": 0.52
+          "current": 359900,
+          "avg": 1615980,
+          "ratio": 0.22
         }
       },
       "signals": {
         "rsi": "oversold",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 34,
-      "tech_score": 31,
+      "score": 37,
+      "tech_score": 34,
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 82.11,
+        "per": 81.9,
         "forward_per": 39.46,
         "pbr": 16.64,
         "roe": 0.2174,
         "roa": 0.1109,
-        "eps": 3.87,
+        "eps": 3.88,
         "forward_eps": 8.05,
         "revenue_growth": 0.101,
         "earnings_growth": 0.207,
@@ -2769,53 +2769,53 @@
       "market": "NASDAQ",
       "sector": "Communication Services",
       "price": {
-        "current": 205.28,
-        "open": 206.26,
-        "high": 207.13,
-        "low": 203.98,
-        "volume": 1291800,
-        "change_pct": -0.36
+        "current": 208.46,
+        "open": 205.78,
+        "high": 208.66,
+        "low": 205.0,
+        "volume": 513500,
+        "change_pct": 1.55
       },
       "indicators": {
-        "rsi_14": 57.9,
+        "rsi_14": 61.52,
         "macd": {
-          "macd_line": -2.29,
-          "signal_line": -3.53,
-          "histogram": 1.24
+          "macd_line": -1.97,
+          "signal_line": -3.22,
+          "histogram": 1.25
         },
         "bollinger": {
-          "upper": 214.42,
-          "middle": 204.77,
-          "lower": 195.12,
-          "bandwidth": 0.0943
+          "upper": 214.75,
+          "middle": 205.15,
+          "lower": 195.56,
+          "bandwidth": 0.0935
         },
-        "sma_20": 204.77,
-        "sma_50": 218.25,
+        "sma_20": 205.15,
+        "sma_50": 217.1,
         "sma_200": 0,
         "volume": {
-          "current": 1291800,
-          "avg": 1856280,
-          "ratio": 0.7
+          "current": 513500,
+          "avg": 1776890,
+          "ratio": 0.29
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 75,
-      "tech_score": 68,
-      "grade": "strong_buy",
-      "summary": "MACD 골든크로스 + 상승추세 | 저PER (저평가 가능) | 높은 ROE (20%+)",
+      "score": 69,
+      "tech_score": 62,
+      "grade": "buy",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 저PER (저평가 가능) | 높은 ROE (20%+)",
       "fundamentals": {
         "per": 5.78,
         "forward_per": 4.86,
         "pbr": 1.76,
         "roe": 0.3133,
         "roa": 0.0555,
-        "eps": 36.07,
+        "eps": 36.06,
         "forward_eps": 42.93,
         "revenue_growth": -0.009,
         "earnings_growth": -0.054,
@@ -2838,53 +2838,53 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 314.07,
-        "open": 313.14,
-        "high": 316.69,
-        "low": 313.14,
-        "volume": 1171800,
-        "change_pct": 0.1
+        "current": 315.16,
+        "open": 313.09,
+        "high": 316.22,
+        "low": 313.07,
+        "volume": 531700,
+        "change_pct": 0.35
       },
       "indicators": {
-        "rsi_14": 55.74,
+        "rsi_14": 67.41,
         "macd": {
-          "macd_line": 6.92,
-          "signal_line": 5.96,
-          "histogram": 0.96
+          "macd_line": 7.16,
+          "signal_line": 6.18,
+          "histogram": 0.98
         },
         "bollinger": {
-          "upper": 319.59,
-          "middle": 302.0,
-          "lower": 284.41,
-          "bandwidth": 0.1165
+          "upper": 321.09,
+          "middle": 302.55,
+          "lower": 284.02,
+          "bandwidth": 0.1225
         },
-        "sma_20": 302.0,
-        "sma_50": 286.08,
+        "sma_20": 302.55,
+        "sma_50": 287.03,
         "sma_200": 0,
         "volume": {
-          "current": 1171800,
-          "avg": 1731915,
-          "ratio": 0.68
+          "current": 531700,
+          "avg": 1673095,
+          "ratio": 0.32
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 73,
-      "tech_score": 69,
+      "score": 69,
+      "tech_score": 65,
       "grade": "buy",
-      "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
-        "per": 33.24,
+        "per": 33.21,
         "forward_per": 27.71,
         "pbr": -27.22,
         "roe": null,
         "roa": 0.0964,
-        "eps": 9.48,
+        "eps": 9.49,
         "forward_eps": 11.37,
         "revenue_growth": 0.056,
         "earnings_growth": 0.29,
@@ -2907,44 +2907,44 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 92.07,
-        "open": 91.86,
-        "high": 92.3,
-        "low": 91.51,
-        "volume": 5276700,
-        "change_pct": 0.35
+        "current": 92.4,
+        "open": 91.95,
+        "high": 92.71,
+        "low": 91.78,
+        "volume": 1995600,
+        "change_pct": 0.36
       },
       "indicators": {
-        "rsi_14": 25.78,
+        "rsi_14": 22.51,
         "macd": {
-          "macd_line": -1.95,
-          "signal_line": -1.48,
-          "histogram": -0.47
+          "macd_line": -1.9,
+          "signal_line": -1.56,
+          "histogram": -0.34
         },
         "bollinger": {
-          "upper": 103.86,
-          "middle": 96.21,
-          "lower": 88.56,
-          "bandwidth": 0.159
+          "upper": 103.19,
+          "middle": 95.76,
+          "lower": 88.34,
+          "bandwidth": 0.155
         },
-        "sma_20": 96.21,
-        "sma_50": 97.35,
+        "sma_20": 95.76,
+        "sma_50": 97.14,
         "sma_200": 0,
         "volume": {
-          "current": 5276700,
-          "avg": 5782625,
-          "ratio": 0.91
+          "current": 1995600,
+          "avg": 5735130,
+          "ratio": 0.35
         }
       },
       "signals": {
         "rsi": "oversold",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 32,
-      "tech_score": 31,
+      "score": 35,
+      "tech_score": 34,
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 고PER | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
@@ -2976,46 +2976,46 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 77.67,
-        "open": 77.82,
-        "high": 78.31,
-        "low": 77.47,
-        "volume": 3775000,
-        "change_pct": 0.01
+        "current": 77.42,
+        "open": 77.8,
+        "high": 78.02,
+        "low": 77.01,
+        "volume": 1536000,
+        "change_pct": -0.32
       },
       "indicators": {
-        "rsi_14": 67.33,
+        "rsi_14": 70.51,
         "macd": {
-          "macd_line": 1.4,
-          "signal_line": 1.2,
-          "histogram": 0.2
+          "macd_line": 1.44,
+          "signal_line": 1.24,
+          "histogram": 0.21
         },
         "bollinger": {
-          "upper": 77.48,
-          "middle": 74.8,
-          "lower": 72.11,
-          "bandwidth": 0.0718
+          "upper": 77.86,
+          "middle": 74.93,
+          "lower": 72.0,
+          "bandwidth": 0.0782
         },
-        "sma_20": 74.8,
-        "sma_50": 71.74,
+        "sma_20": 74.93,
+        "sma_50": 71.92,
         "sma_200": 0,
         "volume": {
-          "current": 3775000,
-          "avg": 5769340,
-          "ratio": 0.65
+          "current": 1536000,
+          "avg": 5441390,
+          "ratio": 0.28
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "overbought",
         "macd": "bullish_crossover",
-        "bollinger": "upper_band_touch",
-        "volume": "normal",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 69,
-      "tech_score": 66,
+      "score": 64,
+      "tech_score": 61,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 볼린저 상단 터치 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 43.99,
         "forward_per": 34.62,
@@ -3045,44 +3045,44 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 87.68,
-        "open": 84.4,
-        "high": 88.05,
-        "low": 84.29,
-        "volume": 12334100,
-        "change_pct": 3.4
+        "current": 86.49,
+        "open": 87.25,
+        "high": 87.77,
+        "low": 86.1,
+        "volume": 5335300,
+        "change_pct": -1.36
       },
       "indicators": {
-        "rsi_14": 31.49,
+        "rsi_14": 32.27,
         "macd": {
-          "macd_line": -0.72,
-          "signal_line": -0.13,
-          "histogram": -0.59
+          "macd_line": -0.67,
+          "signal_line": -0.24,
+          "histogram": -0.42
         },
         "bollinger": {
-          "upper": 99.93,
-          "middle": 89.01,
-          "lower": 78.08,
-          "bandwidth": 0.2454
+          "upper": 99.84,
+          "middle": 89.16,
+          "lower": 78.48,
+          "bandwidth": 0.2395
         },
-        "sma_20": 89.01,
+        "sma_20": 89.16,
         "sma_50": 87.63,
         "sma_200": 0,
         "volume": {
-          "current": 12334100,
-          "avg": 21210725,
-          "ratio": 0.58
+          "current": 5335300,
+          "avg": 20630175,
+          "ratio": 0.26
         }
       },
       "signals": {
         "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 47,
-      "tech_score": 40,
+      "score": 49,
+      "tech_score": 42,
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
@@ -3099,7 +3099,7 @@
         "operating_margin": 0.1773,
         "debt_to_equity": 33.99,
         "current_ratio": 2.01,
-        "dividend_yield": 0.27,
+        "dividend_yield": 0.28,
         "peg_ratio": null,
         "beta": 1.93,
         "market_cap": 74563026944,
@@ -3114,53 +3114,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 297.58,
-        "open": 298.86,
-        "high": 300.38,
-        "low": 295.61,
-        "volume": 1128400,
-        "change_pct": -0.96
+        "current": 298.21,
+        "open": 297.67,
+        "high": 298.65,
+        "low": 296.51,
+        "volume": 320800,
+        "change_pct": 0.21
       },
       "indicators": {
-        "rsi_14": 32.81,
+        "rsi_14": 36.03,
         "macd": {
-          "macd_line": -0.91,
-          "signal_line": -0.93,
-          "histogram": 0.01
+          "macd_line": -0.87,
+          "signal_line": -0.9,
+          "histogram": 0.03
         },
         "bollinger": {
-          "upper": 310.22,
-          "middle": 300.69,
-          "lower": 291.16,
-          "bandwidth": 0.0634
+          "upper": 310.03,
+          "middle": 300.88,
+          "lower": 291.73,
+          "bandwidth": 0.0608
         },
-        "sma_20": 300.69,
-        "sma_50": 300.83,
+        "sma_20": 300.88,
+        "sma_50": 300.66,
         "sma_200": 0,
         "volume": {
-          "current": 1128400,
-          "avg": 1903390,
-          "ratio": 0.59
+          "current": 320800,
+          "avg": 1808430,
+          "ratio": 0.18
         }
       },
       "signals": {
         "rsi": "oversold_recovery",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
-        "trend": "strong_downtrend"
+        "volume": "below_average",
+        "trend": "downtrend"
       },
-      "score": 56,
-      "tech_score": 58,
+      "score": 59,
+      "tech_score": 61,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 57.9,
+        "per": 57.79,
         "forward_per": 25.72,
         "pbr": 21.85,
         "roe": 0.4033,
         "roa": 0.0974,
-        "eps": 5.15,
+        "eps": 5.16,
         "forward_eps": 11.59,
         "revenue_growth": 0.18,
         "earnings_growth": 0.26,
@@ -3183,44 +3183,44 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 136.49,
-        "open": 136.6,
-        "high": 137.21,
-        "low": 135.58,
-        "volume": 3464800,
-        "change_pct": -0.34
+        "current": 136.78,
+        "open": 136.01,
+        "high": 137.99,
+        "low": 135.81,
+        "volume": 1457200,
+        "change_pct": 0.21
       },
       "indicators": {
-        "rsi_14": 87.35,
+        "rsi_14": 87.12,
         "macd": {
-          "macd_line": 4.15,
-          "signal_line": 2.82,
-          "histogram": 1.33
+          "macd_line": 4.27,
+          "signal_line": 3.1,
+          "histogram": 1.16
         },
         "bollinger": {
-          "upper": 140.33,
-          "middle": 126.33,
-          "lower": 112.33,
-          "bandwidth": 0.2217
+          "upper": 141.48,
+          "middle": 127.24,
+          "lower": 113.0,
+          "bandwidth": 0.2239
         },
-        "sma_20": 126.33,
-        "sma_50": 124.12,
+        "sma_20": 127.24,
+        "sma_50": 124.4,
         "sma_200": 0,
         "volume": {
-          "current": 3464800,
-          "avg": 5207940,
-          "ratio": 0.67
+          "current": 1457200,
+          "avg": 5057360,
+          "ratio": 0.29
         }
       },
       "signals": {
         "rsi": "overbought",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 72,
-      "tech_score": 66,
+      "score": 69,
+      "tech_score": 63,
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
@@ -3252,46 +3252,46 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 80.66,
-        "open": 81.61,
-        "high": 81.71,
-        "low": 80.1,
-        "volume": 3465700,
-        "change_pct": -1.32
+        "current": 81.18,
+        "open": 80.53,
+        "high": 81.38,
+        "low": 80.28,
+        "volume": 1241000,
+        "change_pct": 0.64
       },
       "indicators": {
-        "rsi_14": 44.41,
+        "rsi_14": 38.15,
         "macd": {
-          "macd_line": -0.49,
-          "signal_line": -0.32,
-          "histogram": -0.17
+          "macd_line": -0.46,
+          "signal_line": -0.34,
+          "histogram": -0.12
         },
         "bollinger": {
           "upper": 85.68,
-          "middle": 82.06,
-          "lower": 78.44,
-          "bandwidth": 0.0882
+          "middle": 82.08,
+          "lower": 78.48,
+          "bandwidth": 0.0877
         },
-        "sma_20": 82.06,
-        "sma_50": 82.73,
+        "sma_20": 82.08,
+        "sma_50": 82.69,
         "sma_200": 0,
         "volume": {
-          "current": 3465700,
-          "avg": 6186460,
-          "ratio": 0.56
+          "current": 1241000,
+          "avg": 5938900,
+          "ratio": 0.21
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 30,
-      "tech_score": 26,
-      "grade": "sell",
-      "summary": "MACD 데드크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "score": 41,
+      "tech_score": 37,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 33.41,
         "forward_per": 27.73,
@@ -3321,44 +3321,44 @@
       "market": "NASDAQ",
       "sector": "Utilities",
       "price": {
-        "current": 115.15,
-        "open": 114.59,
-        "high": 115.23,
-        "low": 114.24,
-        "volume": 2918000,
-        "change_pct": 0.46
+        "current": 115.31,
+        "open": 115.05,
+        "high": 115.39,
+        "low": 114.81,
+        "volume": 1057700,
+        "change_pct": 0.14
       },
       "indicators": {
-        "rsi_14": 36.02,
+        "rsi_14": 37.06,
         "macd": {
-          "macd_line": -1.26,
-          "signal_line": -1.07,
-          "histogram": -0.19
+          "macd_line": -1.18,
+          "signal_line": -1.08,
+          "histogram": -0.1
         },
         "bollinger": {
-          "upper": 123.12,
-          "middle": 117.03,
-          "lower": 110.95,
-          "bandwidth": 0.1039
+          "upper": 122.45,
+          "middle": 116.72,
+          "lower": 110.99,
+          "bandwidth": 0.0982
         },
-        "sma_20": 117.03,
-        "sma_50": 118.4,
+        "sma_20": 116.72,
+        "sma_50": 118.35,
         "sma_200": 0,
         "volume": {
-          "current": 2918000,
-          "avg": 3559210,
-          "ratio": 0.82
+          "current": 1057700,
+          "avg": 3383360,
+          "ratio": 0.31
         }
       },
       "signals": {
         "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 34,
-      "tech_score": 34,
+      "score": 37,
+      "tech_score": 37,
       "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 적정 PER",
       "fundamentals": {
@@ -3390,44 +3390,44 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 27.9,
-        "open": 28.24,
-        "high": 28.24,
-        "low": 27.86,
-        "volume": 9156600,
-        "change_pct": -1.2
+        "current": 28.0,
+        "open": 27.87,
+        "high": 28.05,
+        "low": 27.84,
+        "volume": 4319800,
+        "change_pct": 0.36
       },
       "indicators": {
-        "rsi_14": 44.2,
+        "rsi_14": 41.85,
         "macd": {
-          "macd_line": 0.2,
-          "signal_line": 0.36,
+          "macd_line": 0.15,
+          "signal_line": 0.32,
           "histogram": -0.17
         },
         "bollinger": {
-          "upper": 29.81,
-          "middle": 28.45,
-          "lower": 27.1,
-          "bandwidth": 0.0951
+          "upper": 29.71,
+          "middle": 28.5,
+          "lower": 27.3,
+          "bandwidth": 0.0845
         },
-        "sma_20": 28.45,
-        "sma_50": 27.71,
+        "sma_20": 28.5,
+        "sma_50": 27.74,
         "sma_200": 0,
         "volume": {
-          "current": 9156600,
-          "avg": 16481190,
-          "ratio": 0.56
+          "current": 4319800,
+          "avg": 15957435,
+          "ratio": 0.27
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 30,
-      "tech_score": 32,
+      "score": 33,
+      "tech_score": 35,
       "grade": "sell",
       "summary": "MACD 데드크로스 + 하락추세 | 고PER",
       "fundamentals": {
@@ -3444,7 +3444,7 @@
         "operating_margin": 0.2311,
         "debt_to_equity": 73.57,
         "current_ratio": 0.62,
-        "dividend_yield": 3.3,
+        "dividend_yield": 3.29,
         "peg_ratio": null,
         "beta": 0.36,
         "market_cap": 38040330240,
@@ -3459,53 +3459,53 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 190.66,
-        "open": 191.99,
-        "high": 192.79,
-        "low": 189.86,
-        "volume": 1380400,
-        "change_pct": -0.69
+        "current": 191.18,
+        "open": 190.19,
+        "high": 191.54,
+        "low": 190.19,
+        "volume": 598700,
+        "change_pct": 0.27
       },
       "indicators": {
-        "rsi_14": 61.06,
+        "rsi_14": 63.36,
         "macd": {
-          "macd_line": 1.03,
-          "signal_line": 0.32,
-          "histogram": 0.71
+          "macd_line": 1.19,
+          "signal_line": 0.49,
+          "histogram": 0.69
         },
         "bollinger": {
-          "upper": 191.67,
-          "middle": 186.55,
-          "lower": 181.43,
-          "bandwidth": 0.0549
+          "upper": 192.25,
+          "middle": 186.92,
+          "lower": 181.6,
+          "bandwidth": 0.057
         },
-        "sma_20": 186.55,
-        "sma_50": 186.38,
+        "sma_20": 186.92,
+        "sma_50": 186.45,
         "sma_200": 0,
         "volume": {
-          "current": 1380400,
-          "avg": 2298740,
-          "ratio": 0.6
+          "current": 598700,
+          "avg": 2161480,
+          "ratio": 0.28
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 66,
-      "tech_score": 68,
+      "score": 63,
+      "tech_score": 65,
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 41.47,
+        "per": 41.29,
         "forward_per": 35.42,
         "pbr": 17.16,
         "roe": 0.434,
         "roa": 0.159,
-        "eps": 4.61,
+        "eps": 4.63,
         "forward_eps": 5.4,
         "revenue_growth": 0.093,
         "earnings_growth": 0.11,
@@ -3528,46 +3528,46 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 114.1,
-        "open": 114.89,
-        "high": 114.99,
-        "low": 113.71,
-        "volume": 3155200,
-        "change_pct": -0.68
+        "current": 114.58,
+        "open": 113.92,
+        "high": 115.04,
+        "low": 113.74,
+        "volume": 1082000,
+        "change_pct": 0.42
       },
       "indicators": {
-        "rsi_14": 52.4,
+        "rsi_14": 60.28,
         "macd": {
-          "macd_line": 0.06,
-          "signal_line": -0.29,
-          "histogram": 0.34
+          "macd_line": 0.1,
+          "signal_line": -0.21,
+          "histogram": 0.31
         },
         "bollinger": {
-          "upper": 116.72,
-          "middle": 113.23,
-          "lower": 109.75,
-          "bandwidth": 0.0615
+          "upper": 116.85,
+          "middle": 113.36,
+          "lower": 109.87,
+          "bandwidth": 0.0616
         },
-        "sma_20": 113.23,
-        "sma_50": 115.46,
+        "sma_20": 113.36,
+        "sma_50": 115.21,
         "sma_200": 0,
         "volume": {
-          "current": 3155200,
-          "avg": 4088675,
-          "ratio": 0.77
+          "current": 1082000,
+          "avg": 3976185,
+          "ratio": 0.27
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "approaching_overbought",
         "macd": "bullish_crossover",
-        "bollinger": "within_bands",
-        "volume": "normal",
+        "bollinger": "upper_band_approach",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 72,
-      "tech_score": 68,
+      "score": 64,
+      "tech_score": 60,
       "grade": "buy",
-      "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 25.92,
         "forward_per": 19.37,
@@ -3582,7 +3582,7 @@
         "operating_margin": 0.4167,
         "debt_to_equity": 129.81,
         "current_ratio": 1.26,
-        "dividend_yield": 3.79,
+        "dividend_yield": 3.77,
         "peg_ratio": null,
         "beta": 0.9,
         "market_cap": 41130491904,
@@ -3597,45 +3597,45 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 66.86,
-        "open": 67.36,
-        "high": 67.4,
-        "low": 66.35,
-        "volume": 2818300,
-        "change_pct": -0.85
+        "current": 67.42,
+        "open": 66.92,
+        "high": 67.51,
+        "low": 66.75,
+        "volume": 948100,
+        "change_pct": 0.84
       },
       "indicators": {
-        "rsi_14": 59.3,
+        "rsi_14": 59.89,
         "macd": {
-          "macd_line": 1.02,
-          "signal_line": 0.93,
+          "macd_line": 1.04,
+          "signal_line": 0.95,
           "histogram": 0.1
         },
         "bollinger": {
-          "upper": 69.06,
-          "middle": 65.54,
-          "lower": 62.02,
-          "bandwidth": 0.1073
+          "upper": 68.93,
+          "middle": 65.83,
+          "lower": 62.72,
+          "bandwidth": 0.0944
         },
-        "sma_20": 65.54,
-        "sma_50": 64.07,
+        "sma_20": 65.83,
+        "sma_50": 64.1,
         "sma_200": 0,
         "volume": {
-          "current": 2818300,
-          "avg": 5397590,
-          "ratio": 0.52
+          "current": 948100,
+          "avg": 5223605,
+          "ratio": 0.18
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 78,
-      "tech_score": 74,
-      "grade": "strong_buy",
+      "score": 74,
+      "tech_score": 70,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 37.46,
@@ -3666,46 +3666,46 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 23.7,
-        "open": 24.17,
-        "high": 24.17,
-        "low": 23.6,
-        "volume": 13899700,
-        "change_pct": -1.86
+        "current": 24.02,
+        "open": 23.64,
+        "high": 24.05,
+        "low": 23.64,
+        "volume": 5694800,
+        "change_pct": 1.35
       },
       "indicators": {
-        "rsi_14": 25.46,
+        "rsi_14": 39.0,
         "macd": {
-          "macd_line": -0.12,
-          "signal_line": -0.04,
-          "histogram": -0.07
+          "macd_line": -0.14,
+          "signal_line": -0.07,
+          "histogram": -0.08
         },
         "bollinger": {
-          "upper": 25.53,
-          "middle": 24.65,
-          "lower": 23.77,
-          "bandwidth": 0.0713
+          "upper": 25.5,
+          "middle": 24.6,
+          "lower": 23.7,
+          "bandwidth": 0.0733
         },
-        "sma_20": 24.65,
-        "sma_50": 24.58,
+        "sma_20": 24.6,
+        "sma_50": 24.56,
         "sma_200": 0,
         "volume": {
-          "current": 13899700,
-          "avg": 13288660,
-          "ratio": 1.05
+          "current": 5694800,
+          "avg": 12863505,
+          "ratio": 0.44
         }
       },
       "signals": {
-        "rsi": "oversold",
+        "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
-        "bollinger": "lower_band_touch",
-        "volume": "normal",
+        "bollinger": "lower_band_bounce",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 35,
-      "tech_score": 42,
+      "score": 38,
+      "tech_score": 45,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 터치 + 하락추세 | 저PBR (자산가치 대비 저평가) | 음의 ROE",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 저PBR (자산가치 대비 저평가) | 음의 ROE",
       "fundamentals": {
         "per": null,
         "forward_per": 9.55,
@@ -3720,7 +3720,7 @@
         "operating_margin": 0.1764,
         "debt_to_equity": 50.97,
         "current_ratio": 1.13,
-        "dividend_yield": 6.75,
+        "dividend_yield": 6.66,
         "peg_ratio": null,
         "beta": 0.07,
         "market_cap": 28431407104,
@@ -3735,46 +3735,46 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 65.35,
-        "open": 65.86,
-        "high": 66.21,
-        "low": 65.1,
-        "volume": 4874300,
-        "change_pct": -1.34
+        "current": 65.36,
+        "open": 65.63,
+        "high": 65.9,
+        "low": 65.18,
+        "volume": 2100900,
+        "change_pct": 0.02
       },
       "indicators": {
-        "rsi_14": 55.91,
+        "rsi_14": 52.35,
         "macd": {
-          "macd_line": 2.14,
-          "signal_line": 2.11,
-          "histogram": 0.03
+          "macd_line": 2.02,
+          "signal_line": 2.08,
+          "histogram": -0.06
         },
         "bollinger": {
-          "upper": 74.38,
-          "middle": 62.91,
-          "lower": 51.45,
-          "bandwidth": 0.3645
+          "upper": 73.83,
+          "middle": 63.59,
+          "lower": 53.35,
+          "bandwidth": 0.3222
         },
-        "sma_20": 62.91,
-        "sma_50": 60.45,
+        "sma_20": 63.59,
+        "sma_50": 60.48,
         "sma_200": 0,
         "volume": {
-          "current": 4874300,
-          "avg": 9787965,
-          "ratio": 0.5
+          "current": 2100900,
+          "avg": 9430860,
+          "ratio": 0.22
         }
       },
       "signals": {
         "rsi": "neutral",
-        "macd": "bullish_crossover",
+        "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 62,
-      "tech_score": 74,
-      "grade": "buy",
-      "summary": "MACD 골든크로스 + 강한 상승추세 | 고PBR (프리미엄) | 음의 ROE",
+      "score": 38,
+      "tech_score": 50,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 강한 상승추세 | 고PBR (프리미엄) | 음의 ROE",
       "fundamentals": {
         "per": null,
         "forward_per": 26.26,
@@ -3789,7 +3789,7 @@
         "operating_margin": 0.0835,
         "debt_to_equity": 80.84,
         "current_ratio": 2.25,
-        "dividend_yield": 2.79,
+        "dividend_yield": 2.78,
         "peg_ratio": null,
         "beta": 1.46,
         "market_cap": 35323604992,
@@ -3804,46 +3804,46 @@
       "market": "NASDAQ",
       "sector": "Utilities",
       "price": {
-        "current": 43.46,
-        "open": 43.58,
-        "high": 43.59,
-        "low": 43.22,
-        "volume": 6461300,
-        "change_pct": -0.21
+        "current": 43.52,
+        "open": 43.29,
+        "high": 43.55,
+        "low": 43.2,
+        "volume": 2946400,
+        "change_pct": 0.14
       },
       "indicators": {
-        "rsi_14": 38.11,
+        "rsi_14": 45.09,
         "macd": {
-          "macd_line": -0.54,
-          "signal_line": -0.54,
+          "macd_line": -0.52,
+          "signal_line": -0.53,
           "histogram": 0.01
         },
         "bollinger": {
-          "upper": 46.59,
-          "middle": 44.31,
-          "lower": 42.04,
-          "bandwidth": 0.1027
+          "upper": 46.39,
+          "middle": 44.2,
+          "lower": 42.01,
+          "bandwidth": 0.0992
         },
-        "sma_20": 44.31,
-        "sma_50": 45.6,
+        "sma_20": 44.2,
+        "sma_50": 45.53,
         "sma_200": 0,
         "volume": {
-          "current": 6461300,
-          "avg": 8265550,
-          "ratio": 0.78
+          "current": 2946400,
+          "avg": 7760750,
+          "ratio": 0.38
         }
       },
       "signals": {
-        "rsi": "oversold_recovery",
-        "macd": "neutral",
+        "rsi": "neutral",
+        "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 46,
-      "tech_score": 46,
+      "score": 50,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + 강한 하락추세 | 적정 PER",
+      "summary": "MACD 골든크로스 + 강한 하락추세 | 적정 PER",
       "fundamentals": {
         "per": 15.6,
         "forward_per": 15.3,
@@ -3873,54 +3873,54 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 174.82,
-        "open": 174.26,
-        "high": 175.58,
-        "low": 173.08,
-        "volume": 1281600,
-        "change_pct": 0.07
+        "current": 176.33,
+        "open": 175.73,
+        "high": 177.18,
+        "low": 175.37,
+        "volume": 434700,
+        "change_pct": 0.86
       },
       "indicators": {
-        "rsi_14": 39.95,
+        "rsi_14": 40.52,
         "macd": {
           "macd_line": 2.03,
-          "signal_line": 3.3,
-          "histogram": -1.27
+          "signal_line": 3.04,
+          "histogram": -1.01
         },
         "bollinger": {
-          "upper": 185.12,
-          "middle": 177.1,
-          "lower": 169.07,
-          "bandwidth": 0.0906
+          "upper": 184.51,
+          "middle": 176.82,
+          "lower": 169.12,
+          "bandwidth": 0.087
         },
-        "sma_20": 177.1,
-        "sma_50": 164.12,
+        "sma_20": 176.82,
+        "sma_50": 164.74,
         "sma_200": 0,
         "volume": {
-          "current": 1281600,
-          "avg": 2672640,
-          "ratio": 0.48
+          "current": 434700,
+          "avg": 2528510,
+          "ratio": 0.17
         }
       },
       "signals": {
-        "rsi": "oversold_recovery",
+        "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 44,
-      "tech_score": 42,
-      "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 적정 PER | 낮은 부채비율 (안정)",
+      "score": 37,
+      "tech_score": 35,
+      "grade": "sell",
+      "summary": "MACD 데드크로스 + 하락추세 | 적정 PER | 낮은 부채비율 (안정)",
       "fundamentals": {
-        "per": 16.06,
-        "forward_per": 11.57,
+        "per": 16.07,
+        "forward_per": 11.59,
         "pbr": 1.42,
         "roe": 0.0931,
         "roa": 0.0575,
-        "eps": 10.98,
-        "forward_eps": 15.24,
+        "eps": 10.97,
+        "forward_eps": 15.22,
         "revenue_growth": 0.028,
         "earnings_growth": 0.192,
         "profit_margin": 0.1598,
@@ -3942,53 +3942,53 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 111.72,
-        "open": 112.73,
-        "high": 113.06,
-        "low": 111.67,
-        "volume": 1875300,
-        "change_pct": -0.97
+        "current": 111.51,
+        "open": 111.85,
+        "high": 112.03,
+        "low": 111.3,
+        "volume": 720700,
+        "change_pct": -0.19
       },
       "indicators": {
-        "rsi_14": 63.95,
+        "rsi_14": 63.29,
         "macd": {
-          "macd_line": 3.2,
-          "signal_line": 3.22,
-          "histogram": -0.02
+          "macd_line": 3.07,
+          "signal_line": 3.19,
+          "histogram": -0.11
         },
         "bollinger": {
-          "upper": 115.04,
-          "middle": 108.5,
-          "lower": 101.96,
-          "bandwidth": 0.1206
+          "upper": 115.14,
+          "middle": 108.9,
+          "lower": 102.65,
+          "bandwidth": 0.1147
         },
-        "sma_20": 108.5,
-        "sma_50": 101.38,
+        "sma_20": 108.9,
+        "sma_50": 101.74,
         "sma_200": 0,
         "volume": {
-          "current": 1875300,
-          "avg": 3705080,
-          "ratio": 0.51
+          "current": 720700,
+          "avg": 3594615,
+          "ratio": 0.2
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 42,
-      "tech_score": 47,
+      "score": 43,
+      "tech_score": 48,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 매출 감소",
       "fundamentals": {
-        "per": 21.91,
+        "per": 21.86,
         "forward_per": 19.54,
         "pbr": 3.02,
         "roe": 0.1415,
         "roa": 0.0496,
-        "eps": 5.09,
+        "eps": 5.1,
         "forward_eps": 5.71,
         "revenue_growth": -0.19,
         "earnings_growth": -0.395,
@@ -4011,44 +4011,44 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 92.14,
-        "open": 92.52,
-        "high": 93.1,
-        "low": 91.94,
-        "volume": 3544400,
-        "change_pct": 0.64
+        "current": 92.45,
+        "open": 92.32,
+        "high": 92.61,
+        "low": 92.01,
+        "volume": 1184700,
+        "change_pct": 0.34
       },
       "indicators": {
-        "rsi_14": 55.11,
+        "rsi_14": 60.0,
         "macd": {
-          "macd_line": 0.96,
-          "signal_line": 1.1,
-          "histogram": -0.14
+          "macd_line": 1.0,
+          "signal_line": 1.09,
+          "histogram": -0.08
         },
         "bollinger": {
-          "upper": 93.31,
-          "middle": 91.11,
-          "lower": 88.91,
-          "bandwidth": 0.0482
+          "upper": 93.13,
+          "middle": 91.07,
+          "lower": 89.01,
+          "bandwidth": 0.0452
         },
-        "sma_20": 91.11,
-        "sma_50": 87.72,
+        "sma_20": 91.07,
+        "sma_50": 87.86,
         "sma_200": 0,
         "volume": {
-          "current": 3544400,
-          "avg": 5860940,
-          "ratio": 0.6
+          "current": 1184700,
+          "avg": 5751850,
+          "ratio": 0.21
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 48,
-      "tech_score": 45,
+      "score": 49,
+      "tech_score": 46,
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 높은 ROE (20%+)",
       "fundamentals": {
@@ -4065,7 +4065,7 @@
         "operating_margin": 0.2411,
         "debt_to_equity": 71.05,
         "current_ratio": 0.88,
-        "dividend_yield": 1.7,
+        "dividend_yield": 1.69,
         "peg_ratio": null,
         "beta": 0.17,
         "market_cap": 286647418880,
@@ -4080,53 +4080,53 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 180.61,
-        "open": 180.79,
-        "high": 181.14,
-        "low": 178.88,
-        "volume": 1563500,
-        "change_pct": -0.04
+        "current": 181.68,
+        "open": 181.08,
+        "high": 182.42,
+        "low": 180.11,
+        "volume": 621200,
+        "change_pct": 0.59
       },
       "indicators": {
-        "rsi_14": 59.16,
+        "rsi_14": 65.02,
         "macd": {
-          "macd_line": 4.28,
-          "signal_line": 4.95,
-          "histogram": -0.66
+          "macd_line": 4.06,
+          "signal_line": 4.77,
+          "histogram": -0.72
         },
         "bollinger": {
-          "upper": 185.3,
-          "middle": 179.64,
-          "lower": 173.99,
-          "bandwidth": 0.063
+          "upper": 185.39,
+          "middle": 179.92,
+          "lower": 174.45,
+          "bandwidth": 0.0608
         },
-        "sma_20": 179.64,
-        "sma_50": 167.82,
+        "sma_20": 179.92,
+        "sma_50": 168.36,
         "sma_200": 0,
         "volume": {
-          "current": 1563500,
-          "avg": 3147560,
-          "ratio": 0.5
+          "current": 621200,
+          "avg": 2945800,
+          "ratio": 0.21
         }
       },
       "signals": {
-        "rsi": "neutral",
+        "rsi": "approaching_overbought",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 51,
-      "tech_score": 50,
+      "score": 49,
+      "tech_score": 48,
       "grade": "hold",
-      "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 28.43,
+        "per": 28.39,
         "forward_per": 25.48,
         "pbr": 10.0,
         "roe": 0.3743,
         "roa": 0.1082,
-        "eps": 6.39,
+        "eps": 6.4,
         "forward_eps": 7.13,
         "revenue_growth": 0.104,
         "earnings_growth": 0.068,
@@ -4134,7 +4134,7 @@
         "operating_margin": 0.1158,
         "debt_to_equity": 88.18,
         "current_ratio": 1.52,
-        "dividend_yield": 0.9,
+        "dividend_yield": 0.89,
         "peg_ratio": null,
         "beta": 1.04,
         "market_cap": 59087106048,
@@ -4149,53 +4149,53 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 158.62,
-        "open": 158.62,
-        "high": 159.45,
-        "low": 158.17,
-        "volume": 1175400,
-        "change_pct": -0.43
+        "current": 159.36,
+        "open": 158.69,
+        "high": 159.88,
+        "low": 158.32,
+        "volume": 795100,
+        "change_pct": 0.47
       },
       "indicators": {
-        "rsi_14": 62.22,
+        "rsi_14": 59.89,
         "macd": {
-          "macd_line": 5.46,
-          "signal_line": 5.13,
-          "histogram": 0.32
+          "macd_line": 5.35,
+          "signal_line": 5.17,
+          "histogram": 0.18
         },
         "bollinger": {
-          "upper": 169.37,
-          "middle": 151.21,
-          "lower": 133.05,
-          "bandwidth": 0.2403
+          "upper": 169.07,
+          "middle": 152.47,
+          "lower": 135.88,
+          "bandwidth": 0.2176
         },
-        "sma_20": 151.21,
-        "sma_50": 142.19,
+        "sma_20": 152.47,
+        "sma_50": 142.67,
         "sma_200": 0,
         "volume": {
-          "current": 1175400,
-          "avg": 2697905,
-          "ratio": 0.44
+          "current": 795100,
+          "avg": 2623515,
+          "ratio": 0.3
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 70,
-      "tech_score": 67,
+      "score": 73,
+      "tech_score": 70,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.13,
+        "per": 32.06,
         "forward_per": 30.74,
         "pbr": 7.83,
         "roe": 0.2506,
         "roa": 0.1589,
-        "eps": 4.96,
+        "eps": 4.97,
         "forward_eps": 5.18,
         "revenue_growth": -0.043,
         "earnings_growth": -0.105,
@@ -4203,7 +4203,7 @@
         "operating_margin": 0.2566,
         "debt_to_equity": 1.99,
         "current_ratio": 1.2,
-        "dividend_yield": 0.71,
+        "dividend_yield": 0.7,
         "peg_ratio": null,
         "beta": 1.27,
         "market_cap": 33492396032,
@@ -4218,33 +4218,33 @@
       "market": "NASDAQ",
       "sector": "Consumer Cyclical",
       "price": {
-        "current": 212.68,
-        "open": 211.11,
-        "high": 213.37,
-        "low": 209.25,
-        "volume": 2867800,
-        "change_pct": 0.15
+        "current": 210.4,
+        "open": 213.22,
+        "high": 214.19,
+        "low": 210.25,
+        "volume": 1152500,
+        "change_pct": -1.07
       },
       "indicators": {
-        "rsi_14": 76.02,
+        "rsi_14": 72.57,
         "macd": {
-          "macd_line": 10.35,
-          "signal_line": 8.37,
-          "histogram": 1.98
+          "macd_line": 10.16,
+          "signal_line": 8.72,
+          "histogram": 1.44
         },
         "bollinger": {
-          "upper": 220.69,
-          "middle": 193.99,
-          "lower": 167.28,
-          "bandwidth": 0.2753
+          "upper": 222.12,
+          "middle": 195.63,
+          "lower": 169.15,
+          "bandwidth": 0.2707
         },
-        "sma_20": 193.99,
-        "sma_50": 179.58,
+        "sma_20": 195.63,
+        "sma_50": 180.41,
         "sma_200": 0,
         "volume": {
-          "current": 2867800,
-          "avg": 6242590,
-          "ratio": 0.46
+          "current": 1152500,
+          "avg": 6192855,
+          "ratio": 0.19
         }
       },
       "signals": {
@@ -4259,12 +4259,12 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 14.63,
+        "per": 14.64,
         "forward_per": 16.67,
         "pbr": 5.51,
         "roe": 0.4102,
         "roa": 0.2029,
-        "eps": 14.38,
+        "eps": 14.37,
         "forward_eps": 12.62,
         "revenue_growth": 0.071,
         "earnings_growth": -0.097,
@@ -4287,44 +4287,44 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 39.15,
-        "open": 39.34,
-        "high": 39.4,
-        "low": 38.86,
-        "volume": 8573000,
-        "change_pct": -0.53
+        "current": 39.1,
+        "open": 39.11,
+        "high": 39.18,
+        "low": 38.95,
+        "volume": 2020700,
+        "change_pct": -0.13
       },
       "indicators": {
         "rsi_14": 54.97,
         "macd": {
-          "macd_line": -0.52,
-          "signal_line": -0.74,
-          "histogram": 0.22
+          "macd_line": -0.48,
+          "signal_line": -0.68,
+          "histogram": 0.2
         },
         "bollinger": {
-          "upper": 39.45,
+          "upper": 39.46,
           "middle": 38.92,
           "lower": 38.39,
-          "bandwidth": 0.0274
+          "bandwidth": 0.0276
         },
         "sma_20": 38.92,
-        "sma_50": 41.14,
+        "sma_50": 41.02,
         "sma_200": 0,
         "volume": {
-          "current": 8573000,
-          "avg": 9316250,
-          "ratio": 0.92
+          "current": 2020700,
+          "avg": 8897800,
+          "ratio": 0.23
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "lower_band_bounce",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "uptrend"
       },
-      "score": 82,
-      "tech_score": 76,
+      "score": 78,
+      "tech_score": 72,
       "grade": "strong_buy",
       "summary": "MACD 골든크로스 + 볼린저 하단 반등 + 상승추세 | 고PER | 양호한 ROE (15-20%)",
       "fundamentals": {
@@ -4356,53 +4356,53 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 682.31,
-        "open": 695.96,
-        "high": 700.0,
-        "low": 676.06,
-        "volume": 586300,
-        "change_pct": -2.82
+        "current": 688.18,
+        "open": 683.97,
+        "high": 689.06,
+        "low": 680.09,
+        "volume": 219400,
+        "change_pct": 0.86
       },
       "indicators": {
-        "rsi_14": 22.17,
+        "rsi_14": 30.68,
         "macd": {
-          "macd_line": -1.61,
-          "signal_line": 2.74,
-          "histogram": -4.35
+          "macd_line": -2.47,
+          "signal_line": 1.69,
+          "histogram": -4.16
         },
         "bollinger": {
-          "upper": 759.93,
-          "middle": 714.26,
-          "lower": 668.58,
-          "bandwidth": 0.1279
+          "upper": 750.16,
+          "middle": 710.33,
+          "lower": 670.51,
+          "bandwidth": 0.1121
         },
-        "sma_20": 714.26,
-        "sma_50": 690.27,
+        "sma_20": 710.33,
+        "sma_50": 691.29,
         "sma_200": 0,
         "volume": {
-          "current": 586300,
-          "avg": 604975,
-          "ratio": 0.97
+          "current": 219400,
+          "avg": 568585,
+          "ratio": 0.39
         }
       },
       "signals": {
-        "rsi": "oversold",
+        "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 38,
-      "tech_score": 37,
-      "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
+      "score": 43,
+      "tech_score": 42,
+      "grade": "hold",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 54.53,
+        "per": 54.66,
         "forward_per": 47.41,
         "pbr": 35.26,
         "roe": 0.6463,
         "roa": 0.2407,
-        "eps": 12.62,
+        "eps": 12.59,
         "forward_eps": 14.51,
         "revenue_growth": 0.133,
         "earnings_growth": 0.214,
@@ -4425,40 +4425,40 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 215.44,
-        "open": 217.05,
-        "high": 217.09,
-        "low": 213.63,
-        "volume": 2150400,
-        "change_pct": -1.17
+        "current": 216.85,
+        "open": 215.29,
+        "high": 218.15,
+        "low": 214.64,
+        "volume": 766200,
+        "change_pct": 0.65
       },
       "indicators": {
-        "rsi_14": 51.14,
+        "rsi_14": 50.44,
         "macd": {
-          "macd_line": -2.38,
-          "signal_line": -2.54,
-          "histogram": 0.16
+          "macd_line": -2.3,
+          "signal_line": -2.47,
+          "histogram": 0.17
         },
         "bollinger": {
-          "upper": 228.58,
-          "middle": 218.71,
-          "lower": 208.83,
-          "bandwidth": 0.0903
+          "upper": 224.79,
+          "middle": 217.87,
+          "lower": 210.94,
+          "bandwidth": 0.0636
         },
-        "sma_20": 218.71,
-        "sma_50": 226.7,
+        "sma_20": 217.87,
+        "sma_50": 226.29,
         "sma_200": 0,
         "volume": {
-          "current": 2150400,
-          "avg": 3585280,
-          "ratio": 0.6
+          "current": 766200,
+          "avg": 3492820,
+          "ratio": 0.22
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
       "score": 45,
@@ -4466,12 +4466,12 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 91.5,
+        "per": 91.89,
         "forward_per": 20.22,
         "pbr": 6.45,
         "roe": 0.0734,
         "roa": 0.0318,
-        "eps": 2.37,
+        "eps": 2.36,
         "forward_eps": 10.73,
         "revenue_growth": 0.126,
         "earnings_growth": 0.306,
@@ -4494,53 +4494,53 @@
       "market": "NASDAQ",
       "sector": "Communication Services",
       "price": {
-        "current": 204.27,
-        "open": 203.87,
-        "high": 204.38,
-        "low": 203.79,
-        "volume": 1450200,
-        "change_pct": 0.24
+        "current": 204.78,
+        "open": 204.24,
+        "high": 204.84,
+        "low": 204.24,
+        "volume": 469500,
+        "change_pct": 0.25
       },
       "indicators": {
-        "rsi_14": 63.73,
+        "rsi_14": 66.18,
         "macd": {
-          "macd_line": 0.96,
-          "signal_line": 1.1,
-          "histogram": -0.15
+          "macd_line": 0.97,
+          "signal_line": 1.07,
+          "histogram": -0.1
         },
         "bollinger": {
-          "upper": 205.04,
-          "middle": 203.36,
-          "lower": 201.68,
-          "bandwidth": 0.0165
+          "upper": 205.07,
+          "middle": 203.53,
+          "lower": 201.99,
+          "bandwidth": 0.0152
         },
-        "sma_20": 203.36,
-        "sma_50": 201.69,
+        "sma_20": 203.53,
+        "sma_50": 201.79,
         "sma_200": 0,
         "volume": {
-          "current": 1450200,
-          "avg": 2159160,
-          "ratio": 0.67
+          "current": 469500,
+          "avg": 2075945,
+          "ratio": 0.23
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bearish_crossover",
         "bollinger": "lower_band_bounce",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 50,
-      "tech_score": 55,
+      "score": 49,
+      "tech_score": 54,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 볼린저 하단 반등 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 59.7,
+        "per": 59.53,
         "forward_per": 22.12,
         "pbr": 8.51,
         "roe": 0.132,
         "roa": 0.0627,
-        "eps": 3.43,
+        "eps": 3.44,
         "forward_eps": 9.26,
         "revenue_growth": -0.092,
         "earnings_growth": -0.514,
@@ -4563,53 +4563,53 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 41.72,
-        "open": 41.75,
-        "high": 41.87,
-        "low": 41.68,
-        "volume": 4751000,
-        "change_pct": -0.07
+        "current": 41.83,
+        "open": 41.63,
+        "high": 41.94,
+        "low": 41.55,
+        "volume": 1292600,
+        "change_pct": 0.26
       },
       "indicators": {
-        "rsi_14": 54.17,
+        "rsi_14": 50.72,
         "macd": {
-          "macd_line": 0.22,
-          "signal_line": 0.09,
-          "histogram": 0.13
+          "macd_line": 0.21,
+          "signal_line": 0.12,
+          "histogram": 0.09
         },
         "bollinger": {
-          "upper": 43.0,
-          "middle": 41.33,
-          "lower": 39.67,
-          "bandwidth": 0.0805
+          "upper": 42.99,
+          "middle": 41.42,
+          "lower": 39.85,
+          "bandwidth": 0.0757
         },
-        "sma_20": 41.33,
-        "sma_50": 41.3,
+        "sma_20": 41.42,
+        "sma_50": 41.28,
         "sma_200": 0,
         "volume": {
-          "current": 4751000,
-          "avg": 7766515,
-          "ratio": 0.61
+          "current": 1292600,
+          "avg": 7425840,
+          "ratio": 0.17
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 77,
-      "tech_score": 74,
-      "grade": "strong_buy",
+      "score": 73,
+      "tech_score": 70,
+      "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 39.46,
+        "per": 39.09,
         "forward_per": 34.37,
         "pbr": 12.33,
         "roe": 0.3274,
         "roa": 0.205,
-        "eps": 1.06,
+        "eps": 1.07,
         "forward_eps": 1.22,
         "revenue_growth": 0.117,
         "earnings_growth": 0.115,
@@ -4617,7 +4617,7 @@
         "operating_margin": 0.207,
         "debt_to_equity": 13.28,
         "current_ratio": 4.26,
-        "dividend_yield": 2.11,
+        "dividend_yield": 2.1,
         "peg_ratio": null,
         "beta": 0.88,
         "market_cap": 48022335488,
@@ -4632,53 +4632,53 @@
       "market": "NASDAQ",
       "sector": "Industrials",
       "price": {
-        "current": 218.46,
-        "open": 220.34,
-        "high": 220.87,
-        "low": 217.72,
-        "volume": 1440900,
-        "change_pct": -0.9
+        "current": 218.85,
+        "open": 217.8,
+        "high": 220.17,
+        "low": 217.78,
+        "volume": 483800,
+        "change_pct": 0.18
       },
       "indicators": {
-        "rsi_14": 37.27,
+        "rsi_14": 42.99,
         "macd": {
-          "macd_line": -1.21,
-          "signal_line": -1.59,
+          "macd_line": -1.1,
+          "signal_line": -1.48,
           "histogram": 0.38
         },
         "bollinger": {
-          "upper": 226.19,
-          "middle": 219.81,
-          "lower": 213.43,
-          "bandwidth": 0.0581
+          "upper": 225.88,
+          "middle": 219.62,
+          "lower": 213.36,
+          "bandwidth": 0.057
         },
-        "sma_20": 219.81,
-        "sma_50": 222.08,
+        "sma_20": 219.62,
+        "sma_50": 221.6,
         "sma_200": 0,
         "volume": {
-          "current": 1440900,
-          "avg": 1372715,
-          "ratio": 1.05
+          "current": 483800,
+          "avg": 1338160,
+          "ratio": 0.36
         }
       },
       "signals": {
-        "rsi": "oversold_recovery",
+        "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 59,
-      "tech_score": 58,
+      "score": 51,
+      "tech_score": 50,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
+      "summary": "MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 33.62,
+        "per": 33.67,
         "forward_per": 28.6,
         "pbr": 80.97,
         "roe": 2.6813,
         "roa": 0.1572,
-        "eps": 6.51,
+        "eps": 6.5,
         "forward_eps": 7.65,
         "revenue_growth": 0.059,
         "earnings_growth": 0.045,
@@ -4701,46 +4701,46 @@
       "market": "NASDAQ",
       "sector": "Utilities",
       "price": {
-        "current": 74.01,
-        "open": 73.78,
-        "high": 74.29,
-        "low": 73.49,
-        "volume": 8072400,
-        "change_pct": 0.22
+        "current": 74.09,
+        "open": 73.97,
+        "high": 74.2,
+        "low": 73.78,
+        "volume": 1427600,
+        "change_pct": 0.11
       },
       "indicators": {
-        "rsi_14": 28.53,
+        "rsi_14": 30.95,
         "macd": {
-          "macd_line": -1.69,
-          "signal_line": -1.5,
-          "histogram": -0.2
+          "macd_line": -1.61,
+          "signal_line": -1.52,
+          "histogram": -0.1
         },
         "bollinger": {
-          "upper": 82.18,
-          "middle": 76.42,
-          "lower": 70.67,
-          "bandwidth": 0.1506
+          "upper": 81.63,
+          "middle": 76.11,
+          "lower": 70.58,
+          "bandwidth": 0.1452
         },
-        "sma_20": 76.42,
-        "sma_50": 78.99,
+        "sma_20": 76.11,
+        "sma_50": 78.86,
         "sma_200": 0,
         "volume": {
-          "current": 8072400,
-          "avg": 6028205,
-          "ratio": 1.34
+          "current": 1427600,
+          "avg": 6114810,
+          "ratio": 0.23
         }
       },
       "signals": {
-        "rsi": "oversold",
+        "rsi": "oversold_recovery",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
-      "score": 29,
-      "tech_score": 31,
+      "score": 35,
+      "tech_score": 37,
       "grade": "sell",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 고PER",
+      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 고PER",
       "fundamentals": {
         "per": 22.59,
         "forward_per": 18.0,
@@ -4770,46 +4770,46 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 85.18,
-        "open": 85.05,
-        "high": 85.37,
-        "low": 84.6,
-        "volume": 2586200,
-        "change_pct": -0.04
+        "current": 85.42,
+        "open": 85.0,
+        "high": 85.5,
+        "low": 84.89,
+        "volume": 1687900,
+        "change_pct": 0.28
       },
       "indicators": {
-        "rsi_14": 90.91,
+        "rsi_14": 89.91,
         "macd": {
-          "macd_line": 2.99,
+          "macd_line": 2.93,
           "signal_line": 2.94,
-          "histogram": 0.04
+          "histogram": -0.01
         },
         "bollinger": {
-          "upper": 87.6,
-          "middle": 81.5,
-          "lower": 75.4,
-          "bandwidth": 0.1497
+          "upper": 87.8,
+          "middle": 81.95,
+          "lower": 76.1,
+          "bandwidth": 0.1427
         },
-        "sma_20": 81.5,
-        "sma_50": 75.03,
+        "sma_20": 81.95,
+        "sma_50": 75.4,
         "sma_200": 0,
         "volume": {
-          "current": 2586200,
-          "avg": 5252790,
-          "ratio": 0.49
+          "current": 1687900,
+          "avg": 5064665,
+          "ratio": 0.33
         }
       },
       "signals": {
         "rsi": "overbought",
-        "macd": "bullish_crossover",
+        "macd": "bearish_crossover",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 65,
-      "tech_score": 63,
-      "grade": "buy",
-      "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
+      "score": 46,
+      "tech_score": 44,
+      "grade": "hold",
+      "summary": "RSI 과매수 + MACD 데드크로스 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
       "fundamentals": {
         "per": 19.77,
         "forward_per": 15.2,
@@ -4824,7 +4824,7 @@
         "operating_margin": 0.1599,
         "debt_to_equity": 7.85,
         "current_ratio": 2.36,
-        "dividend_yield": 1.46,
+        "dividend_yield": 1.45,
         "peg_ratio": null,
         "beta": 0.97,
         "market_cap": 41718779904,
@@ -4839,46 +4839,46 @@
       "market": "NASDAQ",
       "sector": "Consumer Defensive",
       "price": {
-        "current": 119.53,
-        "open": 122.49,
-        "high": 123.08,
-        "low": 119.05,
-        "volume": 3338000,
-        "change_pct": -2.42
+        "current": 122.01,
+        "open": 120.05,
+        "high": 122.59,
+        "low": 119.2,
+        "volume": 1304500,
+        "change_pct": 2.07
       },
       "indicators": {
-        "rsi_14": 58.82,
+        "rsi_14": 58.29,
         "macd": {
-          "macd_line": 5.38,
-          "signal_line": 6.17,
-          "histogram": -0.78
+          "macd_line": 4.87,
+          "signal_line": 5.92,
+          "histogram": -1.05
         },
         "bollinger": {
-          "upper": 137.18,
-          "middle": 120.39,
-          "lower": 103.61,
-          "bandwidth": 0.2788
+          "upper": 136.5,
+          "middle": 121.21,
+          "lower": 105.92,
+          "bandwidth": 0.2523
         },
-        "sma_20": 120.39,
-        "sma_50": 108.8,
+        "sma_20": 121.21,
+        "sma_50": 109.33,
         "sma_200": 0,
         "volume": {
-          "current": 3338000,
-          "avg": 3894505,
-          "ratio": 0.86
+          "current": 1304500,
+          "avg": 3860985,
+          "ratio": 0.34
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
-        "trend": "downtrend"
+        "volume": "below_average",
+        "trend": "strong_uptrend"
       },
-      "score": 25,
-      "tech_score": 32,
-      "grade": "sell",
-      "summary": "MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
+      "score": 43,
+      "tech_score": 50,
+      "grade": "hold",
+      "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 23.11,
         "forward_per": 18.25,
@@ -4908,40 +4908,40 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 83.32,
-        "open": 83.81,
-        "high": 84.01,
-        "low": 83.17,
-        "volume": 2117000,
-        "change_pct": -0.74
+        "current": 83.39,
+        "open": 83.43,
+        "high": 83.83,
+        "low": 83.1,
+        "volume": 807000,
+        "change_pct": 0.08
       },
       "indicators": {
-        "rsi_14": 49.18,
+        "rsi_14": 52.8,
         "macd": {
-          "macd_line": 1.69,
-          "signal_line": 1.95,
-          "histogram": -0.26
+          "macd_line": 1.6,
+          "signal_line": 1.88,
+          "histogram": -0.28
         },
         "bollinger": {
-          "upper": 86.46,
-          "middle": 82.7,
-          "lower": 78.93,
-          "bandwidth": 0.091
+          "upper": 86.41,
+          "middle": 82.87,
+          "lower": 79.33,
+          "bandwidth": 0.0855
         },
-        "sma_20": 82.7,
-        "sma_50": 77.98,
+        "sma_20": 82.87,
+        "sma_50": 78.2,
         "sma_200": 0,
         "volume": {
-          "current": 2117000,
-          "avg": 3574605,
-          "ratio": 0.59
+          "current": 807000,
+          "avg": 3324515,
+          "ratio": 0.24
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
       "score": 55,
@@ -4977,46 +4977,46 @@
       "market": "NASDAQ",
       "sector": "Energy",
       "price": {
-        "current": 148.16,
-        "open": 148.74,
-        "high": 149.77,
-        "low": 147.19,
-        "volume": 1041200,
-        "change_pct": -0.2
+        "current": 146.91,
+        "open": 147.96,
+        "high": 147.96,
+        "low": 146.43,
+        "volume": 667500,
+        "change_pct": -0.84
       },
       "indicators": {
-        "rsi_14": 33.48,
+        "rsi_14": 29.72,
         "macd": {
-          "macd_line": 0.29,
-          "signal_line": 1.76,
-          "histogram": -1.48
+          "macd_line": -0.1,
+          "signal_line": 1.37,
+          "histogram": -1.47
         },
         "bollinger": {
-          "upper": 163.09,
-          "middle": 153.81,
-          "lower": 144.52,
-          "bandwidth": 0.1207
+          "upper": 163.11,
+          "middle": 153.8,
+          "lower": 144.5,
+          "bandwidth": 0.121
         },
-        "sma_20": 153.81,
-        "sma_50": 147.39,
+        "sma_20": 153.8,
+        "sma_50": 147.51,
         "sma_200": 0,
         "volume": {
-          "current": 1041200,
-          "avg": 1862985,
-          "ratio": 0.56
+          "current": 667500,
+          "avg": 1826215,
+          "ratio": 0.37
         }
       },
       "signals": {
-        "rsi": "oversold_recovery",
+        "rsi": "oversold",
         "macd": "bearish_crossover",
-        "bollinger": "within_bands",
-        "volume": "normal",
+        "bollinger": "lower_band_bounce",
+        "volume": "below_average",
         "trend": "downtrend"
       },
-      "score": 48,
-      "tech_score": 40,
+      "score": 50,
+      "tech_score": 42,
       "grade": "hold",
-      "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 적정 PER | 높은 이익률 (20%+)",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 적정 PER | 높은 이익률 (20%+)",
       "fundamentals": {
         "per": 10.32,
         "forward_per": 12.82,
@@ -5031,7 +5031,7 @@
         "operating_margin": 0.3663,
         "debt_to_equity": 35.66,
         "current_ratio": 0.62,
-        "dividend_yield": 2.7,
+        "dividend_yield": 2.72,
         "peg_ratio": null,
         "beta": 0.61,
         "market_cap": 42528407552,
@@ -5046,33 +5046,33 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 229.32,
-        "open": 230.0,
-        "high": 231.69,
-        "low": 227.7,
-        "volume": 1093100,
-        "change_pct": -1.18
+        "current": 229.6,
+        "open": 229.26,
+        "high": 229.93,
+        "low": 226.78,
+        "volume": 606800,
+        "change_pct": 0.12
       },
       "indicators": {
-        "rsi_14": 31.2,
+        "rsi_14": 33.27,
         "macd": {
-          "macd_line": -15.31,
-          "signal_line": -16.46,
-          "histogram": 1.14
+          "macd_line": -14.71,
+          "signal_line": -16.09,
+          "histogram": 1.37
         },
         "bollinger": {
-          "upper": 268.45,
-          "middle": 241.52,
-          "lower": 214.59,
-          "bandwidth": 0.223
+          "upper": 253.6,
+          "middle": 238.51,
+          "lower": 223.43,
+          "bandwidth": 0.1265
         },
-        "sma_20": 241.52,
-        "sma_50": 283.12,
+        "sma_20": 238.51,
+        "sma_50": 281.68,
         "sma_200": 0,
         "volume": {
-          "current": 1093100,
-          "avg": 2585075,
-          "ratio": 0.42
+          "current": 606800,
+          "avg": 2531610,
+          "ratio": 0.24
         }
       },
       "signals": {
@@ -5115,46 +5115,46 @@
       "market": "NASDAQ",
       "sector": "Energy",
       "price": {
-        "current": 45.19,
-        "open": 45.56,
-        "high": 45.71,
-        "low": 45.01,
-        "volume": 7895600,
-        "change_pct": -0.81
+        "current": 45.3,
+        "open": 45.24,
+        "high": 45.42,
+        "low": 44.99,
+        "volume": 1848200,
+        "change_pct": 0.24
       },
       "indicators": {
-        "rsi_14": 22.45,
+        "rsi_14": 22.37,
         "macd": {
-          "macd_line": -0.9,
-          "signal_line": -0.52,
-          "histogram": -0.38
+          "macd_line": -0.91,
+          "signal_line": -0.61,
+          "histogram": -0.3
         },
         "bollinger": {
-          "upper": 51.92,
-          "middle": 47.68,
-          "lower": 43.45,
-          "bandwidth": 0.1776
+          "upper": 51.76,
+          "middle": 47.48,
+          "lower": 43.2,
+          "bandwidth": 0.1802
         },
-        "sma_20": 47.68,
-        "sma_50": 47.5,
+        "sma_20": 47.48,
+        "sma_50": 47.51,
         "sma_200": 0,
         "volume": {
-          "current": 7895600,
-          "avg": 7767740,
-          "ratio": 1.02
+          "current": 1848200,
+          "avg": 7602635,
+          "ratio": 0.24
         }
       },
       "signals": {
         "rsi": "oversold",
         "macd": "bearish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
-        "trend": "downtrend"
+        "volume": "below_average",
+        "trend": "strong_downtrend"
       },
-      "score": 42,
-      "tech_score": 37,
-      "grade": "hold",
-      "summary": "RSI 과매도 + MACD 데드크로스 + 하락추세 | 적정 PER | 양호한 ROE (15-20%)",
+      "score": 39,
+      "tech_score": 34,
+      "grade": "sell",
+      "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 적정 PER | 양호한 ROE (15-20%)",
       "fundamentals": {
         "per": 15.62,
         "forward_per": 17.1,
@@ -5169,7 +5169,7 @@
         "operating_margin": 0.1352,
         "debt_to_equity": 33.04,
         "current_ratio": 1.41,
-        "dividend_yield": 2.04,
+        "dividend_yield": 2.03,
         "peg_ratio": null,
         "beta": 0.89,
         "market_cap": 44700856320,
@@ -5184,53 +5184,53 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 162.39,
-        "open": 162.78,
-        "high": 163.85,
-        "low": 158.04,
-        "volume": 1864100,
-        "change_pct": -1.25
+        "current": 161.12,
+        "open": 160.84,
+        "high": 162.05,
+        "low": 159.88,
+        "volume": 439000,
+        "change_pct": -0.78
       },
       "indicators": {
-        "rsi_14": 60.74,
+        "rsi_14": 58.39,
         "macd": {
-          "macd_line": 2.14,
-          "signal_line": 1.57,
-          "histogram": 0.58
+          "macd_line": 2.0,
+          "signal_line": 1.66,
+          "histogram": 0.33
         },
         "bollinger": {
-          "upper": 168.92,
-          "middle": 158.38,
-          "lower": 147.83,
-          "bandwidth": 0.1332
+          "upper": 168.62,
+          "middle": 158.98,
+          "lower": 149.34,
+          "bandwidth": 0.1213
         },
-        "sma_20": 158.38,
-        "sma_50": 157.74,
+        "sma_20": 158.98,
+        "sma_50": 157.83,
         "sma_200": 0,
         "volume": {
-          "current": 1864100,
-          "avg": 2363845,
-          "ratio": 0.79
+          "current": 439000,
+          "avg": 2276795,
+          "ratio": 0.19
         }
       },
       "signals": {
-        "rsi": "approaching_overbought",
+        "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 62,
-      "tech_score": 71,
+      "score": 61,
+      "tech_score": 70,
       "grade": "buy",
-      "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PBR (프리미엄) | 음의 ROE",
+      "summary": "MACD 골든크로스 + 강한 상승추세 | 고PBR (프리미엄) | 음의 ROE",
       "fundamentals": {
         "per": null,
         "forward_per": 28.56,
         "pbr": 30.77,
         "roe": -0.1535,
         "roa": -0.0162,
-        "eps": -0.7,
+        "eps": -0.69,
         "forward_eps": 5.64,
         "revenue_growth": 0.206,
         "earnings_growth": null,
@@ -5253,40 +5253,40 @@
       "market": "NASDAQ",
       "sector": "Real Estate",
       "price": {
-        "current": 66.64,
-        "open": 66.6,
-        "high": 66.88,
-        "low": 65.79,
-        "volume": 2723500,
-        "change_pct": 0.06
+        "current": 66.89,
+        "open": 66.34,
+        "high": 67.27,
+        "low": 66.3,
+        "volume": 992800,
+        "change_pct": 0.38
       },
       "indicators": {
-        "rsi_14": 40.94,
+        "rsi_14": 44.82,
         "macd": {
-          "macd_line": -1.18,
-          "signal_line": -1.36,
-          "histogram": 0.18
+          "macd_line": -1.03,
+          "signal_line": -1.29,
+          "histogram": 0.26
         },
         "bollinger": {
-          "upper": 70.47,
-          "middle": 67.03,
-          "lower": 63.59,
-          "bandwidth": 0.1026
+          "upper": 70.2,
+          "middle": 66.92,
+          "lower": 63.63,
+          "bandwidth": 0.0981
         },
-        "sma_20": 67.03,
-        "sma_50": 69.51,
+        "sma_20": 66.92,
+        "sma_50": 69.34,
         "sma_200": 0,
         "volume": {
-          "current": 2723500,
-          "avg": 4348000,
-          "ratio": 0.63
+          "current": 992800,
+          "avg": 3935180,
+          "ratio": 0.25
         }
       },
       "signals": {
         "rsi": "neutral",
         "macd": "bullish_crossover",
         "bollinger": "within_bands",
-        "volume": "normal",
+        "volume": "below_average",
         "trend": "strong_downtrend"
       },
       "score": 50,
@@ -5322,33 +5322,33 @@
       "market": "NASDAQ",
       "sector": "Technology",
       "price": {
-        "current": 141.23,
-        "open": 141.74,
-        "high": 142.48,
-        "low": 138.33,
-        "volume": 3084500,
-        "change_pct": -0.43
+        "current": 138.04,
+        "open": 139.65,
+        "high": 139.65,
+        "low": 135.11,
+        "volume": 2005400,
+        "change_pct": -2.26
       },
       "indicators": {
-        "rsi_14": 26.14,
+        "rsi_14": 25.84,
         "macd": {
-          "macd_line": -6.56,
-          "signal_line": -5.85,
-          "histogram": -0.71
+          "macd_line": -6.58,
+          "signal_line": -5.97,
+          "histogram": -0.6
         },
         "bollinger": {
-          "upper": 164.86,
-          "middle": 149.33,
-          "lower": 133.79,
-          "bandwidth": 0.208
+          "upper": 163.89,
+          "middle": 148.28,
+          "lower": 132.66,
+          "bandwidth": 0.2106
         },
-        "sma_20": 149.33,
-        "sma_50": 160.13,
+        "sma_20": 148.28,
+        "sma_50": 159.68,
         "sma_200": 0,
         "volume": {
-          "current": 3084500,
-          "avg": 4002150,
-          "ratio": 0.77
+          "current": 2005400,
+          "avg": 3815475,
+          "ratio": 0.53
         }
       },
       "signals": {
@@ -5363,12 +5363,12 @@
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 445.29,
+        "per": 460.13,
         "forward_per": 58.89,
         "pbr": 14.07,
         "roe": 0.0352,
         "roa": -0.005,
-        "eps": 0.31,
+        "eps": 0.3,
         "forward_eps": 2.34,
         "revenue_growth": 0.284,
         "earnings_growth": -0.337,
@@ -5391,53 +5391,53 @@
       "market": "NASDAQ",
       "sector": "Healthcare",
       "price": {
-        "current": 136.19,
-        "open": 137.01,
-        "high": 137.16,
-        "low": 134.21,
-        "volume": 916200,
-        "change_pct": -1.02
+        "current": 135.32,
+        "open": 135.65,
+        "high": 136.54,
+        "low": 132.93,
+        "volume": 597500,
+        "change_pct": -0.64
       },
       "indicators": {
-        "rsi_14": 64.54,
+        "rsi_14": 62.51,
         "macd": {
-          "macd_line": 4.21,
-          "signal_line": 4.52,
-          "histogram": -0.31
+          "macd_line": 4.07,
+          "signal_line": 4.42,
+          "histogram": -0.35
         },
         "bollinger": {
-          "upper": 138.33,
-          "middle": 131.64,
-          "lower": 124.95,
-          "bandwidth": 0.1016
+          "upper": 138.74,
+          "middle": 131.93,
+          "lower": 125.11,
+          "bandwidth": 0.1033
         },
-        "sma_20": 131.64,
-        "sma_50": 119.2,
+        "sma_20": 131.93,
+        "sma_50": 120.09,
         "sma_200": 0,
         "volume": {
-          "current": 916200,
-          "avg": 1776010,
-          "ratio": 0.52
+          "current": 597500,
+          "avg": 1705190,
+          "ratio": 0.35
         }
       },
       "signals": {
         "rsi": "approaching_overbought",
         "macd": "bearish_crossover",
-        "bollinger": "upper_band_approach",
-        "volume": "normal",
+        "bollinger": "within_bands",
+        "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 45,
-      "tech_score": 44,
+      "score": 49,
+      "tech_score": 48,
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.41,
+        "per": 30.27,
         "forward_per": 27.01,
         "pbr": 8.7,
         "roe": 0.312,
         "roa": 0.0915,
-        "eps": 4.45,
+        "eps": 4.47,
         "forward_eps": 5.01,
         "revenue_growth": 0.004,
         "earnings_growth": -0.778,
