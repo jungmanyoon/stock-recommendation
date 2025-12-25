@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-24T16:45:11.489742",
+  "updated_at": "2025-12-25T16:46:05.679033",
   "market": "KOSDAQ",
   "count": 146,
   "stocks": [
@@ -19,9 +19,9 @@
       "indicators": {
         "rsi_14": 20.72,
         "macd": {
-          "macd_line": -21115.74,
-          "signal_line": -19004.36,
-          "histogram": -2111.38
+          "macd_line": -21124.37,
+          "signal_line": -19017.0,
+          "histogram": -2107.37
         },
         "bollinger": {
           "upper": 550134.55,
@@ -74,9 +74,9 @@
       "indicators": {
         "rsi_14": 49.86,
         "macd": {
-          "macd_line": 1594.26,
-          "signal_line": 3610.25,
-          "histogram": -2016.0
+          "macd_line": 1586.78,
+          "signal_line": 3599.3,
+          "histogram": -2012.52
         },
         "bollinger": {
           "upper": 184285.34,
@@ -129,9 +129,9 @@
       "indicators": {
         "rsi_14": 55.45,
         "macd": {
-          "macd_line": 3145.76,
-          "signal_line": 5056.32,
-          "histogram": -1910.56
+          "macd_line": 3147.49,
+          "signal_line": 5058.85,
+          "histogram": -1911.36
         },
         "bollinger": {
           "upper": 121806.96,
@@ -184,9 +184,9 @@
       "indicators": {
         "rsi_14": 41.51,
         "macd": {
-          "macd_line": 8923.7,
-          "signal_line": 12598.62,
-          "histogram": -3674.92
+          "macd_line": 8940.37,
+          "signal_line": 12623.05,
+          "histogram": -3682.68
         },
         "bollinger": {
           "upper": 205344.81,
@@ -239,9 +239,9 @@
       "indicators": {
         "rsi_14": 52.39,
         "macd": {
-          "macd_line": 20760.89,
-          "signal_line": 20165.73,
-          "histogram": 595.16
+          "macd_line": 20812.62,
+          "signal_line": 20241.55,
+          "histogram": 571.08
         },
         "bollinger": {
           "upper": 506560.44,
@@ -294,9 +294,9 @@
       "indicators": {
         "rsi_14": 28.07,
         "macd": {
-          "macd_line": -28.63,
-          "signal_line": 2428.03,
-          "histogram": -2456.66
+          "macd_line": -10.23,
+          "signal_line": 2454.99,
+          "histogram": -2465.22
         },
         "bollinger": {
           "upper": 200312.53,
@@ -349,9 +349,9 @@
       "indicators": {
         "rsi_14": 35.77,
         "macd": {
-          "macd_line": -210.1,
-          "signal_line": 65.41,
-          "histogram": -275.51
+          "macd_line": -210.97,
+          "signal_line": 64.14,
+          "histogram": -275.11
         },
         "bollinger": {
           "upper": 50525.6,
@@ -404,9 +404,9 @@
       "indicators": {
         "rsi_14": 33.46,
         "macd": {
-          "macd_line": 3250.84,
-          "signal_line": 5050.57,
-          "histogram": -1799.73
+          "macd_line": 3262.62,
+          "signal_line": 5067.84,
+          "histogram": -1805.21
         },
         "bollinger": {
           "upper": 88416.24,
@@ -459,9 +459,9 @@
       "indicators": {
         "rsi_14": 23.98,
         "macd": {
-          "macd_line": -16853.24,
-          "signal_line": -11865.61,
-          "histogram": -4987.63
+          "macd_line": -16824.49,
+          "signal_line": -11823.49,
+          "histogram": -5001.0
         },
         "bollinger": {
           "upper": 329310.9,
@@ -514,9 +514,9 @@
       "indicators": {
         "rsi_14": 47.06,
         "macd": {
-          "macd_line": 1922.5,
-          "signal_line": 2616.75,
-          "histogram": -694.25
+          "macd_line": 1873.64,
+          "signal_line": 2545.14,
+          "histogram": -671.5
         },
         "bollinger": {
           "upper": 243034.32,
@@ -569,9 +569,9 @@
       "indicators": {
         "rsi_14": 32.79,
         "macd": {
-          "macd_line": 145.87,
-          "signal_line": 730.44,
-          "histogram": -584.57
+          "macd_line": 140.12,
+          "signal_line": 722.01,
+          "histogram": -581.89
         },
         "bollinger": {
           "upper": 68733.86,
@@ -624,9 +624,9 @@
       "indicators": {
         "rsi_14": 41.07,
         "macd": {
-          "macd_line": -19807.13,
-          "signal_line": -25014.28,
-          "histogram": 5207.15
+          "macd_line": -19818.63,
+          "signal_line": -25031.13,
+          "histogram": 5212.5
         },
         "bollinger": {
           "upper": 446496.86,
@@ -679,9 +679,9 @@
       "indicators": {
         "rsi_14": 38.13,
         "macd": {
-          "macd_line": -2236.3,
-          "signal_line": -7.43,
-          "histogram": -2228.87
+          "macd_line": -2221.35,
+          "signal_line": 14.48,
+          "histogram": -2235.83
         },
         "bollinger": {
           "upper": 248925.35,
@@ -734,9 +734,9 @@
       "indicators": {
         "rsi_14": 41.3,
         "macd": {
-          "macd_line": 14578.88,
-          "signal_line": 18552.02,
-          "histogram": -3973.14
+          "macd_line": 14588.4,
+          "signal_line": 18565.97,
+          "histogram": -3977.57
         },
         "bollinger": {
           "upper": 324578.3,
@@ -789,9 +789,9 @@
       "indicators": {
         "rsi_14": 41.08,
         "macd": {
-          "macd_line": 2424.43,
-          "signal_line": 3698.02,
-          "histogram": -1273.59
+          "macd_line": 2429.18,
+          "signal_line": 3704.98,
+          "histogram": -1275.8
         },
         "bollinger": {
           "upper": 98997.87,
@@ -844,9 +844,9 @@
       "indicators": {
         "rsi_14": 45.18,
         "macd": {
-          "macd_line": 512.03,
-          "signal_line": 1064.91,
-          "histogram": -552.88
+          "macd_line": 517.2,
+          "signal_line": 1072.49,
+          "histogram": -555.29
         },
         "bollinger": {
           "upper": 60774.19,
@@ -899,9 +899,9 @@
       "indicators": {
         "rsi_14": 29.91,
         "macd": {
-          "macd_line": -1224.18,
-          "signal_line": -151.66,
-          "histogram": -1072.52
+          "macd_line": -1222.45,
+          "signal_line": -149.13,
+          "histogram": -1073.32
         },
         "bollinger": {
           "upper": 83555.22,
@@ -954,9 +954,9 @@
       "indicators": {
         "rsi_14": 37.08,
         "macd": {
-          "macd_line": -2818.04,
-          "signal_line": -1195.45,
-          "histogram": -1622.6
+          "macd_line": -2866.91,
+          "signal_line": -1267.05,
+          "histogram": -1599.85
         },
         "bollinger": {
           "upper": 289662.79,
@@ -1009,9 +1009,9 @@
       "indicators": {
         "rsi_14": 54.43,
         "macd": {
-          "macd_line": 14.51,
-          "signal_line": -100.51,
-          "histogram": 115.02
+          "macd_line": 17.1,
+          "signal_line": -96.72,
+          "histogram": 113.82
         },
         "bollinger": {
           "upper": 64825.69,
@@ -1064,9 +1064,9 @@
       "indicators": {
         "rsi_14": 84.38,
         "macd": {
-          "macd_line": 4214.3,
-          "signal_line": 1297.81,
-          "histogram": 2916.49
+          "macd_line": 4209.13,
+          "signal_line": 1290.22,
+          "histogram": 2918.9
         },
         "bollinger": {
           "upper": 127119.99,
@@ -1119,9 +1119,9 @@
       "indicators": {
         "rsi_14": 57.45,
         "macd": {
-          "macd_line": -997.69,
-          "signal_line": -2697.89,
-          "histogram": 1700.2
+          "macd_line": -899.97,
+          "signal_line": -2554.68,
+          "histogram": 1654.71
         },
         "bollinger": {
           "upper": 241742.86,
@@ -1174,9 +1174,9 @@
       "indicators": {
         "rsi_14": 69.37,
         "macd": {
-          "macd_line": 2420.53,
-          "signal_line": 1958.92,
-          "histogram": 461.61
+          "macd_line": 2426.11,
+          "signal_line": 1967.09,
+          "histogram": 459.02
         },
         "bollinger": {
           "upper": 38634.31,
@@ -1229,9 +1229,9 @@
       "indicators": {
         "rsi_14": 45.83,
         "macd": {
-          "macd_line": 180.76,
-          "signal_line": 383.31,
-          "histogram": -202.55
+          "macd_line": 181.91,
+          "signal_line": 384.99,
+          "histogram": -203.09
         },
         "bollinger": {
           "upper": 64025.62,
@@ -1284,9 +1284,9 @@
       "indicators": {
         "rsi_14": 54.84,
         "macd": {
-          "macd_line": 2077.46,
-          "signal_line": 3201.16,
-          "histogram": -1123.7
+          "macd_line": 2120.57,
+          "signal_line": 3264.34,
+          "histogram": -1143.77
         },
         "bollinger": {
           "upper": 143750.29,
@@ -1339,9 +1339,9 @@
       "indicators": {
         "rsi_14": 61.08,
         "macd": {
-          "macd_line": 5643.91,
-          "signal_line": 6582.05,
-          "histogram": -938.13
+          "macd_line": 5653.11,
+          "signal_line": 6595.53,
+          "histogram": -942.41
         },
         "bollinger": {
           "upper": 135742.75,
@@ -1394,9 +1394,9 @@
       "indicators": {
         "rsi_14": 72.28,
         "macd": {
-          "macd_line": 225.83,
-          "signal_line": -486.74,
-          "histogram": 712.57
+          "macd_line": 225.26,
+          "signal_line": -487.58,
+          "histogram": 712.84
         },
         "bollinger": {
           "upper": 72107.46,
@@ -1449,9 +1449,9 @@
       "indicators": {
         "rsi_14": 46.27,
         "macd": {
-          "macd_line": -458.9,
-          "signal_line": -658.07,
-          "histogram": 199.17
+          "macd_line": -461.2,
+          "signal_line": -661.44,
+          "histogram": 200.24
         },
         "bollinger": {
           "upper": 31629.98,
@@ -1504,9 +1504,9 @@
       "indicators": {
         "rsi_14": 38.05,
         "macd": {
-          "macd_line": -84.66,
-          "signal_line": 79.26,
-          "histogram": -163.92
+          "macd_line": -82.07,
+          "signal_line": 83.05,
+          "histogram": -165.12
         },
         "bollinger": {
           "upper": 39189.57,
@@ -1614,9 +1614,9 @@
       "indicators": {
         "rsi_14": 31.84,
         "macd": {
-          "macd_line": -1089.4,
-          "signal_line": -833.15,
-          "histogram": -256.25
+          "macd_line": -1096.01,
+          "signal_line": -842.84,
+          "histogram": -253.17
         },
         "bollinger": {
           "upper": 45401.79,
@@ -1669,9 +1669,9 @@
       "indicators": {
         "rsi_14": 41.72,
         "macd": {
-          "macd_line": 3209.68,
-          "signal_line": 4273.21,
-          "histogram": -1063.53
+          "macd_line": 3183.81,
+          "signal_line": 4235.3,
+          "histogram": -1051.48
         },
         "bollinger": {
           "upper": 115943.93,
@@ -1724,9 +1724,9 @@
       "indicators": {
         "rsi_14": 90.32,
         "macd": {
-          "macd_line": 1811.03,
-          "signal_line": 1032.16,
-          "histogram": 778.87
+          "macd_line": 1810.97,
+          "signal_line": 1032.07,
+          "histogram": 778.89
         },
         "bollinger": {
           "upper": 17171.73,
@@ -1779,9 +1779,9 @@
       "indicators": {
         "rsi_14": 60.9,
         "macd": {
-          "macd_line": 10582.33,
-          "signal_line": 10427.38,
-          "histogram": 154.96
+          "macd_line": 10575.43,
+          "signal_line": 10417.27,
+          "histogram": 158.17
         },
         "bollinger": {
           "upper": 110621.5,
@@ -1834,9 +1834,9 @@
       "indicators": {
         "rsi_14": 39.46,
         "macd": {
-          "macd_line": -2055.55,
-          "signal_line": -1869.41,
-          "histogram": -186.14
+          "macd_line": -2092.91,
+          "signal_line": -1924.17,
+          "histogram": -168.74
         },
         "bollinger": {
           "upper": 291062.7,
@@ -1889,9 +1889,9 @@
       "indicators": {
         "rsi_14": 53.37,
         "macd": {
-          "macd_line": 27.92,
-          "signal_line": -80.86,
-          "histogram": 108.77
+          "macd_line": 25.33,
+          "signal_line": -84.65,
+          "histogram": 109.98
         },
         "bollinger": {
           "upper": 40058.86,
@@ -1944,9 +1944,9 @@
       "indicators": {
         "rsi_14": 65.48,
         "macd": {
-          "macd_line": 10660.84,
-          "signal_line": 10342.12,
-          "histogram": 318.72
+          "macd_line": 10666.88,
+          "signal_line": 10350.96,
+          "histogram": 315.92
         },
         "bollinger": {
           "upper": 93832.14,
@@ -1999,9 +1999,9 @@
       "indicators": {
         "rsi_14": 40.18,
         "macd": {
-          "macd_line": -938.62,
-          "signal_line": -498.0,
-          "histogram": -440.61
+          "macd_line": -942.93,
+          "signal_line": -504.32,
+          "histogram": -438.61
         },
         "bollinger": {
           "upper": 57824.52,
@@ -2054,9 +2054,9 @@
       "indicators": {
         "rsi_14": 72.1,
         "macd": {
-          "macd_line": 5989.9,
-          "signal_line": 5308.95,
-          "histogram": 680.94
+          "macd_line": 5995.42,
+          "signal_line": 5317.04,
+          "histogram": 678.37
         },
         "bollinger": {
           "upper": 59654.52,
@@ -2109,9 +2109,9 @@
       "indicators": {
         "rsi_14": 43.99,
         "macd": {
-          "macd_line": 1557.43,
-          "signal_line": 2212.37,
-          "histogram": -654.94
+          "macd_line": 1569.5,
+          "signal_line": 2230.06,
+          "histogram": -660.56
         },
         "bollinger": {
           "upper": 67012.04,
@@ -2164,9 +2164,9 @@
       "indicators": {
         "rsi_14": 43.5,
         "macd": {
-          "macd_line": -2598.29,
-          "signal_line": -2886.81,
-          "histogram": 288.51
+          "macd_line": -2599.44,
+          "signal_line": -2888.49,
+          "histogram": 289.05
         },
         "bollinger": {
           "upper": 82105.56,
@@ -2219,9 +2219,9 @@
       "indicators": {
         "rsi_14": 62.61,
         "macd": {
-          "macd_line": 5156.15,
-          "signal_line": 5449.15,
-          "histogram": -293.0
+          "macd_line": 5165.35,
+          "signal_line": 5462.63,
+          "histogram": -297.28
         },
         "bollinger": {
           "upper": 103383.82,
@@ -2274,9 +2274,9 @@
       "indicators": {
         "rsi_14": 24.63,
         "macd": {
-          "macd_line": -1572.83,
-          "signal_line": 523.06,
-          "histogram": -2095.89
+          "macd_line": -1565.64,
+          "signal_line": 533.59,
+          "histogram": -2099.24
         },
         "bollinger": {
           "upper": 67801.74,
@@ -2329,9 +2329,9 @@
       "indicators": {
         "rsi_14": 48.4,
         "macd": {
-          "macd_line": -3111.4,
-          "signal_line": -3665.68,
-          "histogram": 554.28
+          "macd_line": -3139.57,
+          "signal_line": -3706.96,
+          "histogram": 567.39
         },
         "bollinger": {
           "upper": 151365.1,
@@ -2384,9 +2384,9 @@
       "indicators": {
         "rsi_14": 53.04,
         "macd": {
-          "macd_line": 2264.25,
-          "signal_line": 2420.34,
-          "histogram": -156.09
+          "macd_line": 2255.34,
+          "signal_line": 2407.28,
+          "histogram": -151.94
         },
         "bollinger": {
           "upper": 63015.02,
@@ -2439,9 +2439,9 @@
       "indicators": {
         "rsi_14": 77.44,
         "macd": {
-          "macd_line": 7337.1,
-          "signal_line": 6201.69,
-          "histogram": 1135.41
+          "macd_line": 7343.14,
+          "signal_line": 6210.54,
+          "histogram": 1132.6
         },
         "bollinger": {
           "upper": 76174.27,
@@ -2494,9 +2494,9 @@
       "indicators": {
         "rsi_14": 46.57,
         "macd": {
-          "macd_line": -2532.46,
-          "signal_line": -3051.73,
-          "histogram": 519.27
+          "macd_line": -2522.4,
+          "signal_line": -3036.98,
+          "histogram": 514.59
         },
         "bollinger": {
           "upper": 49439.54,
@@ -2549,9 +2549,9 @@
       "indicators": {
         "rsi_14": 47.6,
         "macd": {
-          "macd_line": 416.2,
-          "signal_line": 1034.46,
-          "histogram": -618.26
+          "macd_line": 413.9,
+          "signal_line": 1031.09,
+          "histogram": -617.19
         },
         "bollinger": {
           "upper": 68813.38,
@@ -2604,9 +2604,9 @@
       "indicators": {
         "rsi_14": 48.33,
         "macd": {
-          "macd_line": -257.87,
-          "signal_line": -256.24,
-          "histogram": -1.63
+          "macd_line": -259.48,
+          "signal_line": -258.6,
+          "histogram": -0.88
         },
         "bollinger": {
           "upper": 26205.0,
@@ -2659,9 +2659,9 @@
       "indicators": {
         "rsi_14": 22.6,
         "macd": {
-          "macd_line": 801.99,
-          "signal_line": 1435.95,
-          "histogram": -633.96
+          "macd_line": 801.07,
+          "signal_line": 1434.61,
+          "histogram": -633.54
         },
         "bollinger": {
           "upper": 29903.62,
@@ -2714,9 +2714,9 @@
       "indicators": {
         "rsi_14": 54.86,
         "macd": {
-          "macd_line": 1135.18,
-          "signal_line": 1324.02,
-          "histogram": -188.84
+          "macd_line": 1136.04,
+          "signal_line": 1325.29,
+          "histogram": -189.24
         },
         "bollinger": {
           "upper": 35167.51,
@@ -2769,9 +2769,9 @@
       "indicators": {
         "rsi_14": 48.28,
         "macd": {
-          "macd_line": 2627.36,
-          "signal_line": 3276.51,
-          "histogram": -649.15
+          "macd_line": 2645.75,
+          "signal_line": 3303.46,
+          "histogram": -657.71
         },
         "bollinger": {
           "upper": 74023.95,
@@ -2824,9 +2824,9 @@
       "indicators": {
         "rsi_14": 48.71,
         "macd": {
-          "macd_line": -2229.04,
-          "signal_line": -2551.15,
-          "histogram": 322.11
+          "macd_line": -2233.06,
+          "signal_line": -2557.05,
+          "histogram": 323.99
         },
         "bollinger": {
           "upper": 77254.81,
@@ -2879,9 +2879,9 @@
       "indicators": {
         "rsi_14": 46.21,
         "macd": {
-          "macd_line": 2206.8,
-          "signal_line": 3444.03,
-          "histogram": -1237.24
+          "macd_line": 2216.57,
+          "signal_line": 3458.35,
+          "histogram": -1241.78
         },
         "bollinger": {
           "upper": 134929.98,
@@ -2934,9 +2934,9 @@
       "indicators": {
         "rsi_14": 55.24,
         "macd": {
-          "macd_line": 3316.76,
-          "signal_line": 4053.46,
-          "histogram": -736.7
+          "macd_line": 3314.74,
+          "signal_line": 4050.51,
+          "histogram": -735.77
         },
         "bollinger": {
           "upper": 56802.64,
@@ -2989,9 +2989,9 @@
       "indicators": {
         "rsi_14": 32.14,
         "macd": {
-          "macd_line": -6472.78,
-          "signal_line": -6530.16,
-          "histogram": 57.37
+          "macd_line": -6481.41,
+          "signal_line": -6542.8,
+          "histogram": 61.39
         },
         "bollinger": {
           "upper": 236385.98,
@@ -3044,9 +3044,9 @@
       "indicators": {
         "rsi_14": 56.34,
         "macd": {
-          "macd_line": 306.2,
-          "signal_line": 380.64,
-          "histogram": -74.43
+          "macd_line": 305.63,
+          "signal_line": 379.79,
+          "histogram": -74.17
         },
         "bollinger": {
           "upper": 27497.74,
@@ -3099,9 +3099,9 @@
       "indicators": {
         "rsi_14": 50.0,
         "macd": {
-          "macd_line": -397.4,
-          "signal_line": -481.91,
-          "histogram": 84.51
+          "macd_line": -381.88,
+          "signal_line": -459.17,
+          "histogram": 77.29
         },
         "bollinger": {
           "upper": 23374.59,
@@ -3154,9 +3154,9 @@
       "indicators": {
         "rsi_14": 35.8,
         "macd": {
-          "macd_line": 276.48,
-          "signal_line": 516.25,
-          "histogram": -239.78
+          "macd_line": 273.31,
+          "signal_line": 511.62,
+          "histogram": -238.3
         },
         "bollinger": {
           "upper": 53384.67,
@@ -3209,9 +3209,9 @@
       "indicators": {
         "rsi_14": 60.0,
         "macd": {
-          "macd_line": -403.7,
-          "signal_line": -949.26,
-          "histogram": 545.56
+          "macd_line": -408.3,
+          "signal_line": -956.0,
+          "histogram": 547.7
         },
         "bollinger": {
           "upper": 65635.44,
@@ -3264,9 +3264,9 @@
       "indicators": {
         "rsi_14": 15.69,
         "macd": {
-          "macd_line": -198.67,
-          "signal_line": -128.95,
-          "histogram": -69.72
+          "macd_line": -197.47,
+          "signal_line": -127.18,
+          "histogram": -70.28
         },
         "bollinger": {
           "upper": 16747.03,
@@ -3319,9 +3319,9 @@
       "indicators": {
         "rsi_14": 66.06,
         "macd": {
-          "macd_line": 821.0,
-          "signal_line": 18.8,
-          "histogram": 802.19
+          "macd_line": 812.66,
+          "signal_line": 6.59,
+          "histogram": 806.07
         },
         "bollinger": {
           "upper": 43712.63,
@@ -3374,9 +3374,9 @@
       "indicators": {
         "rsi_14": 28.85,
         "macd": {
-          "macd_line": -509.69,
-          "signal_line": -481.01,
-          "histogram": -28.68
+          "macd_line": -512.57,
+          "signal_line": -485.22,
+          "histogram": -27.35
         },
         "bollinger": {
           "upper": 30626.81,
@@ -3429,9 +3429,9 @@
       "indicators": {
         "rsi_14": 33.33,
         "macd": {
-          "macd_line": -244.24,
-          "signal_line": -208.65,
-          "histogram": -35.58
+          "macd_line": -243.66,
+          "signal_line": -207.81,
+          "histogram": -35.85
         },
         "bollinger": {
           "upper": 26255.8,
@@ -3484,9 +3484,9 @@
       "indicators": {
         "rsi_14": 74.29,
         "macd": {
-          "macd_line": 514.56,
-          "signal_line": -48.32,
-          "histogram": 562.88
+          "macd_line": 516.0,
+          "signal_line": -46.22,
+          "histogram": 562.21
         },
         "bollinger": {
           "upper": 42943.37,
@@ -3539,9 +3539,9 @@
       "indicators": {
         "rsi_14": 68.87,
         "macd": {
-          "macd_line": -1411.64,
-          "signal_line": -2595.18,
-          "histogram": 1183.54
+          "macd_line": -1415.66,
+          "signal_line": -2601.07,
+          "histogram": 1185.41
         },
         "bollinger": {
           "upper": 65986.4,
@@ -3594,9 +3594,9 @@
       "indicators": {
         "rsi_14": 60.57,
         "macd": {
-          "macd_line": 624.31,
-          "signal_line": 651.74,
-          "histogram": -27.44
+          "macd_line": 624.54,
+          "signal_line": 652.08,
+          "histogram": -27.54
         },
         "bollinger": {
           "upper": 12422.79,
@@ -3649,9 +3649,9 @@
       "indicators": {
         "rsi_14": 53.11,
         "macd": {
-          "macd_line": 7990.82,
-          "signal_line": 8200.06,
-          "histogram": -209.24
+          "macd_line": 7972.72,
+          "signal_line": 8173.53,
+          "histogram": -200.81
         },
         "bollinger": {
           "upper": 110534.27,
@@ -3704,9 +3704,9 @@
       "indicators": {
         "rsi_14": 31.46,
         "macd": {
-          "macd_line": -3084.91,
-          "signal_line": -3253.09,
-          "histogram": 168.18
+          "macd_line": -3085.19,
+          "signal_line": -3253.51,
+          "histogram": 168.31
         },
         "bollinger": {
           "upper": 35572.84,
@@ -3759,9 +3759,9 @@
       "indicators": {
         "rsi_14": 44.87,
         "macd": {
-          "macd_line": 47.18,
-          "signal_line": 106.03,
-          "histogram": -58.84
+          "macd_line": 45.23,
+          "signal_line": 103.16,
+          "histogram": -57.93
         },
         "bollinger": {
           "upper": 15367.88,
@@ -3814,9 +3814,9 @@
       "indicators": {
         "rsi_14": 44.39,
         "macd": {
-          "macd_line": -716.53,
-          "signal_line": -764.67,
-          "histogram": 48.13
+          "macd_line": -723.43,
+          "signal_line": -774.77,
+          "histogram": 51.34
         },
         "bollinger": {
           "upper": 22000.63,
@@ -3869,9 +3869,9 @@
       "indicators": {
         "rsi_14": 33.14,
         "macd": {
-          "macd_line": 396.78,
-          "signal_line": 561.45,
-          "histogram": -164.67
+          "macd_line": 396.32,
+          "signal_line": 560.78,
+          "histogram": -164.46
         },
         "bollinger": {
           "upper": 16172.8,
@@ -3924,9 +3924,9 @@
       "indicators": {
         "rsi_14": 61.95,
         "macd": {
-          "macd_line": 2945.96,
-          "signal_line": 2637.28,
-          "histogram": 308.68
+          "macd_line": 2952.57,
+          "signal_line": 2646.97,
+          "histogram": 305.6
         },
         "bollinger": {
           "upper": 50455.82,
@@ -3979,9 +3979,9 @@
       "indicators": {
         "rsi_14": 15.76,
         "macd": {
-          "macd_line": -2966.75,
-          "signal_line": -1337.51,
-          "histogram": -1629.24
+          "macd_line": -2961.76,
+          "signal_line": -1330.2,
+          "histogram": -1631.56
         },
         "bollinger": {
           "upper": 89921.06,
@@ -4034,9 +4034,9 @@
       "indicators": {
         "rsi_14": 38.47,
         "macd": {
-          "macd_line": -138.03,
-          "signal_line": 172.44,
-          "histogram": -310.47
+          "macd_line": -134.64,
+          "signal_line": 177.41,
+          "histogram": -312.05
         },
         "bollinger": {
           "upper": 20796.34,
@@ -4089,9 +4089,9 @@
       "indicators": {
         "rsi_14": 8.57,
         "macd": {
-          "macd_line": -909.26,
-          "signal_line": -526.6,
-          "histogram": -382.66
+          "macd_line": -912.83,
+          "signal_line": -531.82,
+          "histogram": -381.0
         },
         "bollinger": {
           "upper": 28802.63,
@@ -4144,9 +4144,9 @@
       "indicators": {
         "rsi_14": 30.27,
         "macd": {
-          "macd_line": -1683.9,
-          "signal_line": -820.56,
-          "histogram": -863.34
+          "macd_line": -1685.04,
+          "signal_line": -822.24,
+          "histogram": -862.8
         },
         "bollinger": {
           "upper": 80296.71,
@@ -4199,9 +4199,9 @@
       "indicators": {
         "rsi_14": 57.14,
         "macd": {
-          "macd_line": 595.99,
-          "signal_line": 586.64,
-          "histogram": 9.36
+          "macd_line": 578.17,
+          "signal_line": 560.52,
+          "histogram": 17.65
         },
         "bollinger": {
           "upper": 47506.56,
@@ -4254,9 +4254,9 @@
       "indicators": {
         "rsi_14": 42.4,
         "macd": {
-          "macd_line": -1069.57,
-          "signal_line": -1353.09,
-          "histogram": 283.52
+          "macd_line": -1073.02,
+          "signal_line": -1358.14,
+          "histogram": 285.12
         },
         "bollinger": {
           "upper": 53222.16,
@@ -4309,9 +4309,9 @@
       "indicators": {
         "rsi_14": 61.51,
         "macd": {
-          "macd_line": 155.45,
-          "signal_line": -394.31,
-          "histogram": 549.76
+          "macd_line": 160.34,
+          "signal_line": -387.15,
+          "histogram": 547.48
         },
         "bollinger": {
           "upper": 35175.18,
@@ -4364,9 +4364,9 @@
       "indicators": {
         "rsi_14": 32.37,
         "macd": {
-          "macd_line": 714.37,
-          "signal_line": 1255.57,
-          "histogram": -541.2
+          "macd_line": 710.92,
+          "signal_line": 1250.51,
+          "histogram": -539.59
         },
         "bollinger": {
           "upper": 32434.0,
@@ -4419,9 +4419,9 @@
       "indicators": {
         "rsi_14": 59.13,
         "macd": {
-          "macd_line": 258.41,
-          "signal_line": 248.34,
-          "histogram": 10.07
+          "macd_line": 259.1,
+          "signal_line": 249.35,
+          "histogram": 9.75
         },
         "bollinger": {
           "upper": 16256.93,
@@ -4474,9 +4474,9 @@
       "indicators": {
         "rsi_14": 46.27,
         "macd": {
-          "macd_line": 1520.56,
-          "signal_line": 2321.04,
-          "histogram": -800.48
+          "macd_line": 1533.21,
+          "signal_line": 2339.58,
+          "histogram": -806.37
         },
         "bollinger": {
           "upper": 98572.74,
@@ -4584,9 +4584,9 @@
       "indicators": {
         "rsi_14": 29.15,
         "macd": {
-          "macd_line": 2222.98,
-          "signal_line": 5427.31,
-          "histogram": -3204.33
+          "macd_line": 2221.09,
+          "signal_line": 5424.53,
+          "histogram": -3203.44
         },
         "bollinger": {
           "upper": 87254.31,
@@ -4639,9 +4639,9 @@
       "indicators": {
         "rsi_14": 63.99,
         "macd": {
-          "macd_line": 1478.18,
-          "signal_line": 1642.17,
-          "histogram": -163.99
+          "macd_line": 1478.41,
+          "signal_line": 1642.51,
+          "histogram": -164.09
         },
         "bollinger": {
           "upper": 15922.85,
@@ -4694,9 +4694,9 @@
       "indicators": {
         "rsi_14": 82.25,
         "macd": {
-          "macd_line": 1099.08,
-          "signal_line": 176.16,
-          "histogram": 922.93
+          "macd_line": 1097.94,
+          "signal_line": 174.47,
+          "histogram": 923.46
         },
         "bollinger": {
           "upper": 39568.55,
@@ -4749,9 +4749,9 @@
       "indicators": {
         "rsi_14": 24.18,
         "macd": {
-          "macd_line": -684.39,
-          "signal_line": -549.98,
-          "histogram": -134.41
+          "macd_line": -685.54,
+          "signal_line": -551.67,
+          "histogram": -133.87
         },
         "bollinger": {
           "upper": 43300.45,
@@ -4804,9 +4804,9 @@
       "indicators": {
         "rsi_14": 41.18,
         "macd": {
-          "macd_line": -540.8,
-          "signal_line": -245.0,
-          "histogram": -295.81
+          "macd_line": -541.09,
+          "signal_line": -245.42,
+          "histogram": -295.67
         },
         "bollinger": {
           "upper": 44197.59,
@@ -4859,9 +4859,9 @@
       "indicators": {
         "rsi_14": 51.03,
         "macd": {
-          "macd_line": -2602.34,
-          "signal_line": -3498.5,
-          "histogram": 896.17
+          "macd_line": -2603.49,
+          "signal_line": -3500.19,
+          "histogram": 896.7
         },
         "bollinger": {
           "upper": 90944.41,
@@ -4914,9 +4914,9 @@
       "indicators": {
         "rsi_14": 57.59,
         "macd": {
-          "macd_line": -101.92,
-          "signal_line": -484.37,
-          "histogram": 382.46
+          "macd_line": -103.64,
+          "signal_line": -486.9,
+          "histogram": 383.26
         },
         "bollinger": {
           "upper": 46813.36,
@@ -4969,9 +4969,9 @@
       "indicators": {
         "rsi_14": 20.05,
         "macd": {
-          "macd_line": 3699.85,
-          "signal_line": 6465.82,
-          "histogram": -2765.96
+          "macd_line": 3675.71,
+          "signal_line": 6430.43,
+          "histogram": -2754.73
         },
         "bollinger": {
           "upper": 104135.87,
@@ -5024,9 +5024,9 @@
       "indicators": {
         "rsi_14": 30.1,
         "macd": {
-          "macd_line": 280.45,
-          "signal_line": 1496.71,
-          "histogram": -1216.27
+          "macd_line": 285.33,
+          "signal_line": 1503.87,
+          "histogram": -1218.54
         },
         "bollinger": {
           "upper": 71320.61,
@@ -5079,9 +5079,9 @@
       "indicators": {
         "rsi_14": 60.13,
         "macd": {
-          "macd_line": 1013.78,
-          "signal_line": 593.24,
-          "histogram": 420.54
+          "macd_line": 1004.01,
+          "signal_line": 578.92,
+          "histogram": 425.09
         },
         "bollinger": {
           "upper": 35428.23,
@@ -5134,9 +5134,9 @@
       "indicators": {
         "rsi_14": 53.93,
         "macd": {
-          "macd_line": 291.8,
-          "signal_line": 213.06,
-          "histogram": 78.74
+          "macd_line": 292.26,
+          "signal_line": 213.73,
+          "histogram": 78.52
         },
         "bollinger": {
           "upper": 13870.87,
@@ -5189,9 +5189,9 @@
       "indicators": {
         "rsi_14": 33.18,
         "macd": {
-          "macd_line": -625.11,
-          "signal_line": -98.49,
-          "histogram": -526.62
+          "macd_line": -621.09,
+          "signal_line": -92.59,
+          "histogram": -528.5
         },
         "bollinger": {
           "upper": 128660.2,
@@ -5244,9 +5244,9 @@
       "indicators": {
         "rsi_14": 44.12,
         "macd": {
-          "macd_line": 177.94,
-          "signal_line": 125.43,
-          "histogram": 52.5
+          "macd_line": 179.95,
+          "signal_line": 128.38,
+          "histogram": 51.57
         },
         "bollinger": {
           "upper": 25178.47,
@@ -5299,9 +5299,9 @@
       "indicators": {
         "rsi_14": 17.12,
         "macd": {
-          "macd_line": -389.95,
-          "signal_line": -164.05,
-          "histogram": -225.89
+          "macd_line": -390.23,
+          "signal_line": -164.47,
+          "histogram": -225.76
         },
         "bollinger": {
           "upper": 29411.5,
@@ -5354,9 +5354,9 @@
       "indicators": {
         "rsi_14": 49.37,
         "macd": {
-          "macd_line": 586.16,
-          "signal_line": 625.16,
-          "histogram": -39.0
+          "macd_line": 586.52,
+          "signal_line": 625.69,
+          "histogram": -39.17
         },
         "bollinger": {
           "upper": 21170.4,
@@ -5409,9 +5409,9 @@
       "indicators": {
         "rsi_14": 63.09,
         "macd": {
-          "macd_line": 573.53,
-          "signal_line": 605.77,
-          "histogram": -32.23
+          "macd_line": 573.19,
+          "signal_line": 605.26,
+          "histogram": -32.07
         },
         "bollinger": {
           "upper": 13922.82,
@@ -5464,9 +5464,9 @@
       "indicators": {
         "rsi_14": 44.49,
         "macd": {
-          "macd_line": -44.78,
-          "signal_line": 172.41,
-          "histogram": -217.19
+          "macd_line": -55.71,
+          "signal_line": 156.4,
+          "histogram": -212.11
         },
         "bollinger": {
           "upper": 47057.51,
@@ -5519,9 +5519,9 @@
       "indicators": {
         "rsi_14": 60.78,
         "macd": {
-          "macd_line": -441.0,
-          "signal_line": -969.5,
-          "histogram": 528.5
+          "macd_line": -441.58,
+          "signal_line": -970.35,
+          "histogram": 528.77
         },
         "bollinger": {
           "upper": 42120.82,
@@ -5574,9 +5574,9 @@
       "indicators": {
         "rsi_14": 28.95,
         "macd": {
-          "macd_line": -777.64,
-          "signal_line": -556.82,
-          "histogram": -220.82
+          "macd_line": -782.82,
+          "signal_line": -564.4,
+          "histogram": -218.41
         },
         "bollinger": {
           "upper": 44390.96,
@@ -5629,9 +5629,9 @@
       "indicators": {
         "rsi_14": 24.67,
         "macd": {
-          "macd_line": -269.29,
-          "signal_line": -250.47,
-          "histogram": -18.81
+          "macd_line": -267.79,
+          "signal_line": -248.28,
+          "histogram": -19.51
         },
         "bollinger": {
           "upper": 13406.22,
@@ -5684,9 +5684,9 @@
       "indicators": {
         "rsi_14": 58.82,
         "macd": {
-          "macd_line": -170.3,
-          "signal_line": -501.11,
-          "histogram": 330.8
+          "macd_line": -174.9,
+          "signal_line": -507.85,
+          "histogram": 332.94
         },
         "bollinger": {
           "upper": 28475.92,
@@ -5739,9 +5739,9 @@
       "indicators": {
         "rsi_14": 22.62,
         "macd": {
-          "macd_line": -163.84,
-          "signal_line": -45.66,
-          "histogram": -118.19
+          "macd_line": -163.79,
+          "signal_line": -45.57,
+          "histogram": -118.21
         },
         "bollinger": {
           "upper": 19429.49,
@@ -5794,9 +5794,9 @@
       "indicators": {
         "rsi_14": 34.57,
         "macd": {
-          "macd_line": -430.62,
-          "signal_line": -419.99,
-          "histogram": -10.62
+          "macd_line": -428.89,
+          "signal_line": -417.46,
+          "histogram": -11.43
         },
         "bollinger": {
           "upper": 72448.39,
@@ -5904,9 +5904,9 @@
       "indicators": {
         "rsi_14": 60.76,
         "macd": {
-          "macd_line": 169.3,
-          "signal_line": 100.22,
-          "histogram": 69.08
+          "macd_line": 170.57,
+          "signal_line": 102.07,
+          "histogram": 68.49
         },
         "bollinger": {
           "upper": 6398.61,
@@ -5959,9 +5959,9 @@
       "indicators": {
         "rsi_14": 48.4,
         "macd": {
-          "macd_line": 1433.74,
-          "signal_line": 1379.3,
-          "histogram": 54.44
+          "macd_line": 1440.92,
+          "signal_line": 1389.83,
+          "histogram": 51.1
         },
         "bollinger": {
           "upper": 84001.83,
@@ -6014,9 +6014,9 @@
       "indicators": {
         "rsi_14": 75.57,
         "macd": {
-          "macd_line": 2233.38,
-          "signal_line": 1323.08,
-          "histogram": 910.3
+          "macd_line": 2233.49,
+          "signal_line": 1323.25,
+          "histogram": 910.24
         },
         "bollinger": {
           "upper": 31389.35,
@@ -6069,9 +6069,9 @@
       "indicators": {
         "rsi_14": 77.73,
         "macd": {
-          "macd_line": 451.16,
-          "signal_line": -568.36,
-          "histogram": 1019.52
+          "macd_line": 445.41,
+          "signal_line": -576.79,
+          "histogram": 1022.19
         },
         "bollinger": {
           "upper": 33879.79,
@@ -6124,9 +6124,9 @@
       "indicators": {
         "rsi_14": 41.63,
         "macd": {
-          "macd_line": 1401.72,
-          "signal_line": 1545.28,
-          "histogram": -143.56
+          "macd_line": 1397.69,
+          "signal_line": 1539.38,
+          "histogram": -141.69
         },
         "bollinger": {
           "upper": 74851.47,
@@ -6179,9 +6179,9 @@
       "indicators": {
         "rsi_14": 60.73,
         "macd": {
-          "macd_line": 2010.59,
-          "signal_line": 1393.58,
-          "histogram": 617.01
+          "macd_line": 2009.5,
+          "signal_line": 1391.98,
+          "histogram": 617.52
         },
         "bollinger": {
           "upper": 18427.76,
@@ -6234,9 +6234,9 @@
       "indicators": {
         "rsi_14": 59.82,
         "macd": {
-          "macd_line": 584.64,
-          "signal_line": 654.89,
-          "histogram": -70.25
+          "macd_line": 586.53,
+          "signal_line": 657.67,
+          "histogram": -71.13
         },
         "bollinger": {
           "upper": 21771.39,
@@ -6289,9 +6289,9 @@
       "indicators": {
         "rsi_14": 43.99,
         "macd": {
-          "macd_line": 2285.47,
-          "signal_line": 2894.15,
-          "histogram": -608.67
+          "macd_line": 2283.23,
+          "signal_line": 2890.86,
+          "histogram": -607.63
         },
         "bollinger": {
           "upper": 42868.66,
@@ -6344,9 +6344,9 @@
       "indicators": {
         "rsi_14": 22.78,
         "macd": {
-          "macd_line": -953.56,
-          "signal_line": -754.41,
-          "histogram": -199.15
+          "macd_line": -951.26,
+          "signal_line": -751.04,
+          "histogram": -200.22
         },
         "bollinger": {
           "upper": 36657.16,
@@ -6399,9 +6399,9 @@
       "indicators": {
         "rsi_14": 47.62,
         "macd": {
-          "macd_line": 0.99,
-          "signal_line": -28.95,
-          "histogram": 29.93
+          "macd_line": 0.93,
+          "signal_line": -29.03,
+          "histogram": 29.96
         },
         "bollinger": {
           "upper": 7833.03,
@@ -6454,9 +6454,9 @@
       "indicators": {
         "rsi_14": 52.78,
         "macd": {
-          "macd_line": -405.99,
-          "signal_line": -589.18,
-          "histogram": 183.19
+          "macd_line": -403.98,
+          "signal_line": -586.23,
+          "histogram": 182.25
         },
         "bollinger": {
           "upper": 27883.82,
@@ -6509,9 +6509,9 @@
       "indicators": {
         "rsi_14": 48.76,
         "macd": {
-          "macd_line": -282.33,
-          "signal_line": -78.25,
-          "histogram": -204.08
+          "macd_line": -277.16,
+          "signal_line": -70.67,
+          "histogram": -206.49
         },
         "bollinger": {
           "upper": 74023.29,
@@ -6564,9 +6564,9 @@
       "indicators": {
         "rsi_14": 75.0,
         "macd": {
-          "macd_line": 2108.61,
-          "signal_line": 501.11,
-          "histogram": 1607.5
+          "macd_line": 2101.71,
+          "signal_line": 491.0,
+          "histogram": 1610.71
         },
         "bollinger": {
           "upper": 66173.35,
@@ -6619,9 +6619,9 @@
       "indicators": {
         "rsi_14": 62.11,
         "macd": {
-          "macd_line": 731.11,
-          "signal_line": 600.78,
-          "histogram": 130.33
+          "macd_line": 730.54,
+          "signal_line": 599.94,
+          "histogram": 130.6
         },
         "bollinger": {
           "upper": 64521.94,
@@ -6674,9 +6674,9 @@
       "indicators": {
         "rsi_14": 47.41,
         "macd": {
-          "macd_line": -17.37,
-          "signal_line": -36.12,
-          "histogram": 18.75
+          "macd_line": -17.4,
+          "signal_line": -36.17,
+          "histogram": 18.77
         },
         "bollinger": {
           "upper": 4454.43,
@@ -6729,9 +6729,9 @@
       "indicators": {
         "rsi_14": 28.23,
         "macd": {
-          "macd_line": 2552.36,
-          "signal_line": 3909.64,
-          "histogram": -1357.28
+          "macd_line": 2548.91,
+          "signal_line": 3904.58,
+          "histogram": -1355.67
         },
         "bollinger": {
           "upper": 96436.92,
@@ -6784,9 +6784,9 @@
       "indicators": {
         "rsi_14": 51.57,
         "macd": {
-          "macd_line": 1403.7,
-          "signal_line": 1605.66,
-          "histogram": -201.96
+          "macd_line": 1397.78,
+          "signal_line": 1596.98,
+          "histogram": -199.21
         },
         "bollinger": {
           "upper": 20638.29,
@@ -6839,9 +6839,9 @@
       "indicators": {
         "rsi_14": 50.75,
         "macd": {
-          "macd_line": 1006.74,
-          "signal_line": 1014.25,
-          "histogram": -7.51
+          "macd_line": 1009.61,
+          "signal_line": 1018.46,
+          "histogram": -8.85
         },
         "bollinger": {
           "upper": 29850.81,
@@ -6894,9 +6894,9 @@
       "indicators": {
         "rsi_14": 55.6,
         "macd": {
-          "macd_line": 1044.5,
-          "signal_line": 1150.23,
-          "histogram": -105.73
+          "macd_line": 1044.09,
+          "signal_line": 1149.64,
+          "histogram": -105.54
         },
         "bollinger": {
           "upper": 31163.62,
@@ -6949,9 +6949,9 @@
       "indicators": {
         "rsi_14": 52.61,
         "macd": {
-          "macd_line": 128.6,
-          "signal_line": 144.6,
-          "histogram": -16.0
+          "macd_line": 129.12,
+          "signal_line": 145.36,
+          "histogram": -16.24
         },
         "bollinger": {
           "upper": 16853.86,
@@ -7004,9 +7004,9 @@
       "indicators": {
         "rsi_14": 31.84,
         "macd": {
-          "macd_line": -405.69,
-          "signal_line": -55.57,
-          "histogram": -350.12
+          "macd_line": -406.26,
+          "signal_line": -56.42,
+          "histogram": -349.85
         },
         "bollinger": {
           "upper": 51786.82,
@@ -7059,9 +7059,9 @@
       "indicators": {
         "rsi_14": 28.78,
         "macd": {
-          "macd_line": -140.45,
-          "signal_line": 163.95,
-          "histogram": -304.39
+          "macd_line": -141.36,
+          "signal_line": 162.6,
+          "histogram": -303.97
         },
         "bollinger": {
           "upper": 16536.2,
@@ -7114,9 +7114,9 @@
       "indicators": {
         "rsi_14": 33.72,
         "macd": {
-          "macd_line": 151.67,
-          "signal_line": 436.58,
-          "histogram": -284.9
+          "macd_line": 156.96,
+          "signal_line": 444.33,
+          "histogram": -287.37
         },
         "bollinger": {
           "upper": 20510.82,
@@ -7169,9 +7169,9 @@
       "indicators": {
         "rsi_14": 48.79,
         "macd": {
-          "macd_line": -118.4,
-          "signal_line": -208.84,
-          "histogram": 90.44
+          "macd_line": -119.61,
+          "signal_line": -210.61,
+          "histogram": 91.0
         },
         "bollinger": {
           "upper": 19787.67,
@@ -7224,9 +7224,9 @@
       "indicators": {
         "rsi_14": 40.41,
         "macd": {
-          "macd_line": -227.08,
-          "signal_line": -174.0,
-          "histogram": -53.08
+          "macd_line": -232.25,
+          "signal_line": -181.58,
+          "histogram": -50.67
         },
         "bollinger": {
           "upper": 57078.02,
@@ -7279,9 +7279,9 @@
       "indicators": {
         "rsi_14": 52.53,
         "macd": {
-          "macd_line": -383.03,
-          "signal_line": -723.54,
-          "histogram": 340.51
+          "macd_line": -389.93,
+          "signal_line": -733.65,
+          "histogram": 343.73
         },
         "bollinger": {
           "upper": 48246.34,
@@ -7334,9 +7334,9 @@
       "indicators": {
         "rsi_14": 14.51,
         "macd": {
-          "macd_line": 962.85,
-          "signal_line": 2067.91,
-          "histogram": -1105.06
+          "macd_line": 951.93,
+          "signal_line": 2051.9,
+          "histogram": -1099.97
         },
         "bollinger": {
           "upper": 63535.8,
@@ -7389,9 +7389,9 @@
       "indicators": {
         "rsi_14": 40.08,
         "macd": {
-          "macd_line": 1957.76,
-          "signal_line": 3137.28,
-          "histogram": -1179.52
+          "macd_line": 1960.35,
+          "signal_line": 3141.08,
+          "histogram": -1180.72
         },
         "bollinger": {
           "upper": 61056.29,
@@ -7444,9 +7444,9 @@
       "indicators": {
         "rsi_14": 45.51,
         "macd": {
-          "macd_line": -142.55,
-          "signal_line": -144.97,
-          "histogram": 2.42
+          "macd_line": -141.92,
+          "signal_line": -144.04,
+          "histogram": 2.12
         },
         "bollinger": {
           "upper": 7868.92,
@@ -7499,9 +7499,9 @@
       "indicators": {
         "rsi_14": 38.52,
         "macd": {
-          "macd_line": 690.58,
-          "signal_line": 1334.34,
-          "histogram": -643.76
+          "macd_line": 702.08,
+          "signal_line": 1351.19,
+          "histogram": -649.11
         },
         "bollinger": {
           "upper": 33989.6,
@@ -7554,9 +7554,9 @@
       "indicators": {
         "rsi_14": 38.93,
         "macd": {
-          "macd_line": -1312.74,
-          "signal_line": -759.26,
-          "histogram": -553.48
+          "macd_line": -1304.98,
+          "signal_line": -747.89,
+          "histogram": -557.1
         },
         "bollinger": {
           "upper": 62329.64,
@@ -7609,9 +7609,9 @@
       "indicators": {
         "rsi_14": 49.5,
         "macd": {
-          "macd_line": -387.57,
-          "signal_line": -509.72,
-          "histogram": 122.15
+          "macd_line": -385.27,
+          "signal_line": -506.35,
+          "histogram": 121.08
         },
         "bollinger": {
           "upper": 19233.13,
@@ -7664,9 +7664,9 @@
       "indicators": {
         "rsi_14": 42.86,
         "macd": {
-          "macd_line": 574.99,
-          "signal_line": 772.11,
-          "histogram": -197.11
+          "macd_line": 572.41,
+          "signal_line": 768.32,
+          "histogram": -195.91
         },
         "bollinger": {
           "upper": 62838.45,
@@ -7774,9 +7774,9 @@
       "indicators": {
         "rsi_14": 50.81,
         "macd": {
-          "macd_line": 936.24,
-          "signal_line": 1197.2,
-          "histogram": -260.96
+          "macd_line": 930.21,
+          "signal_line": 1188.36,
+          "histogram": -258.15
         },
         "bollinger": {
           "upper": 48436.88,
@@ -7829,9 +7829,9 @@
       "indicators": {
         "rsi_14": 79.96,
         "macd": {
-          "macd_line": 1243.87,
-          "signal_line": 826.66,
-          "histogram": 417.21
+          "macd_line": 1243.99,
+          "signal_line": 826.83,
+          "histogram": 417.16
         },
         "bollinger": {
           "upper": 14903.05,
@@ -7884,9 +7884,9 @@
       "indicators": {
         "rsi_14": 45.52,
         "macd": {
-          "macd_line": 104.03,
-          "signal_line": 129.49,
-          "histogram": -25.46
+          "macd_line": 104.89,
+          "signal_line": 130.75,
+          "histogram": -25.86
         },
         "bollinger": {
           "upper": 16237.61,
@@ -7994,9 +7994,9 @@
       "indicators": {
         "rsi_14": 42.5,
         "macd": {
-          "macd_line": -78.59,
-          "signal_line": -76.16,
-          "histogram": -2.43
+          "macd_line": -79.6,
+          "signal_line": -77.64,
+          "histogram": -1.96
         },
         "bollinger": {
           "upper": 4077.03,
