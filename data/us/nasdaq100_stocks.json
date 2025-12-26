@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-25T16:38:27.647912",
+  "updated_at": "2025-12-26T16:38:26.641744",
   "index": "NASDAQ100",
   "count": 79,
   "stocks": [
@@ -19,9 +19,9 @@
       "indicators": {
         "rsi_14": 33.54,
         "macd": {
-          "macd_line": 0.27,
+          "macd_line": 0.26,
           "signal_line": 1.39,
-          "histogram": -1.13
+          "histogram": -1.12
         },
         "bollinger": {
           "upper": 285.64,
@@ -50,9 +50,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 36.75,
-        "forward_per": 29.91,
-        "pbr": 54.86,
+        "per": 36.7,
+        "forward_per": 29.86,
+        "pbr": 54.78,
         "roe": 1.7142,
         "roa": 0.2296,
         "eps": 7.45,
@@ -66,7 +66,7 @@
         "dividend_yield": 0.38,
         "peg_ratio": null,
         "beta": 1.11,
-        "market_cap": 4063446958080,
+        "market_cap": 4057362333696,
         "52w_high": 288.62,
         "52w_low": 169.21
       },
@@ -89,7 +89,7 @@
         "rsi_14": 56.66,
         "macd": {
           "macd_line": -3.05,
-          "signal_line": -4.86,
+          "signal_line": -4.87,
           "histogram": 1.81
         },
         "bollinger": {
@@ -119,8 +119,8 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 34.73,
-        "forward_per": 26.04,
+        "per": 34.71,
+        "forward_per": 26.02,
         "pbr": 9.99,
         "roe": 0.3224,
         "roa": 0.1466,
@@ -135,7 +135,7 @@
         "dividend_yield": 0.75,
         "peg_ratio": null,
         "beta": 1.07,
-        "market_cap": 3627533729792,
+        "market_cap": 3625229484032,
         "52w_high": 555.45,
         "52w_low": 344.79
       },
@@ -157,9 +157,9 @@
       "indicators": {
         "rsi_14": 47.18,
         "macd": {
-          "macd_line": 4.44,
-          "signal_line": 6.03,
-          "histogram": -1.59
+          "macd_line": 4.45,
+          "signal_line": 6.04,
+          "histogram": -1.6
         },
         "bollinger": {
           "upper": 325.98,
@@ -188,9 +188,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.94,
-        "forward_per": 28.04,
-        "pbr": 9.81,
+        "per": 30.89,
+        "forward_per": 27.98,
+        "pbr": 9.79,
         "roe": 0.3545,
         "roa": 0.1628,
         "eps": 10.15,
@@ -204,7 +204,7 @@
         "dividend_yield": 0.27,
         "peg_ratio": null,
         "beta": 1.07,
-        "market_cap": 3804296380416,
+        "market_cap": 3797271445504,
         "52w_high": 328.83,
         "52w_low": 140.53
       },
@@ -226,8 +226,8 @@
       "indicators": {
         "rsi_14": 55.52,
         "macd": {
-          "macd_line": -0.47,
-          "signal_line": -1.1,
+          "macd_line": -0.46,
+          "signal_line": -1.08,
           "histogram": 0.63
         },
         "bollinger": {
@@ -257,8 +257,8 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.78,
-        "forward_per": 29.62,
+        "per": 32.8,
+        "forward_per": 29.64,
         "pbr": 6.72,
         "roe": 0.2433,
         "roa": 0.075,
@@ -273,7 +273,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.37,
-        "market_cap": 2484192411648,
+        "market_cap": 2485688991744,
         "52w_high": 258.6,
         "52w_low": 161.38
       },
@@ -295,9 +295,9 @@
       "indicators": {
         "rsi_14": 56.08,
         "macd": {
-          "macd_line": -0.37,
-          "signal_line": -1.72,
-          "histogram": 1.35
+          "macd_line": -0.35,
+          "signal_line": -1.69,
+          "histogram": 1.34
         },
         "bollinger": {
           "upper": 190.2,
@@ -326,9 +326,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 46.69,
-        "forward_per": 24.97,
-        "pbr": 38.55,
+        "per": 47.16,
+        "forward_per": 25.22,
+        "pbr": 38.95,
         "roe": 1.0736,
         "roa": 0.5353,
         "eps": 4.04,
@@ -342,7 +342,7 @@
         "dividend_yield": 0.02,
         "peg_ratio": null,
         "beta": 2.28,
-        "market_cap": 4592087597056,
+        "market_cap": 4638834163712,
         "52w_high": 212.19,
         "52w_low": 86.62
       },
@@ -364,8 +364,8 @@
       "indicators": {
         "rsi_14": 53.39,
         "macd": {
-          "macd_line": 3.96,
-          "signal_line": 1.01,
+          "macd_line": 3.97,
+          "signal_line": 1.04,
           "histogram": 2.94
         },
         "bollinger": {
@@ -395,9 +395,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 29.5,
-        "forward_per": 22.14,
-        "pbr": 8.67,
+        "per": 29.31,
+        "forward_per": 22.0,
+        "pbr": 8.62,
         "roe": 0.3264,
         "roa": 0.1801,
         "eps": 22.63,
@@ -411,7 +411,7 @@
         "dividend_yield": 0.31,
         "peg_ratio": null,
         "beta": 1.27,
-        "market_cap": 1682578210816,
+        "market_cap": 1671840661504,
         "52w_high": 796.25,
         "52w_low": 479.8
       },
@@ -433,9 +433,9 @@
       "indicators": {
         "rsi_14": 62.15,
         "macd": {
-          "macd_line": 14.79,
-          "signal_line": 11.59,
-          "histogram": 3.2
+          "macd_line": 14.77,
+          "signal_line": 11.57,
+          "histogram": 3.21
         },
         "bollinger": {
           "upper": 502.61,
@@ -464,9 +464,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 332.47,
-        "forward_per": 219.8,
-        "pbr": 20.18,
+        "per": 325.47,
+        "forward_per": 215.18,
+        "pbr": 19.75,
         "roe": 0.0679,
         "roa": 0.0235,
         "eps": 1.46,
@@ -480,7 +480,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.88,
-        "market_cap": 1614352613376,
+        "market_cap": 1580396052480,
         "52w_high": 498.83,
         "52w_low": 214.25
       },
@@ -502,9 +502,9 @@
       "indicators": {
         "rsi_14": 39.73,
         "macd": {
-          "macd_line": -6.62,
-          "signal_line": -2.43,
-          "histogram": -4.19
+          "macd_line": -6.56,
+          "signal_line": -2.34,
+          "histogram": -4.22
         },
         "bollinger": {
           "upper": 428.76,
@@ -533,9 +533,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 73.58,
-        "forward_per": 25.01,
-        "pbr": 5.91,
+        "per": 73.98,
+        "forward_per": 25.15,
+        "pbr": 5.95,
         "roe": 0.3105,
         "roa": 0.0979,
         "eps": 4.76,
@@ -549,7 +549,7 @@
         "dividend_yield": 0.74,
         "peg_ratio": null,
         "beta": 1.2,
-        "market_cap": 1660488908800,
+        "market_cap": 1669544673280,
         "52w_high": 414.61,
         "52w_low": 138.1
       },
@@ -571,9 +571,9 @@
       "indicators": {
         "rsi_14": 37.26,
         "macd": {
-          "macd_line": -14.22,
-          "signal_line": -13.25,
-          "histogram": -0.96
+          "macd_line": -14.27,
+          "signal_line": -13.33,
+          "histogram": -0.94
         },
         "bollinger": {
           "upper": 930.62,
@@ -602,9 +602,9 @@
       "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 46.72,
-        "forward_per": 39.3,
-        "pbr": 12.77,
+        "per": 46.8,
+        "forward_per": 39.36,
+        "pbr": 12.79,
         "roe": 0.3033,
         "roa": 0.0852,
         "eps": 18.66,
@@ -618,7 +618,7 @@
         "dividend_yield": 0.6,
         "peg_ratio": null,
         "beta": 0.98,
-        "market_cap": 387068952576,
+        "market_cap": 387730440192,
         "52w_high": 1078.23,
         "52w_low": 844.06
       },
@@ -640,9 +640,9 @@
       "indicators": {
         "rsi_14": 39.96,
         "macd": {
-          "macd_line": 3.95,
-          "signal_line": 10.12,
-          "histogram": -6.17
+          "macd_line": 3.98,
+          "signal_line": 10.16,
+          "histogram": -6.18
         },
         "bollinger": {
           "upper": 1150.01,
@@ -671,9 +671,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 37.31,
-        "forward_per": 34.87,
-        "pbr": 18.42,
+        "per": 37.56,
+        "forward_per": 35.11,
+        "pbr": 18.55,
         "roe": 0.5385,
         "roa": 0.1615,
         "eps": 28.56,
@@ -687,7 +687,7 @@
         "dividend_yield": 0.69,
         "peg_ratio": null,
         "beta": 1.35,
-        "market_cap": 413579116544,
+        "market_cap": 416385433600,
         "52w_high": 1141.72,
         "52w_low": 578.51
       },
@@ -709,8 +709,8 @@
       "indicators": {
         "rsi_14": 45.03,
         "macd": {
-          "macd_line": 0.2,
-          "signal_line": 0.8,
+          "macd_line": 0.19,
+          "signal_line": 0.79,
           "histogram": -0.6
         },
         "bollinger": {
@@ -756,7 +756,7 @@
         "dividend_yield": 3.96,
         "peg_ratio": null,
         "beta": 0.42,
-        "market_cap": 196791173120,
+        "market_cap": 196845928448,
         "52w_high": 160.15,
         "52w_low": 127.6
       },
@@ -778,8 +778,8 @@
       "indicators": {
         "rsi_14": 51.24,
         "macd": {
-          "macd_line": 0.78,
-          "signal_line": 1.03,
+          "macd_line": 0.77,
+          "signal_line": 1.02,
           "histogram": -0.25
         },
         "bollinger": {
@@ -809,9 +809,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.12,
-        "forward_per": 17.44,
-        "pbr": 6.55,
+        "per": 30.18,
+        "forward_per": 17.48,
+        "pbr": 6.57,
         "roe": 0.2242,
         "roa": 0.0665,
         "eps": 2.59,
@@ -825,7 +825,7 @@
         "dividend_yield": 2.1,
         "peg_ratio": null,
         "beta": 0.86,
-        "market_cap": 308264370176,
+        "market_cap": 308817559552,
         "52w_high": 80.82,
         "52w_low": 52.11
       },
@@ -847,9 +847,9 @@
       "indicators": {
         "rsi_14": 67.78,
         "macd": {
-          "macd_line": 6.19,
-          "signal_line": 4.95,
-          "histogram": 1.24
+          "macd_line": 6.15,
+          "signal_line": 4.88,
+          "histogram": 1.26
         },
         "bollinger": {
           "upper": 370.11,
@@ -878,9 +878,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 21.14,
-        "forward_per": 13.41,
-        "pbr": 12.66,
+        "per": 21.19,
+        "forward_per": 13.44,
+        "pbr": 12.69,
         "roe": 0.5543,
         "roa": 0.1822,
         "eps": 16.7,
@@ -894,7 +894,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.54,
-        "market_cap": 149734113280,
+        "market_cap": 150081961984,
         "52w_high": 465.7,
         "52w_low": 311.59
       },
@@ -916,9 +916,9 @@
       "indicators": {
         "rsi_14": 23.65,
         "macd": {
-          "macd_line": -4.15,
-          "signal_line": -4.27,
-          "histogram": 0.11
+          "macd_line": -4.17,
+          "signal_line": -4.29,
+          "histogram": 0.12
         },
         "bollinger": {
           "upper": 110.15,
@@ -947,9 +947,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 + MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 39.02,
-        "forward_per": 28.88,
-        "pbr": 15.29,
+        "per": 39.36,
+        "forward_per": 29.13,
+        "pbr": 15.42,
         "roe": 0.4286,
         "roa": 0.1474,
         "eps": 2.4,
@@ -963,7 +963,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.71,
-        "market_cap": 396782960640,
+        "market_cap": 400299950080,
         "52w_high": 134.12,
         "52w_low": 82.11
       },
@@ -985,9 +985,9 @@
       "indicators": {
         "rsi_14": 49.05,
         "macd": {
-          "macd_line": -3.59,
-          "signal_line": -4.24,
-          "histogram": 0.66
+          "macd_line": -3.58,
+          "signal_line": -4.23,
+          "histogram": 0.65
         },
         "bollinger": {
           "upper": 227.36,
@@ -1016,7 +1016,7 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 112.59,
+        "per": 112.56,
         "forward_per": 33.29,
         "pbr": 5.76,
         "roe": 0.0532,
@@ -1032,7 +1032,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.93,
-        "market_cap": 350094065664,
+        "market_cap": 350012669952,
         "52w_high": 267.08,
         "52w_low": 76.48
       },
@@ -1085,8 +1085,8 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 저PER (저평가 가능) | 높은 ROE (20%+)",
       "fundamentals": {
-        "per": 4.95,
-        "forward_per": 7.18,
+        "per": 4.93,
+        "forward_per": 7.15,
         "pbr": 1.12,
         "roe": 0.2419,
         "roa": 0.0511,
@@ -1101,8 +1101,8 @@
         "dividend_yield": 4.43,
         "peg_ratio": null,
         "beta": 0.83,
-        "market_cap": 109953916928,
-        "52w_high": 38.46,
+        "market_cap": 109510844416,
+        "52w_high": 38.4,
         "52w_low": 25.75
       },
       "fundamental_health": "good"
@@ -1123,8 +1123,8 @@
       "indicators": {
         "rsi_14": 42.84,
         "macd": {
-          "macd_line": 2.6,
-          "signal_line": 3.07,
+          "macd_line": 2.59,
+          "signal_line": 3.05,
           "histogram": -0.47
         },
         "bollinger": {
@@ -1154,9 +1154,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.26,
-        "forward_per": 28.7,
-        "pbr": 9.68,
+        "per": 32.22,
+        "forward_per": 28.66,
+        "pbr": 9.67,
         "roe": 0.2976,
         "roa": 0.107,
         "eps": 5.49,
@@ -1170,7 +1170,7 @@
         "dividend_yield": 3.21,
         "peg_ratio": null,
         "beta": 0.99,
-        "market_cap": 161035468800,
+        "market_cap": 160808189952,
         "52w_high": 221.69,
         "52w_low": 139.95
       },
@@ -1193,7 +1193,7 @@
         "rsi_14": 24.94,
         "macd": {
           "macd_line": -0.42,
-          "signal_line": 0.03,
+          "signal_line": 0.04,
           "histogram": -0.46
         },
         "bollinger": {
@@ -1223,8 +1223,8 @@
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 낮은 부채비율 (안정)",
       "fundamentals": {
-        "per": 602.67,
-        "forward_per": 60.72,
+        "per": 603.33,
+        "forward_per": 60.79,
         "pbr": 1.62,
         "roe": 0.0019,
         "roa": -0.0046,
@@ -1239,7 +1239,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.34,
-        "market_cap": 172483198976,
+        "market_cap": 172674007040,
         "52w_high": 44.02,
         "52w_low": 17.67
       },
@@ -1261,7 +1261,7 @@
       "indicators": {
         "rsi_14": 50.87,
         "macd": {
-          "macd_line": 1.33,
+          "macd_line": 1.32,
           "signal_line": 1.63,
           "histogram": -0.31
         },
@@ -1292,7 +1292,7 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 34.81,
+        "per": 34.82,
         "forward_per": 14.06,
         "pbr": 8.85,
         "roe": 0.2334,
@@ -1308,7 +1308,7 @@
         "dividend_yield": 2.04,
         "peg_ratio": null,
         "beta": 1.21,
-        "market_cap": 188576841728,
+        "market_cap": 188619997184,
         "52w_high": 205.95,
         "52w_low": 120.8
       },
@@ -1361,9 +1361,9 @@
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 20.8,
-        "forward_per": 18.62,
-        "pbr": 7.45,
+        "per": 20.84,
+        "forward_per": 18.66,
+        "pbr": 7.47,
         "roe": 0.3462,
         "roa": 0.0666,
         "eps": 9.47,
@@ -1377,7 +1377,7 @@
         "dividend_yield": 2.33,
         "peg_ratio": null,
         "beta": 0.95,
-        "market_cap": 132705157120,
+        "market_cap": 133001658368,
         "52w_high": 227.82,
         "52w_low": 169.05
       },
@@ -1399,9 +1399,9 @@
       "indicators": {
         "rsi_14": 55.36,
         "macd": {
-          "macd_line": 5.07,
-          "signal_line": 3.22,
-          "histogram": 1.85
+          "macd_line": 5.02,
+          "signal_line": 3.15,
+          "histogram": 1.87
         },
         "bollinger": {
           "upper": 690.89,
@@ -1430,9 +1430,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 46.28,
-        "forward_per": 25.56,
-        "pbr": 9.73,
+        "per": 46.4,
+        "forward_per": 25.63,
+        "pbr": 9.75,
         "roe": 0.2199,
         "roa": 0.0978,
         "eps": 14.58,
@@ -1446,7 +1446,7 @@
         "dividend_yield": 0.66,
         "peg_ratio": null,
         "beta": 1.27,
-        "market_cap": 187872673792,
+        "market_cap": 188351512576,
         "52w_high": 813.7,
         "52w_low": 532.65
       },
@@ -1468,9 +1468,9 @@
       "indicators": {
         "rsi_14": 43.93,
         "macd": {
-          "macd_line": 1.85,
-          "signal_line": 1.92,
-          "histogram": -0.07
+          "macd_line": 1.84,
+          "signal_line": 1.91,
+          "histogram": -0.06
         },
         "bollinger": {
           "upper": 349.6,
@@ -1499,9 +1499,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 25.85,
-        "forward_per": 15.23,
-        "pbr": 18.7,
+        "per": 25.77,
+        "forward_per": 15.18,
+        "pbr": 18.64,
         "roe": 0.8171,
         "roa": 0.0771,
         "eps": 12.92,
@@ -1515,7 +1515,7 @@
         "dividend_yield": 2.89,
         "peg_ratio": null,
         "beta": 0.45,
-        "market_cap": 179830996992,
+        "market_cap": 179276349440,
         "52w_high": 346.38,
         "52w_low": 257.05
       },
@@ -1537,9 +1537,9 @@
       "indicators": {
         "rsi_14": 42.0,
         "macd": {
-          "macd_line": 5.22,
-          "signal_line": 6.98,
-          "histogram": -1.76
+          "macd_line": 5.2,
+          "signal_line": 6.95,
+          "histogram": -1.75
         },
         "bollinger": {
           "upper": 276.24,
@@ -1568,9 +1568,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.11,
-        "forward_per": 22.57,
-        "pbr": 10.13,
+        "per": 30.24,
+        "forward_per": 22.66,
+        "pbr": 10.17,
         "roe": 0.3551,
         "roa": 0.1505,
         "eps": 8.66,
@@ -1584,7 +1584,7 @@
         "dividend_yield": 0.71,
         "peg_ratio": null,
         "beta": 1.67,
-        "market_cap": 207748415488,
+        "market_cap": 208640655360,
         "52w_high": 276.1,
         "52w_low": 123.74
       },
@@ -1606,9 +1606,9 @@
       "indicators": {
         "rsi_14": 54.74,
         "macd": {
-          "macd_line": 7.06,
+          "macd_line": 7.07,
           "signal_line": 6.69,
-          "histogram": 0.38
+          "histogram": 0.37
         },
         "bollinger": {
           "upper": 586.16,
@@ -1637,9 +1637,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 76.34,
-        "forward_per": 59.21,
-        "pbr": 12.1,
+        "per": 76.43,
+        "forward_per": 59.27,
+        "pbr": 12.11,
         "roe": 0.169,
         "roa": 0.0956,
         "eps": 7.56,
@@ -1653,7 +1653,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.69,
-        "market_cap": 206894727168,
+        "market_cap": 207131312128,
         "52w_high": 616.0,
         "52w_low": 425.0
       },
@@ -1675,9 +1675,9 @@
       "indicators": {
         "rsi_14": 80.56,
         "macd": {
-          "macd_line": 113.05,
-          "signal_line": 91.57,
-          "histogram": 21.48
+          "macd_line": 112.7,
+          "signal_line": 91.05,
+          "histogram": 21.65
         },
         "bollinger": {
           "upper": 5615.11,
@@ -1706,9 +1706,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
-        "per": 35.46,
-        "forward_per": 20.52,
-        "pbr": -37.15,
+        "per": 35.42,
+        "forward_per": 20.5,
+        "pbr": -37.11,
         "roe": null,
         "roa": 0.2025,
         "eps": 153.59,
@@ -1722,7 +1722,7 @@
         "dividend_yield": 0.71,
         "peg_ratio": null,
         "beta": 1.25,
-        "market_cap": 176520757248,
+        "market_cap": 176314318848,
         "52w_high": 5839.41,
         "52w_low": 4096.23
       },
@@ -1744,8 +1744,8 @@
       "indicators": {
         "rsi_14": 48.74,
         "macd": {
-          "macd_line": 0.37,
-          "signal_line": 0.46,
+          "macd_line": 0.38,
+          "signal_line": 0.47,
           "histogram": -0.09
         },
         "bollinger": {
@@ -1775,9 +1775,9 @@
       "grade": "sell",
       "summary": "MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
-        "per": 51.88,
-        "forward_per": 28.14,
-        "pbr": -11.87,
+        "per": 52.2,
+        "forward_per": 28.31,
+        "pbr": -11.95,
         "roe": null,
         "roa": 0.0727,
         "eps": 1.63,
@@ -1791,7 +1791,7 @@
         "dividend_yield": 2.93,
         "peg_ratio": null,
         "beta": 0.98,
-        "market_cap": 96164552704,
+        "market_cap": 96744472576,
         "52w_high": 117.46,
         "52w_low": 75.5
       },
@@ -1813,8 +1813,8 @@
       "indicators": {
         "rsi_14": 51.71,
         "macd": {
-          "macd_line": 7.66,
-          "signal_line": 9.03,
+          "macd_line": 7.65,
+          "signal_line": 9.01,
           "histogram": -1.36
         },
         "bollinger": {
@@ -1844,9 +1844,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 높은 이익률 (20%+)",
       "fundamentals": {
-        "per": 61.0,
-        "forward_per": 24.7,
-        "pbr": 4.02,
+        "per": 60.84,
+        "forward_per": 24.63,
+        "pbr": 4.01,
         "roe": 0.0657,
         "roa": 0.0389,
         "eps": 4.55,
@@ -1860,7 +1860,7 @@
         "dividend_yield": 1.43,
         "peg_ratio": null,
         "beta": 1.04,
-        "market_cap": 135908392960,
+        "market_cap": 135555842048,
         "52w_high": 284.23,
         "52w_low": 158.65
       },
@@ -1929,7 +1929,7 @@
         "dividend_yield": 3.66,
         "peg_ratio": null,
         "beta": 0.4,
-        "market_cap": 70675300352,
+        "market_cap": 70701178880,
         "52w_high": 71.15,
         "52w_low": 53.13
       },
@@ -1951,9 +1951,9 @@
       "indicators": {
         "rsi_14": 54.32,
         "macd": {
-          "macd_line": 8.03,
-          "signal_line": 7.44,
-          "histogram": 0.59
+          "macd_line": 8.05,
+          "signal_line": 7.47,
+          "histogram": 0.58
         },
         "bollinger": {
           "upper": 470.98,
@@ -1983,7 +1983,7 @@
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
         "per": 32.58,
-        "forward_per": 22.88,
+        "forward_per": 22.87,
         "pbr": 6.79,
         "roe": 0.2231,
         "roa": 0.1204,
@@ -1998,7 +1998,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.32,
-        "market_cap": 118706307072,
+        "market_cap": 118683230208,
         "52w_high": 519.68,
         "52w_low": 362.5
       },
@@ -2051,9 +2051,9 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 25.5,
-        "forward_per": 21.61,
-        "pbr": 16.4,
+        "per": 25.58,
+        "forward_per": 21.67,
+        "pbr": 16.44,
         "roe": 0.7057,
         "roa": 0.0662,
         "eps": 10.12,
@@ -2067,7 +2067,7 @@
         "dividend_yield": 2.63,
         "peg_ratio": null,
         "beta": 0.86,
-        "market_cap": 104553603072,
+        "market_cap": 104853364736,
         "52w_high": 329.93,
         "52w_low": 247.18
       },
@@ -2089,9 +2089,9 @@
       "indicators": {
         "rsi_14": 60.6,
         "macd": {
-          "macd_line": 0.6,
-          "signal_line": 0.18,
-          "histogram": 0.42
+          "macd_line": 0.59,
+          "signal_line": 0.17,
+          "histogram": 0.43
         },
         "bollinger": {
           "upper": 127.18,
@@ -2120,9 +2120,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 19.45,
-        "forward_per": 14.37,
-        "pbr": 7.25,
+        "per": 19.3,
+        "forward_per": 14.26,
+        "pbr": 7.19,
         "roe": 0.4071,
         "roa": 0.1257,
         "eps": 6.46,
@@ -2136,7 +2136,7 @@
         "dividend_yield": 2.51,
         "peg_ratio": null,
         "beta": 0.33,
-        "market_cap": 155932196864,
+        "market_cap": 154728611840,
         "52w_high": 128.7,
         "52w_low": 88.57
       },
@@ -2158,9 +2158,9 @@
       "indicators": {
         "rsi_14": 70.31,
         "macd": {
-          "macd_line": 22.16,
-          "signal_line": 20.59,
-          "histogram": 1.56
+          "macd_line": 22.11,
+          "signal_line": 20.52,
+          "histogram": 1.58
         },
         "bollinger": {
           "upper": 801.9,
@@ -2189,13 +2189,13 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 양호한 ROE (15-20%)",
       "fundamentals": {
-        "per": 18.8,
-        "forward_per": 17.75,
-        "pbr": 2.6,
+        "per": 18.83,
+        "forward_per": 17.71,
+        "pbr": 2.61,
         "roe": 0.1519,
         "roa": 0.0616,
         "eps": 41.69,
-        "forward_eps": 44.15,
+        "forward_eps": 44.32,
         "revenue_growth": 0.009,
         "earnings_growth": 0.18,
         "profit_margin": 0.3213,
@@ -2205,7 +2205,7 @@
         "dividend_yield": 0.45,
         "peg_ratio": null,
         "beta": 0.37,
-        "market_cap": 83063422976,
+        "market_cap": 83196960768,
         "52w_high": 792.77,
         "52w_low": 476.49
       },
@@ -2227,9 +2227,9 @@
       "indicators": {
         "rsi_14": 68.25,
         "macd": {
-          "macd_line": 5.48,
-          "signal_line": 4.18,
-          "histogram": 1.29
+          "macd_line": 5.47,
+          "signal_line": 4.17,
+          "histogram": 1.3
         },
         "bollinger": {
           "upper": 178.15,
@@ -2258,9 +2258,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 39.23,
-        "forward_per": 31.46,
-        "pbr": 21.91,
+        "per": 39.4,
+        "forward_per": 31.59,
+        "pbr": 22.0,
         "roe": 0.6226,
         "roa": 0.1951,
         "eps": 4.52,
@@ -2274,8 +2274,8 @@
         "dividend_yield": 0.59,
         "peg_ratio": null,
         "beta": 1.78,
-        "market_cap": 223618859008,
-        "52w_high": 177.56,
+        "market_cap": 224552042496,
+        "52w_high": 179.8,
         "52w_low": 56.32
       },
       "fundamental_health": "good"
@@ -2296,9 +2296,9 @@
       "indicators": {
         "rsi_14": 39.29,
         "macd": {
-          "macd_line": -1.12,
-          "signal_line": -1.18,
-          "histogram": 0.05
+          "macd_line": -1.13,
+          "signal_line": -1.19,
+          "histogram": 0.06
         },
         "bollinger": {
           "upper": 63.28,
@@ -2327,9 +2327,9 @@
       "grade": "buy",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 볼린저 하단 반등 + 강한 하락추세 | 적정 PER | 높은 ROE (20%+)",
       "fundamentals": {
-        "per": 12.06,
-        "forward_per": 10.33,
-        "pbr": 2.8,
+        "per": 12.04,
+        "forward_per": 10.32,
+        "pbr": 2.79,
         "roe": 0.2436,
         "roa": 0.047,
         "eps": 4.98,
@@ -2343,7 +2343,7 @@
         "dividend_yield": 0.93,
         "peg_ratio": null,
         "beta": 1.44,
-        "market_cap": 57360920576,
+        "market_cap": 57294045184,
         "52w_high": 93.25,
         "52w_low": 55.85
       },
@@ -2366,7 +2366,7 @@
         "rsi_14": 71.9,
         "macd": {
           "macd_line": 11.96,
-          "signal_line": 8.21,
+          "signal_line": 8.2,
           "histogram": 3.76
         },
         "bollinger": {
@@ -2396,9 +2396,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 볼린저 상단 터치 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 27.25,
-        "forward_per": 7.45,
-        "pbr": 5.49,
+        "per": 27.07,
+        "forward_per": 7.4,
+        "pbr": 5.45,
         "roe": 0.2255,
         "roa": 0.1093,
         "eps": 10.52,
@@ -2412,8 +2412,8 @@
         "dividend_yield": 0.16,
         "peg_ratio": null,
         "beta": 1.55,
-        "market_cap": 322660990976,
-        "52w_high": 289.3,
+        "market_cap": 320533790720,
+        "52w_high": 290.83,
         "52w_low": 61.54
       },
       "fundamental_health": "good"
@@ -2434,7 +2434,7 @@
       "indicators": {
         "rsi_14": 61.54,
         "macd": {
-          "macd_line": 0.42,
+          "macd_line": 0.41,
           "signal_line": 0.44,
           "histogram": -0.03
         },
@@ -2465,9 +2465,9 @@
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 23.88,
-        "forward_per": 19.36,
-        "pbr": 5.37,
+        "per": 23.78,
+        "forward_per": 19.28,
+        "pbr": 5.35,
         "roe": 0.2259,
         "roa": 0.0701,
         "eps": 1.54,
@@ -2481,7 +2481,7 @@
         "dividend_yield": 1.41,
         "peg_ratio": null,
         "beta": 1.3,
-        "market_cap": 68568104960,
+        "market_cap": 68269821952,
         "52w_high": 37.54,
         "52w_low": 26.22
       },
@@ -2503,7 +2503,7 @@
       "indicators": {
         "rsi_14": 56.34,
         "macd": {
-          "macd_line": 12.12,
+          "macd_line": 12.13,
           "signal_line": 10.85,
           "histogram": 1.28
         },
@@ -2534,9 +2534,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 높은 매출 성장 (20%+)",
       "fundamentals": {
-        "per": 58.81,
-        "forward_per": 28.09,
-        "pbr": 3.12,
+        "per": 58.98,
+        "forward_per": 28.17,
+        "pbr": 3.13,
         "roe": 0.0716,
         "roa": 0.0187,
         "eps": 8.09,
@@ -2550,7 +2550,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.15,
-        "market_cap": 91019640832,
+        "market_cap": 91285569536,
         "52w_high": 651.73,
         "52w_low": 365.74
       },
@@ -2603,9 +2603,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 40.16,
-        "forward_per": 30.32,
-        "pbr": 33.69,
+        "per": 40.24,
+        "forward_per": 30.38,
+        "pbr": 33.76,
         "roe": 0.9917,
         "roa": 0.2044,
         "eps": 31.8,
@@ -2619,8 +2619,8 @@
         "dividend_yield": 0.6,
         "peg_ratio": null,
         "beta": 1.44,
-        "market_cap": 168159821824,
-        "52w_high": 1284.47,
+        "market_cap": 168503525376,
+        "52w_high": 1286.81,
         "52w_low": 551.33
       },
       "fundamental_health": "neutral"
@@ -2642,8 +2642,8 @@
         "rsi_14": 36.76,
         "macd": {
           "macd_line": -3.54,
-          "signal_line": -3.94,
-          "histogram": 0.4
+          "signal_line": -3.95,
+          "histogram": 0.41
         },
         "bollinger": {
           "upper": 198.27,
@@ -2672,9 +2672,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 119.25,
-        "forward_per": 43.16,
-        "pbr": 14.95,
+        "per": 120.03,
+        "forward_per": 43.44,
+        "pbr": 15.05,
         "roe": 0.1532,
         "roa": 0.0318,
         "eps": 1.57,
@@ -2688,7 +2688,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.79,
-        "market_cap": 130492342272,
+        "market_cap": 128896540672,
         "52w_high": 223.61,
         "52w_low": 144.15
       },
@@ -2711,7 +2711,7 @@
         "rsi_14": 25.15,
         "macd": {
           "macd_line": -1.75,
-          "signal_line": -0.93,
+          "signal_line": -0.92,
           "histogram": -0.83
         },
         "bollinger": {
@@ -2741,9 +2741,9 @@
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 81.9,
-        "forward_per": 39.46,
-        "pbr": 16.64,
+        "per": 82.19,
+        "forward_per": 39.6,
+        "pbr": 16.7,
         "roe": 0.2174,
         "roa": 0.1109,
         "eps": 3.88,
@@ -2757,7 +2757,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.05,
-        "market_cap": 86586417152,
+        "market_cap": 86894338048,
         "52w_high": 376.45,
         "52w_low": 221.56
       },
@@ -2779,9 +2779,9 @@
       "indicators": {
         "rsi_14": 61.52,
         "macd": {
-          "macd_line": -1.97,
-          "signal_line": -3.22,
-          "histogram": 1.25
+          "macd_line": -2.0,
+          "signal_line": -3.26,
+          "histogram": 1.26
         },
         "bollinger": {
           "upper": 214.75,
@@ -2810,9 +2810,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 저PER (저평가 가능) | 높은 ROE (20%+)",
       "fundamentals": {
-        "per": 5.78,
-        "forward_per": 4.86,
-        "pbr": 1.76,
+        "per": 5.74,
+        "forward_per": 4.83,
+        "pbr": 1.75,
         "roe": 0.3133,
         "roa": 0.0555,
         "eps": 36.06,
@@ -2826,7 +2826,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.06,
-        "market_cap": 28473759744,
+        "market_cap": 28296189952,
         "52w_high": 437.06,
         "52w_low": 193.0
       },
@@ -2848,9 +2848,9 @@
       "indicators": {
         "rsi_14": 67.41,
         "macd": {
-          "macd_line": 7.16,
-          "signal_line": 6.18,
-          "histogram": 0.98
+          "macd_line": 7.19,
+          "signal_line": 6.22,
+          "histogram": 0.97
         },
         "bollinger": {
           "upper": 321.09,
@@ -2879,9 +2879,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 고PER | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
-        "per": 33.21,
-        "forward_per": 27.71,
-        "pbr": -27.22,
+        "per": 33.25,
+        "forward_per": 27.75,
+        "pbr": -27.26,
         "roe": null,
         "roa": 0.0964,
         "eps": 9.49,
@@ -2895,7 +2895,7 @@
         "dividend_yield": 0.85,
         "peg_ratio": null,
         "beta": 1.16,
-        "market_cap": 85552652288,
+        "market_cap": 85666660352,
         "52w_high": 316.69,
         "52w_low": 205.4
       },
@@ -2948,9 +2948,9 @@
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 고PER | 저PBR (자산가치 대비 저평가)",
       "fundamentals": {
-        "per": 32.08,
-        "forward_per": 27.93,
-        "pbr": -87.5,
+        "per": 32.03,
+        "forward_per": 27.88,
+        "pbr": -87.36,
         "roe": null,
         "roa": 0.1366,
         "eps": 2.88,
@@ -2964,7 +2964,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.62,
-        "market_cap": 78173388800,
+        "market_cap": 78046478336,
         "52w_high": 108.72,
         "52w_low": 78.3
       },
@@ -2987,7 +2987,7 @@
         "rsi_14": 70.51,
         "macd": {
           "macd_line": 1.44,
-          "signal_line": 1.24,
+          "signal_line": 1.23,
           "histogram": 0.21
         },
         "bollinger": {
@@ -3017,9 +3017,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 43.99,
-        "forward_per": 34.62,
-        "pbr": 9.77,
+        "per": 43.93,
+        "forward_per": 34.54,
+        "pbr": 9.75,
         "roe": 0.2554,
         "roa": 0.1688,
         "eps": 1.76,
@@ -3033,7 +3033,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.48,
-        "market_cap": 75640979456,
+        "market_cap": 75533508608,
         "52w_high": 78.31,
         "52w_low": 45.7
       },
@@ -3055,8 +3055,8 @@
       "indicators": {
         "rsi_14": 32.27,
         "macd": {
-          "macd_line": -0.67,
-          "signal_line": -0.24,
+          "macd_line": -0.68,
+          "signal_line": -0.26,
           "histogram": -0.42
         },
         "bollinger": {
@@ -3086,9 +3086,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.45,
-        "forward_per": 24.13,
-        "pbr": 5.22,
+        "per": 30.4,
+        "forward_per": 24.08,
+        "pbr": 5.21,
         "roe": 0.1804,
         "roa": 0.0348,
         "eps": 2.84,
@@ -3102,7 +3102,7 @@
         "dividend_yield": 0.28,
         "peg_ratio": null,
         "beta": 1.93,
-        "market_cap": 74563026944,
+        "market_cap": 74433708032,
         "52w_high": 127.48,
         "52w_low": 47.09
       },
@@ -3124,8 +3124,8 @@
       "indicators": {
         "rsi_14": 36.03,
         "macd": {
-          "macd_line": -0.87,
-          "signal_line": -0.9,
+          "macd_line": -0.88,
+          "signal_line": -0.91,
           "histogram": 0.03
         },
         "bollinger": {
@@ -3155,9 +3155,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 57.79,
-        "forward_per": 25.72,
-        "pbr": 21.85,
+        "per": 58.28,
+        "forward_per": 25.94,
+        "pbr": 22.04,
         "roe": 0.4033,
         "roa": 0.0974,
         "eps": 5.16,
@@ -3171,7 +3171,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.48,
-        "market_cap": 63518728192,
+        "market_cap": 64051228672,
         "52w_high": 329.09,
         "52w_low": 232.67
       },
@@ -3193,9 +3193,9 @@
       "indicators": {
         "rsi_14": 87.12,
         "macd": {
-          "macd_line": 4.27,
-          "signal_line": 3.1,
-          "histogram": 1.16
+          "macd_line": 4.26,
+          "signal_line": 3.09,
+          "histogram": 1.17
         },
         "bollinger": {
           "upper": 141.48,
@@ -3224,8 +3224,8 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.57,
-        "forward_per": 28.37,
+        "per": 32.58,
+        "forward_per": 28.38,
         "pbr": 9.66,
         "roe": 0.3078,
         "roa": 0.0747,
@@ -3240,7 +3240,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.12,
-        "market_cap": 83741589504,
+        "market_cap": 83766083584,
         "52w_high": 163.93,
         "52w_low": 99.88
       },
@@ -3263,7 +3263,7 @@
         "rsi_14": 38.15,
         "macd": {
           "macd_line": -0.46,
-          "signal_line": -0.34,
+          "signal_line": -0.35,
           "histogram": -0.12
         },
         "bollinger": {
@@ -3293,9 +3293,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 33.41,
-        "forward_per": 27.73,
-        "pbr": 82.0,
+        "per": 33.56,
+        "forward_per": 27.86,
+        "pbr": 82.38,
         "roe": 2.2804,
         "roa": 0.1388,
         "eps": 2.43,
@@ -3309,7 +3309,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.1,
-        "market_cap": 62205476864,
+        "market_cap": 62496657408,
         "52w_high": 114.82,
         "52w_low": 70.12
       },
@@ -3331,8 +3331,8 @@
       "indicators": {
         "rsi_14": 37.06,
         "macd": {
-          "macd_line": -1.18,
-          "signal_line": -1.08,
+          "macd_line": -1.19,
+          "signal_line": -1.09,
           "histogram": -0.1
         },
         "bollinger": {
@@ -3362,9 +3362,9 @@
       "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 적정 PER",
       "fundamentals": {
-        "per": 16.88,
-        "forward_per": 18.25,
-        "pbr": 2.03,
+        "per": 16.94,
+        "forward_per": 18.31,
+        "pbr": 2.04,
         "roe": 0.1292,
         "roa": 0.0321,
         "eps": 6.83,
@@ -3378,7 +3378,7 @@
         "dividend_yield": 3.3,
         "peg_ratio": null,
         "beta": 0.6,
-        "market_cap": 61721473024,
+        "market_cap": 61914169344,
         "52w_high": 124.8,
         "52w_low": 89.91
       },
@@ -3431,9 +3431,9 @@
       "grade": "sell",
       "summary": "MACD 데드크로스 + 하락추세 | 고PER",
       "fundamentals": {
-        "per": 24.14,
-        "forward_per": 12.89,
-        "pbr": 1.5,
+        "per": 24.22,
+        "forward_per": 12.94,
+        "pbr": 1.51,
         "roe": 0.0629,
         "roa": 0.0415,
         "eps": 1.16,
@@ -3447,7 +3447,7 @@
         "dividend_yield": 3.29,
         "peg_ratio": null,
         "beta": 0.36,
-        "market_cap": 38040330240,
+        "market_cap": 38176186368,
         "52w_high": 36.12,
         "52w_low": 25.03
       },
@@ -3469,7 +3469,7 @@
       "indicators": {
         "rsi_14": 63.36,
         "macd": {
-          "macd_line": 1.19,
+          "macd_line": 1.18,
           "signal_line": 0.49,
           "histogram": 0.69
         },
@@ -3500,9 +3500,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 강한 상승추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 41.29,
+        "per": 41.28,
         "forward_per": 35.42,
-        "pbr": 17.16,
+        "pbr": 17.15,
         "roe": 0.434,
         "roa": 0.159,
         "eps": 4.63,
@@ -3516,7 +3516,7 @@
         "dividend_yield": 0.94,
         "peg_ratio": null,
         "beta": 0.96,
-        "market_cap": 77035593728,
+        "market_cap": 77019480064,
         "52w_high": 229.24,
         "52w_low": 180.39
       },
@@ -3569,9 +3569,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 접근 + MACD 골든크로스 + 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 25.92,
-        "forward_per": 19.37,
-        "pbr": 10.6,
+        "per": 25.83,
+        "forward_per": 19.31,
+        "pbr": 10.56,
         "roe": 0.4088,
         "roa": 0.1164,
         "eps": 4.42,
@@ -3585,7 +3585,7 @@
         "dividend_yield": 3.77,
         "peg_ratio": null,
         "beta": 0.9,
-        "market_cap": 41130491904,
+        "market_cap": 40990494720,
         "52w_high": 161.24,
         "52w_low": 108.0
       },
@@ -3638,9 +3638,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 37.46,
-        "forward_per": 27.2,
-        "pbr": 9.65,
+        "per": 37.54,
+        "forward_per": 27.26,
+        "pbr": 9.67,
         "roe": 0.3064,
         "roa": 0.0702,
         "eps": 1.8,
@@ -3654,7 +3654,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.51,
-        "market_cap": 26439106560,
+        "market_cap": 26497931264,
         "52w_high": 93.25,
         "52w_low": 54.11
       },
@@ -3677,7 +3677,7 @@
         "rsi_14": 39.0,
         "macd": {
           "macd_line": -0.14,
-          "signal_line": -0.07,
+          "signal_line": -0.06,
           "histogram": -0.08
         },
         "bollinger": {
@@ -3708,7 +3708,7 @@
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 저PBR (자산가치 대비 저평가) | 음의 ROE",
       "fundamentals": {
         "per": null,
-        "forward_per": 9.55,
+        "forward_per": 9.59,
         "pbr": 0.69,
         "roe": -0.0969,
         "roa": 0.0371,
@@ -3723,7 +3723,7 @@
         "dividend_yield": 6.66,
         "peg_ratio": null,
         "beta": 0.07,
-        "market_cap": 28431407104,
+        "market_cap": 28561606656,
         "52w_high": 33.35,
         "52w_low": 23.6
       },
@@ -3746,7 +3746,7 @@
         "rsi_14": 52.35,
         "macd": {
           "macd_line": 2.02,
-          "signal_line": 2.08,
+          "signal_line": 2.07,
           "histogram": -0.06
         },
         "bollinger": {
@@ -3777,8 +3777,8 @@
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PBR (프리미엄) | 음의 ROE",
       "fundamentals": {
         "per": null,
-        "forward_per": 26.26,
-        "pbr": 5.28,
+        "forward_per": 26.05,
+        "pbr": 5.24,
         "roe": -0.0285,
         "roa": 0.0064,
         "eps": -0.46,
@@ -3792,7 +3792,7 @@
         "dividend_yield": 2.78,
         "peg_ratio": null,
         "beta": 1.46,
-        "market_cap": 35323604992,
+        "market_cap": 35096621056,
         "52w_high": 77.2,
         "52w_low": 34.13
       },
@@ -3814,8 +3814,8 @@
       "indicators": {
         "rsi_14": 45.09,
         "macd": {
-          "macd_line": -0.52,
-          "signal_line": -0.53,
+          "macd_line": -0.53,
+          "signal_line": -0.54,
           "histogram": 0.01
         },
         "bollinger": {
@@ -3845,9 +3845,9 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 적정 PER",
       "fundamentals": {
-        "per": 15.6,
-        "forward_per": 15.3,
-        "pbr": 1.56,
+        "per": 15.61,
+        "forward_per": 15.31,
+        "pbr": 1.57,
         "roe": 0.1031,
         "roa": 0.0285,
         "eps": 2.79,
@@ -3861,7 +3861,7 @@
         "dividend_yield": 3.68,
         "peg_ratio": null,
         "beta": 0.55,
-        "market_cap": 43954647040,
+        "market_cap": 43995045888,
         "52w_high": 48.51,
         "52w_low": 37.06
       },
@@ -3883,8 +3883,8 @@
       "indicators": {
         "rsi_14": 40.52,
         "macd": {
-          "macd_line": 2.03,
-          "signal_line": 3.04,
+          "macd_line": 2.02,
+          "signal_line": 3.03,
           "histogram": -1.01
         },
         "bollinger": {
@@ -3914,9 +3914,9 @@
       "grade": "sell",
       "summary": "MACD 데드크로스 + 하락추세 | 적정 PER | 낮은 부채비율 (안정)",
       "fundamentals": {
-        "per": 16.07,
-        "forward_per": 11.59,
-        "pbr": 1.42,
+        "per": 16.14,
+        "forward_per": 11.64,
+        "pbr": 1.43,
         "roe": 0.0931,
         "roa": 0.0575,
         "eps": 10.97,
@@ -3930,7 +3930,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.13,
-        "market_cap": 25868011520,
+        "market_cap": 25978038272,
         "52w_high": 185.17,
         "52w_low": 110.04
       },
@@ -3952,9 +3952,9 @@
       "indicators": {
         "rsi_14": 63.29,
         "macd": {
-          "macd_line": 3.07,
-          "signal_line": 3.19,
-          "histogram": -0.11
+          "macd_line": 3.08,
+          "signal_line": 3.2,
+          "histogram": -0.12
         },
         "bollinger": {
           "upper": 115.14,
@@ -3983,9 +3983,9 @@
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 매출 감소",
       "fundamentals": {
-        "per": 21.86,
-        "forward_per": 19.54,
-        "pbr": 3.02,
+        "per": 21.92,
+        "forward_per": 19.59,
+        "pbr": 3.03,
         "roe": 0.1415,
         "roa": 0.0496,
         "eps": 5.1,
@@ -3999,7 +3999,7 @@
         "dividend_yield": 1.18,
         "peg_ratio": null,
         "beta": 1.02,
-        "market_cap": 58565537792,
+        "market_cap": 58712596480,
         "52w_high": 115.43,
         "52w_low": 84.65
       },
@@ -4052,9 +4052,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 높은 ROE (20%+)",
       "fundamentals": {
-        "per": 30.71,
-        "forward_per": 17.95,
-        "pbr": 3.12,
+        "per": 30.86,
+        "forward_per": 18.04,
+        "pbr": 3.14,
         "roe": 0.2167,
         "roa": 0.0906,
         "eps": 3.01,
@@ -4068,7 +4068,7 @@
         "dividend_yield": 1.69,
         "peg_ratio": null,
         "beta": 0.17,
-        "market_cap": 286647418880,
+        "market_cap": 288042680320,
         "52w_high": 94.02,
         "52w_low": 61.24
       },
@@ -4121,9 +4121,9 @@
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 28.39,
-        "forward_per": 25.48,
-        "pbr": 10.0,
+        "per": 28.3,
+        "forward_per": 25.41,
+        "pbr": 9.97,
         "roe": 0.3743,
         "roa": 0.1082,
         "eps": 6.4,
@@ -4137,7 +4137,7 @@
         "dividend_yield": 0.89,
         "peg_ratio": null,
         "beta": 1.04,
-        "market_cap": 59087106048,
+        "market_cap": 58911485952,
         "52w_high": 185.85,
         "52w_low": 122.36
       },
@@ -4159,9 +4159,9 @@
       "indicators": {
         "rsi_14": 59.89,
         "macd": {
-          "macd_line": 5.35,
-          "signal_line": 5.17,
-          "histogram": 0.18
+          "macd_line": 5.37,
+          "signal_line": 5.2,
+          "histogram": 0.17
         },
         "bollinger": {
           "upper": 169.07,
@@ -4190,8 +4190,8 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 32.06,
-        "forward_per": 30.74,
+        "per": 32.09,
+        "forward_per": 30.76,
         "pbr": 7.83,
         "roe": 0.2506,
         "roa": 0.1589,
@@ -4206,7 +4206,7 @@
         "dividend_yield": 0.7,
         "peg_ratio": null,
         "beta": 1.27,
-        "market_cap": 33492396032,
+        "market_cap": 33519718400,
         "52w_high": 209.61,
         "52w_low": 126.01
       },
@@ -4229,8 +4229,8 @@
         "rsi_14": 72.57,
         "macd": {
           "macd_line": 10.16,
-          "signal_line": 8.72,
-          "histogram": 1.44
+          "signal_line": 8.71,
+          "histogram": 1.45
         },
         "bollinger": {
           "upper": 222.12,
@@ -4259,9 +4259,9 @@
       "grade": "buy",
       "summary": "RSI 과매수 + MACD 골든크로스 + 강한 상승추세 | 적정 PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 14.64,
-        "forward_per": 16.67,
-        "pbr": 5.51,
+        "per": 14.54,
+        "forward_per": 16.56,
+        "pbr": 5.47,
         "roe": 0.4102,
         "roa": 0.2029,
         "eps": 14.37,
@@ -4275,7 +4275,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.01,
-        "market_cap": 24951158784,
+        "market_cap": 24781576192,
         "52w_high": 423.32,
         "52w_low": 159.25
       },
@@ -4328,9 +4328,9 @@
       "grade": "strong_buy",
       "summary": "MACD 골든크로스 + 볼린저 하단 반등 + 상승추세 | 고PER | 양호한 ROE (15-20%)",
       "fundamentals": {
-        "per": 23.99,
-        "forward_per": 21.69,
-        "pbr": 3.94,
+        "per": 24.11,
+        "forward_per": 21.8,
+        "pbr": 3.96,
         "roe": 0.1812,
         "roa": 0.1142,
         "eps": 1.63,
@@ -4344,7 +4344,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.12,
-        "market_cap": 37849489408,
+        "market_cap": 38043095040,
         "52w_high": 63.85,
         "52w_low": 38.18
       },
@@ -4366,9 +4366,9 @@
       "indicators": {
         "rsi_14": 30.68,
         "macd": {
-          "macd_line": -2.47,
-          "signal_line": 1.69,
-          "histogram": -4.16
+          "macd_line": -2.45,
+          "signal_line": 1.72,
+          "histogram": -4.17
         },
         "bollinger": {
           "upper": 750.16,
@@ -4397,9 +4397,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 54.66,
-        "forward_per": 47.41,
-        "pbr": 35.26,
+        "per": 54.68,
+        "forward_per": 47.43,
+        "pbr": 35.28,
         "roe": 0.6463,
         "roa": 0.2407,
         "eps": 12.59,
@@ -4413,7 +4413,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.67,
-        "market_cap": 55057629184,
+        "market_cap": 55081631744,
         "52w_high": 769.98,
         "52w_low": 356.14
       },
@@ -4435,9 +4435,9 @@
       "indicators": {
         "rsi_14": 50.44,
         "macd": {
-          "macd_line": -2.3,
-          "signal_line": -2.47,
-          "histogram": 0.17
+          "macd_line": -2.38,
+          "signal_line": -2.58,
+          "histogram": 0.2
         },
         "bollinger": {
           "upper": 224.79,
@@ -4466,9 +4466,9 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 91.89,
-        "forward_per": 20.22,
-        "pbr": 6.45,
+        "per": 93.52,
+        "forward_per": 20.57,
+        "pbr": 6.56,
         "roe": 0.0734,
         "roa": 0.0318,
         "eps": 2.36,
@@ -4482,7 +4482,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.15,
-        "market_cap": 57898950656,
+        "market_cap": 58926899200,
         "52w_high": 283.68,
         "52w_low": 205.33
       },
@@ -4504,8 +4504,8 @@
       "indicators": {
         "rsi_14": 66.18,
         "macd": {
-          "macd_line": 0.97,
-          "signal_line": 1.07,
+          "macd_line": 0.96,
+          "signal_line": 1.06,
           "histogram": -0.1
         },
         "bollinger": {
@@ -4551,7 +4551,7 @@
         "dividend_yield": 0.37,
         "peg_ratio": null,
         "beta": 0.76,
-        "market_cap": 51216732160,
+        "market_cap": 51219230720,
         "52w_high": 204.84,
         "52w_low": 115.21
       },
@@ -4604,9 +4604,9 @@
       "grade": "buy",
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 39.09,
-        "forward_per": 34.37,
-        "pbr": 12.33,
+        "per": 38.84,
+        "forward_per": 34.15,
+        "pbr": 12.25,
         "roe": 0.3274,
         "roa": 0.205,
         "eps": 1.07,
@@ -4620,7 +4620,7 @@
         "dividend_yield": 2.1,
         "peg_ratio": null,
         "beta": 0.88,
-        "market_cap": 48022335488,
+        "market_cap": 47712366592,
         "52w_high": 50.63,
         "52w_low": 35.3
       },
@@ -4642,9 +4642,9 @@
       "indicators": {
         "rsi_14": 42.99,
         "macd": {
-          "macd_line": -1.1,
-          "signal_line": -1.48,
-          "histogram": 0.38
+          "macd_line": -1.09,
+          "signal_line": -1.46,
+          "histogram": 0.37
         },
         "bollinger": {
           "upper": 225.88,
@@ -4673,9 +4673,9 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 33.67,
-        "forward_per": 28.6,
-        "pbr": 80.97,
+        "per": 33.9,
+        "forward_per": 28.79,
+        "pbr": 81.52,
         "roe": 2.6813,
         "roa": 0.1572,
         "eps": 6.5,
@@ -4689,7 +4689,7 @@
         "dividend_yield": 0.82,
         "peg_ratio": null,
         "beta": 0.81,
-        "market_cap": 30576623616,
+        "market_cap": 30784796672,
         "52w_high": 322.92,
         "52w_low": 197.0
       },
@@ -4742,9 +4742,9 @@
       "grade": "sell",
       "summary": "RSI 과매도 회복 + MACD 데드크로스 + 강한 하락추세 | 고PER",
       "fundamentals": {
-        "per": 22.59,
-        "forward_per": 18.0,
-        "pbr": 2.07,
+        "per": 22.69,
+        "forward_per": 18.08,
+        "pbr": 2.08,
         "roe": 0.0945,
         "roa": 0.0224,
         "eps": 3.28,
@@ -4758,7 +4758,7 @@
         "dividend_yield": 3.08,
         "peg_ratio": null,
         "beta": 0.45,
-        "market_cap": 43827179520,
+        "market_cap": 44022390784,
         "52w_high": 83.01,
         "52w_low": 62.58
       },
@@ -4781,7 +4781,7 @@
         "rsi_14": 89.91,
         "macd": {
           "macd_line": 2.93,
-          "signal_line": 2.94,
+          "signal_line": 2.93,
           "histogram": -0.01
         },
         "bollinger": {
@@ -4801,18 +4801,18 @@
       },
       "signals": {
         "rsi": "overbought",
-        "macd": "bearish_crossover",
+        "macd": "neutral",
         "bollinger": "within_bands",
         "volume": "below_average",
         "trend": "strong_uptrend"
       },
-      "score": 46,
-      "tech_score": 44,
+      "score": 55,
+      "tech_score": 53,
       "grade": "hold",
-      "summary": "RSI 과매수 + MACD 데드크로스 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
+      "summary": "RSI 과매수 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
       "fundamentals": {
-        "per": 19.77,
-        "forward_per": 15.2,
+        "per": 19.81,
+        "forward_per": 15.23,
         "pbr": 2.77,
         "roe": 0.145,
         "roa": 0.1016,
@@ -4827,7 +4827,7 @@
         "dividend_yield": 1.45,
         "peg_ratio": null,
         "beta": 0.97,
-        "market_cap": 41718779904,
+        "market_cap": 41792040960,
         "52w_high": 90.82,
         "52w_low": 65.15
       },
@@ -4849,9 +4849,9 @@
       "indicators": {
         "rsi_14": 58.29,
         "macd": {
-          "macd_line": 4.87,
-          "signal_line": 5.92,
-          "histogram": -1.05
+          "macd_line": 4.86,
+          "signal_line": 5.9,
+          "histogram": -1.04
         },
         "bollinger": {
           "upper": 136.5,
@@ -4880,9 +4880,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 23.11,
-        "forward_per": 18.25,
-        "pbr": 7.07,
+        "per": 23.48,
+        "forward_per": 18.54,
+        "pbr": 7.18,
         "roe": 0.2007,
         "roa": 0.0511,
         "eps": 5.28,
@@ -4896,7 +4896,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.75,
-        "market_cap": 24886116352,
+        "market_cap": 25281812480,
         "52w_high": 132.48,
         "52w_low": 61.8
       },
@@ -4918,8 +4918,8 @@
       "indicators": {
         "rsi_14": 52.8,
         "macd": {
-          "macd_line": 1.6,
-          "signal_line": 1.88,
+          "macd_line": 1.61,
+          "signal_line": 1.89,
           "histogram": -0.28
         },
         "bollinger": {
@@ -4949,9 +4949,9 @@
       "grade": "hold",
       "summary": "MACD 데드크로스 + 강한 상승추세 | 적정 PER | 높은 ROE (20%+)",
       "fundamentals": {
-        "per": 17.27,
-        "forward_per": 16.91,
-        "pbr": 3.8,
+        "per": 17.31,
+        "forward_per": 16.95,
+        "pbr": 3.81,
         "roe": 0.2445,
         "roa": 0.0546,
         "eps": 4.83,
@@ -4965,7 +4965,7 @@
         "dividend_yield": 0.17,
         "peg_ratio": null,
         "beta": 1.24,
-        "market_cap": 38072709120,
+        "market_cap": 38173151232,
         "52w_high": 94.8,
         "52w_low": 57.65
       },
@@ -4987,8 +4987,8 @@
       "indicators": {
         "rsi_14": 29.72,
         "macd": {
-          "macd_line": -0.1,
-          "signal_line": 1.37,
+          "macd_line": -0.11,
+          "signal_line": 1.36,
           "histogram": -1.47
         },
         "bollinger": {
@@ -5018,9 +5018,9 @@
       "grade": "hold",
       "summary": "RSI 과매도 + MACD 데드크로스 + 볼린저 하단 반등 + 하락추세 | 적정 PER | 높은 이익률 (20%+)",
       "fundamentals": {
-        "per": 10.32,
-        "forward_per": 12.82,
-        "pbr": 1.08,
+        "per": 10.27,
+        "forward_per": 12.77,
+        "pbr": 1.07,
         "roe": 0.109,
         "roa": 0.051,
         "eps": 14.24,
@@ -5034,7 +5034,7 @@
         "dividend_yield": 2.72,
         "peg_ratio": null,
         "beta": 0.61,
-        "market_cap": 42528407552,
+        "market_cap": 42354712576,
         "52w_high": 180.91,
         "52w_low": 114.0
       },
@@ -5056,8 +5056,8 @@
       "indicators": {
         "rsi_14": 33.27,
         "macd": {
-          "macd_line": -14.71,
-          "signal_line": -16.09,
+          "macd_line": -14.7,
+          "signal_line": -16.07,
           "histogram": 1.37
         },
         "bollinger": {
@@ -5088,8 +5088,8 @@
       "summary": "RSI 과매도 회복 + MACD 골든크로스 + 강한 하락추세 | 고PBR (프리미엄) | 음의 ROE",
       "fundamentals": {
         "per": null,
-        "forward_per": 51.2,
-        "pbr": 18.47,
+        "forward_per": 51.4,
+        "pbr": 18.54,
         "roe": -0.0241,
         "roa": -0.0136,
         "eps": -0.25,
@@ -5103,7 +5103,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.07,
-        "market_cap": 36614590464,
+        "market_cap": 36761300992,
         "52w_high": 336.99,
         "52w_low": 164.78
       },
@@ -5125,8 +5125,8 @@
       "indicators": {
         "rsi_14": 22.37,
         "macd": {
-          "macd_line": -0.91,
-          "signal_line": -0.61,
+          "macd_line": -0.9,
+          "signal_line": -0.6,
           "histogram": -0.3
         },
         "bollinger": {
@@ -5156,8 +5156,8 @@
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 적정 PER | 양호한 ROE (15-20%)",
       "fundamentals": {
-        "per": 15.62,
-        "forward_per": 17.1,
+        "per": 15.6,
+        "forward_per": 17.08,
         "pbr": 2.46,
         "roe": 0.1689,
         "roa": 0.0577,
@@ -5172,7 +5172,7 @@
         "dividend_yield": 2.03,
         "peg_ratio": null,
         "beta": 0.89,
-        "market_cap": 44700856320,
+        "market_cap": 44651520000,
         "52w_high": 51.12,
         "52w_low": 33.6
       },
@@ -5194,7 +5194,7 @@
       "indicators": {
         "rsi_14": 58.39,
         "macd": {
-          "macd_line": 2.0,
+          "macd_line": 1.99,
           "signal_line": 1.66,
           "histogram": 0.33
         },
@@ -5226,8 +5226,8 @@
       "summary": "MACD 골든크로스 + 강한 상승추세 | 고PBR (프리미엄) | 음의 ROE",
       "fundamentals": {
         "per": null,
-        "forward_per": 28.56,
-        "pbr": 30.77,
+        "forward_per": 28.92,
+        "pbr": 31.15,
         "roe": -0.1535,
         "roa": -0.0162,
         "eps": -0.69,
@@ -5241,7 +5241,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.9,
-        "market_cap": 42411831296,
+        "market_cap": 42946191360,
         "52w_high": 326.0,
         "52w_low": 139.7
       },
@@ -5294,8 +5294,8 @@
       "grade": "hold",
       "summary": "MACD 골든크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 낮은 부채비율 (안정)",
       "fundamentals": {
-        "per": 1114.83,
-        "forward_per": 48.3,
+        "per": 1116.83,
+        "forward_per": 48.39,
         "pbr": 3.29,
         "roe": 0.0025,
         "roa": -0.004,
@@ -5310,7 +5310,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 0.84,
-        "market_cap": 28349505536,
+        "market_cap": 28400365568,
         "52w_high": 97.43,
         "52w_low": 62.0
       },
@@ -5332,7 +5332,7 @@
       "indicators": {
         "rsi_14": 25.84,
         "macd": {
-          "macd_line": -6.58,
+          "macd_line": -6.57,
           "signal_line": -5.97,
           "histogram": -0.6
         },
@@ -5363,9 +5363,9 @@
       "grade": "sell",
       "summary": "RSI 과매도 + MACD 데드크로스 + 강한 하락추세 | 매우 고PER (고평가 주의) | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 460.13,
-        "forward_per": 58.89,
-        "pbr": 14.07,
+        "per": 461.05,
+        "forward_per": 59.01,
+        "pbr": 14.1,
         "roe": 0.0352,
         "roa": -0.005,
         "eps": 0.3,
@@ -5379,7 +5379,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.23,
-        "market_cap": 48406589440,
+        "market_cap": 48503025664,
         "52w_high": 201.69,
         "52w_low": 81.63
       },
@@ -5401,8 +5401,8 @@
       "indicators": {
         "rsi_14": 62.51,
         "macd": {
-          "macd_line": 4.07,
-          "signal_line": 4.42,
+          "macd_line": 4.08,
+          "signal_line": 4.43,
           "histogram": -0.35
         },
         "bollinger": {
@@ -5432,9 +5432,9 @@
       "grade": "hold",
       "summary": "RSI 과매수 접근 + MACD 데드크로스 + 강한 상승추세 | 고PER | 고PBR (프리미엄)",
       "fundamentals": {
-        "per": 30.27,
-        "forward_per": 27.01,
-        "pbr": 8.7,
+        "per": 30.19,
+        "forward_per": 26.94,
+        "pbr": 8.67,
         "roe": 0.312,
         "roa": 0.0915,
         "eps": 4.47,
@@ -5448,7 +5448,7 @@
         "dividend_yield": null,
         "peg_ratio": null,
         "beta": 1.44,
-        "market_cap": 20798685184,
+        "market_cap": 20741814272,
         "52w_high": 153.06,
         "52w_low": 68.7
       },

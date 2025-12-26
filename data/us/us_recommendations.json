@@ -1,13 +1,13 @@
 {
-  "updated_at": "2025-12-25T16:38:27.654341",
+  "updated_at": "2025-12-26T16:38:26.648300",
   "region": "US",
   "market_summary": {
-    "sp500_index": 6932.05,
-    "sp500_change_pct": 0.32,
-    "nasdaq_index": 23613.31,
-    "nasdaq_change_pct": 0.22,
-    "dow_index": 48731.16,
-    "dow_change_pct": 0.6,
+    "sp500_index": 6929.94,
+    "sp500_change_pct": -0.03,
+    "nasdaq_index": 23593.1,
+    "nasdaq_change_pct": -0.09,
+    "dow_index": 48710.97,
+    "dow_change_pct": -0.04,
     "market_sentiment": "neutral"
   },
   "recommendations": {
@@ -29,8 +29,8 @@
         "price": 58.98,
         "change_pct": 0.39,
         "fundamentals": {
-          "per": 11.26,
-          "pbr": -37.42,
+          "per": 10.99,
+          "pbr": -36.55,
           "roe": null,
           "health": "good"
         }
@@ -52,8 +52,8 @@
         "price": 39.1,
         "change_pct": -0.13,
         "fundamentals": {
-          "per": 23.99,
-          "pbr": 3.94,
+          "per": 24.11,
+          "pbr": 3.96,
           "roe": 0.1812,
           "health": "good"
         }
@@ -77,8 +77,8 @@
         "price": 177.33,
         "change_pct": 1.24,
         "fundamentals": {
-          "per": 39.23,
-          "pbr": 21.91,
+          "per": 39.4,
+          "pbr": 22.0,
           "roe": 0.6226,
           "health": "good"
         }
@@ -100,8 +100,8 @@
         "price": 67.42,
         "change_pct": 0.84,
         "fundamentals": {
-          "per": 37.46,
-          "pbr": 9.65,
+          "per": 37.54,
+          "pbr": 9.67,
           "roe": 0.3064,
           "health": "good"
         }
@@ -123,7 +123,7 @@
         "price": 159.36,
         "change_pct": 0.47,
         "fundamentals": {
-          "per": 32.06,
+          "per": 32.09,
           "pbr": 7.83,
           "roe": 0.2506,
           "health": "neutral"
@@ -146,8 +146,8 @@
         "price": 41.83,
         "change_pct": 0.26,
         "fundamentals": {
-          "per": 39.09,
-          "pbr": 12.33,
+          "per": 38.84,
+          "pbr": 12.25,
           "roe": 0.3274,
           "health": "neutral"
         }
@@ -169,7 +169,7 @@
         "price": 29.78,
         "change_pct": 1.36,
         "fundamentals": {
-          "per": 4.95,
+          "per": 4.93,
           "pbr": 1.12,
           "roe": 0.2419,
           "health": "good"
@@ -215,8 +215,8 @@
         "price": 352.98,
         "change_pct": 0.16,
         "fundamentals": {
-          "per": 21.14,
-          "pbr": 12.66,
+          "per": 21.19,
+          "pbr": 12.69,
           "roe": 0.5543,
           "health": "good"
         }
@@ -238,8 +238,8 @@
         "price": 125.67,
         "change_pct": 0.38,
         "fundamentals": {
-          "per": 19.45,
-          "pbr": 7.25,
+          "per": 19.3,
+          "pbr": 7.19,
           "roe": 0.4071,
           "health": "good"
         }
@@ -261,8 +261,8 @@
         "price": 783.71,
         "change_pct": -0.19,
         "fundamentals": {
-          "per": 18.8,
-          "pbr": 2.6,
+          "per": 18.83,
+          "pbr": 2.61,
           "roe": 0.1519,
           "health": "good"
         }
@@ -284,8 +284,8 @@
         "price": 667.55,
         "change_pct": 0.39,
         "fundamentals": {
-          "per": 29.5,
-          "pbr": 8.67,
+          "per": 29.31,
+          "pbr": 8.62,
           "roe": 0.3264,
           "health": "good"
         }
@@ -307,8 +307,8 @@
         "price": 286.68,
         "change_pct": 3.77,
         "fundamentals": {
-          "per": 27.25,
-          "pbr": 5.49,
+          "per": 27.07,
+          "pbr": 5.45,
           "roe": 0.2255,
           "health": "good"
         }
@@ -330,8 +330,8 @@
         "price": 329.17,
         "change_pct": 0.99,
         "fundamentals": {
-          "per": 16.31,
-          "pbr": 2.63,
+          "per": 16.25,
+          "pbr": 2.62,
           "roe": 0.1644,
           "health": "good"
         }
@@ -353,8 +353,8 @@
         "price": 106.45,
         "change_pct": 1.34,
         "fundamentals": {
-          "per": 14.08,
-          "pbr": 5.11,
+          "per": 14.12,
+          "pbr": 5.12,
           "roe": 0.3949,
           "health": "good"
         }
@@ -376,8 +376,8 @@
         "price": 674.83,
         "change_pct": 0.1,
         "fundamentals": {
-          "per": 46.28,
-          "pbr": 9.73,
+          "per": 46.4,
+          "pbr": 9.75,
           "roe": 0.2199,
           "health": "good"
         }
@@ -399,8 +399,8 @@
         "price": 208.46,
         "change_pct": 1.55,
         "fundamentals": {
-          "per": 5.78,
-          "pbr": 1.76,
+          "per": 5.74,
+          "pbr": 1.75,
           "roe": 0.3133,
           "health": "good"
         }
@@ -422,8 +422,8 @@
         "price": 315.16,
         "change_pct": 0.35,
         "fundamentals": {
-          "per": 33.21,
-          "pbr": -27.22,
+          "per": 33.25,
+          "pbr": -27.26,
           "roe": null,
           "health": "good"
         }
@@ -445,7 +445,7 @@
         "price": 136.78,
         "change_pct": 0.21,
         "fundamentals": {
-          "per": 32.57,
+          "per": 32.58,
           "pbr": 9.66,
           "roe": 0.3078,
           "health": "good"
@@ -468,7 +468,7 @@
         "price": 119.22,
         "change_pct": -0.17,
         "fundamentals": {
-          "per": 17.33,
+          "per": 17.31,
           "pbr": 1.93,
           "roe": 0.1142,
           "health": "neutral"
@@ -491,8 +491,8 @@
         "price": 181.65,
         "change_pct": 1.2,
         "fundamentals": {
-          "per": 18.63,
-          "pbr": 2.88,
+          "per": 18.65,
+          "pbr": 2.89,
           "roe": 0.1514,
           "health": "neutral"
         }
@@ -514,8 +514,8 @@
         "price": 577.15,
         "change_pct": -0.03,
         "fundamentals": {
-          "per": 76.34,
-          "pbr": 12.1,
+          "per": 76.43,
+          "pbr": 12.11,
           "roe": 0.169,
           "health": "neutral"
         }
@@ -537,8 +537,8 @@
         "price": 274.86,
         "change_pct": 0.41,
         "fundamentals": {
-          "per": 12.17,
-          "pbr": 1.75,
+          "per": 12.24,
+          "pbr": 1.76,
           "roe": 0.1554,
           "health": "neutral"
         }
@@ -560,8 +560,8 @@
         "price": 475.75,
         "change_pct": 0.06,
         "fundamentals": {
-          "per": 58.81,
-          "pbr": 3.12,
+          "per": 58.98,
+          "pbr": 3.13,
           "roe": 0.0716,
           "health": "neutral"
         }
@@ -583,8 +583,8 @@
         "price": 210.4,
         "change_pct": -1.07,
         "fundamentals": {
-          "per": 14.64,
-          "pbr": 5.51,
+          "per": 14.54,
+          "pbr": 5.47,
           "roe": 0.4102,
           "health": "good"
         }
@@ -606,7 +606,7 @@
         "price": 488.02,
         "change_pct": 0.24,
         "fundamentals": {
-          "per": 34.73,
+          "per": 34.71,
           "pbr": 9.99,
           "roe": 0.3224,
           "health": "good"
@@ -629,8 +629,8 @@
         "price": 188.61,
         "change_pct": -0.32,
         "fundamentals": {
-          "per": 46.69,
-          "pbr": 38.55,
+          "per": 47.16,
+          "pbr": 38.95,
           "roe": 1.0736,
           "health": "good"
         }
@@ -652,7 +652,7 @@
         "price": 1088.96,
         "change_pct": 0.22,
         "fundamentals": {
-          "per": 28.01,
+          "per": 27.99,
           "pbr": 3.04,
           "roe": 0.1207,
           "health": "good"
@@ -675,8 +675,8 @@
         "price": 485.4,
         "change_pct": -0.03,
         "fundamentals": {
-          "per": 332.47,
-          "pbr": 20.18,
+          "per": 325.47,
+          "pbr": 19.75,
           "roe": 0.0679,
           "health": "warning"
         }
@@ -698,8 +698,8 @@
         "price": 144.49,
         "change_pct": 0.91,
         "fundamentals": {
-          "per": 21.09,
-          "pbr": 6.43,
+          "per": 21.13,
+          "pbr": 6.44,
           "roe": 0.319,
           "health": "neutral"
         }
@@ -721,8 +721,8 @@
         "price": 910.78,
         "change_pct": 1.01,
         "fundamentals": {
-          "per": 18.49,
-          "pbr": 2.62,
+          "per": 18.41,
+          "pbr": 2.61,
           "roe": 0.1353,
           "health": "neutral"
         }
@@ -744,8 +744,8 @@
         "price": 383.11,
         "change_pct": 0.24,
         "fundamentals": {
-          "per": 25.71,
-          "pbr": 8.14,
+          "per": 25.57,
+          "pbr": 8.1,
           "roe": 0.3394,
           "health": "neutral"
         }
@@ -767,8 +767,8 @@
         "price": 187.6,
         "change_pct": 0.91,
         "fundamentals": {
-          "per": 22.47,
-          "pbr": 6.07,
+          "per": 22.4,
+          "pbr": 6.05,
           "roe": 0.2873,
           "health": "neutral"
         }
@@ -790,8 +790,8 @@
         "price": 125.49,
         "change_pct": 1.58,
         "fundamentals": {
-          "per": 21.13,
-          "pbr": 10.26,
+          "per": 21.25,
+          "pbr": 10.32,
           "roe": 0.4987,
           "health": "good"
         }
@@ -813,8 +813,8 @@
         "price": 1276.99,
         "change_pct": 0.65,
         "fundamentals": {
-          "per": 40.16,
-          "pbr": 33.69,
+          "per": 40.24,
+          "pbr": 33.76,
           "roe": 0.9917,
           "health": "neutral"
         }
@@ -836,7 +836,7 @@
         "price": 355.14,
         "change_pct": 0.5,
         "fundamentals": {
-          "per": 34.85,
+          "per": 34.84,
           "pbr": 18.32,
           "roe": 0.5207,
           "health": "good"
@@ -859,8 +859,8 @@
         "price": 162.64,
         "change_pct": 0.36,
         "fundamentals": {
-          "per": 23.2,
-          "pbr": -23.2,
+          "per": 22.97,
+          "pbr": -22.97,
           "roe": null,
           "health": "good"
         }
@@ -882,7 +882,7 @@
         "price": 232.38,
         "change_pct": 0.1,
         "fundamentals": {
-          "per": 32.78,
+          "per": 32.8,
           "pbr": 6.72,
           "roe": 0.2433,
           "health": "neutral"
@@ -905,8 +905,8 @@
         "price": 229.89,
         "change_pct": 0.48,
         "fundamentals": {
-          "per": 175.49,
-          "pbr": -153.77,
+          "per": 175.56,
+          "pbr": -153.83,
           "roe": 1.3796,
           "health": "neutral"
         }
@@ -928,7 +928,7 @@
         "price": 56.25,
         "change_pct": 0.5,
         "fundamentals": {
-          "per": 15.37,
+          "per": 15.35,
           "pbr": 1.48,
           "roe": 0.0987,
           "health": "neutral"
@@ -951,7 +951,7 @@
         "price": 424.9,
         "change_pct": -0.05,
         "fundamentals": {
-          "per": 28.4,
+          "per": 28.39,
           "pbr": 5.14,
           "roe": 0.1798,
           "health": "neutral"
@@ -974,7 +974,7 @@
         "price": 95.3,
         "change_pct": 0.88,
         "fundamentals": {
-          "per": 15.7,
+          "per": 15.69,
           "pbr": 1.82,
           "roe": 0.1152,
           "health": "neutral"
@@ -1020,8 +1020,8 @@
         "price": 5446.51,
         "change_pct": 0.13,
         "fundamentals": {
-          "per": 35.46,
-          "pbr": -37.15,
+          "per": 35.42,
+          "pbr": -37.11,
           "roe": null,
           "health": "neutral"
         }
@@ -1043,8 +1043,8 @@
         "price": 60.04,
         "change_pct": 1.06,
         "fundamentals": {
-          "per": 12.06,
-          "pbr": 2.8,
+          "per": 12.04,
+          "pbr": 2.79,
           "roe": 0.2436,
           "health": "good"
         }
@@ -1066,8 +1066,8 @@
         "price": 77.42,
         "change_pct": -0.32,
         "fundamentals": {
-          "per": 43.99,
-          "pbr": 9.77,
+          "per": 43.93,
+          "pbr": 9.75,
           "roe": 0.2554,
           "health": "neutral"
         }
@@ -1089,8 +1089,8 @@
         "price": 114.58,
         "change_pct": 0.42,
         "fundamentals": {
-          "per": 25.92,
-          "pbr": 10.6,
+          "per": 25.83,
+          "pbr": 10.56,
           "roe": 0.4088,
           "health": "good"
         }
@@ -1112,8 +1112,8 @@
         "price": 265.26,
         "change_pct": 0.69,
         "fundamentals": {
-          "per": 35.46,
-          "pbr": 4.16,
+          "per": 35.57,
+          "pbr": 4.18,
           "roe": 0.1218,
           "health": "neutral"
         }
@@ -1135,7 +1135,7 @@
         "price": 215.04,
         "change_pct": 0.07,
         "fundamentals": {
-          "per": 112.59,
+          "per": 112.56,
           "pbr": 5.76,
           "roe": 0.0532,
           "health": "neutral"
@@ -1204,8 +1204,8 @@
         "price": 191.18,
         "change_pct": 0.27,
         "fundamentals": {
-          "per": 41.29,
-          "pbr": 17.16,
+          "per": 41.28,
+          "pbr": 17.15,
           "roe": 0.434,
           "health": "neutral"
         }
@@ -1227,8 +1227,8 @@
         "price": 579.45,
         "change_pct": 0.54,
         "fundamentals": {
-          "per": 37.03,
-          "pbr": 65.99,
+          "per": 37.04,
+          "pbr": 66.01,
           "roe": 1.8486,
           "health": "neutral"
         }
@@ -1250,8 +1250,8 @@
         "price": 525.74,
         "change_pct": 0.11,
         "fundamentals": {
-          "per": 38.18,
-          "pbr": 4.81,
+          "per": 38.45,
+          "pbr": 4.85,
           "roe": 0.1199,
           "health": "neutral"
         }
@@ -1274,7 +1274,7 @@
         "change_pct": 0.6,
         "fundamentals": {
           "per": null,
-          "pbr": -20.07,
+          "pbr": -19.92,
           "roe": null,
           "health": "neutral"
         }
@@ -1296,8 +1296,8 @@
         "price": 150.5,
         "change_pct": -0.01,
         "fundamentals": {
-          "per": 21.2,
-          "pbr": 1.6,
+          "per": 21.13,
+          "pbr": 1.59,
           "roe": 0.0732,
           "health": "neutral"
         }
@@ -1319,8 +1319,8 @@
         "price": 316.75,
         "change_pct": 0.39,
         "fundamentals": {
-          "per": 42.35,
-          "pbr": 17.76,
+          "per": 42.13,
+          "pbr": 17.67,
           "roe": 0.4213,
           "health": "neutral"
         }
@@ -1342,8 +1342,8 @@
         "price": 121.56,
         "change_pct": 1.81,
         "fundamentals": {
-          "per": 17.07,
-          "pbr": 1.12,
+          "per": 16.91,
+          "pbr": 1.11,
           "roe": 0.0699,
           "health": "neutral"
         }
@@ -1366,7 +1366,7 @@
         "change_pct": -0.78,
         "fundamentals": {
           "per": null,
-          "pbr": 30.77,
+          "pbr": 31.15,
           "roe": -0.1535,
           "health": "warning"
         }
@@ -1411,8 +1411,8 @@
         "price": 79.12,
         "change_pct": 1.38,
         "fundamentals": {
-          "per": 208.21,
-          "pbr": 1.38,
+          "per": 209.5,
+          "pbr": 1.39,
           "roe": 0.0058,
           "health": "warning"
         }
@@ -1436,7 +1436,7 @@
         "price": 501.34,
         "change_pct": 0.17,
         "fundamentals": {
-          "per": 16.03,
+          "per": 15.93,
           "pbr": 0.0,
           "roe": 0.1017,
           "health": "good"
@@ -1482,8 +1482,8 @@
         "price": 91.8,
         "change_pct": -1.0,
         "fundamentals": {
-          "per": 12.97,
-          "pbr": 1.75,
+          "per": 12.93,
+          "pbr": 1.74,
           "roe": 0.1542,
           "health": "good"
         }
@@ -1505,8 +1505,8 @@
         "price": 97.27,
         "change_pct": -0.21,
         "fundamentals": {
-          "per": 26.36,
-          "pbr": 2.56,
+          "per": 26.16,
+          "pbr": 2.54,
           "roe": 0.0982,
           "health": "neutral"
         }
@@ -1528,8 +1528,8 @@
         "price": 260.78,
         "change_pct": 0.21,
         "fundamentals": {
-          "per": 30.11,
-          "pbr": 10.13,
+          "per": 30.24,
+          "pbr": 10.17,
           "roe": 0.3551,
           "health": "good"
         }
@@ -1551,8 +1551,8 @@
         "price": 81.18,
         "change_pct": 0.64,
         "fundamentals": {
-          "per": 33.41,
-          "pbr": 82.0,
+          "per": 33.56,
+          "pbr": 82.38,
           "roe": 2.2804,
           "health": "good"
         }
@@ -1574,8 +1574,8 @@
         "price": 25.03,
         "change_pct": 0.6,
         "fundamentals": {
-          "per": 14.55,
-          "pbr": 1.53,
+          "per": 14.59,
+          "pbr": 1.54,
           "roe": 0.106,
           "health": "neutral"
         }
@@ -1597,8 +1597,8 @@
         "price": 467.44,
         "change_pct": 0.26,
         "fundamentals": {
-          "per": 25.25,
-          "pbr": 4.87,
+          "per": 25.33,
+          "pbr": 4.89,
           "roe": 0.2043,
           "health": "neutral"
         }
@@ -1620,8 +1620,8 @@
         "price": 157.29,
         "change_pct": 0.88,
         "fundamentals": {
-          "per": 34.72,
-          "pbr": 18.66,
+          "per": 34.68,
+          "pbr": 18.64,
           "roe": 0.584,
           "health": "neutral"
         }
@@ -1643,8 +1643,8 @@
         "price": 350.22,
         "change_pct": 0.26,
         "fundamentals": {
-          "per": 73.58,
-          "pbr": 5.91,
+          "per": 73.98,
+          "pbr": 5.95,
           "roe": 0.3105,
           "health": "neutral"
         }
@@ -1666,8 +1666,8 @@
         "price": 231.47,
         "change_pct": 0.28,
         "fundamentals": {
-          "per": 47.63,
-          "pbr": 3.2,
+          "per": 47.39,
+          "pbr": 3.19,
           "roe": 0.0684,
           "health": "neutral"
         }
@@ -1689,8 +1689,8 @@
         "price": 243.0,
         "change_pct": 0.35,
         "fundamentals": {
-          "per": 20.12,
-          "pbr": -13.13,
+          "per": 20.24,
+          "pbr": -13.21,
           "roe": null,
           "health": "neutral"
         }
@@ -1712,8 +1712,8 @@
         "price": 111.51,
         "change_pct": -0.19,
         "fundamentals": {
-          "per": 21.86,
-          "pbr": 3.02,
+          "per": 21.92,
+          "pbr": 3.03,
           "roe": 0.1415,
           "health": "warning"
         }
@@ -1735,8 +1735,8 @@
         "price": 688.18,
         "change_pct": 0.86,
         "fundamentals": {
-          "per": 54.66,
-          "pbr": 35.26,
+          "per": 54.68,
+          "pbr": 35.28,
           "roe": 0.6463,
           "health": "neutral"
         }
@@ -1758,8 +1758,8 @@
         "price": 122.01,
         "change_pct": 2.07,
         "fundamentals": {
-          "per": 23.11,
-          "pbr": 7.07,
+          "per": 23.48,
+          "pbr": 7.18,
           "roe": 0.2007,
           "health": "warning"
         }
@@ -1781,8 +1781,8 @@
         "price": 216.85,
         "change_pct": 0.65,
         "fundamentals": {
-          "per": 91.89,
-          "pbr": 6.45,
+          "per": 93.52,
+          "pbr": 6.56,
           "roe": 0.0734,
           "health": "warning"
         }
@@ -1804,33 +1804,10 @@
         "price": 70.11,
         "change_pct": 0.34,
         "fundamentals": {
-          "per": 23.22,
-          "pbr": 9.65,
+          "per": 23.14,
+          "pbr": 9.62,
           "roe": 0.4244,
           "health": "good"
-        }
-      },
-      {
-        "code": "CTSH",
-        "name": "Cognizant Technology Solutions ",
-        "market": "NASDAQ",
-        "score": 46,
-        "tech_score": 44,
-        "signals": {
-          "rsi": "overbought",
-          "macd": "bearish_crossover",
-          "bollinger": "within_bands",
-          "volume": "below_average",
-          "trend": "strong_uptrend"
-        },
-        "summary": "RSI 과매수 + MACD 데드크로스 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
-        "price": 85.42,
-        "change_pct": 0.28,
-        "fundamentals": {
-          "per": 19.77,
-          "pbr": 2.77,
-          "roe": 0.145,
-          "health": "neutral"
         }
       },
       {
@@ -1850,7 +1827,7 @@
         "price": 100.66,
         "change_pct": 0.47,
         "fundamentals": {
-          "per": 15.56,
+          "per": 15.54,
           "pbr": 5.39,
           "roe": 0.3362,
           "health": "neutral"
@@ -1873,8 +1850,8 @@
         "price": 129.15,
         "change_pct": 1.08,
         "fundamentals": {
-          "per": 37.54,
-          "pbr": 2.28,
+          "per": 37.42,
+          "pbr": 2.27,
           "roe": 0.0596,
           "health": "neutral"
         }
@@ -1897,7 +1874,7 @@
         "change_pct": 0.12,
         "fundamentals": {
           "per": null,
-          "pbr": 18.47,
+          "pbr": 18.54,
           "roe": -0.0241,
           "health": "warning"
         }
@@ -1919,8 +1896,8 @@
         "price": 579.12,
         "change_pct": -0.14,
         "fundamentals": {
-          "per": 33.44,
-          "pbr": 4.26,
+          "per": 33.53,
+          "pbr": 4.28,
           "roe": 0.1312,
           "health": "neutral"
         }
@@ -1942,8 +1919,8 @@
         "price": 333.96,
         "change_pct": 0.75,
         "fundamentals": {
-          "per": 25.85,
-          "pbr": 18.7,
+          "per": 25.77,
+          "pbr": 18.64,
           "roe": 0.8171,
           "health": "neutral"
         }
@@ -1965,8 +1942,8 @@
         "price": 1065.52,
         "change_pct": 0.35,
         "fundamentals": {
-          "per": 37.31,
-          "pbr": 18.42,
+          "per": 37.56,
+          "pbr": 18.55,
           "roe": 0.5385,
           "health": "good"
         }
@@ -1988,8 +1965,8 @@
         "price": 273.81,
         "change_pct": 0.53,
         "fundamentals": {
-          "per": 36.75,
-          "pbr": 54.86,
+          "per": 36.7,
+          "pbr": 54.78,
           "roe": 1.7142,
           "health": "good"
         }
@@ -2011,8 +1988,8 @@
         "price": 354.74,
         "change_pct": -0.02,
         "fundamentals": {
-          "per": 46.49,
-          "pbr": 6.23,
+          "per": 46.42,
+          "pbr": 6.22,
           "roe": 0.1404,
           "health": "warning"
         }
@@ -2034,8 +2011,8 @@
         "price": 86.49,
         "change_pct": -1.36,
         "fundamentals": {
-          "per": 30.45,
-          "pbr": 5.22,
+          "per": 30.4,
+          "pbr": 5.21,
           "roe": 0.1804,
           "health": "good"
         }
@@ -2057,8 +2034,8 @@
         "price": 92.45,
         "change_pct": 0.34,
         "fundamentals": {
-          "per": 30.71,
-          "pbr": 3.12,
+          "per": 30.86,
+          "pbr": 3.14,
           "roe": 0.2167,
           "health": "neutral"
         }
@@ -2080,8 +2057,8 @@
         "price": 181.68,
         "change_pct": 0.59,
         "fundamentals": {
-          "per": 28.39,
-          "pbr": 10.0,
+          "per": 28.3,
+          "pbr": 9.97,
           "roe": 0.3743,
           "health": "neutral"
         }
@@ -2126,8 +2103,8 @@
         "price": 135.32,
         "change_pct": -0.64,
         "fundamentals": {
-          "per": 30.27,
-          "pbr": 8.7,
+          "per": 30.19,
+          "pbr": 8.67,
           "roe": 0.312,
           "health": "neutral"
         }
@@ -2149,7 +2126,7 @@
         "price": 40.32,
         "change_pct": 1.0,
         "fundamentals": {
-          "per": 8.6,
+          "per": 8.63,
           "pbr": 1.62,
           "roe": 0.1988,
           "health": "good"
@@ -2172,8 +2149,8 @@
         "price": 343.3,
         "change_pct": 0.02,
         "fundamentals": {
-          "per": 13.98,
-          "pbr": 1.73,
+          "per": 14.25,
+          "pbr": 1.77,
           "roe": 0.1257,
           "health": "neutral"
         }
@@ -2195,8 +2172,8 @@
         "price": 43.52,
         "change_pct": 0.14,
         "fundamentals": {
-          "per": 15.6,
-          "pbr": 1.56,
+          "per": 15.61,
+          "pbr": 1.57,
           "roe": 0.1031,
           "health": "neutral"
         }
@@ -2218,8 +2195,8 @@
         "price": 146.91,
         "change_pct": -0.84,
         "fundamentals": {
-          "per": 10.32,
-          "pbr": 1.08,
+          "per": 10.27,
+          "pbr": 1.07,
           "roe": 0.109,
           "health": "good"
         }
@@ -2241,7 +2218,7 @@
         "price": 66.89,
         "change_pct": 0.38,
         "fundamentals": {
-          "per": 1114.83,
+          "per": 1116.83,
           "pbr": 3.29,
           "roe": 0.0025,
           "health": "neutral"
@@ -2264,8 +2241,8 @@
         "price": 78.02,
         "change_pct": 0.0,
         "fundamentals": {
-          "per": 30.12,
-          "pbr": 6.55,
+          "per": 30.18,
+          "pbr": 6.57,
           "roe": 0.2242,
           "health": "neutral"
         }
@@ -2287,8 +2264,8 @@
         "price": 197.49,
         "change_pct": 1.1,
         "fundamentals": {
-          "per": 37.19,
-          "pbr": 18.94,
+          "per": 37.29,
+          "pbr": 18.99,
           "roe": 0.6903,
           "health": "neutral"
         }
@@ -2310,7 +2287,7 @@
         "price": 174.77,
         "change_pct": 0.01,
         "fundamentals": {
-          "per": 34.81,
+          "per": 34.82,
           "pbr": 8.85,
           "roe": 0.2334,
           "health": "neutral"
@@ -2333,8 +2310,8 @@
         "price": 258.1,
         "change_pct": 0.42,
         "fundamentals": {
-          "per": 25.5,
-          "pbr": 16.4,
+          "per": 25.58,
+          "pbr": 16.44,
           "roe": 0.7057,
           "health": "neutral"
         }
@@ -2356,8 +2333,8 @@
         "price": 218.85,
         "change_pct": 0.18,
         "fundamentals": {
-          "per": 33.67,
-          "pbr": 80.97,
+          "per": 33.9,
+          "pbr": 81.52,
           "roe": 2.6813,
           "health": "neutral"
         }
@@ -2379,8 +2356,8 @@
         "price": 1076.98,
         "change_pct": 0.5,
         "fundamentals": {
-          "per": 52.64,
-          "pbr": 40.55,
+          "per": 52.68,
+          "pbr": 40.58,
           "roe": 0.9647,
           "health": "good"
         }
@@ -2402,8 +2379,8 @@
         "price": 36.78,
         "change_pct": 0.52,
         "fundamentals": {
-          "per": 23.88,
-          "pbr": 5.37,
+          "per": 23.78,
+          "pbr": 5.35,
           "roe": 0.2259,
           "health": "good"
         }
@@ -2425,8 +2402,8 @@
         "price": 269.98,
         "change_pct": -0.29,
         "fundamentals": {
-          "per": 22.31,
-          "pbr": 5.38,
+          "per": 22.4,
+          "pbr": 5.4,
           "roe": 0.2502,
           "health": "neutral"
         }
@@ -2448,8 +2425,8 @@
         "price": 277.56,
         "change_pct": 0.3,
         "fundamentals": {
-          "per": 61.0,
-          "pbr": 4.02,
+          "per": 60.84,
+          "pbr": 4.01,
           "roe": 0.0657,
           "health": "neutral"
         }
@@ -2471,8 +2448,8 @@
         "price": 207.78,
         "change_pct": 0.97,
         "fundamentals": {
-          "per": 20.08,
-          "pbr": 6.31,
+          "per": 20.06,
+          "pbr": 6.3,
           "roe": 0.3362,
           "health": "good"
         }
@@ -2494,8 +2471,8 @@
         "price": 347.34,
         "change_pct": 0.69,
         "fundamentals": {
-          "per": 23.69,
-          "pbr": 28.52,
+          "per": 23.86,
+          "pbr": 28.72,
           "roe": 1.6291,
           "health": "neutral"
         }
@@ -2517,8 +2494,8 @@
         "price": 313.33,
         "change_pct": 0.8,
         "fundamentals": {
-          "per": 26.73,
-          "pbr": -103.17,
+          "per": 26.51,
+          "pbr": -102.3,
           "roe": null,
           "health": "good"
         }
@@ -2540,8 +2517,8 @@
         "price": 177.13,
         "change_pct": 0.03,
         "fundamentals": {
-          "per": 32.26,
-          "pbr": 9.68,
+          "per": 32.22,
+          "pbr": 9.67,
           "roe": 0.2976,
           "health": "good"
         }
@@ -2586,9 +2563,32 @@
         "price": 187.22,
         "change_pct": -0.48,
         "fundamentals": {
-          "per": 119.25,
-          "pbr": 14.95,
+          "per": 120.03,
+          "pbr": 15.05,
           "roe": 0.1532,
+          "health": "neutral"
+        }
+      },
+      {
+        "code": "CTSH",
+        "name": "Cognizant Technology Solutions ",
+        "market": "NASDAQ",
+        "score": 55,
+        "tech_score": 53,
+        "signals": {
+          "rsi": "overbought",
+          "macd": "neutral",
+          "bollinger": "within_bands",
+          "volume": "below_average",
+          "trend": "strong_uptrend"
+        },
+        "summary": "RSI 과매수 + 강한 상승추세 | 적정 PER | 낮은 부채비율 (안정)",
+        "price": 85.42,
+        "change_pct": 0.28,
+        "fundamentals": {
+          "per": 19.81,
+          "pbr": 2.77,
+          "roe": 0.145,
           "health": "neutral"
         }
       },
@@ -2609,8 +2609,8 @@
         "price": 83.39,
         "change_pct": 0.08,
         "fundamentals": {
-          "per": 17.27,
-          "pbr": 3.8,
+          "per": 17.31,
+          "pbr": 3.81,
           "roe": 0.2445,
           "health": "good"
         }
@@ -2632,8 +2632,8 @@
         "price": 314.09,
         "change_pct": -0.08,
         "fundamentals": {
-          "per": 30.94,
-          "pbr": 9.81,
+          "per": 30.89,
+          "pbr": 9.79,
           "roe": 0.3545,
           "health": "good"
         }
@@ -2655,8 +2655,8 @@
         "price": 199.02,
         "change_pct": 0.68,
         "fundamentals": {
-          "per": 19.15,
-          "pbr": 3.68,
+          "per": 19.35,
+          "pbr": 3.72,
           "roe": 0.1903,
           "health": "neutral"
         }
@@ -2678,8 +2678,8 @@
         "price": 196.93,
         "change_pct": 0.73,
         "fundamentals": {
-          "per": 20.8,
-          "pbr": 7.45,
+          "per": 20.84,
+          "pbr": 7.47,
           "roe": 0.3462,
           "health": "neutral"
         }
@@ -2701,8 +2701,8 @@
         "price": 93.64,
         "change_pct": 0.15,
         "fundamentals": {
-          "per": 39.02,
-          "pbr": 15.29,
+          "per": 39.36,
+          "pbr": 15.42,
           "roe": 0.4286,
           "health": "good"
         }
@@ -2724,8 +2724,8 @@
         "price": 186.38,
         "change_pct": 0.33,
         "fundamentals": {
-          "per": 38.35,
-          "pbr": 3.87,
+          "per": 38.1,
+          "pbr": 3.85,
           "roe": 0.107,
           "health": "neutral"
         }
@@ -2747,8 +2747,8 @@
         "price": 298.21,
         "change_pct": 0.21,
         "fundamentals": {
-          "per": 57.79,
-          "pbr": 21.85,
+          "per": 58.28,
+          "pbr": 22.04,
           "roe": 0.4033,
           "health": "neutral"
         }
@@ -2772,8 +2772,8 @@
         "price": 138.04,
         "change_pct": -2.26,
         "fundamentals": {
-          "per": 460.13,
-          "pbr": 14.07,
+          "per": 461.05,
+          "pbr": 14.1,
           "roe": 0.0352,
           "health": "neutral"
         }
@@ -2795,8 +2795,8 @@
         "price": 60.0,
         "change_pct": 4.64,
         "fundamentals": {
-          "per": 35.09,
-          "pbr": 6.3,
+          "per": 35.63,
+          "pbr": 6.4,
           "roe": 0.1795,
           "health": "neutral"
         }
@@ -2818,8 +2818,8 @@
         "price": 327.58,
         "change_pct": 0.86,
         "fundamentals": {
-          "per": 17.06,
-          "pbr": 3.1,
+          "per": 17.28,
+          "pbr": 3.14,
           "roe": 0.1748,
           "health": "neutral"
         }
@@ -2841,8 +2841,8 @@
         "price": 583.76,
         "change_pct": 0.23,
         "fundamentals": {
-          "per": 29.94,
-          "pbr": 13.22,
+          "per": 29.9,
+          "pbr": 13.21,
           "roe": 0.4628,
           "health": "neutral"
         }
@@ -2864,8 +2864,8 @@
         "price": 304.56,
         "change_pct": 0.26,
         "fundamentals": {
-          "per": 36.34,
-          "pbr": 10.2,
+          "per": 36.41,
+          "pbr": 10.22,
           "roe": 0.3016,
           "health": "neutral"
         }
@@ -2887,8 +2887,8 @@
         "price": 84.57,
         "change_pct": 0.85,
         "fundamentals": {
-          "per": 51.88,
-          "pbr": -11.87,
+          "per": 52.2,
+          "pbr": -11.95,
           "roe": null,
           "health": "neutral"
         }
@@ -2910,8 +2910,8 @@
         "price": 28.0,
         "change_pct": 0.36,
         "fundamentals": {
-          "per": 24.14,
-          "pbr": 1.5,
+          "per": 24.22,
+          "pbr": 1.51,
           "roe": 0.0629,
           "health": "neutral"
         }
@@ -2933,8 +2933,8 @@
         "price": 871.86,
         "change_pct": 2.0,
         "fundamentals": {
-          "per": 46.72,
-          "pbr": 12.77,
+          "per": 46.8,
+          "pbr": 12.79,
           "roe": 0.3033,
           "health": "neutral"
         }
@@ -2956,8 +2956,8 @@
         "price": 92.4,
         "change_pct": 0.36,
         "fundamentals": {
-          "per": 32.08,
-          "pbr": -87.5,
+          "per": 32.03,
+          "pbr": -87.36,
           "roe": null,
           "health": "neutral"
         }
@@ -2979,8 +2979,8 @@
         "price": 74.09,
         "change_pct": 0.11,
         "fundamentals": {
-          "per": 22.59,
-          "pbr": 2.07,
+          "per": 22.69,
+          "pbr": 2.08,
           "roe": 0.0945,
           "health": "neutral"
         }
@@ -3002,8 +3002,8 @@
         "price": 111.61,
         "change_pct": 0.64,
         "fundamentals": {
-          "per": 39.02,
-          "pbr": 9.26,
+          "per": 39.07,
+          "pbr": 9.27,
           "roe": 0.2366,
           "health": "neutral"
         }
@@ -3025,7 +3025,7 @@
         "price": 36.16,
         "change_pct": -0.52,
         "fundamentals": {
-          "per": 602.67,
+          "per": 603.33,
           "pbr": 1.62,
           "roe": 0.0019,
           "health": "neutral"
@@ -3048,8 +3048,8 @@
         "price": 317.76,
         "change_pct": 0.26,
         "fundamentals": {
-          "per": 81.9,
-          "pbr": 16.64,
+          "per": 82.19,
+          "pbr": 16.7,
           "roe": 0.2174,
           "health": "neutral"
         }
@@ -3071,8 +3071,8 @@
         "price": 115.31,
         "change_pct": 0.14,
         "fundamentals": {
-          "per": 16.88,
-          "pbr": 2.03,
+          "per": 16.94,
+          "pbr": 2.04,
           "roe": 0.1292,
           "health": "neutral"
         }
@@ -3094,8 +3094,8 @@
         "price": 176.33,
         "change_pct": 0.86,
         "fundamentals": {
-          "per": 16.07,
-          "pbr": 1.42,
+          "per": 16.14,
+          "pbr": 1.43,
           "roe": 0.0931,
           "health": "neutral"
         }
@@ -3117,7 +3117,7 @@
         "price": 80.45,
         "change_pct": 0.83,
         "fundamentals": {
-          "per": 25.54,
+          "per": 25.53,
           "pbr": 3.09,
           "roe": 0.0824,
           "health": "neutral"
@@ -3140,8 +3140,8 @@
         "price": 152.59,
         "change_pct": -1.15,
         "fundamentals": {
-          "per": 92.48,
-          "pbr": 14.01,
+          "per": 93.27,
+          "pbr": 14.13,
           "roe": 0.1681,
           "health": "neutral"
         }
@@ -3187,7 +3187,7 @@
         "change_pct": 0.02,
         "fundamentals": {
           "per": null,
-          "pbr": 5.28,
+          "pbr": 5.24,
           "roe": -0.0285,
           "health": "warning"
         }
@@ -3209,7 +3209,7 @@
         "price": 45.3,
         "change_pct": 0.24,
         "fundamentals": {
-          "per": 15.62,
+          "per": 15.6,
           "pbr": 2.46,
           "roe": 0.1689,
           "health": "good"
